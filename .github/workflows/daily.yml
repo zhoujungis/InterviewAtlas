@@ -1,0 +1,55 @@
+name: Daily Interview Crawl
+
+on:
+  schedule:
+    # 每天 01:00 UTC = 09:00 北京时间
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  # GitHub Models 调用权限（与 Copilot 同源模型）
+  models: read
+
+concurrency:
+  group: interview-crawl
+  cancel-in-progress: false
+
+jobs:
+  crawl:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Crawl interview experiences
+        run: python -m src.main --config config.yaml
+
+      - name: Analyze with GitHub Models
+        # 额度或权限异常时不影响已采集数据的提交
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python -m src.analyze --config config.yaml
+
+      - name: Commit and push changes
+        run: |
+          if [ -z "$(git status --porcelain -- README.md data/ interviews/ analysis/)" ]; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A README.md data interviews analysis
+          git commit -m "chore: update interview experiences and analysis ($(date -u +%Y-%m-%d))"
+          git push
