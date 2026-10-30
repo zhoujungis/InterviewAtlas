@@ -1,6 +1,6 @@
 # 滴滴 · 算法/AI
 
-> 共 **21** 条 ｜ [返回总目录](../../README.md)
+> 共 **24** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -169,6 +169,19 @@ Lora qlora区别
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2026-04-26 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/a9f8c0d89ab44a44b9a2582295b7ecd1)
 
 继续来分享下最近的面经~ 1.项目中最困难的是什么 2.手撕：爬虫一个文件，10个一批并发访问 3.用了固定线程池，问用消息队列如何做的，还提到了滑动窗口 4.如果给了一万行，然后任务处理的时间不同，该怎么办
+
+---
+
+## 滴滴大模型算法实习面经分享
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2026-03-17 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/66ba4ec3aed946a5a863710b304e839d)
+
+整体面试还是不错的，但是没后续了，不知道是哪里出了问题
+1.如何防止毁灭性遗忘
+2.大模型如果应用到具体场景
+3.现在大模型应用的主流范式
+4.常用的开源大模型
+5.一道数学题
 
 ---
 
@@ -702,6 +715,156 @@ vivo：深圳线下面，技术面+hr面，一面大约半小时，无手撕。�
 
 ---
 
+## 【40篇SP面经汇总】2022届校招SP专场网申倒计时1天！
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2021-07-15 ｜ [原文链接](https://www.nowcoder.com/discuss/353158096950337536)
+
+22届校招 · 名企SP专场正在火热投递中~ 
+
+ 倒计时 1 天，保底年薪30W+，不影响秋招！ 
+ 明晚24点网申截止 ： https://www.nowcoder.com/link/sp-20222 
+ 
+
+ 距2019年牛客第一次联合企业官方举办校招SP专场活动至今， 已过去3年的时间 。 
+
+ 从2019年到2020年再到2021年，牛客校招SP专场每年都帮助了许多优秀的应届毕业生拿到高薪SP的offer~ 
+
+ 
+ 
+
+ 今年同学们的参与热情也丝毫不减，从6月21日活动开启至今。 
+
+ 已有近 9000 人网申投递，简历数量达到近 5W 份！ 许多投递了简历的同学也开始陆陆续续进入笔面试阶段，准备开始收获offer~ 
+
+ 
+ 
+
+ 因此，牛妹为大家整理汇总了历年SP专场优质面经，助力 冲击 SP Offer ！ 
+
+ 听说多看面经，面试都会过过过！ [加油加油] 
+
+ 
+ 
+
+ 
+
+ 
+
+ 技术类 
+
+ 2020年SP专场面经 
+
+ 1、滴滴2021SP专场五轮数据分析面经（已意向）： https://www.nowcoder.com/discuss/459602 
+
+ 2、刚到手的某宝算法岗意向书，123面+hr面： https://www.nowcoder.com/discuss/499456 
+
+ 3、 【已offer】一点资讯一二三面面经+HR面： https://www.nowcoder.com/discuss/494629 
+
+ 4、 滴滴sp专场基础平台C++已OC： https://www.nowcoder.com/discuss/483176 
+
+ 5、 2021吉比特一面凉经-牛客SP专场招聘： https://www.nowcoder.com/discuss/449745 
+
+ 6、 竞技世界大数据SP专场： https://www.nowcoder.com/discuss/494590 
+
+ 7、 滴滴sp专场前端一面+二面+三面： https://www.nowcoder.com/discuss/484607 
+
+ 8、 滴滴SP提前批Java123面 ： https://www.nowcoder.com/discuss/460111 
+
+ 9、 滴滴普惠数据分析三面凉经： https://www.nowcoder.com/discuss/460085 
+
+ 10、滴滴SP专场三面面经C++： https://www.nowcoder.com/discuss/468207 11、 新浪微博sp专场，一、二面面经： https://www.nowcoder.com/discuss/461592 
+
+ 
+
+ 12、 滴滴 sp专场 《从1、2面到感谢信》： https://www.nowcoder.com/discuss/461899 
+
+ 13、 Shopee测试一面+二面面经： https://www.nowcoder.com/discuss/464330 
+ 
+
+ 14、 shopee虾皮SP专场一面 安卓： https://www.nowcoder.com/discuss/455713 
+
+ 15、 滴滴牛客sp专场一面凉经-前端： https://www.nowcoder.com/discuss/462962 
+
+ 16、滴滴sp专场数据分析师3面加hr面试： https://www.nowcoder.com/discuss/462569 
+
+ 17、滴滴牛客sp专场java后台开发一二面凉经： https://www.nowcoder.com/discuss/461568 
+
+ 18、滴滴Sp专场： https://www.nowcoder.com/discuss/460850 
+
+ 19、滴滴牛客SP专场后台开发一二三面面经，等通知： https://www.nowcoder.com/discuss/221383 
+
+ 20、远景智能 SP专场 后端开发 一面面经： https://www.nowcoder.com/discuss/459867 
+
+ 21、远景智能SP专场 一面面经 后端Java： https://www.nowcoder.com/discuss/452940 
+
+ 
+
+ 2019年SP专场面经 
+
+ 1、 牛客SP专场：滴滴/陌陌面经： https://www.nowcoder.com/discuss/220706 
+
+ 2、 依图科技SP专场算法岗面经： https://www.nowcoder.com/discuss/224757 
+
+ 3、 顺丰sp专场大数据挖掘与分析一面面经： https://www.nowcoder.com/discuss/217376 
+
+ 4、 远景智能 1-4轮面经 SP专场（已offer）： https://www.nowcoder.com/discuss/258178 
+
+ 
+
+ 5、顺丰科技SP专场前端一面二面： https://www.nowcoder.com/discuss/244926 6、滴滴出行 提前批SP专场 算法工程师 三面面经： https://www.nowcoder.com/discuss/220938 
+
+ 7、顺丰SP专场8月5日面试附带一二面分享： https://www.nowcoder.com/discuss/218421 
+
+ 8、诺瓦软件开发SP专场凉经： https://www.nowcoder.com/discuss/217753 
+
+ 9、追一sp专场 C++后台面经： https://www.nowcoder.com/discuss/217557 
+
+ 10、远景测试开发一面，二面： https://www.nowcoder.com/discuss/220067 
+
+ 
+
+ 
+ 
+
+ 非技术类 
+
+ 2021年SP专场面经 
+
+ 1、触宝SP专场 商业产品一面面经： https://www.nowcoder.com/discuss/682088 
+
+ 2020年SP专场面经 
+
+ 1、触宝SP专场增长产品面试（已收到意向）： https://www.nowcoder.com/discuss/493216 
+
+ 2、虾皮二面凉经： https://www.nowcoder.com/discuss/510302 
+
+ 3、2021触宝产品面经sp专场（已offer）： https://www.nowcoder.com/discuss/471040 
+
+ 4、触宝21秋招sp专场产品经理面经： https://www.nowcoder.com/discuss/472581 
+
+ 5、跟谁学提前批产品一面二面面经（已意向书）： https://www.nowcoder.com/discuss/465669 
+
+ 
+ 
+
+ 
+ 
+
+ 🔔最后介绍一下牛客SP专场活动 
+
+ SP专场是牛客和40家公司联合举办的面向SP高薪offer的活动，属于官方合作的特别投递渠道。 
+
+ 
+ 
+
+ 专场优势在于所有通过牛客SP专场投递发出的offer，保证年薪不低于30W，且不影响秋招。牛客SP专场活动只有一个参与方式，就是通过牛客SP专场页面投递简历。
+ 
+ 
+
+ 但是这并不妨碍同学后续正常去官网投递~如果同学投递完SP专场，想再去官网投递普通批次保底，也是可以的。相当于给大家一个二次机会了~
+
+---
+
 ## 滴滴算法面经
 
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2021-06-08 ｜ [原文链接](https://www.nowcoder.com/discuss/353158004629512192)
@@ -712,6 +875,26 @@ vivo：深圳线下面，技术面+hr面，一面大约半小时，无手撕。�
 其实感觉这个岗位和我专业更加匹配，更适合搞理论的同学，二面面试官告诉我平常研究的时间相比于写代码时间会更多，还在等结果ing～
 
 [面试必过][顺利签约][明天发offer][转正成功][工作顺利][心想事成]
+
+---
+
+## 滴滴算法一面莫名其妙结束
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2020-09-05 ｜ [原文链接](https://www.nowcoder.com/discuss/353156901028438016)
+
+国际化事业部。
+
+本来预约的11点面试，等到11：25左右面试官进入房间开始面试。结果一直听不到面试官声音，其他一切正常，双方调试多次，耽误大概20多分钟，最后面试官重启浏览器解决了问题。
+
+11：50左右面试开始，先两分钟自我介绍，然后面试官让大概说一下常用什么模型，训练经验，损失函数之类的，他好确定面试范围。我简单说了我的课题经常用到的东西。然后面试官说先做两个题，第一个题把一个数组分成k组，返回所有可能的组合。写了十多分钟后，正调试结果，面试官打断说他们偏向于纯机器学习，我做图像方向的不太适合岗位，让我联系hr把简历推到其他岗位，我同意，面试结束。挂断后立即收到了感谢信。
+
+我联系了面试前联系我的小姐姐（不知道是不是hr），反应了这个情况，她说给我反馈。几分钟后接到她电话，告诉我已反馈情况，可能会有事业部的人联系我，最后给我说了一句“没事，加油！”
+
+我很懵，现在还在等电话中。应该是凉了吧？是我简历不太行？还是手撕代码过程中面试官觉得我coding能力不行？然后本来就耽误了很多时间所以直接结束面试？面试官除了确定范围问的那个问题外啥都还没问。
+
+有没有老哥有类似情况？我是不是已经凉了？
+
+[别理我]
 
 ---
 

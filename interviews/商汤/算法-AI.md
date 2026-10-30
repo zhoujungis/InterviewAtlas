@@ -1,6 +1,6 @@
 # 商汤 · 算法/AI
 
-> 共 **48** 条 ｜ [返回总目录](../../README.md)
+> 共 **54** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -92,6 +92,18 @@
 14. 项目是否落地，有没有遇到什么困难
 15. 在该业务场景下，主流的解决方案是什么
 16. 手撕题：链表反转，需要处理输入输出
+
+---
+
+## 商汤科技Ai agent开发面经（攒人品
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2026-03-05 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/4e8cafa5d36c43f9b1c3a4e0c0e5cbc8)
+
+整体面试还是不错的，但是没后续了，不知道是哪里出了问题
+1.如果让你设计一个AI Agent的工作流编排画布(类似LangFlow)，你会选择什么技术栈，核心难点在哪?
+2.在RAG(检索增强生成)系统中，前端如何优化长文档的展示与引用来源的跳转?
+3.谈谈AI时代下，前端工程师的角色发生了哪些转变?
+4.面对快速迭代的AI技术，你如何保证团队技术栈的稳定性与前瞻性?
 
 ---
 
@@ -244,6 +256,190 @@
 
 ---
 
+## 商汤一面- 大模型算法应用实习生
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2025-02-17 ｜ [原文链接](https://www.nowcoder.com/discuss/721063822294843392)
+
+问题
+
+ 1、自我介绍。
+
+ 2、列举你调过的大模型接口所使用的大模型名字？（自我介绍我介绍到自己有使用大模型接口调度的经验）
+
+ 3、大模型训练的步骤。
+
+ 4、知道哪些大模型微调方法？
+
+ 5、解释一下什么是agent？
+
+ 6、对python熟悉吗？
+
+ 7、默认情况下python函数return会返回什么？
+
+ 8、python函数的参数变量带*，表示这个变量是什么类型？进一步讲type(args)会返回什么？
+
+ 9、python函数的不带*的参数变量是什么类型？
+
+ 10、解释一下python的闭包。
+
+ 11、口头说下python中lambda（匿名函数）怎么写。
+
+ 12、用python语言中的try捕获两数相除的异常。
+
+ 13、用python语言实现用户类，类中有两个变量：年龄和性别，并将构建好的类用python调度打印其信息。
+
+ 
+
+ 总结
+
+ 线上面试，平台是牛客，大概面了30来分钟，凉
+
+ python相关一个没回答出来，关于大模型的回答感觉语言组织不太流畅，主要问python最基础的编程知识和简单的实现，看似简单实际很难（对我而言），暴露出自己其实并没有掌握python,只是会简单的看懂代码而已。
+
+ 结论：水平不够，不要任性开始找实习就投大厂，先从小厂面试练，不要忽略最基础的知识、自己做过的项目一定要倒背如流。
+
+---
+
+## 双非鼠鼠の图像秋招总结
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2024-11-18 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/36d73cef584d42bea2cdd9eb4070995d)
+
+半夜两点多心血来潮，总结一下自己的秋招经历，攒攒人品 ，希望能对后面的学弟学妹有所帮助，同时也鼓励一下还没找到心怡工作的小伙伴，调整心态，坚持尝试，总会找到属于自己的位置。
+
+先说本人bg，双非本硕，电子信息工程本，软件工程硕，硕士研究方向是医学图像分割（心脏MRI相关），无实习无论文，就1软著3专利，奖学金本科三次研究生三次，竞赛方面只有1个电赛省二，蓝桥杯Java组1国三、2省一、1省二。
+本科创业经历两年半，大三成为学生股东，但最后被画饼，说公司预计2029年上市，鼠鼠望着那张写着100w股份的红纸黑字陷入了沉思、迷茫，且对团队偏离初心倍感失望（这段经历面试官不问，我一般不讲）。个人主语言Java，其次Python、MATLAB、C，于是大三下尝试秋招卷Java，然后发现八股不会，力扣刷的少，Spring全家桶、Redis、JVM知之甚少。然后五个月半的考研备战，上岸另一个双非，原本想以研究生三年做缓冲期，先提升自己的实力，今年秋招一看，又回到了三年前的困境，甚至发现测开也是一概不知。在此，鼠鼠也劝想卷Java的家人们慎重考虑，卷这行自身实力要硬，佬很多，如果是C++可能还得有bg，鼠鼠实在是卷不过9爷✌爷，放弃找Java岗了 。
+因为比较咸鱼，单从bg来说，鼠鼠确实不够看，本打算楞冲图像算法，结果CV卷中卷，现已老实（时代>学历>能力），根本没机会。好在最后运气好，虽然就1offer，但自己还算满意——ISP图像岗，算法、tuning都做，鼠鼠本科开始就比较喜欢搞图像，平时也喜欢玩玩无人机摄影，所以算是所学专业知识对口，兴趣也相关，开的奖在广州不算高，但加班少、双休安慰自己足矣。
+
+整个秋招官网投递一共87家，国聘投递17，智联投递74，BOSS沟通停在178，简历前前后后改了14版。
+“把一件20%成功概率的事，重复做14次，你就有95%的概率能做成。”——刘润老师的概率论启示
+不搞鸡汤，我也不清楚这个数字是不是巧合，但改完最后一版，简历投出去来了好几个面，甚至有俩一个月前挂过我的公司。鼠鼠确实有对简历逐字推敲、反复打磨，每个项目所涉及的细节都烂熟于心，前期的面试经验不足，11月份的面试我基本能应对面试官的所有提问。（当然图像八股√，Java基础八股√，C++八股× ）
+
+2024.09.05 中国水利水电十四局（昆明国企）
+必须记录，秋招第一投，来校线下宣讲，自信满满，前一夜还激动睡不着，各种幻想美好生活，然后直接被干碎，仿佛当场挨了一巴掌，让鼠鼠认清现实 。
+（计算机只招985，而且两三个hc，奔哈工大去的，哈工程也只是走过场）
+
+已oc：
+广州敏视——ISP工程师
+
+待定:
+云南移动——信息服务工程师（就一面，还不知道结果）
+锐明技术——ISP工程师（约了二面，但有池子）
+
+一面杀手：（这部分我有单独开贴）
+TCL实业——图像调试工程师（秋招第一面，必须记录）
+南瑞信通——软件研发(平台及基础软硬件)
+识光科技——影像工程师
+浙江大华——【华锐捷】图像算法工程师
+星宸科技——ISP图像调优工程师（没hc，没法安排后续）
+深信服——JAVA开发工程师（X-Star），这个是拒面
+云南电信——开发工程师，要求线下面，没去
+
+笔试挂：
+字节跳动——Camera软件工程师-OS（AC 2.1/4，是鼠鼠菜了 ）
+小米——相机底层软件工程师（09.22投递，10.12笔试AK，至今仍评估中）
+云南邮政——寄递专业管培生（没去笔试）
+小天才——Camera效果调试工程师（笔试AK，QQ大群3000人恐怖如斯）
+安克创新——助理影像算法工程师、助理深度学习视觉工程师
+360集团——视觉算法工程师（笔试AK）
+中科创达——图像处理(画质)工程师
+锐捷网络——视觉软件开发工程师、AIGC算法工程师
+华勤技术——影像开发工程师（拒笔试）
+
+简历挂（或投递以后无动静）：
+广州敏视——图像处理算法工程师、跟踪方向、深度学习方向
+字节跳动——Camera评测开发工程师-OS
+TCL实业——Camera应用工程师(JAVA)
+深信服——测试开发工程师
+多益网络——算法工程师
+快手——计算机视觉算法工程师
+美的万东医疗——医疗影像算法工程师
+联想——计算机视觉
+海信——算法工程师(图像处理方向)
+科大讯飞——AI研究算法工程师-AIGC方向
+恒玄科技——图像ISP算法工程师
+阿丘科技——图像算法工程师
+大博医疗——三维图像建模专员
+博世中国——计算机视觉算法工程、嵌入式软件工程师
+亿联网络——图像测试工程师
+凌云光技术——图像算法工程师
+苏州科达——AI算法工程师、图像算法工程师
+深圳传音控股——影像算法工程师、影像部 Java开发工程师
+华润三九——系统运维工程师
+OPPO——影像算法工程师(Low-level/ISP)、计算机视觉算法开发工程师(camera方向)
+宁德时代——视觉工程师、计算机视觉算法工程师(AI方向)
+云南联通——政企运营服务、数字化运营、AI工程师
+东风汽车——智能驾驶岚图汽车
+比亚迪——IT、 研发技术、 制造技术
+蔚来——图像算法工程师
+虾皮信息——算法AI方向、计算机视觉
+苏州华兴源创科技——图像算法工程师、视觉应用工程师
+联影医疗——软件算法工程师 AI/图形图像
+菜鸟集团——计算机视觉算法工程师
+浙江吉利——极氪智能科技IT/互联网类
+作业帮——图像算法工程师
+阳光电源——算法工程师(运筹or图像)
+海康威视——图像调试工程师、算法工程师
+华为——软件开发工程师、图像处理软件算法开发
+SHEIN——AI动画设计师、AI视觉设计师、算法工程师（虽然挺想去）
+得物——算法策略工程师(图像算法)
+厨芯科技——嵌入式软件(图像识别)
+影石360——图像工程师、深度学习算法工程师、影像算法工程师
+湖南国科微电子——ISP算法工程师
+顺丰——计算机视觉工程师
+realme——影像算法工程师
+迈瑞医疗——医学图像处理研究工程师
+腾讯——技术研究多媒体处理方向
+荣耀——AIGC图像视频生成算法工程师
+深圳创维——画质工程师、软件工程师
+万兴科技——图像算法工程师
+思特威电子科技——图像算法工程师
+开立医疗——图像算法工程师
+ArcSoft虹软——图像算法测试工程师、AIGC算法工程师、智能驾驶算法工程师
+正浩创新——深度学习工程师、BMS软件工程师
+招商银行——数字金融岗、定向培养生
+虎牙直播——图像算法工程师(开播业务)、AIGC大模型算法工程师
+深圳睿联技术——嵌入式软件开发工程师
+舜宇光学科技——图像处理算法
+长园深瑞继保——人工智能工程师
+招商局集团——图像算法工程师
+中科芯——算法工程师
+旷视——图像算法工程师、影像画质测试工程师
+上海为旌科技——驱动软件(ISP、多媒体)工程师
+杭州国芯微——AI算法工程师(图像、语音)
+浩鲸科技——图像算法工程师
+海格通信——算法设计师(图像处理）
+CVTE——算法工程师(NLP/ASR/CV方向)
+黑芝麻智能科技——嵌入式软件工程师(ISP方向)、ISP固件开发工程师
+深圳康冠科技——画质工程师、AI开发算法工程师
+知象光电——图像算法工程师
+商汤科技——AI领航员 ISP算法研究员
+大族激光——软件工程师(算法/AI应用/机器视觉等方向)
+小鹏汽车——视觉算法工程师
+华大BGI——算法开发工程师
+游卡——游戏功能测试
+奥比中光——深度学习算法工程师、Camera调试工程师
+苏州迈为科技——视觉算法工程师、图像算法工程师
+趣印科技——AI图像算法工程师
+宁德思客琦——图像识别
+雅迅智联——AI算法工程师
+睿芯行——视觉AI算法工程师
+横乐医学——图像算法工程师
+深圳民德电子——算法工程师
+锟元方青——图像算法工程师
+镁伽科技——图像算法工程师
+每日互动——图像算法工程师
+中科星图——算法工程师
+网易云音乐——音视频算法工程师
+杰理科技——视频编解码工程师
+中国石化——云南综合管理B岗
+中国华电——云南分公司
+大唐云南发电——计算机岗
+智联、BOSS还有一堆，懒得统计了.....
+
+ #牛客创作赏金赛# #秋招总结#
+
+---
+
 ## 商汤 嵌软二面
 
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2024-11-15 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/c15800b25c3e4915a55f6ce35d8e3d9f)
@@ -339,6 +535,15 @@ docker容器占用资源过多怎么限制
 7. QLoRA原理，QLoRA里用的是哪种量化，可以看作是一种超参数 (没太理解)。
 
 最后手写一个快排，终止条件写反了愣了五分钟，回去等消息了
+
+---
+
+## 商汤 AI先锋计划 三面面经
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2024-08-24 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/163ddaf488aa484a8dac7145e4298c1f)
+
+关于项目深度交谈1h，对方应该是深谙大模型训练数据集的专家，被指出一些做的还不够成熟的地方，聊起来收获很多，非常愉快，无八股，无leetcode。许愿一个HR面！
+ #秋招# #提前批# #商汤#
 
 ---
 
@@ -548,6 +753,48 @@ hr面 23.12.26 问base倾向/手里offer情况
  面试官问你的时候，其实就是给你展示自己的机会，不要抱着考试的心态，而是扬长避短，说你的能耐。这一点很重要。
 
  然后面试官问你想学到啥，就是在问你想做啥工作，还有考察你的“事业心”，是不是一个有目标、积极有动力的人。
+
+---
+
+## 商汤科技一面面经
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2023-11-17 ｜ [原文链接](https://www.nowcoder.com/discuss/555000570327650304)
+
+面试岗位： 面试职位：大装置-高级容器平台开发工程师(Go/C++) 
+
+ 面试途径：牛客网面试房间 
+
+ 自我介绍
+
+ 项目背景、项目难点、怎么解决的
+
+ go语言内存分配、垃圾回收等
+
+ k8s架构、kube-schuler的功能是什么
+
+ docker启动容器系统层面的操作是怎么样的
+
+ grpc是否有了解，grpc和普罗米修斯是怎么交互的
+
+ 聊研究生课题，主要工作有哪些
+
+ 机器学习算法相关，什么是随机森林
+
+ 
+
+ 算法题：盛水最多的容器 
+
+ 给定一个数组height，长度为n，每个数代表坐标轴中的一个点的高度，height[i]是在第i点的高度，请问，从中选2个高度与x轴组成的容器最多能容纳多少水
+
+ 1.你不能倾斜容器
+
+ 2.当n小于2时，视为不能形成容器，请返回0
+
+ 3.数据保证能容纳最多的水不会超过整形范围，即不会超过2 31 -1
+
+ 
+
+ PS：以为开录音了，结果没有录上，只能凭记忆写出
 
 ---
 
@@ -912,6 +1159,77 @@ hr面(2023/3/8)
  HR面
 
  offer到手，base杭州，薪资基本工资加绩效工资，ps:HR感觉问问题的时候态度很强硬。。。
+
+---
+
+## 商汤算法面经(已oc
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2021-12-04 ｜ [原文链接](https://www.nowcoder.com/discuss/353159013107965952)
+
+一面11.19上午10:00(一小时 
+
+ 问： 
+
+ yolov4相关技术 
+
+ 人流密度图网络技术 
+
+ python super函数 
+
+ 计网部分：子网掩码、DHCP 
+
+ C++：vector实现原理、pop_back内存释放、虚函数开销、智能指针 
+
+ OS：多线程多进程区别、栈和堆的区别 
+
+ 写题： 
+
+ 一道dp 
+
+ 一道BST相关 
+
+ 反问： 
+
+ 过去做什么 
+
+ 要不要加班 
+
+ 
+ 
+
+ 中午11:25告知一面通过 
+
+ 
+ 
+
+ 二面11.23上午10:00(一小时 
+
+ 问： 
+
+ 竞赛技术(扣的很细，具体是我的两个国奖内容 
+
+ 反问： 
+
+ 详细的技术栈 
+
+ 
+ 
+
+ 下午16:30告知二面通过 
+ 
+
+ 
+ 
+
+ 三面11.24(半小时 
+
+ pm面比较轻松 
+
+ 聊了一下实习时间、待遇 
+
+ 聊了聊以后的发展规划 
+
+ 接着就下offer了
 
 ---
 
@@ -1387,6 +1705,23 @@ hr面(2023/3/8)
 
 ---
 
+## 商汤科技研究院算法实习生直推
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2021-03-29 ｜ [原文链接](https://www.nowcoder.com/discuss/353157733270626304)
+
+坐标商汤科技研究院，负责人脸解锁业务，非常核心，发的简历直推到我这里筛选 
+
+ 能来深圳更好，也可远程，需要实习三个月，可转正 
+
+ 
+ 
+
+ 面试主要考察深度学习、机器学习基础，以及相关项目或者论文经验，这里业务和学术产出都有一定深度可以做，欢迎相关同学 
+
+ 简历发给 zhengwanrong@sensetime.com
+
+---
+
 ## 商汤cv算法实习生面经
 
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2020-06-01 ｜ [原文链接](https://www.nowcoder.com/discuss/353156484022345728)
@@ -1422,876 +1757,6 @@ coding:斐波那契数列的O(logn)解法
 如何解决车道线分割有车阻拦视线导致分割结果断裂的问题
 
 coding: 寻找数组中唯一/唯二只出现一次的数
-
----
-
-## 2018算法面经总结
-
-来源：牛客网 ｜ 类型：面经 ｜ 发布：2020-03-02 ｜ [原文链接](https://www.nowcoder.com/discuss/353147758204887040)
-
-算法
-【商汤】实习经验分享｜商汤公司CV岗 https://www.nowcoder.com/discuss/351502 
-【BIGO】Bigo算法面经（顺便求建议） https://www.nowcoder.com/discuss/350733 
-【百度、字节跳动】算法面经：百度，字节跳动 https://www.nowcoder.com/discuss/350817 
-【微软】微软苏州面经 https://www.nowcoder.com/discuss/350440 
-【小米】小米视觉算法面经 https://www.nowcoder.com/discuss/350587 
-【百度】百度大搜VS(垂搜)面经回馈牛客 https://www.nowcoder.com/discuss/349847 
-【华为、多益网络、29所、寒武纪、中兴、云从科技、追一科技、海康、趋势科技、星环科技、BIGO、京东、小米、农行、招银网络、VIVO、百度】推荐系统算法岗秋招个人总结，整理面经和心得，感谢回馈牛油 https://www.nowcoder.com/discuss/349454 
-【小红书、科大讯飞、58、滴滴、马蜂窝、百信银行】我的秋招记录——（面经+感悟） https://www.nowcoder.com/discuss/348316 
-【美团、快手、Keep、小米、OPPO、贝壳】秋招总结帖 https://www.nowcoder.com/discuss/342038 
-【快看漫画、AiBee、新浪、慧科、新东方、联通、华为、】秋招面经——干货不多 https://www.nowcoder.com/discuss/339289 
-【奥比中光、顺丰科技、中信、苏宁、TCL、蜂巢】非科班算法2020秋招经历总结 https://www.nowcoder.com/discuss/338172 
-【美团】美团算法岗面经 https://www.nowcoder.com/discuss/338662 
-【美团】美团算法岗面经 https://www.nowcoder.com/discuss/338662 
-【百度，顺丰，依图，阿里，京东】总结一下自己的秋招吧 附带面经。 https://www.nowcoder.com/discuss/337100 
-【智加科技、之江实验室、虹软】秋招小结 https://www.nowcoder.com/discuss/335637 
-【百度、华为、拼多多、字节、小米、航天三院】2019秋招总结（算法工程师，非科班） https://www.nowcoder.com/discuss/331793 
-【虎牙、字节跳动、媒质科技、作业帮、锐明、虹软、完美世界、BIGO、哔哩哔哩、云从、旷视、步步高、广联达】秋招上岸了，反馈牛客，奉上所有面经 https://www.nowcoder.com/discuss/331577 
-【搜狗、拼多多、猿辅导、贝壳、滴滴、京东、好未来、招行信用卡、华为】秋招结束，算法面经总结帖 https://www.nowcoder.com/discuss/332004 
-【智加科技】最后，还是选择了智加科技Plusai(秋招总结，长文) https://www.nowcoder.com/discuss/334857 
-【字节跳动】回报牛客：发一下字节算法工程师面经，时间久了只能发个大概。 https://www.nowcoder.com/discuss/330565 
-【华为】华为算法面经 https://www.nowcoder.com/discuss/328242 
-【微软、阿里、腾讯、百度、快手、字节跳动、美团、拼多多、京东】微软阿里腾讯百度快手头条美团拼多多京东等面经 https://www.nowcoder.com/discuss/328114 
-【思科、平安科技、快手、字节跳动、英特尔、华为、TP_LINK、寒武纪】个人秋招面经汇总，和大家交流分享一下 https://www.nowcoder.com/discuss/323813 
-【乐贝】乐贝电商面经 https://www.nowcoder.com/discuss/324717 
-【顺丰】顺丰同城算法面试经验 https://www.nowcoder.com/discuss/324588 
-【VIVO、TP_LINK、字节跳动、百度、华为】秋招总结：非机器学习科班学生漫长的算法工程师上岸之旅 https://www.nowcoder.com/discuss/326300 
-【字节跳动】十面字节跳动，老哥们节日快乐 https://www.nowcoder.com/discuss/324100 
-【字节跳动】字节跳动——机器人算法工程师（视频面试） https://www.nowcoder.com/discuss/323272 
-【联影】联影——算法面经 https://www.nowcoder.com/discuss/323292 
-【明略】明略——科学院算法工程师 https://www.nowcoder.com/discuss/323279 
-【阿里】阿里算法岗面经 https://www.nowcoder.com/discuss/318821 
-【中国移动】中国移动人工智能研究院 电信-广州深圳面经 https://www.nowcoder.com/discuss/322005 
-【滴滴、虎牙、星环科技、盛大游戏、百度】机器学习算法岗秋招面试总结 https://www.nowcoder.com/discuss/***402 
-【阿里】阿里算法岗面经 https://www.nowcoder.com/discuss/318821 
-【寒武纪】寒武纪深度学习框架研发工程师面经 https://www.nowcoder.com/discuss/***673 
-【云从科技】云从科技 劝退价毁意向？ https://www.nowcoder.com/discuss/320343 
-【云从科技、美团、百度、网易、京东、阿里、华为、依图】菜鸡的算法岗面筋 https://www.nowcoder.com/discuss/***551 
-【蚂蚁，滴滴，百度，浦发，携程，paypal，欢聚时代，巨人网络】上海算法秋招总结(只考虑上海的同学可以参考) https://www.nowcoder.com/discuss/318508 
-【阿里、华为、海康威视、滴滴、大华、欢聚时代、网易雷火】秋招基本结束，回馈牛油，算法精华面经 https://www.nowcoder.com/discuss/315179 
-【中兴】秋招总结 前后15天 已签中兴 （感觉心态又强大了些） https://www.nowcoder.com/discuss/315149 
-【华为】华为厦门地区还愿，附面经 https://www.nowcoder.com/discuss/316134 
-【科大讯飞】渣渣的艰难的科大讯飞 https://www.nowcoder.com/discuss/315658 
-【农行】农行上研还愿，附上秋招总结和农行笔面体检经！ https://www.nowcoder.com/discuss/315584 
-【TP_LINK、拼多多、欢聚时代、旷视、美团、字节跳动】回馈牛客，发一波2019算法秋招面经 https://www.nowcoder.com/discuss/313708 
-【有赞、快手、阿里、华为、美团、搜狗】秋招算法面经 https://www.nowcoder.com/discuss/315670 
-【云从】云从cv面经, 攒人品, 许愿求上岸 https://www.nowcoder.com/discuss/314544 
-【作业帮、京东、BIGO、科大讯飞、快手】秋招上岸，感谢快手，回馈牛客 https://www.nowcoder.com/discuss/315174 
-【360、微博、百度、字节跳动】广告算法秋招总面经 https://www.nowcoder.com/discuss/312020 
-【京东】京东算法工程师补招面经 https://www.nowcoder.com/discuss/311573 
-【字节跳动】字节跳动效率工程团队 算法实习生 一面凉经 https://www.nowcoder.com/discuss/311673 
-【爱奇艺】爱奇艺机器学习算法远程面经 https://www.nowcoder.com/discuss/309558 
-【拼多多、触宝、字节跳动、快手、阿里、趋势科技、新浪微博、同花顺、VIVO、百度】秋招面试总结 https://www.nowcoder.com/discuss/310079 
-【依图】依图算法面经 https://www.nowcoder.com/discuss/309753 
-【滴滴】滴滴金融二面面经+拼多多对话一面（NLP） https://www.nowcoder.com/discuss/308182 
-【京东】京东AI面经（凉经） https://www.nowcoder.com/discuss/308660 
-【招银网络】招银网络 算法 面经 https://www.nowcoder.com/discuss/308783 
-【百度】百度知识图谱nlp日常实习一面凉 https://www.nowcoder.com/discuss/304019 
-【贝壳】贝壳算法面经 https://www.nowcoder.com/discuss/305401 
-【华为】华为面经-算法工程师-上海无线 https://www.nowcoder.com/discuss/305463 
-【拼多多】拼多多正式批上海凉经 https://www.nowcoder.com/discuss/303648 
-【招银】招银（深圳）NLP算法实习到转正经历 https://www.nowcoder.com/discuss/303355 
-【招银】招银算法面经-杭州 https://www.nowcoder.com/discuss/301991 
-【字节跳动、百度、依图、拼多多、海康、美团】算法上岸，特别回馈一下牛客上，发一波面经，祝各位前途似锦 https://www.nowcoder.com/discuss/302700 
-【58】58同城算法面经 https://www.nowcoder.com/discuss/301186 
-【拼多多、腾讯、阿里、科大讯飞、大疆、地平线、追一科技】2020届算法岗秋招已到尾声，在此记录全部历程（有面经） https://www.nowcoder.com/discuss/301668 
-【电信】上海电信研究院算法一面凉经 https://www.nowcoder.com/discuss/297212 
-【拼多多】拼多多算法面经 https://www.nowcoder.com/discuss/299369 
-【新浪】新浪算法一面凉经 https://www.nowcoder.com/discuss/298607 
-【依图科技】依图算法工程师已签约，秋招完整面经回馈牛客 https://www.nowcoder.com/discuss/297368 
-【友塔游戏】友塔游戏算法一面面经 https://www.nowcoder.com/discuss/299556 
-【阿里、OPPO、VIVO、海康、旷视科技、华为、拼多多、依图科技】秋招上岸，经验分享 https://www.nowcoder.com/discuss/293565 
-【OPPO】OPPO机器学习算法工程师面经 https://www.nowcoder.com/discuss/294164 
-【大疆、华为、海康、图森、小马智行、地平线、momenta、滴滴】SLAM秋招面经 https://www.nowcoder.com/discuss/294308 
-【阿里、腾讯、pony、华为、图森未来、地平线、百度、滴滴、快手】非CS科班面经 https://www.nowcoder.com/discuss/294495 
-【腾讯】图像处理、计算机视觉算法面经 https://www.nowcoder.com/discuss/294435 
-【腾讯、京东、百度、星环科技、小米】offer call 还愿，也总结下秋招吧 https://www.nowcoder.com/discuss/294270 
-【媒智科技】媒智科技CV算法面经 https://www.nowcoder.com/discuss/295411 
-【商汤科技】商汤凉经 https://www.nowcoder.com/discuss/291250 
-【顺丰，滴滴，快手，依图，腾讯，远景，百度，搜狗，oppo，58同城，华为】转行渣硕的算法路，记录走过的坑和一些笔经面经给转行算法的同学 https://www.nowcoder.com/discuss/295287 
-【小米】小米一二面面经。cv图像 https://www.nowcoder.com/discuss/291307 
-【招银网络】招银网络两面凉经(算法+开发) https://www.nowcoder.com/discuss/291314 
-【VIVO】写一下vivo的面经贡献给牛油吧（sp已拒） https://www.nowcoder.com/discuss/289941 
-【VIVO】vivo算法提前批面经(已拿offer) https://www.nowcoder.com/discuss/289716 
-【大疆】我的大疆(Dji)2019校招经验分享 https://www.nowcoder.com/discuss/288230 
-【阿里】阿里 算法岗意向书 还愿附面经 https://www.nowcoder.com/discuss/288226 
-【阿里，百度，腾讯，美团，网易】阿里，百度，腾讯，美团，网易互娱等公司算法面经 https://www.nowcoder.com/discuss/290749 
-【虎牙、商汤、字节跳动、海康、VIVO、腾讯、华为、中兴】秋招经历，顺便OFFER求比较 https://www.nowcoder.com/discuss/288991 
-【科大讯飞】科大讯飞算法提前批凉经 https://www.nowcoder.com/discuss/289720 
-【旷视科技】旷视五面挂经 https://www.nowcoder.com/discuss/290118 
-【依图科技】【依图科技】 还愿面经 https://www.nowcoder.com/discuss/289488 
-【云从】云从科技cv岗北京视频面上岸面经 https://www.nowcoder.com/discuss/290772 
-【招银网络】招银一面凉经（投的算法） https://www.nowcoder.com/discuss/290742 
-【追一科技、华为、蘑菇街、云从、科大讯飞】2020算法上岸路-附面经 https://www.nowcoder.com/discuss/289916 
-【百度】百度面经 https://www.nowcoder.com/discuss/286628 
-【云从】云从视觉面经，三面 https://www.nowcoder.com/discuss/286221 
-【字节跳动】字节cv一面凉经 https://www.nowcoder.com/discuss/285880 
-【快手】快手cv-面经 https://www.nowcoder.com/discuss/283619 
-【平安】平安寿险算法工程师现场面面经(西安场) https://www.nowcoder.com/discuss/284310 
-【携程】携程算法一二面面经 https://www.nowcoder.com/discuss/285002 
-【猿辅导】2020猿辅导面经 https://www.nowcoder.com/discuss/284924 
-【云从】2020秋招个人总结帖 https://www.nowcoder.com/discuss/284917 
-【招银】招银网络科技算法岗面经 https://www.nowcoder.com/discuss/283768 
-【中国电信】许愿电信云算法offer（附面经） https://www.nowcoder.com/discuss/283721 
-【依图】依图三面凉经-【算法工程师-上海/杭州/北京】 https://www.nowcoder.com/discuss/279984 
-【远景】远景一二三面面经 https://www.nowcoder.com/discuss/280938 
-【字节跳动、华为、哔哩哔哩、深信服、中兴】非科班的秋招总结 https://www.nowcoder.com/discuss/280974 
-【百度】百度CV面经 https://www.nowcoder.com/discuss/279827 
-【百度】百度机器学习/数据挖掘一面面经（60min 上海）： https://www.nowcoder.com/discuss/278973 
-【阿里】阿里巴巴面经-NLP https://www.nowcoder.com/discuss/279013 
-【海康】海康 研究院 图像算法 面经 https://www.nowcoder.com/discuss/279216 
-【小红书】小红书收到oc，算法岗，base上海，前来还愿 https://www.nowcoder.com/discuss/279278 
-【新浪】新浪微博凉经 https://www.nowcoder.com/discuss/279934 
-【依图】依图三面凉经-【算法工程师-上海/杭州/北京】 https://www.nowcoder.com/discuss/279984 
-【招银网络】复盘一下招银网络科技笔试-算法岗 https://www.nowcoder.com/discuss/279563 
-【招银网络】分享招银网络科技面经，希望好运来 https://www.nowcoder.com/discuss/277363 
-【中兴】中兴一面面经 https://www.nowcoder.com/discuss/279807 
-【字节跳动、华为】【面经】字节跳动/华为 算法实习面试 https://www.nowcoder.com/discuss/275818 
-【BIGO】Bigo北京场，三轮技术+一轮HR面经(计算机视觉算法岗) https://www.nowcoder.com/discuss/273695 
-【百度】百度现场面一二面面经（二面挂） https://www.nowcoder.com/discuss/273633 
-【百度】百度算法面经 https://www.nowcoder.com/discuss/273306 
-【华为、OPPO、科大讯飞、农行】面经分享 https://www.nowcoder.com/discuss/273581 
-【京东、小米、腾讯、华为、VIVO、深信服】终于上岸，总结一波秋招 https://www.nowcoder.com/discuss/273692 
-【明略科技】明略算法凉经 https://www.nowcoder.com/discuss/272722 
-【招银网络】招银网络算法岗面经 https://www.nowcoder.com/discuss/273584 
-【中科星图】中科星图面经 https://www.nowcoder.com/discuss/272772 
-【58】58同城 算法一二面 https://www.nowcoder.com/discuss/269190 
-【VIVO】vivo 机器学习算法工程师（互联网方向）面经 https://www.nowcoder.com/discuss/269995 
-【中新赛克】中新赛克笔试面试 https://www.nowcoder.com/discuss/270313 
-【大华】大华一面凉经 https://www.nowcoder.com/discuss/267387 
-【京东】京东算法上海现场面经(9.18-9.19) https://www.nowcoder.com/discuss/267488 
-【京东】热乎的京东算法岗面经 https://www.nowcoder.com/discuss/267177 
-【美团】美团一面凉经 https://www.nowcoder.com/discuss/267490 
-【拼多多】拼多多算法oc https://www.nowcoder.com/discuss/266617 
-【商汤】热乎的商汤面筋，大家不来一碗？ https://www.nowcoder.com/discuss/267852 
-【明略科技】明略科技算法工程师现场面面经 https://www.nowcoder.com/discuss/265795 
-【依图科技】依图科技CV算法现场面 三面凉经 https://www.nowcoder.com/discuss/266137 
-【旷视科技】旷视计算机视觉算法工程师二面挂经 https://www.nowcoder.com/discuss/261742 
-【乐信】乐信AI工程师二面水经 https://www.nowcoder.com/discuss/261746 
-【明略】明略算法岗面经 https://www.nowcoder.com/discuss/261529 
-【阿里】阿里巴巴 饿了么 算法一面 https://www.nowcoder.com/discuss/260752 
-【招银】热乎的招银网络科技算法岗面经 https://www.nowcoder.com/discuss/260851 
-【百度、寒武纪、作业帮、科大讯飞、追一科技、腾讯】NLP and 机器学习面经，回馈牛客 https://www.nowcoder.com/discuss/257607 
-【百度、腾讯、美团、拼多多】百度、腾讯、美团、pdd面经 https://www.nowcoder.com/discuss/256725 
-【旷视科技】旷世二面凉经，算法 https://www.nowcoder.com/discuss/258479 
-【美团】美团算法岗面经 https://www.nowcoder.com/discuss/256642 
-【图森】图森未来-感知算法工程师-面经 https://www.nowcoder.com/discuss/258292 
-【小米】分享一个nlp算法小米二面凉经 https://www.nowcoder.com/discuss/258211 
-【云从】云从cv凉面 https://www.nowcoder.com/discuss/257748 
-【360】360算法面经：一面轻松，二面开始基本就挂了。 https://www.nowcoder.com/discuss/255303 
-【拼多多】pdd一面凉经 https://www.nowcoder.com/discuss/255299 
-【小米】小米 nlp 算法二面 https://www.nowcoder.com/discuss/255486 
-【小米】小米算法岗凉的透透的凉经 https://www.nowcoder.com/discuss/254970 
-【小米】热乎的小米机器学习面经奉上，攒一波人品求面试过 https://www.nowcoder.com/discuss/254923 
-【华为】华为面试 https://www.nowcoder.com/discuss/252105 
-【招银】招银凉经——算法 https://www.nowcoder.com/discuss/252842 
-【广发】广发研发中心面试记录 https://www.nowcoder.com/discuss/250660 
-【华为】2020华为面经-西安站 https://www.nowcoder.com/discuss/251302 
-【拼多多】收到拼多多offer call和意向书，贡献一波面经 https://www.nowcoder.com/discuss/250434 
-【中兴】中兴图像算法面经（哈尔滨） https://www.nowcoder.com/discuss/250532 
-【百度】百度 算法实习 https://www.nowcoder.com/discuss/248199 
-【寒武纪】寒武纪深度学习解决方案工程师 https://www.nowcoder.com/discuss/248823 
-【寒武纪】九月份首面：寒武纪 深度学习框架研发工程师（一面） https://www.nowcoder.com/discuss/248781 
-【美团】美团点评机器学习面经，发面经求offer！！ https://www.nowcoder.com/discuss/249723 
-【拼多多】拼多多oc + 面经 + 一些感想 https://www.nowcoder.com/discuss/247965 
-【依图、海康、商汤、大疆、字节跳动】秋招小结：感受+面经（CV算法岗） - 09.07 https://www.nowcoder.com/discuss/248664 
-【有赞】有赞 算法 一面 https://www.nowcoder.com/discuss/248772 
-【有赞】有赞一面凉经（机器学习算法） https://www.nowcoder.com/discuss/247866 
-【中兴】中兴算法工程师现场面面经 https://www.nowcoder.com/discuss/249596 
-【ThoughtWork】Thoughtworks面经分享 https://www.nowcoder.com/discuss/246188 
-【大华】大华提前批面经(offer) https://www.nowcoder.com/discuss/246171 
-【竞技世界】竞技世界面经 https://www.nowcoder.com/discuss/247099 
-【农行】陕西农行ABC 一面 https://www.nowcoder.com/discuss/246535 
-【商汤科技】商汤二面凉经，赞人品 https://www.nowcoder.com/discuss/246626 
-【小米】小米面经 https://www.nowcoder.com/discuss/247482 
-【百度】手百feed流推荐算法工程师三面面经 https://www.nowcoder.com/discuss/245284 
-【大华】大华算法面经 https://www.nowcoder.com/discuss/245023 
-【京东】京东算法岗面经 https://www.nowcoder.com/discuss/245037 
-【腾讯】腾讯wxg推荐算法工程师三面面经 https://www.nowcoder.com/discuss/245257 
-【作业帮】作业帮 20届毕业生 已经面完HR面 https://www.nowcoder.com/discuss/245347 
-【BIGO】BIGO 计算机视觉一面 https://www.nowcoder.com/discuss/244080 
-【拼多多、依图、云从科技、美团、海康、欢聚时代、百度、追一科技、字节跳动】非科班渣硕秋招面经和总结 https://www.nowcoder.com/discuss/243926 
-【依图、科大讯飞】最近两个NLP面经(依图+讯飞) https://www.nowcoder.com/discuss/244412 
-【网易、浦发、360、小米、猿辅导】总结下这段时间的面经，算法岗，同时许愿offer https://www.nowcoder.com/discuss/243252 
-【360、陌陌、字节跳动】【360/陌陌/字节跳动面试复盘】总结不足，继续向前！ https://www.nowcoder.com/discuss/242808 
-【广联达】广联达面筋双手奉上！！！ https://www.nowcoder.com/discuss/242943 
-【猿辅导】猿辅导CV上岸面经 https://www.nowcoder.com/discuss/242340 
-【拼多多】pdd开奖 https://www.nowcoder.com/discuss/242325 
-【BIGO】BIGO计算机视觉一面凉经8.30 https://www.nowcoder.com/discuss/239639 
-【哔哩哔哩】b站算法凉经 https://www.nowcoder.com/discuss/239826 
-【百度，有道，腾讯】一些算法面经（百度，有道，腾讯） https://www.nowcoder.com/discuss/240136 
-【海康】海康威视面经 https://www.nowcoder.com/discuss/239336 
-【京东】京东算法一面凉经 https://www.nowcoder.com/discuss/241230 
-【字节跳动】字节跳动 ai lab cv工程师 https://www.nowcoder.com/discuss/239350 
-【字节跳动】字节跳动三面（凉） https://www.nowcoder.com/discuss/241121 
-【360】360算法岗面经 https://www.nowcoder.com/discuss/238749 
-【360】360商业化广告8.28面经 https://www.nowcoder.com/discuss/238403 
-【BIGO】bigo NLP算法工程师面试贴 https://www.nowcoder.com/discuss/238781 
-【虹软】虹软-视觉算法-面经 https://www.nowcoder.com/discuss/238556 
-【云从科技】云从科技-机器学习岗-2技术面+1hr面 https://www.nowcoder.com/discuss/238351 
-【字节跳动】还愿，顺便附上头条面筋 https://www.nowcoder.com/discuss/238718 
-【滴滴】滴滴算法面经 https://www.nowcoder.com/discuss/237408 
-【阿里】面试体验极其难受的阿里算法岗面经 https://www.nowcoder.com/discuss/237667 
-【拼多多】拼多多武汉开奖了（NLP面经） https://www.nowcoder.com/discuss/237513 
-【百度、滴滴、阿里】互联网公司算法面经（希望给大家提供一点帮助） https://www.nowcoder.com/discuss/236441 
-【京东】京东 面经cv方向 https://www.nowcoder.com/discuss/235437 
-【小米】小米搜索算法转正面试 https://www.nowcoder.com/discuss/235165 
-【字节跳动】字节跳动 头条 算法 面经 已拿offer意向书 https://www.nowcoder.com/discuss/235500 
-【作业帮】作业帮1,2,3面面经（不包含hr面） https://www.nowcoder.com/discuss/235791 
-【360】360机器学习工程师面经 https://www.nowcoder.com/discuss/234803 
-【小米】小米-机器学习算法工程师-一面面经 https://www.nowcoder.com/discuss/234961 
-【360】360 搜索广告算法工程师一面凉经 https://www.nowcoder.com/discuss/234108 
-【华为】华为 人工智能 面经 https://www.nowcoder.com/discuss/233633 
-【拼多多】拼多多算法 一 二面经 https://www.nowcoder.com/discuss/233828 
-【百度、网易】【百度】三面+【网易】二面 算法面经 https://www.nowcoder.com/discuss/231327 
-【华为】华为面经 粤港澳地区优招 https://www.nowcoder.com/discuss/232187 
-【深信服】【深信服算法工程师一面-复盘】-希望能有二面 https://www.nowcoder.com/discuss/232192 
-【有钻】有赞算法面经 https://www.nowcoder.com/discuss/232844 
-【字节跳动、蘑菇街】字节跳动，蘑菇街凉面 https://www.nowcoder.com/discuss/23***8 
-【寒武纪、作业帮、百度、腾讯、拼多多、蘑菇街】算法工程师面经+少量后端内容 2019年8月 BAT面经都有 https://www.nowcoder.com/discuss/231656 
-【地平线】2020地平线提前批算法面经（凉经） https://www.nowcoder.com/discuss/230211 
-【旷视科技】旷视2020校招-提前批-算法面经 https://www.nowcoder.com/discuss/229537 
-【猿辅导】猿辅导 计算机视觉算法岗一面面经（发面精，攒人品） https://www.nowcoder.com/discuss/229500 
-【作业帮、腾讯】作业帮NLP面试+腾讯NLP面试 https://www.nowcoder.com/discuss/230234 
-【百度】百度搜索岗视频内容搜索算法一面二面面试记录 https://www.nowcoder.com/discuss/228452 
-【贝壳】贝壳 算法凉经 https://www.nowcoder.com/discuss/228774 
-【阿里】阿里 机器学习算法岗 一面 https://www.nowcoder.com/discuss/228866 
-【欢聚时代】欢聚时代二面整体GG，但貌似还有第三面 https://www.nowcoder.com/discuss/228449 
-【美团】20届秋招美团算法凉经 https://www.nowcoder.com/discuss/228890 
-【星环科技】星环科技NLP电话面试 https://www.nowcoder.com/discuss/228772 
-【云从科技】2020提前批云从面经 https://www.nowcoder.com/discuss/229326 
-【云从科技】计算机视觉面经之云从科技(offer) https://www.nowcoder.com/discuss/229031 
-【云从科技】计算机视觉面经之tplink(offer) https://www.nowcoder.com/discuss/229028 
-【追一科技】追一科技一二面凉凉经 算法 对抗样本 https://www.nowcoder.com/discuss/228765 
-【字节跳动】字节跳动-ailab-视觉算法面经 https://www.nowcoder.com/discuss/229358 
-【百度】百度 深度学习平台部 凉经 https://www.nowcoder.com/discuss/227906 
-【美团】美团机器学习一面面经 https://www.nowcoder.com/discuss/228061 
-【浦发】浦发面经-上海 https://www.nowcoder.com/discuss/227818 
-【商汤科技】【面试】商汤科技 - CV研究员 https://www.nowcoder.com/discuss/227554 
-【深信服】深信服一面面经 https://www.nowcoder.com/discuss/228067 
-【腾讯】腾讯后台一面面(liang)经 https://www.nowcoder.com/discuss/227601 
-【网易】网易云音乐面经？？？ https://www.nowcoder.com/discuss/227605 
-【网易】网易游戏互娱，人工智能岗(Cv方向)一面面经 https://www.nowcoder.com/discuss/227344 
-【云从科技】云从上海计算机视觉面经 https://www.nowcoder.com/discuss/228102 
-【云从科技】云从科技-计算机视觉算法工程师-面经 https://www.nowcoder.com/discuss/227716 
-【追一科技】追一科技 知识图谱算法岗 凉经 https://www.nowcoder.com/discuss/227904 
-【追一科技】追一 NLP凉经 https://www.nowcoder.com/discuss/227752 
-【字节跳动】字节跳动算法岗一二面面经 https://www.nowcoder.com/discuss/227743 
-【作业帮】作业帮NLP面经 https://www.nowcoder.com/discuss/227552 
-【地平线】地平线面经 https://www.nowcoder.com/discuss/226965 
-【拼多多】拼多多 2020.08.17 算法岗面经 https://www.nowcoder.com/discuss/226906 
-【字节跳动】字节跳动算法工程师岗一二三面经 https://www.nowcoder.com/discuss/226960 
-【百度】百度提前批机器学习算法二面面经 https://www.nowcoder.com/discuss/226065 
-【百度,字节跳动,美团】秋招上岸，回馈牛友一波面经 https://www.nowcoder.com/discuss/226526 
-【阿里】阿里一面 https://www.nowcoder.com/discuss/225972 
-【海康】8月17 20:30 海康威视 算法一面凉经 34分钟 https://www.nowcoder.com/discuss/226298 
-【虎牙】虎牙多媒体算法视频一面 https://www.nowcoder.com/discuss/225339 
-【拼多多】拼多多图像算法凉经 https://www.nowcoder.com/discuss/225968 
-【深信服】2020深信服提前批面经（凉经） https://www.nowcoder.com/discuss/226440 
-【网易】网易云机器学习一面36min https://www.nowcoder.com/discuss/225454 
-【依图科技】依图科技-算法-计算机视觉【面经】 https://www.nowcoder.com/discuss/225571 
-【优酷】阿里优酷机器学习岗位一面面经，虽然希望不要凉，但是估计已凉 https://www.nowcoder.com/discuss/225737 
-【猿辅导】猿辅导二面面经 https://www.nowcoder.com/discuss/225338 
-【字节跳动】字节跳动算法二面凉经 https://www.nowcoder.com/discuss/226706 
-【字节跳动】字节二面凉经 https://www.nowcoder.com/discuss/226657 
-【字节跳动】字节跳动面试一面凉凉 https://www.nowcoder.com/discuss/226622 
-【字节跳动】字节跳动算法岗一面凉经 https://www.nowcoder.com/discuss/226619 
-【作业帮】2020作业帮提前批面经（凉经） https://www.nowcoder.com/discuss/226439 
-【大华】浙江大华凉凉凉面经，我不配学算法 https://www.nowcoder.com/discuss/224604 
-【华为】华为，愉快的面经 https://www.nowcoder.com/discuss/224977 
-【拼多多】PDD图像算法一面凉经 https://www.nowcoder.com/discuss/224360 
-【依图科技】依图科技SP专场算法岗面经 https://www.nowcoder.com/discuss/224757 
-【阿里】阿里云机器学习岗一面面经 https://www.nowcoder.com/discuss/223799 
-【蘑菇街】蘑菇街算法一面 https://www.nowcoder.com/discuss/222765 
-【拼多多】拼多多一面 https://www.nowcoder.com/discuss/222772 
-【腾讯】腾讯 一面 面经 https://www.nowcoder.com/discuss/222541 
-【依图】依图 算法 二面凉经 https://www.nowcoder.com/discuss/222710 
-【猿辅导】猿辅导算法一面面经 https://www.nowcoder.com/discuss/222638 
-【京东】【面经】京东零售 - 搜索与推荐平台部 - 算法岗 https://www.nowcoder.com/discuss/221822 
-【旷视科技】旷视提前批（算法研究员，3轮技面+HR面+终面） https://www.nowcoder.com/discuss/222073 
-【美团】美团机器学习视频面试一面面经(提前批) https://www.nowcoder.com/discuss/222018 
-【阿里】阿里大文娱算法一面凉经 https://www.nowcoder.com/discuss/221185 
-【猿辅导】猿辅导算法岗一面凉经 https://www.nowcoder.com/discuss/221479 
-【Shopee】shopee 一二面经 https://www.nowcoder.com/discuss/220443 
-【滴滴】滴滴出行 提前批SP专场 算法工程师 三面面经 https://www.nowcoder.com/discuss/220938 
-【格力】格力人工智能岗位提前批电话面试 https://www.nowcoder.com/discuss/219493 
-【京东】京东 提前批 推荐与搜索平台 算法三面 面经 https://www.nowcoder.com/discuss/219957 
-【科大讯飞】科大讯飞AI研究院内推一面凉经 https://www.nowcoder.com/discuss/219638 
-【旷视】旷视面经 https://www.nowcoder.com/discuss/221103 
-【旷视科技】旷视slam岗秋招面经 https://www.nowcoder.com/discuss/219601 
-【旷视科技】旷视提前批算法面经（3技术面+1交叉技术面+hr面+终面） https://www.nowcoder.com/discuss/220004 
-【拼多多】拼多多算法一面面经 https://www.nowcoder.com/discuss/220011 
-【拼多多】拼多多 提前批算法岗 南京现场面三轮面经！！！ https://www.nowcoder.com/discuss/220591 
-【拼多多】拼多多学霸批 算法工程师面经 https://www.nowcoder.com/discuss/220587 
-【拼多多】武汉拼多多算法工程师面经 https://www.nowcoder.com/discuss/220959 
-【拼多多】拼多多武汉现场面经 https://www.nowcoder.com/discuss/220921 
-【腾讯】腾讯一面来了。 https://www.nowcoder.com/discuss/220529 
-【猿辅导】【猿辅导】深度学习算法工程师-秋招首面-过 https://www.nowcoder.com/discuss/221035 
-【字节跳动】头条提前批算法面经（2技术面+1leader面） https://www.nowcoder.com/discuss/220966 
-【百度】百度推荐技术平台一面凉经 https://www.nowcoder.com/discuss/218722 
-【图森未来】图森未来感知组计算机视觉算法面经 https://www.nowcoder.com/discuss/218937 
-【追一科技】【追一科技】视觉算法二面和CTO面 https://www.nowcoder.com/discuss/218919 
-【字节跳动】头条南京后端上岸 https://www.nowcoder.com/discuss/218650 
-【顺丰科技】顺丰 机器学习一面 https://www.nowcoder.com/discuss/218219 
-【作业帮】【作业帮NLP】成功面筋 https://www.nowcoder.com/discuss/218590 
-【作业帮】作业帮 视觉算法工程师 面经 https://www.nowcoder.com/discuss/218362 
-【作业帮】作业帮 机器学习算法面经 https://www.nowcoder.com/discuss/218216 
-【OPPO】扔出面经求offer https://www.nowcoder.com/discuss/217402 
-【百度】百度提前批NLP算法三面面经 https://www.nowcoder.com/discuss/217396 
-【欢聚时代】欢聚时代-视频编解码算法工程师（一面） https://www.nowcoder.com/discuss/217204 
-【快手】快手2020届提前批面经--推荐算法工程师 https://www.nowcoder.com/discuss/217487 
-【诺瓦】诺瓦软件开发SP专场凉经 https://www.nowcoder.com/discuss/217753 
-【拼多多】拼多多学霸批NLP面经 https://www.nowcoder.com/discuss/217515 
-【追一科技】追一科技机器学习算法工程师面经 https://www.nowcoder.com/discuss/217585 
-【字节跳动】收到头条意向书，分享一点面经 https://www.nowcoder.com/discuss/217326 
-【阿里】阿里 达摩院 cv 算法 面经 https://www.nowcoder.com/discuss/216797 
-【拼多多】拼多多提前批算法工程师面经 https://www.nowcoder.com/discuss/216469 
-【字节跳动】字节跳动ailab面经 https://www.nowcoder.com/discuss/216993 
-【字节跳动】字节跳动 算法 已拿意向书 https://www.nowcoder.com/discuss/216672 
-【阿里、百度、京东】20校招AI算法岗（目前阿里+百度+京东offer）持续更新 https://www.nowcoder.com/discuss/216117 
-【寒武纪】寒武纪深度学习三面面经 https://www.nowcoder.com/discuss/216007 
-【欢聚时代】欢聚时代机器学习算法工程师一面 https://www.nowcoder.com/discuss/215792 
-【京东】京东广告部 一面面经 https://www.nowcoder.com/discuss/215667 
-【拼多多】拼多多提前批算法工程师面经 https://www.nowcoder.com/discuss/216469 
-【依图、旷视】[面经] 依图-旷视cv算法面经 https://www.nowcoder.com/discuss/215800 
-【优酷】阿里优酷算法工程师电话一面面经 https://www.nowcoder.com/discuss/215907 
-【云从科技】云从机器学习面经 https://www.nowcoder.com/discuss/215651 
-【字节跳动】字节跳动算法岗提前批面经 https://www.nowcoder.com/discuss/215883 
-【字节跳动】字节跳动提前批ailab面经 https://www.nowcoder.com/discuss/215858 
-【作业帮】作业帮CV一面 https://www.nowcoder.com/discuss/215679 
-【作业帮】作业帮一面凉经 https://www.nowcoder.com/discuss/216131 
-【作业帮】作业帮nlp面经 https://www.nowcoder.com/discuss/215140 
-【快手】快手提前批 商业化部门三面 机器学习算法 广告算法 面经 https://www.nowcoder.com/discuss/213940 
-【腾讯】腾讯CDG社交广告一面头条Data四面 面经 https://www.nowcoder.com/discuss/213960 
-【作业帮】作业帮一面 https://www.nowcoder.com/discuss/214657 
-【北京智云视图】北京智云视图算法工程师面试经历 https://www.nowcoder.com/discuss/213750 
-【顺丰】顺丰科技视觉算法岗面经 https://www.nowcoder.com/discuss/213290 
-【顺丰】顺丰视频面经——视觉算法 https://www.nowcoder.com/discuss/213283 
-【顺丰】顺丰 运筹优化算法工程师 一面经 https://www.nowcoder.com/discuss/213263 
-【顺丰】顺丰科技人工智能机器学习算法视频面经 https://www.nowcoder.com/discuss/213259 
-【顺丰】顺丰科技人工智能机器学习算法视频面经 https://www.nowcoder.com/discuss/213820 
-【顺丰】AI&机器学习突击面试【顺丰科技】 https://www.nowcoder.com/discuss/213816 
-【字节跳动】头条算法提前批三面面经 https://www.nowcoder.com/discuss/213671 
-【字节跳动】字节跳动AI lab 三面记录 https://www.nowcoder.com/discuss/213726 
-【百度】百度 推荐技术平台 算法 凉经 https://www.nowcoder.com/discuss/212861 
-【字节跳动】字节跳动，二面问题 https://www.nowcoder.com/discuss/212922 
-【字节跳动】字节跳动，提前批一面问题 https://www.nowcoder.com/discuss/212913 
-【巨人网络】巨人网络-算法岗-一面 https://www.nowcoder.com/discuss/212554 
-【字节跳动】还愿，收到字节跳动提前批算法岗offer了 https://www.nowcoder.com/discuss/212439 
-【字节跳动】回馈牛客，字节算法三面许愿求offer https://www.nowcoder.com/discuss/211763 
-【作业帮】深夜-作业帮NLP凉面 https://www.nowcoder.com/discuss/211426 
-【作业帮】作业帮_北京_算法岗_sp https://www.nowcoder.com/discuss/212220 
-【百度】百度凤巢广告算法提前批三面面经 https://www.nowcoder.com/discuss/211954 
-【图森】图森_北京_感知算法研究员_技术面 https://www.nowcoder.com/discuss/211262 
-【中兴】中兴_南京_计算机视觉算法_技术面 https://www.nowcoder.com/discuss/211261 
-【追一科技】追一科技_深圳_视觉算法工程师面经 https://www.nowcoder.com/discuss/211258 
-【字节跳动】深圳抖音图像图形算法三面面经(已获意向书) https://www.nowcoder.com/discuss/211382 
-【字节跳动】字节AiLab CV 面经，感觉凉透了 https://www.nowcoder.com/discuss/211352 
-【字节跳动】字节跳动 AILab 二面记录 https://www.nowcoder.com/discuss/211174 
-【作业帮】作业帮 机器学习算法 面经 https://www.nowcoder.com/discuss/211326 
-【乐鑫】乐鑫通信算法一面hr面面经 https://www.nowcoder.com/discuss/210961 
-【字节跳动】字节跳动提前批后端，刚拿意向书，分享一下面经 https://www.nowcoder.com/discuss/210872 
-【字节跳动】字节跳动计算机视觉算法面经 https://www.nowcoder.com/discuss/210829 
-【百度】百度提前批算法岗四小时面试记录 https://www.nowcoder.com/discuss/210313 
-【百度】百度nlp一面 https://www.nowcoder.com/discuss/210299 
-【阿里】阿里文娱提前批 视觉算法岗 https://www.nowcoder.com/discuss/209671 
-【科大讯飞】【科大讯飞】计算机视觉一面面经 https://www.nowcoder.com/discuss/210056 
-【快手】0723快手 Openday社区科学部 算法工程师面经 https://www.nowcoder.com/discuss/210333 
-【旷视科技】旷视算法研究员一面凉经 https://www.nowcoder.com/discuss/210569 
-【商汤科技】商汤20校招CV算法研究员面经【三面+HR面】 https://www.nowcoder.com/discuss/209857 
-【依图】依图一面 https://www.nowcoder.com/discuss/210550 
-【追一科技】【追一科技】视觉算法一面凉经 https://www.nowcoder.com/discuss/210063 
-【字节跳动】[字节跳动/头条] 算法提前批三轮面经，前来回馈广大牛油们 https://www.nowcoder.com/discuss/210036 
-【字节跳动】字节跳动2020届提前批 AI Lab cv 三面视频面 https://www.nowcoder.com/discuss/210508 
-【OPPO】OPPO西安 机器学习凉凉经 https://www.nowcoder.com/discuss/206792 
-【戴尔】Dell EMC数据保护部门实习生面试 https://www.nowcoder.com/discuss/207579 
-【多益网络】多益面试（人工智能） https://www.nowcoder.com/discuss/208550 
-【多益网络】多益算法奇经 https://www.nowcoder.com/discuss/209251 
-【阿里】阿里大文娱 机器学习面经 https://www.nowcoder.com/discuss/209171 
-【阿里】阿里一面 https://www.nowcoder.com/discuss/209000 
-【阿里】阿里算法面经 https://www.nowcoder.com/discuss/209306 
-【图森】2-图森未来@Beijing 凉经-攒人品 https://www.nowcoder.com/discuss/208586 
-【字节跳动】字节跳动 图像图像一面面经 https://www.nowcoder.com/discuss/207221 
-【字节跳动】字节跳动算法岗三面面经 https://www.nowcoder.com/discuss/207105 
-【字节跳动】字节跳动提前批算法工程师面经 https://www.nowcoder.com/discuss/207092 
-【字节跳动】OPPO视频面（NLP算法），凉经 https://www.nowcoder.com/discuss/206740 
-【字节跳动】头条抖音互娱-图形图像一二三面 https://www.nowcoder.com/discuss/207369 
-【字节跳动】字节跳动头条研发算法一面 https://www.nowcoder.com/discuss/207317 
-【字节跳动】算法岗提前批凉经【字节跳动+京东】 https://www.nowcoder.com/discuss/207287 
-【字节跳动】字节跳动一面凉经！ https://www.nowcoder.com/discuss/207749 
-【字节跳动】头条 机器学习算法一面 https://www.nowcoder.com/discuss/207712 
-【字节跳动】头条AILab一面面经 https://www.nowcoder.com/discuss/208289 
-【字节跳动】头条后台二面面经 https://www.nowcoder.com/discuss/208881 
-【字节跳动】字节跳动算法工程师面经+个人疑问 https://www.nowcoder.com/discuss/209478 
-【作业帮】作业帮一面，二面。估计二面已凉 https://www.nowcoder.com/discuss/208777 
-【作业帮】两次作业帮凉经 https://www.nowcoder.com/discuss/208481 
-【作业帮】作业帮nlp面经 https://www.nowcoder.com/discuss/208986 
-【京东】京东提前批算法工程师电面面经 https://www.nowcoder.com/discuss/206186 
-【字节跳动】字节跳动 AILab提前批算法工程师面经(已收到offer) https://www.nowcoder.com/discuss/206226 
-【字节跳动】字节跳动CV算法一面凉经 https://www.nowcoder.com/discuss/206593 
-【字节跳动】今日头条 多媒体开发(视频架构)面经 https://www.nowcoder.com/discuss/206578 
-【OPPO】oppo提前批 机器学习 一面凉经 https://www.nowcoder.com/discuss/205699 
-【OPPO】oppo提前批机器学习岗面经 https://www.nowcoder.com/discuss/205955 
-【OPPO】成都oppo机器学习算法工程师面经 https://www.nowcoder.com/discuss/205841 
-【OPPO】OPPO 视觉算法一二三面 https://www.nowcoder.com/discuss/205472 
-【OPPO】OPPO--提前批--机器学习--面经 https://www.nowcoder.com/discuss/205467 
-【多益网络】多益网络-人工智能岗面试 https://www.nowcoder.com/discuss/205848 
-【字节跳动】【字节跳动算法岗提前批1+2视频面】趁热分享 https://www.nowcoder.com/discuss/205964 
-【字节跳动】头条图形图像一面面筋 https://www.nowcoder.com/discuss/205864 
-【字节跳动】字节跳动ai lab cv算法面经（我来反馈攒人品了） https://www.nowcoder.com/discuss/205843 
-【字节跳动】字节跳动 Data 算法工程师 广告/AML 提前批3面面经 https://www.nowcoder.com/discuss/205736 
-【字节跳动、百度、京东、滴滴、】菜鸡总结暑期实习求职经历（附部分面经 https://www.nowcoder.com/discuss/205718 
-【字节跳动】说说自己的字节跳动EE部门一面凉经，以及面试官给我的三连击！ https://www.nowcoder.com/discuss/206106 
-【腾讯】腾讯光子技术中心 日常实习CV方向面筋 https://www.nowcoder.com/discuss/206089 
-【字节跳动】头条算法最新凉经 https://www.nowcoder.com/discuss/206065 
-【字节跳动】【字节跳动算法岗提前批1+2视频面】趁热分享 https://www.nowcoder.com/discuss/205964 
-【OPPO】oppo提前批机器学习岗面经 https://www.nowcoder.com/discuss/205955 
-【Tplink】2020届视觉算法菜鸡的秋招求职之路(面经，持续更新) https://www.nowcoder.com/discuss/205231 
-【百度】2019.7.5百度生态搜索质量部 提前批 面试题回忆 https://www.nowcoder.com/discuss/203473 
-【百度】百度搜索部提前批一面 https://www.nowcoder.com/discuss/204597 
-【多益网络】多益网络面经 https://www.nowcoder.com/discuss/204628 
-【多益网络】多益面经（人工智能） https://www.nowcoder.com/discuss/205251 
-【多益网络】多益网络，2019年人工智能与大数据研发岗位面试 https://www.nowcoder.com/discuss/204993 
-【阿里】阿里NLP面经 https://www.nowcoder.com/discuss/205021 
-【映客直播】已拿提前批offer 映客笔经加面经 https://www.nowcoder.com/discuss/204240 
-【中兴】中兴通讯2020届校园招聘提前批面经（算法工程师） https://www.nowcoder.com/discuss/203584 
-【字节跳动】记一次十分惨烈的头条一面 https://www.nowcoder.com/discuss/203454 
-【字节跳动】头条机器学习算法岗面试记录 https://www.nowcoder.com/discuss/205260
-
----
-
-## 2020算法岗面经集合
-
-来源：牛客网 ｜ 类型：面经 ｜ 发布：2020-02-27 ｜ [原文链接](https://www.nowcoder.com/discuss/353147746544721920)
-
-【商汤】实习经验分享｜商汤公司CV岗 
-【BIGO】Bigo算法面经（顺便求建议） https://www.nowcoder.com/discuss/350733 
-【百度、字节跳动】算法面经：百度，字节跳动 https://www.nowcoder.com/discuss/350817 
-【微软】微软苏州面经 https://www.nowcoder.com/discuss/350440 
-【小米】小米视觉算法面经 https://www.nowcoder.com/discuss/350587 
-【百度】百度大搜VS(垂搜)面经回馈牛客 https://www.nowcoder.com/discuss/349847 
-【华为、多益网络、29所、寒武纪、中兴、云从科技、追一科技、海康、趋势科技、星环科技、BIGO、京东、小米、农行、招银网络、VIVO、百度】推荐系统算法岗秋招个人总结，整理面经和心得，感谢回馈牛油 https://www.nowcoder.com/discuss/349454 
-【小红书、科大讯飞、58、滴滴、马蜂窝、百信银行】我的秋招记录——（面经+感悟） https://www.nowcoder.com/discuss/348316 
-【美团、快手、Keep、小米、OPPO、贝壳】秋招总结帖 https://www.nowcoder.com/discuss/342038 
-【快看漫画、AiBee、新浪、慧科、新东方、联通、华为、】秋招面经——干货不多 https://www.nowcoder.com/discuss/339289 
-【奥比中光、顺丰科技、中信、苏宁、TCL、蜂巢】非科班算法2020秋招经历总结 https://www.nowcoder.com/discuss/338172 
-【美团】美团算法岗面经 https://www.nowcoder.com/discuss/338662 
-【美团】美团算法岗面经 https://www.nowcoder.com/discuss/338662 
-【百度，顺丰，依图，阿里，京东】总结一下自己的秋招吧 附带面经。 https://www.nowcoder.com/discuss/337100 
-【智加科技、之江实验室、虹软】秋招小结 https://www.nowcoder.com/discuss/335637 
-【百度、华为、拼多多、字节、小米、航天三院】2019秋招总结（算法工程师，非科班） https://www.nowcoder.com/discuss/331793 
-【搜狗、拼多多、猿辅导、贝壳、滴滴、京东、好未来、招行信用卡、华为】秋招结束，算法面经总结帖 https://www.nowcoder.com/discuss/332004 
-【智加科技】最后，还是选择了智加科技Plusai(秋招总结，长文) https://www.nowcoder.com/discuss/334857 
-【字节跳动】回报牛客：发一下字节算法工程师面经，时间久了只能发个大概。 https://www.nowcoder.com/discuss/330565 
-【华为】华为算法面经 https://www.nowcoder.com/discuss/328242 
-【微软、阿里、腾讯、百度、快手、字节跳动、美团、拼多多、京东】微软阿里腾讯百度快手头条美团拼多多京东等面经 https://www.nowcoder.com/discuss/328114 
-【思科、平安科技、快手、字节跳动、英特尔、华为、TP_LINK、寒武纪】个人秋招面经汇总，和大家交流分享一下 https://www.nowcoder.com/discuss/323813 
-【乐贝】乐贝电商面经 https://www.nowcoder.com/discuss/324717 
-【顺丰】顺丰同城算法面试经验 https://www.nowcoder.com/discuss/324588 
-【VIVO、TP_LINK、字节跳动、百度、华为】秋招总结：非机器学习科班学生漫长的算法工程师上岸之旅 https://www.nowcoder.com/discuss/326300 
-【字节跳动】十面字节跳动，老哥们节日快乐 https://www.nowcoder.com/discuss/324100 
-【字节跳动】字节跳动——机器人算法工程师（视频面试） https://www.nowcoder.com/discuss/323272 
-【联影】联影——算法面经 https://www.nowcoder.com/discuss/323292 
-【明略】明略——科学院算法工程师 https://www.nowcoder.com/discuss/323279 
-【阿里】阿里算法岗面经 https://www.nowcoder.com/discuss/318821 
-【中国移动】中国移动人工智能研究院 电信-广州深圳面经 https://www.nowcoder.com/discuss/322005 
-【滴滴、虎牙、星环科技、盛大游戏、百度】机器学习算法岗秋招面试总结 https://www.nowcoder.com/discuss/***402 
-【阿里】阿里算法岗面经 https://www.nowcoder.com/discuss/318821 
-【寒武纪】寒武纪深度学习框架研发工程师面经 https://www.nowcoder.com/discuss/***673 
-【云从科技、美团、百度、网易、京东、阿里、华为、依图】菜鸡的算法岗面筋 https://www.nowcoder.com/discuss/***551 
-【蚂蚁，滴滴，百度，浦发，携程，paypal，欢聚时代，巨人网络】上海算法秋招总结(只考虑上海的同学可以参考) https://www.nowcoder.com/discuss/318508 
-【阿里、华为、海康威视、滴滴、大华、欢聚时代、网易雷火】秋招基本结束，回馈牛油，算法精华面经 https://www.nowcoder.com/discuss/315179 
-【中兴】秋招总结 前后15天 已签中兴 （感觉心态又强大了些） https://www.nowcoder.com/discuss/315149 
-【华为】华为厦门地区还愿，附面经 https://www.nowcoder.com/discuss/316134 
-【科大讯飞】渣渣的艰难的科大讯飞 https://www.nowcoder.com/discuss/315658 
-【农行】农行上研还愿，附上秋招总结和农行笔面体检经！ https://www.nowcoder.com/discuss/315584 
-【TP_LINK、拼多多、欢聚时代、旷视、美团、字节跳动】回馈牛客，发一波2019算法秋招面经 https://www.nowcoder.com/discuss/313708 
-【有赞、快手、阿里、华为、美团、搜狗】秋招算法面经 https://www.nowcoder.com/discuss/315670 
-【云从】云从cv面经, 攒人品, 许愿求上岸 https://www.nowcoder.com/discuss/314544 
-【作业帮、京东、BIGO、科大讯飞、快手】秋招上岸，感谢快手，回馈牛客 https://www.nowcoder.com/discuss/315174 
-【360、微博、百度、字节跳动】广告算法秋招总面经 https://www.nowcoder.com/discuss/312020 
-【京东】京东算法工程师补招面经 https://www.nowcoder.com/discuss/311573 
-【字节跳动】字节跳动效率工程团队 算法实习生 一面凉经 https://www.nowcoder.com/discuss/311673 
-【爱奇艺】爱奇艺机器学习算法远程面经 https://www.nowcoder.com/discuss/309558 
-【拼多多、触宝、字节跳动、快手、阿里、趋势科技、新浪微博、同花顺、VIVO、百度】秋招面试总结 https://www.nowcoder.com/discuss/310079 
-【依图】依图算法面经 https://www.nowcoder.com/discuss/309753 
-【滴滴】滴滴金融二面面经+拼多多对话一面（NLP） https://www.nowcoder.com/discuss/308182 
-【京东】京东AI面经（凉经） https://www.nowcoder.com/discuss/308660 
-【招银网络】招银网络 算法 面经 https://www.nowcoder.com/discuss/308783 
-【百度】百度知识图谱nlp日常实习一面凉 https://www.nowcoder.com/discuss/304019 
-【贝壳】贝壳算法面经 https://www.nowcoder.com/discuss/305401 
-【华为】华为面经-算法工程师-上海无线 https://www.nowcoder.com/discuss/305463 
-【拼多多】拼多多正式批上海凉经 https://www.nowcoder.com/discuss/303648 
-【招银】招银（深圳）NLP算法实习到转正经历 https://www.nowcoder.com/discuss/303355 
-【招银】招银算法面经-杭州 https://www.nowcoder.com/discuss/301991 
-【字节跳动、百度、依图、拼多多、海康、美团】算法上岸，特别回馈一下牛客上，发一波面经，祝各位前途似锦 https://www.nowcoder.com/discuss/302700 
-【58】58同城算法面经 https://www.nowcoder.com/discuss/301186 
-【拼多多、腾讯、阿里、科大讯飞、大疆、地平线、追一科技】2020届算法岗秋招已到尾声，在此记录全部历程（有面经） https://www.nowcoder.com/discuss/301668 
-【电信】上海电信研究院算法一面凉经 https://www.nowcoder.com/discuss/297212 
-【拼多多】拼多多算法面经 https://www.nowcoder.com/discuss/299369 
-【新浪】新浪算法一面凉经 https://www.nowcoder.com/discuss/298607 
-【依图科技】依图算法工程师已签约，秋招完整面经回馈牛客 https://www.nowcoder.com/discuss/297368 
-【友塔游戏】友塔游戏算法一面面经 https://www.nowcoder.com/discuss/299556 
-【阿里、OPPO、VIVO、海康、旷视科技、华为、拼多多、依图科技】秋招上岸，经验分享 https://www.nowcoder.com/discuss/293565 
-【OPPO】OPPO机器学习算法工程师面经 https://www.nowcoder.com/discuss/294164 
-【大疆、华为、海康、图森、小马智行、地平线、momenta、滴滴】SLAM秋招面经 https://www.nowcoder.com/discuss/294308 
-【阿里、腾讯、pony、华为、图森未来、地平线、百度、滴滴、快手】非CS科班面经 https://www.nowcoder.com/discuss/294495 
-【腾讯】图像处理、计算机视觉算法面经 https://www.nowcoder.com/discuss/294435 
-【腾讯、京东、百度、星环科技、小米】offer call 还愿，也总结下秋招吧 https://www.nowcoder.com/discuss/294270 
-【媒智科技】媒智科技CV算法面经 https://www.nowcoder.com/discuss/295411 
-【商汤科技】商汤凉经 https://www.nowcoder.com/discuss/291250 
-【顺丰，滴滴，快手，依图，腾讯，远景，百度，搜狗，oppo，58同城，华为】转行渣硕的算法路，记录走过的坑和一些笔经面经给转行算法的同学 https://www.nowcoder.com/discuss/295287 
-【小米】小米一二面面经。cv图像 https://www.nowcoder.com/discuss/291307 
-【招银网络】招银网络两面凉经(算法+开发) https://www.nowcoder.com/discuss/291314 
-【VIVO】写一下vivo的面经贡献给牛油吧（sp已拒） https://www.nowcoder.com/discuss/289941 
-【VIVO】vivo算法提前批面经(已拿offer) https://www.nowcoder.com/discuss/289716 
-【大疆】我的大疆(Dji)2019校招经验分享 https://www.nowcoder.com/discuss/288230 
-【阿里】阿里 算法岗意向书 还愿附面经 https://www.nowcoder.com/discuss/288226 
-【阿里，百度，腾讯，美团，网易】阿里，百度，腾讯，美团，网易互娱等公司算法面经 https://www.nowcoder.com/discuss/290749 
-【虎牙、商汤、字节跳动、海康、VIVO、腾讯、华为、中兴】秋招经历，顺便OFFER求比较 https://www.nowcoder.com/discuss/288991 
-【科大讯飞】科大讯飞算法提前批凉经 https://www.nowcoder.com/discuss/289720 
-【旷视科技】旷视五面挂经 https://www.nowcoder.com/discuss/290118 
-【依图科技】【依图科技】 还愿面经 https://www.nowcoder.com/discuss/289488 
-【云从】云从科技cv岗北京视频面上岸面经 https://www.nowcoder.com/discuss/290772 
-【招银网络】招银一面凉经（投的算法） https://www.nowcoder.com/discuss/290742 
-【追一科技、华为、蘑菇街、云从、科大讯飞】2020算法上岸路-附面经 https://www.nowcoder.com/discuss/289916 
-【百度】百度面经 https://www.nowcoder.com/discuss/286628 
-【云从】云从视觉面经，三面 https://www.nowcoder.com/discuss/286221 
-【字节跳动】字节cv一面凉经 https://www.nowcoder.com/discuss/285880 
-【快手】快手cv-面经 https://www.nowcoder.com/discuss/283619 
-【平安】平安寿险算法工程师现场面面经(西安场) https://www.nowcoder.com/discuss/284310 
-【携程】携程算法一二面面经 https://www.nowcoder.com/discuss/285002 
-【猿辅导】2020猿辅导面经 https://www.nowcoder.com/discuss/284924 
-【云从】2020秋招个人总结帖 https://www.nowcoder.com/discuss/284917 
-【招银】招银网络科技算法岗面经 https://www.nowcoder.com/discuss/283768 
-【中国电信】许愿电信云算法offer（附面经） https://www.nowcoder.com/discuss/283721 
-【依图】依图三面凉经-【算法工程师-上海/杭州/北京】 https://www.nowcoder.com/discuss/279984 
-【远景】远景一二三面面经 https://www.nowcoder.com/discuss/280938 
-【字节跳动、华为、哔哩哔哩、深信服、中兴】非科班的秋招总结 https://www.nowcoder.com/discuss/280974 
-【百度】百度CV面经 https://www.nowcoder.com/discuss/279827 
-【百度】百度机器学习/数据挖掘一面面经（60min 上海）： https://www.nowcoder.com/discuss/278973 
-【阿里】阿里巴巴面经-NLP https://www.nowcoder.com/discuss/279013 
-【海康】海康 研究院 图像算法 面经 https://www.nowcoder.com/discuss/279216 
-【小红书】小红书收到oc，算法岗，base上海，前来还愿 https://www.nowcoder.com/discuss/279278 
-【新浪】新浪微博凉经 https://www.nowcoder.com/discuss/279934 
-【依图】依图三面凉经-【算法工程师-上海/杭州/北京】 https://www.nowcoder.com/discuss/279984 
-【招银网络】复盘一下招银网络科技笔试-算法岗 https://www.nowcoder.com/discuss/279563 
-【招银网络】分享招银网络科技面经，希望好运来 https://www.nowcoder.com/discuss/277363 
-【中兴】中兴一面面经 https://www.nowcoder.com/discuss/279807 
-【字节跳动、华为】【面经】字节跳动/华为 算法实习面试 https://www.nowcoder.com/discuss/275818 
-【BIGO】Bigo北京场，三轮技术+一轮HR面经(计算机视觉算法岗) https://www.nowcoder.com/discuss/273695 
-【百度】百度现场面一二面面经（二面挂） https://www.nowcoder.com/discuss/273633 
-【百度】百度算法面经 https://www.nowcoder.com/discuss/273306 
-【华为、OPPO、科大讯飞、农行】面经分享 https://www.nowcoder.com/discuss/273581 
-【京东、小米、腾讯、华为、VIVO、深信服】终于上岸，总结一波秋招 https://www.nowcoder.com/discuss/273692 
-【明略科技】明略算法凉经 https://www.nowcoder.com/discuss/272722 
-【招银网络】招银网络算法岗面经 https://www.nowcoder.com/discuss/273584 
-【中科星图】中科星图面经 https://www.nowcoder.com/discuss/272772 
-【58】58同城 算法一二面 https://www.nowcoder.com/discuss/269190 
-【VIVO】vivo 机器学习算法工程师（互联网方向）面经 https://www.nowcoder.com/discuss/269995 
-【中新赛克】中新赛克笔试面试 https://www.nowcoder.com/discuss/270313 
-【大华】大华一面凉经 https://www.nowcoder.com/discuss/267387 
-【京东】京东算法上海现场面经(9.18-9.19) https://www.nowcoder.com/discuss/267488 
-【京东】热乎的京东算法岗面经 https://www.nowcoder.com/discuss/267177 
-【美团】美团一面凉经 https://www.nowcoder.com/discuss/267490 
-【拼多多】拼多多算法oc https://www.nowcoder.com/discuss/266617 
-【商汤】热乎的商汤面筋，大家不来一碗？ https://www.nowcoder.com/discuss/267852 
-【明略科技】明略科技算法工程师现场面面经 https://www.nowcoder.com/discuss/265795 
-【依图科技】依图科技CV算法现场面 三面凉经 https://www.nowcoder.com/discuss/266137 
-【旷视科技】旷视计算机视觉算法工程师二面挂经 https://www.nowcoder.com/discuss/261742 
-【乐信】乐信AI工程师二面水经 https://www.nowcoder.com/discuss/261746 
-【明略】明略算法岗面经 https://www.nowcoder.com/discuss/261529 
-【阿里】阿里巴巴 饿了么 算法一面 https://www.nowcoder.com/discuss/260752 
-【招银】热乎的招银网络科技算法岗面经 https://www.nowcoder.com/discuss/260851 
-【百度、寒武纪、作业帮、科大讯飞、追一科技、腾讯】NLP and 机器学习面经，回馈牛客 https://www.nowcoder.com/discuss/257607 
-【百度、腾讯、美团、拼多多】百度、腾讯、美团、pdd面经 https://www.nowcoder.com/discuss/256725 
-【旷视科技】旷世二面凉经，算法 https://www.nowcoder.com/discuss/258479 
-【美团】美团算法岗面经 https://www.nowcoder.com/discuss/256642 
-【图森】图森未来-感知算法工程师-面经 https://www.nowcoder.com/discuss/258292 
-【小米】分享一个nlp算法小米二面凉经 https://www.nowcoder.com/discuss/258211 
-【云从】云从cv凉面 https://www.nowcoder.com/discuss/257748 
-【360】360算法面经：一面轻松，二面开始基本就挂了。 https://www.nowcoder.com/discuss/255303 
-【拼多多】pdd一面凉经 https://www.nowcoder.com/discuss/255299 
-【小米】小米 nlp 算法二面 https://www.nowcoder.com/discuss/255486 
-【小米】小米算法岗凉的透透的凉经 https://www.nowcoder.com/discuss/254970 
-【小米】热乎的小米机器学习面经奉上，攒一波人品求面试过 https://www.nowcoder.com/discuss/254923 
-【华为】华为面试 https://www.nowcoder.com/discuss/252105 
-【招银】招银凉经——算法 https://www.nowcoder.com/discuss/252842 
-【广发】广发研发中心面试记录 https://www.nowcoder.com/discuss/250660 
-【华为】2020华为面经-西安站 https://www.nowcoder.com/discuss/251302 
-【拼多多】收到拼多多offer call和意向书，贡献一波面经 https://www.nowcoder.com/discuss/250434 
-【中兴】中兴图像算法面经（哈尔滨） https://www.nowcoder.com/discuss/250532 
-【百度】百度 算法实习 https://www.nowcoder.com/discuss/248199 
-【寒武纪】寒武纪深度学习解决方案工程师 https://www.nowcoder.com/discuss/248823 
-【寒武纪】九月份首面：寒武纪 深度学习框架研发工程师（一面） https://www.nowcoder.com/discuss/248781 
-【美团】美团点评机器学习面经，发面经求offer！！ https://www.nowcoder.com/discuss/249723 
-【拼多多】拼多多oc + 面经 + 一些感想 https://www.nowcoder.com/discuss/247965 
-【依图、海康、商汤、大疆、字节跳动】秋招小结：感受+面经（CV算法岗） - 09.07 https://www.nowcoder.com/discuss/248664 
-【有赞】有赞 算法 一面 https://www.nowcoder.com/discuss/248772 
-【有赞】有赞一面凉经（机器学习算法） https://www.nowcoder.com/discuss/247866 
-【中兴】中兴算法工程师现场面面经 https://www.nowcoder.com/discuss/249596 
-【ThoughtWork】Thoughtworks面经分享 https://www.nowcoder.com/discuss/246188 
-【大华】大华提前批面经(offer) https://www.nowcoder.com/discuss/246171 
-【竞技世界】竞技世界面经 https://www.nowcoder.com/discuss/247099 
-【农行】陕西农行ABC 一面 https://www.nowcoder.com/discuss/246535 
-【商汤科技】商汤二面凉经，赞人品 https://www.nowcoder.com/discuss/246626 
-【小米】小米面经 https://www.nowcoder.com/discuss/247482 
-【百度】手百feed流推荐算法工程师三面面经 https://www.nowcoder.com/discuss/245284 
-【大华】大华算法面经 https://www.nowcoder.com/discuss/245023 
-【京东】京东算法岗面经 https://www.nowcoder.com/discuss/245037 
-【腾讯】腾讯wxg推荐算法工程师三面面经 https://www.nowcoder.com/discuss/245257 
-【作业帮】作业帮 20届毕业生 已经面完HR面 https://www.nowcoder.com/discuss/245347 
-【BIGO】BIGO 计算机视觉一面 https://www.nowcoder.com/discuss/244080 
-【拼多多、依图、云从科技、美团、海康、欢聚时代、百度、追一科技、字节跳动】非科班渣硕秋招面经和总结 https://www.nowcoder.com/discuss/243926 
-【依图、科大讯飞】最近两个NLP面经(依图+讯飞) https://www.nowcoder.com/discuss/244412 
-【网易、浦发、360、小米、猿辅导】总结下这段时间的面经，算法岗，同时许愿offer https://www.nowcoder.com/discuss/243252 
-【360、陌陌、字节跳动】【360/陌陌/字节跳动面试复盘】总结不足，继续向前！ https://www.nowcoder.com/discuss/242808 
-【广联达】广联达面筋双手奉上！！！ https://www.nowcoder.com/discuss/242943 
-【猿辅导】猿辅导CV上岸面经 https://www.nowcoder.com/discuss/242340 
-【拼多多】pdd开奖 https://www.nowcoder.com/discuss/242325 
-【BIGO】BIGO计算机视觉一面凉经8.30 https://www.nowcoder.com/discuss/239639 
-【哔哩哔哩】b站算法凉经 https://www.nowcoder.com/discuss/239826 
-【百度，有道，腾讯】一些算法面经（百度，有道，腾讯） https://www.nowcoder.com/discuss/240136 
-【海康】海康威视面经 https://www.nowcoder.com/discuss/239336 
-【京东】京东算法一面凉经 https://www.nowcoder.com/discuss/241230 
-【字节跳动】字节跳动 ai lab cv工程师 https://www.nowcoder.com/discuss/239350 
-【字节跳动】字节跳动三面（凉） https://www.nowcoder.com/discuss/241121 
-【360】360算法岗面经 https://www.nowcoder.com/discuss/238749 
-【360】360商业化广告8.28面经 https://www.nowcoder.com/discuss/238403 
-【BIGO】bigo NLP算法工程师面试贴 https://www.nowcoder.com/discuss/238781 
-【虹软】虹软-视觉算法-面经 https://www.nowcoder.com/discuss/238556 
-【云从科技】云从科技-机器学习岗-2技术面+1hr面 https://www.nowcoder.com/discuss/238351 
-【字节跳动】还愿，顺便附上头条面筋 https://www.nowcoder.com/discuss/238718 
-【滴滴】滴滴算法面经 https://www.nowcoder.com/discuss/237408 
-【阿里】面试体验极其难受的阿里算法岗面经 https://www.nowcoder.com/discuss/237667 
-【拼多多】拼多多武汉开奖了（NLP面经） https://www.nowcoder.com/discuss/237513 
-【百度、滴滴、阿里】互联网公司算法面经（希望给大家提供一点帮助） https://www.nowcoder.com/discuss/236441 
-【京东】京东 面经cv方向 https://www.nowcoder.com/discuss/235437 
-【小米】小米搜索算法转正面试 https://www.nowcoder.com/discuss/235165 
-【字节跳动】字节跳动 头条 算法 面经 已拿offer意向书 https://www.nowcoder.com/discuss/235500 
-【作业帮】作业帮1,2,3面面经（不包含hr面） https://www.nowcoder.com/discuss/235791 
-【360】360机器学习工程师面经 https://www.nowcoder.com/discuss/234803 
-【小米】小米-机器学习算法工程师-一面面经 https://www.nowcoder.com/discuss/234961 
-【360】360 搜索广告算法工程师一面凉经 https://www.nowcoder.com/discuss/234108 
-【华为】华为 人工智能 面经 https://www.nowcoder.com/discuss/233633 
-【拼多多】拼多多算法 一 二面经 https://www.nowcoder.com/discuss/233828 
-【百度、网易】【百度】三面+【网易】二面 算法面经 https://www.nowcoder.com/discuss/231327 
-【华为】华为面经 粤港澳地区优招 https://www.nowcoder.com/discuss/232187 
-【深信服】【深信服算法工程师一面-复盘】-希望能有二面 https://www.nowcoder.com/discuss/232192 
-【有钻】有赞算法面经 https://www.nowcoder.com/discuss/232844 
-【字节跳动、蘑菇街】字节跳动，蘑菇街凉面 https://www.nowcoder.com/discuss/23***8 
-【寒武纪、作业帮、百度、腾讯、拼多多、蘑菇街】算法工程师面经+少量后端内容 2019年8月 BAT面经都有 https://www.nowcoder.com/discuss/231656 
-【地平线】2020地平线提前批算法面经（凉经） https://www.nowcoder.com/discuss/230211 
-【旷视科技】旷视2020校招-提前批-算法面经 https://www.nowcoder.com/discuss/229537 
-【猿辅导】猿辅导 计算机视觉算法岗一面面经（发面精，攒人品） https://www.nowcoder.com/discuss/229500 
-【作业帮、腾讯】作业帮NLP面试+腾讯NLP面试 https://www.nowcoder.com/discuss/230234 
-【百度】百度搜索岗视频内容搜索算法一面二面面试记录 https://www.nowcoder.com/discuss/228452 
-【贝壳】贝壳 算法凉经 https://www.nowcoder.com/discuss/228774 
-【阿里】阿里 机器学习算法岗 一面 https://www.nowcoder.com/discuss/228866 
-【欢聚时代】欢聚时代二面整体GG，但貌似还有第三面 https://www.nowcoder.com/discuss/228449 
-【美团】20届秋招美团算法凉经 https://www.nowcoder.com/discuss/228890 
-【星环科技】星环科技NLP电话面试 https://www.nowcoder.com/discuss/228772 
-【云从科技】2020提前批云从面经 https://www.nowcoder.com/discuss/229326 
-【云从科技】计算机视觉面经之云从科技(offer) https://www.nowcoder.com/discuss/229031 
-【云从科技】计算机视觉面经之tplink(offer) https://www.nowcoder.com/discuss/229028 
-【追一科技】追一科技一二面凉凉经 算法 对抗样本 https://www.nowcoder.com/discuss/228765 
-【字节跳动】字节跳动-ailab-视觉算法面经 https://www.nowcoder.com/discuss/229358 
-【百度】百度 深度学习平台部 凉经 https://www.nowcoder.com/discuss/227906 
-【美团】美团机器学习一面面经 https://www.nowcoder.com/discuss/228061 
-【浦发】浦发面经-上海 https://www.nowcoder.com/discuss/227818 
-【商汤科技】【面试】商汤科技 - CV研究员 https://www.nowcoder.com/discuss/227554 
-【深信服】深信服一面面经 https://www.nowcoder.com/discuss/228067 
-【腾讯】腾讯后台一面面(liang)经 https://www.nowcoder.com/discuss/227601 
-【网易】网易云音乐面经？？？ https://www.nowcoder.com/discuss/227605 
-【网易】网易游戏互娱，人工智能岗(Cv方向)一面面经 https://www.nowcoder.com/discuss/227344 
-【云从科技】云从上海计算机视觉面经 https://www.nowcoder.com/discuss/228102 
-【云从科技】云从科技-计算机视觉算法工程师-面经 https://www.nowcoder.com/discuss/227716 
-【追一科技】追一科技 知识图谱算法岗 凉经 https://www.nowcoder.com/discuss/227904 
-【追一科技】追一 NLP凉经 https://www.nowcoder.com/discuss/227752 
-【字节跳动】字节跳动算法岗一二面面经 https://www.nowcoder.com/discuss/227743 
-【作业帮】作业帮NLP面经 https://www.nowcoder.com/discuss/227552 
-【地平线】地平线面经 https://www.nowcoder.com/discuss/226965 
-【拼多多】拼多多 2020.08.17 算法岗面经 https://www.nowcoder.com/discuss/226906 
-【字节跳动】字节跳动算法工程师岗一二三面经 https://www.nowcoder.com/discuss/226960 
-【百度】百度提前批机器学习算法二面面经 https://www.nowcoder.com/discuss/226065 
-【百度,字节跳动,美团】秋招上岸，回馈牛友一波面经 https://www.nowcoder.com/discuss/226526 
-【阿里】阿里一面 https://www.nowcoder.com/discuss/225972 
-【海康】8月17 20:30 海康威视 算法一面凉经 34分钟 https://www.nowcoder.com/discuss/226298 
-【虎牙】虎牙多媒体算法视频一面 https://www.nowcoder.com/discuss/225339 
-【拼多多】拼多多图像算法凉经 https://www.nowcoder.com/discuss/225968 
-【深信服】2020深信服提前批面经（凉经） https://www.nowcoder.com/discuss/226440 
-【网易】网易云机器学习一面36min https://www.nowcoder.com/discuss/225454 
-【依图科技】依图科技-算法-计算机视觉【面经】 https://www.nowcoder.com/discuss/225571 
-【优酷】阿里优酷机器学习岗位一面面经，虽然希望不要凉，但是估计已凉 https://www.nowcoder.com/discuss/225737 
-【猿辅导】猿辅导二面面经 https://www.nowcoder.com/discuss/225338 
-【字节跳动】字节跳动算法二面凉经 https://www.nowcoder.com/discuss/226706 
-【字节跳动】字节二面凉经 https://www.nowcoder.com/discuss/226657 
-【字节跳动】字节跳动面试一面凉凉 https://www.nowcoder.com/discuss/226622 
-【字节跳动】字节跳动算法岗一面凉经 https://www.nowcoder.com/discuss/226619 
-【作业帮】2020作业帮提前批面经（凉经） https://www.nowcoder.com/discuss/226439 
-【大华】浙江大华凉凉凉面经，我不配学算法 https://www.nowcoder.com/discuss/224604 
-【华为】华为，愉快的面经 https://www.nowcoder.com/discuss/224977 
-【拼多多】PDD图像算法一面凉经 https://www.nowcoder.com/discuss/224360 
-【依图科技】依图科技SP专场算法岗面经 https://www.nowcoder.com/discuss/224757 
-【阿里】阿里云机器学习岗一面面经 https://www.nowcoder.com/discuss/223799 
-【蘑菇街】蘑菇街算法一面 https://www.nowcoder.com/discuss/222765 
-【拼多多】拼多多一面 https://www.nowcoder.com/discuss/222772 
-【腾讯】腾讯 一面 面经 https://www.nowcoder.com/discuss/222541 
-【依图】依图 算法 二面凉经 https://www.nowcoder.com/discuss/222710 
-【猿辅导】猿辅导算法一面面经 https://www.nowcoder.com/discuss/222638 
-【京东】【面经】京东零售 - 搜索与推荐平台部 - 算法岗 https://www.nowcoder.com/discuss/221822 
-【旷视科技】旷视提前批（算法研究员，3轮技面+HR面+终面） https://www.nowcoder.com/discuss/222073 
-【美团】美团机器学习视频面试一面面经(提前批) https://www.nowcoder.com/discuss/222018 
-【阿里】阿里大文娱算法一面凉经 https://www.nowcoder.com/discuss/221185 
-【猿辅导】猿辅导算法岗一面凉经 https://www.nowcoder.com/discuss/221479 
-【Shopee】shopee 一二面经 https://www.nowcoder.com/discuss/220443 
-【滴滴】滴滴出行 提前批SP专场 算法工程师 三面面经 https://www.nowcoder.com/discuss/220938 
-【格力】格力人工智能岗位提前批电话面试 https://www.nowcoder.com/discuss/219493 
-【京东】京东 提前批 推荐与搜索平台 算法三面 面经 https://www.nowcoder.com/discuss/219957 
-【科大讯飞】科大讯飞AI研究院内推一面凉经 https://www.nowcoder.com/discuss/219638 
-【旷视】旷视面经 https://www.nowcoder.com/discuss/221103 
-【旷视科技】旷视slam岗秋招面经 https://www.nowcoder.com/discuss/219601 
-【旷视科技】旷视提前批算法面经（3技术面+1交叉技术面+hr面+终面） https://www.nowcoder.com/discuss/220004 
-【拼多多】拼多多算法一面面经 https://www.nowcoder.com/discuss/220011 
-【拼多多】拼多多 提前批算法岗 南京现场面三轮面经！！！ https://www.nowcoder.com/discuss/220591 
-【拼多多】拼多多学霸批 算法工程师面经 https://www.nowcoder.com/discuss/220587 
-【拼多多】武汉拼多多算法工程师面经 https://www.nowcoder.com/discuss/220959 
-【拼多多】拼多多武汉现场面经 https://www.nowcoder.com/discuss/220921 
-【腾讯】腾讯一面来了。 https://www.nowcoder.com/discuss/220529 
-【猿辅导】【猿辅导】深度学习算法工程师-秋招首面-过 https://www.nowcoder.com/discuss/221035 
-【字节跳动】头条提前批算法面经（2技术面+1leader面） https://www.nowcoder.com/discuss/220966 
-【百度】百度推荐技术平台一面凉经 https://www.nowcoder.com/discuss/218722 
-【图森未来】图森未来感知组计算机视觉算法面经 https://www.nowcoder.com/discuss/218937 
-【追一科技】【追一科技】视觉算法二面和CTO面 https://www.nowcoder.com/discuss/218919 
-【字节跳动】头条南京后端上岸 https://www.nowcoder.com/discuss/218650 
-【顺丰科技】顺丰 机器学习一面 https://www.nowcoder.com/discuss/218219 
-【作业帮】【作业帮NLP】成功面筋 https://www.nowcoder.com/discuss/218590 
-【作业帮】作业帮 视觉算法工程师 面经 https://www.nowcoder.com/discuss/218362 
-【作业帮】作业帮 机器学习算法面经 https://www.nowcoder.com/discuss/218216 
-【OPPO】扔出面经求offer https://www.nowcoder.com/discuss/217402 
-【百度】百度提前批NLP算法三面面经 https://www.nowcoder.com/discuss/217396 
-【欢聚时代】欢聚时代-视频编解码算法工程师（一面） https://www.nowcoder.com/discuss/217204 
-【快手】快手2020届提前批面经--推荐算法工程师 https://www.nowcoder.com/discuss/217487 
-【诺瓦】诺瓦软件开发SP专场凉经 https://www.nowcoder.com/discuss/217753 
-【拼多多】拼多多学霸批NLP面经 https://www.nowcoder.com/discuss/217515 
-【追一科技】追一科技机器学习算法工程师面经 https://www.nowcoder.com/discuss/217585 
-【字节跳动】收到头条意向书，分享一点面经 https://www.nowcoder.com/discuss/217326 
-【阿里】阿里 达摩院 cv 算法 面经 https://www.nowcoder.com/discuss/216797 
-【拼多多】拼多多提前批算法工程师面经 https://www.nowcoder.com/discuss/216469 
-【字节跳动】字节跳动ailab面经 https://www.nowcoder.com/discuss/216993 
-【字节跳动】字节跳动 算法 已拿意向书 https://www.nowcoder.com/discuss/216672 
-【阿里、百度、京东】20校招AI算法岗（目前阿里+百度+京东offer）持续更新 https://www.nowcoder.com/discuss/216117 
-【寒武纪】寒武纪深度学习三面面经 https://www.nowcoder.com/discuss/216007 
-【欢聚时代】欢聚时代机器学习算法工程师一面 https://www.nowcoder.com/discuss/215792 
-【京东】京东广告部 一面面经 https://www.nowcoder.com/discuss/215667 
-【拼多多】拼多多提前批算法工程师面经 https://www.nowcoder.com/discuss/216469 
-【依图、旷视】[面经] 依图-旷视cv算法面经 https://www.nowcoder.com/discuss/215800 
-【优酷】阿里优酷算法工程师电话一面面经 https://www.nowcoder.com/discuss/215907 
-【云从科技】云从机器学习面经 https://www.nowcoder.com/discuss/215651 
-【字节跳动】字节跳动算法岗提前批面经 https://www.nowcoder.com/discuss/215883 
-【字节跳动】字节跳动提前批ailab面经 https://www.nowcoder.com/discuss/215858 
-【作业帮】作业帮CV一面 https://www.nowcoder.com/discuss/215679 
-【作业帮】作业帮一面凉经 https://www.nowcoder.com/discuss/216131 
-【作业帮】作业帮nlp面经 https://www.nowcoder.com/discuss/215140 
-【快手】快手提前批 商业化部门三面 机器学习算法 广告算法 面经 https://www.nowcoder.com/discuss/213940 
-【腾讯】腾讯CDG社交广告一面头条Data四面 面经 https://www.nowcoder.com/discuss/213960 
-【作业帮】作业帮一面 https://www.nowcoder.com/discuss/214657 
-【北京智云视图】北京智云视图算法工程师面试经历 https://www.nowcoder.com/discuss/213750 
-【顺丰】顺丰科技视觉算法岗面经 https://www.nowcoder.com/discuss/213290 
-【顺丰】顺丰视频面经——视觉算法 https://www.nowcoder.com/discuss/213283 
-【顺丰】顺丰 运筹优化算法工程师 一面经 https://www.nowcoder.com/discuss/213263 
-【顺丰】顺丰科技人工智能机器学习算法视频面经 https://www.nowcoder.com/discuss/213259 
-【顺丰】顺丰科技人工智能机器学习算法视频面经 https://www.nowcoder.com/discuss/213820 
-【顺丰】AI&机器学习突击面试【顺丰科技】 https://www.nowcoder.com/discuss/213816 
-【字节跳动】头条算法提前批三面面经 https://www.nowcoder.com/discuss/213671 
-【字节跳动】字节跳动AI lab 三面记录 https://www.nowcoder.com/discuss/213726 
-【百度】百度 推荐技术平台 算法 凉经 https://www.nowcoder.com/discuss/212861 
-【字节跳动】字节跳动，二面问题 https://www.nowcoder.com/discuss/212922 
-【字节跳动】字节跳动，提前批一面问题 https://www.nowcoder.com/discuss/212913 
-【巨人网络】巨人网络-算法岗-一面 https://www.nowcoder.com/discuss/212554 
-【字节跳动】还愿，收到字节跳动提前批算法岗offer了 https://www.nowcoder.com/discuss/212439 
-【字节跳动】回馈牛客，字节算法三面许愿求offer https://www.nowcoder.com/discuss/211763 
-【作业帮】深夜-作业帮NLP凉面 https://www.nowcoder.com/discuss/211426 
-【作业帮】作业帮_北京_算法岗_sp https://www.nowcoder.com/discuss/212220 
-【百度】百度凤巢广告算法提前批三面面经 https://www.nowcoder.com/discuss/211954 
-【图森】图森_北京_感知算法研究员_技术面 https://www.nowcoder.com/discuss/211262 
-【中兴】中兴_南京_计算机视觉算法_技术面 https://www.nowcoder.com/discuss/211261 
-【追一科技】追一科技_深圳_视觉算法工程师面经 https://www.nowcoder.com/discuss/211258 
-【字节跳动】深圳抖音图像图形算法三面面经(已获意向书) https://www.nowcoder.com/discuss/211382 
-【字节跳动】字节AiLab CV 面经，感觉凉透了 https://www.nowcoder.com/discuss/211352 
-【字节跳动】字节跳动 AILab 二面记录 https://www.nowcoder.com/discuss/211174 
-【作业帮】作业帮 机器学习算法 面经 https://www.nowcoder.com/discuss/211326 
-【乐鑫】乐鑫通信算法一面hr面面经 https://www.nowcoder.com/discuss/210961 
-【字节跳动】字节跳动提前批后端，刚拿意向书，分享一下面经 https://www.nowcoder.com/discuss/210872 
-【字节跳动】字节跳动计算机视觉算法面经 https://www.nowcoder.com/discuss/210829 
-【百度】百度提前批算法岗四小时面试记录 https://www.nowcoder.com/discuss/210313 
-【百度】百度nlp一面 https://www.nowcoder.com/discuss/210299 
-【阿里】阿里文娱提前批 视觉算法岗 https://www.nowcoder.com/discuss/209671 
-【科大讯飞】【科大讯飞】计算机视觉一面面经 https://www.nowcoder.com/discuss/210056 
-【快手】0723快手 Openday社区科学部 算法工程师面经 https://www.nowcoder.com/discuss/210333 
-【旷视科技】旷视算法研究员一面凉经 https://www.nowcoder.com/discuss/210569 
-【商汤科技】商汤20校招CV算法研究员面经【三面+HR面】 https://www.nowcoder.com/discuss/209857 
-【依图】依图一面 https://www.nowcoder.com/discuss/210550 
-【追一科技】【追一科技】视觉算法一面凉经 https://www.nowcoder.com/discuss/210063 
-【字节跳动】[字节跳动/头条] 算法提前批三轮面经，前来回馈广大牛油们 https://www.nowcoder.com/discuss/210036 
-【字节跳动】字节跳动2020届提前批 AI Lab cv 三面视频面 https://www.nowcoder.com/discuss/210508 
-【OPPO】OPPO西安 机器学习凉凉经 https://www.nowcoder.com/discuss/206792 
-【戴尔】Dell EMC数据保护部门实习生面试 https://www.nowcoder.com/discuss/207579 
-【多益网络】多益面试（人工智能） https://www.nowcoder.com/discuss/208550 
-【多益网络】多益算法奇经 https://www.nowcoder.com/discuss/209251 
-【阿里】阿里大文娱 机器学习面经 https://www.nowcoder.com/discuss/209171 
-【阿里】阿里一面 https://www.nowcoder.com/discuss/209000 
-【阿里】阿里算法面经 https://www.nowcoder.com/discuss/209306 
-【图森】2-图森未来@Beijing 凉经-攒人品 https://www.nowcoder.com/discuss/208586 
-【字节跳动】字节跳动 图像图像一面面经 https://www.nowcoder.com/discuss/207221 
-【字节跳动】字节跳动算法岗三面面经 https://www.nowcoder.com/discuss/207105 
-【字节跳动】字节跳动提前批算法工程师面经 https://www.nowcoder.com/discuss/207092 
-【字节跳动】OPPO视频面（NLP算法），凉经 https://www.nowcoder.com/discuss/206740 
-【字节跳动】头条抖音互娱-图形图像一二三面 https://www.nowcoder.com/discuss/207369 
-【字节跳动】字节跳动头条研发算法一面 https://www.nowcoder.com/discuss/207317 
-【字节跳动】算法岗提前批凉经【字节跳动+京东】 https://www.nowcoder.com/discuss/207287 
-【字节跳动】字节跳动一面凉经！ https://www.nowcoder.com/discuss/207749 
-【字节跳动】头条 机器学习算法一面 https://www.nowcoder.com/discuss/207712 
-【字节跳动】头条AILab一面面经 https://www.nowcoder.com/discuss/208289 
-【字节跳动】头条后台二面面经 https://www.nowcoder.com/discuss/208881 
-【字节跳动】字节跳动算法工程师面经+个人疑问 https://www.nowcoder.com/discuss/209478 
-【作业帮】作业帮一面，二面。估计二面已凉 https://www.nowcoder.com/discuss/208777 
-【作业帮】两次作业帮凉经 https://www.nowcoder.com/discuss/208481 
-【作业帮】作业帮nlp面经 https://www.nowcoder.com/discuss/208986 
-【京东】京东提前批算法工程师电面面经 https://www.nowcoder.com/discuss/206186 
-【字节跳动】字节跳动 AILab提前批算法工程师面经(已收到offer) https://www.nowcoder.com/discuss/206226 
-【字节跳动】字节跳动CV算法一面凉经 https://www.nowcoder.com/discuss/206593 
-【字节跳动】今日头条 多媒体开发(视频架构)面经 https://www.nowcoder.com/discuss/206578 
-【OPPO】oppo提前批 机器学习 一面凉经 https://www.nowcoder.com/discuss/205699 
-【OPPO】oppo提前批机器学习岗面经 https://www.nowcoder.com/discuss/205955 
-【OPPO】成都oppo机器学习算法工程师面经 https://www.nowcoder.com/discuss/205841 
-【OPPO】OPPO 视觉算法一二三面 https://www.nowcoder.com/discuss/205472 
-【OPPO】OPPO--提前批--机器学习--面经 https://www.nowcoder.com/discuss/205467 
-【多益网络】多益网络-人工智能岗面试 https://www.nowcoder.com/discuss/205848 
-【字节跳动】【字节跳动算法岗提前批1+2视频面】趁热分享 https://www.nowcoder.com/discuss/205964 
-【字节跳动】头条图形图像一面面筋 https://www.nowcoder.com/discuss/205864 
-【字节跳动】字节跳动ai lab cv算法面经（我来反馈攒人品了） https://www.nowcoder.com/discuss/205843 
-【字节跳动】字节跳动 Data 算法工程师 广告/AML 提前批3面面经 https://www.nowcoder.com/discuss/205736 
-【字节跳动、百度、京东、滴滴、】菜鸡总结暑期实习求职经历（附部分面经 https://www.nowcoder.com/discuss/205718 
-【字节跳动】说说自己的字节跳动EE部门一面凉经，以及面试官给我的三连击！ https://www.nowcoder.com/discuss/206106 
-【腾讯】腾讯光子技术中心 日常实习CV方向面筋 https://www.nowcoder.com/discuss/206089 
-【字节跳动】头条算法最新凉经 https://www.nowcoder.com/discuss/206065 
-【字节跳动】【字节跳动算法岗提前批1+2视频面】趁热分享 https://www.nowcoder.com/discuss/205964 
-【OPPO】oppo提前批机器学习岗面经 https://www.nowcoder.com/discuss/205955 
-【Tplink】2020届视觉算法菜鸡的秋招求职之路(面经，持续更新) https://www.nowcoder.com/discuss/205231 
-【百度】2019.7.5百度生态搜索质量部 提前批 面试题回忆 https://www.nowcoder.com/discuss/203473 
-【百度】百度搜索部提前批一面 https://www.nowcoder.com/discuss/204597 
-【多益网络】多益网络面经 https://www.nowcoder.com/discuss/204628 
-【多益网络】多益面经（人工智能） https://www.nowcoder.com/discuss/205251 
-【多益网络】多益网络，2019年人工智能与大数据研发岗位面试 https://www.nowcoder.com/discuss/204993 
-【阿里】阿里NLP面经 https://www.nowcoder.com/discuss/205021 
-【映客直播】已拿提前批offer 映客笔经加面经 https://www.nowcoder.com/discuss/204240 
-【中兴】中兴通讯2020届校园招聘提前批面经（算法工程师） https://www.nowcoder.com/discuss/203584 
-【字节跳动】记一次十分惨烈的头条一面 https://www.nowcoder.com/discuss/203454 
-【字节跳动】头条机器学习算法岗面试记录 https://www.nowcoder.com/discuss/205260 
-投资拓展岗
-【保利】保利发展-投资拓展岗-校招经验分享 https://www.nowcoder.com/discuss/351495 
-【华发】华发股份投资拓展岗校招面经 https://www.nowcoder.com/discuss/351516
 
 ---
 
@@ -2338,6 +1803,14 @@ rt，有面完商汤三面的吗？求经验，似乎是部门组长来面试（
  四面（45分钟） 
 
  介绍实习项目，问目标检测的回归loss是什么，为什么这么用 介绍论文相关 softmax+celoss工程上如何防止上下 溢出 SGD 使用mini batch优化和使用所有优化样本优化哪个更好，为什么 [offer+1][大厂offer][心想事成]
+
+---
+
+## 收到了商汤算法工程师的二面通知，求面经，求保佑求过^_^_^
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2019-09-03 ｜ [原文链接](https://www.nowcoder.com/discuss/353155351954530304)
+
+如题
 
 ---
 

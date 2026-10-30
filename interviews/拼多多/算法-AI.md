@@ -1,6 +1,6 @@
 # 拼多多 · 算法/AI
 
-> 共 **40** 条 ｜ [返回总目录](../../README.md)
+> 共 **44** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -2421,6 +2421,342 @@ AUC
 
 ---
 
+## 拼多多 算法 一面 面经
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2020-09-05 ｜ [原文链接](https://www.nowcoder.com/discuss/353156904694259712)
+
+一小时左右 
+
+ 
+ 
+
+ 1. 上来先扣算法题，给两个字符串s1和s2，将其表示为二叉树，问s2是否能由s1进行任意多次交换任意节点的左右子节点得到。s1，s2的二叉树分查不限。 
+
+ 写了个递归，实际上就是二分判断，然后优化了下，问了复杂度和平均递归深度。前前后后搞了半小时左右。 
+
+ 
+ 
+
+ 2. 问论文。 
+
+ 3. 问实习。 
+
+ 4. 问了下rcnn yolo啥的，因为不做目标检测所以不太会。 
+
+ 
+ 
+
+ 反问： 
+
+ pdd的算法做啥（图片搜索等） 
+
+ pdd上班时间（11.11.6，周末加班工资）
+
+---
+
+## 2020拼多多校招面经汇总贴
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2020-08-22 ｜ [原文链接](https://www.nowcoder.com/discuss/353156809810714624)
+
+拼多多校招
+
+ 为了方便今年校招的同学，收录了对2019年 & 2020年提前批拼多多校招的帖子。
+
+ 一般情况，技术岗多多是两轮技术面+HR面，不排除加面的可能。
+
+ 加面可能是因为：
+
+ ①前面面试比较有缺陷，在考虑要不要收，重新多面一轮。
+
+ ②前面面试比较优秀，加面来验证sp。
+
+ 【就个人经验，一般来说，后一种情况出现的可能性更大。】
+
+ 祝大家都能拿到好的offer。
+
+ 面经汇总
+
+ 【美团、拼多多、网易、华为、海康、字节跳动、360、旷视、远景、百度、阿里】非科班硕士转行互联网的秋招之路 https://www.nowcoder.com/discuss/351093 
+【拼多多、腾讯、百度、字节跳动】秋招总结(拼多多，腾讯，百度，字节) https://www.nowcoder.com/discuss/330264 
+【拼多多、腾讯】C++开发工程师面试题大合集（拼多多、腾讯） https://www.nowcoder.com/discuss/326720 
+【拼多多】拼多多一面视频面 https://www.nowcoder.com/discuss/314370 
+【拼多多】拼多多服务发端c++面经 10.12 https://www.nowcoder.com/discuss/304113 
+【拼多多、字节跳动、华为、网易互娱、360、依图面经】秋招总结及面经，回馈牛友，祝大家早日上岸 https://www.nowcoder.com/discuss/273803 
+【拼多多】拼多多远程一面二面hr面（攒人品，求offer） https://www.nowcoder.com/discuss/243143 
+【拼多多】8.3 拼多多 学霸批 已收到录取意向书 https://www.nowcoder.com/discuss/236126 
+【拼多多】拼多多学霸批二面凉经 https://www.nowcoder.com/discuss/229459 
+【拼多多】拼多多C++过的多吗 https://www.nowcoder.com/discuss/227280 
+【拼多多】拼多多PDD服务端开发二面 https://www.nowcoder.com/discuss/225813 
+【拼多多】拼多多学霸批服务端研发C++一面面经 https://www.nowcoder.com/discuss/224420 
+【拼多多】拼多多学霸批服务端开发一面凉经 https://www.nowcoder.com/discuss/222776 
+【拼多多】武汉拼多多服务端研发方向面经 https://www.nowcoder.com/discuss/220808 
+【拼多多】拼多多服务端研发工程师面经（C++方向） https://www.nowcoder.com/discuss/217106 
+【拼多多】拼多多服务端研发工程师面经（C++方向） https://www.nowcoder.com/discuss/217106 
+【蚂蚁金服、拼多多、字节】2019年蚂蚁金服、拼多多、字节社招面经Java岗 https://www.nowcoder.com/discuss/345694 
+【阿里、微软、字节跳动、依图、拼多多】记近三个月面试的经历（上海某日企两年经验 社招） https://www.nowcoder.com/discuss/345047 
+【字节跳动、拼多多】2019秋招历程，累，且累着。 https://www.nowcoder.com/discuss/344286 
+【美团、华为、百度、拼多多、祖龙娱乐】别让时间破碎了梦想，遇见未来不可思议的自己——秋招总结 https://www.nowcoder.com/discuss/331574 
+【字节跳动、阿里、腾讯、拼多多、晨星、BIGO、海康、哔哩哔哩、星环、有道、网易互娱、深信服、依图、招银】面经+知识点+总结（2019.11） https://www.nowcoder.com/discuss/333012 
+【拼多多】拼多多 社招 java 一面面经 https://www.nowcoder.com/discuss/326871 
+【百度、腾讯、阿里、b站、拼多多、新浪、滴滴、爱奇艺、美团、京东、快手、陌陌、网易互联网、哈啰、猫眼、zoom、ThoughtWorks、Airbnb、IBM、Amazon、Moody's（穆迪）、电信云计算、浙商银行、招商银行（西安分行）、招行卡中心、招银网络、浦发银行、农行、银联、大疆、OPPO、顺丰、华为】个人秋招总结，附面经和私货（互联网、外企、银行） https://www.nowcoder.com/discuss/304038 
+【海康、携程、拼多多、顺丰、招银、穆迪科技】秋招Java面经 https://www.nowcoder.com/discuss/292497 
+【OPPO，字节跳动，网易云音乐，拼多多，百度，腾讯，华为，阿里】个人秋招总结，附面经。 https://www.nowcoder.com/discuss/278689 
+【拼多多】拼多多-寻梦计划-服务端-三次面试面经 https://www.nowcoder.com/discuss/274292 
+【拼多多】拼多多一面面经，秋招求offer! https://www.nowcoder.com/discuss/257205 
+【阿里，雷火，网易，拼多多】分享一些面经，及offer选择 https://www.nowcoder.com/discuss/244034 
+【拼多多】拼多多学霸批java一面、二面面经 https://www.nowcoder.com/discuss/235130 
+【拼多多多】拼多多三面面经，在线卑微 https://www.nowcoder.com/discuss/234130 
+【拼多多】拼多多服务端开发 https://www.nowcoder.com/discuss/229699 
+【拼多多】拼多多服务器开发二面，求求保佑过吧 https://www.nowcoder.com/discuss/229548 
+【拼多多】2020拼多多学霸批客户端开发岗面经 https://www.nowcoder.com/discuss/225694 
+【拼多多】拼多多服务端一二面 https://www.nowcoder.com/discuss/224651 
+【拼多多】PDD远程Java一面面经，积德积德 https://www.nowcoder.com/discuss/219666 
+【拼多多】拼多多服务端二面凉经 https://www.nowcoder.com/discuss/219486 
+【拼多多】拼多多学霸批服务端研发工程师面经 https://www.nowcoder.com/discuss/219391 
+【拼多多】拼多多Android一面做梦计划1h https://www.nowcoder.com/discuss/261784 
+【字节跳动、腾讯、阿里、顺丰、拼多多】会者定离 一期一祈 秋招再见 留下面试体验感谢牛客~~ https://www.nowcoder.com/discuss/296258 
+【拼多多】PDD寻梦批服务端面经 已收offercall 回馈社区 https://www.nowcoder.com/discuss/266139 
+【百度、阿里、腾讯、头条、美团、拼多多、有赞】写给想要入坑产品的同学 https://www.nowcoder.com/discuss/347940 
+【拼多多】拼多多社招增长产品经理面经 https://www.nowcoder.com/discuss/330146 
+【拼多多】前来还愿，拼多多产品上岸了（附带面经 https://www.nowcoder.com/discuss/314092 
+【拼多多】2020拼多多非技术面试 https://www.nowcoder.com/discuss/316861 
+【拼多多】拼多多单面面经 https://www.nowcoder.com/discuss/307041 
+【拼多多】拼多多产品面试体验-上海场 https://www.nowcoder.com/discuss/305436 
+【拼多多】拼多多长沙站产品岗一面凉经 https://www.nowcoder.com/discuss/283926 
+【拼多多】许愿男票pdd offer！(内附本小菜鸟的产品面经) https://www.nowcoder.com/discuss/273229 
+【拼多多】拼多多大数据研发面筋，发面筋攒人品求OC https://www.nowcoder.com/discuss/274366 
+【拼多多】PDD寻梦批服务端面经 已收offercall 回馈社区 https://www.nowcoder.com/discuss/266139 
+【拼多多】拼多多学霸批服务端面经+上岸记录 https://www.nowcoder.com/discuss/253011 
+【拼多多】武汉PDD开奖（服务端） https://www.nowcoder.com/discuss/237597 
+【拼多多】拼多多武汉场服务端开发二面凉经 https://www.nowcoder.com/discuss/220606 
+【拼多多】拼多多-服务端-上海现场面 3面凉经 https://www.nowcoder.com/discuss/216373 
+【拼多多】拼多多运营管培 第一次面经 希望有好运🙏🏻🙏🏻 https://www.nowcoder.com/discuss/316621 
+【腾讯、拼多多、滴滴出行、vivo】还愿牛客网！附腾讯、拼多多、滴滴面经 https://www.nowcoder.com/discuss/334682 
+【拼多多、快手】秋招复盘：希望有offer啊啊啊！ https://www.nowcoder.com/discuss/316728 
+【拼多多】拼多多前端面经 https://www.nowcoder.com/discuss/331611 
+【拼多多、酷家乐】秋招一把辛酸泪 https://www.nowcoder.com/discuss/331584 
+【拼多多】拼多多前端一面凉经（微信视频+在线ide） https://www.nowcoder.com/discuss/307932 
+【猫眼、拼多多、达观数据、英语流利说、达达、天壤智能、拍拍贷、米哈游、哔哩哔哩、阅文】两年半前端社招面经 https://www.nowcoder.com/discuss/306949 
+【阿里、腾讯、头条、拼多多、360、依图】Web前端面经 - 详细整理 https://www.nowcoder.com/discuss/296979 
+【网易、阿里、涂鸦科技、拼多多、蘑菇街、作业帮、字节跳动、京东、美团、腾讯、快手、小米】我的秋招算是结束了！ https://www.nowcoder.com/discuss/271323 
+【拼多多】拼多多前端感恩回馈 https://www.nowcoder.com/discuss/257575 
+【拼多多、蘑菇街、字节跳动】回馈牛友 面筋来了 https://www.nowcoder.com/discuss/239696 
+【拼多多】拼多多前端提前批二面凉凉 https://www.nowcoder.com/discuss/231017 
+【拼多多】拼多多 前端 一面面经 https://www.nowcoder.com/discuss/230495 
+【拼多多】pdd前端一面凉经 https://www.nowcoder.com/discuss/229361 
+【拼多多】拼多多一面 https://www.nowcoder.com/discuss/226855 
+【拼多多】武汉拼多多前端提前批一二面加hr面面经，凉凉 https://www.nowcoder.com/discuss/220490 
+【拼多多】拼多多2019提前批前端一面面经 https://www.nowcoder.com/discuss/218895 
+【拼多多】拼多多前端提前批一面(电话远程笔试)被榨干了真的一滴都没有了 https://www.nowcoder.com/discuss/218488 
+【拼多多】拼多多 前端 一面 2020提前批 https://www.nowcoder.com/discuss/218153 
+【拼多多】拼多多前端提前批一面面经秋招首战 https://www.nowcoder.com/discuss/215245 
+【字节跳动，拼多多，oppo,美团，网易】秋招面经汇总：头条，拼多多，oppo,美团，网易 https://www.nowcoder.com/discuss/290722 
+【阿里、腾讯、美团、拼多多、华为、网易游戏、滴滴、网易严选、小米、京东】面经分享 数据开发/数据研发/数据分析 https://www.nowcoder.com/discuss/338699 
+【美团、经纬恒润、拼多多、京东、浦发】数据分析菜鸡的秋招终于上岸了 https://www.nowcoder.com/discuss/336061 
+【美团、小米、阿里、网易、字节、顺丰】2020秋招数据分析面经--阿里字节美团拼多多网易等 https://www.nowcoder.com/discuss/335280 
+【拼多多】拼多多数据分析面经（提前批） https://www.nowcoder.com/discuss/314968 
+【拼多多、美团、58、滴滴】秋招总结+数据分析面经 https://www.nowcoder.com/discuss/303308 
+【京东，美团，阿里，拼多多，vivo，滴滴】数据分析面经分享（京东，美团，阿里，拼多多，vivo，滴滴） https://www.nowcoder.com/discuss/294592 
+【拼多多】拼多多数据分析一面二面远程 https://www.nowcoder.com/discuss/257689 
+【拼多多】回馈牛客！ 拼多多意向书到手 岗位：数据分析师(学霸批) https://www.nowcoder.com/discuss/255218 
+【拼多多】拼多多 数据分析面经 https://www.nowcoder.com/discuss/250973 
+【拼多多】PDD数分学霸批面筋 https://www.nowcoder.com/discuss/249604 
+【拼多多】拼多多数据分析面经（学霸批） https://www.nowcoder.com/discuss/245997 
+【拼多多】拼多多 数据分析凉面一篇 https://www.nowcoder.com/discuss/235361 
+【拼多多】拼多多数据分析二面凉经 https://www.nowcoder.com/discuss/234342 
+【拼多多】拼多多数据分析师一二面面经，交流 https://www.nowcoder.com/discuss/228882 
+【拼多多】拼多多：一二面 https://www.nowcoder.com/discuss/228722 
+【拼多多】拼多多学霸批数据分析面经 https://www.nowcoder.com/discuss/226925 
+【拼多多】拼多多数据分析 817北京现场面 面经分享 https://www.nowcoder.com/discuss/226713 
+【拼多多】拼多多数据分析师一面面经 https://www.nowcoder.com/discuss/223794 
+【拼多多】拼多多学霸批数据分析师一面凉经 https://www.nowcoder.com/discuss/223753 
+【拼多多】拼多多数据分析远程一面 https://www.nowcoder.com/discuss/223641 
+【拼多多】拼多多 数据分析 远程二面 https://www.nowcoder.com/discuss/22***6 
+【拼多多】拼多多数分远程一面 https://www.nowcoder.com/discuss/222962 
+【拼多多】凉透了的拼多多数据分析二面（牛客再见，回家种田） https://www.nowcoder.com/discuss/222900 
+【拼多多】拼多多数分二面 https://www.nowcoder.com/discuss/222557 
+【拼多多】8.11拼多多数据分析现场面 https://www.nowcoder.com/discuss/221285 
+【拼多多】拼多多 数据分析提前批一面 https://www.nowcoder.com/discuss/219629 
+【拼多多】拼多多 数据分析 远程一面 https://www.nowcoder.com/discuss/219555 
+【拼多多】拼多多数分远程一面 https://www.nowcoder.com/discuss/219494 
+【拼多多】拼多多数据分析一面凉经 https://www.nowcoder.com/discuss/219359 
+【拼多多】拼多多数分一面远程 https://www.nowcoder.com/discuss/218750 
+【拼多多】拼多多学霸批数据分析笔经 https://www.nowcoder.com/discuss/212449 
+【蚂蚁、拼多多、华为、远景、华泰】大数据开发：春招获蚂蚁、拼多多、华为、远景、华泰等offer https://www.nowcoder.com/discuss/240064 
+【百度、华为、拼多多、字节、小米、航天三院】2019秋招总结（算法工程师，非科班） https://www.nowcoder.com/discuss/331793 
+【搜狗、拼多多、猿辅导、贝壳、滴滴、京东、好未来、招行信用卡、华为】秋招结束，算法面经总结帖 https://www.nowcoder.com/discuss/332004 
+【微软、阿里、腾讯、百度、快手、字节跳动、美团、拼多多、京东】微软阿里腾讯百度快手头条美团拼多多京东等面经 https://www.nowcoder.com/discuss/328114 
+【TP_LINK、拼多多、欢聚时代、旷视、美团、字节跳动】回馈牛客，发一波2019算法秋招面经 https://www.nowcoder.com/discuss/313708 
+【拼多多、触宝、字节跳动、快手、阿里、趋势科技、新浪微博、同花顺、VIVO、百度】秋招面试总结 https://www.nowcoder.com/discuss/310079 
+【滴滴】滴滴金融二面面经+拼多多对话一面（NLP） https://www.nowcoder.com/discuss/308182 
+【拼多多】拼多多正式批上海凉经 https://www.nowcoder.com/discuss/303648 
+【字节跳动、百度、依图、拼多多、海康、美团】算法上岸，特别回馈一下牛客上，发一波面经，祝各位前途似锦 https://www.nowcoder.com/discuss/302700 
+【拼多多、腾讯、阿里、科大讯飞、大疆、地平线、追一科技】2020届算法岗秋招已到尾声，在此记录全部历程（有面经） https://www.nowcoder.com/discuss/301668 
+【拼多多】拼多多算法面经 https://www.nowcoder.com/discuss/299369 
+【阿里、OPPO、VIVO、海康、旷视科技、华为、拼多多、依图科技】秋招上岸，经验分享 https://www.nowcoder.com/discuss/293565 
+【拼多多】拼多多算法oc https://www.nowcoder.com/discuss/266617 
+【百度、腾讯、美团、拼多多】百度、腾讯、美团、pdd面经 https://www.nowcoder.com/discuss/256725 
+【拼多多】pdd一面凉经 https://www.nowcoder.com/discuss/255299 
+【拼多多】收到拼多多offer call和意向书，贡献一波面经 https://www.nowcoder.com/discuss/250434 
+【拼多多】拼多多oc + 面经 + 一些感想 https://www.nowcoder.com/discuss/247965 
+【拼多多、依图、云从科技、美团、海康、欢聚时代、百度、追一科技、字节跳动】非科班渣硕秋招面经和总结 https://www.nowcoder.com/discuss/243926 
+【拼多多】pdd开奖 https://www.nowcoder.com/discuss/242325 
+【拼多多】拼多多武汉开奖了（NLP面经） https://www.nowcoder.com/discuss/237513 
+【拼多多】拼多多算法 一 二面经 https://www.nowcoder.com/discuss/233828 
+【寒武纪、作业帮、百度、腾讯、拼多多、蘑菇街】算法工程师面经+少量后端内容 2019年8月 BAT面经都有 https://www.nowcoder.com/discuss/231656 
+【拼多多】拼多多 2020.08.17 算法岗面经 https://www.nowcoder.com/discuss/226906 
+【拼多多】拼多多图像算法凉经 https://www.nowcoder.com/discuss/225968 
+【拼多多】PDD图像算法一面凉经 https://www.nowcoder.com/discuss/224360 
+【拼多多】拼多多一面 https://www.nowcoder.com/discuss/222772 
+【拼多多】拼多多算法一面面经 https://www.nowcoder.com/discuss/220011 
+【拼多多】拼多多 提前批算法岗 南京现场面三轮面经！！！ https://www.nowcoder.com/discuss/220591 
+【拼多多】拼多多学霸批 算法工程师面经 https://www.nowcoder.com/discuss/220587 
+【拼多多】武汉拼多多算法工程师面经 https://www.nowcoder.com/discuss/220959 
+【拼多多】拼多多武汉现场面经 https://www.nowcoder.com/discuss/220921 
+【拼多多】拼多多学霸批NLP面经 https://www.nowcoder.com/discuss/217515 
+【拼多多】拼多多提前批算法工程师面经 https://www.nowcoder.com/discuss/216469 
+【拼多多】拼多多提前批算法工程师面经 https://www.nowcoder.com/discuss/216469 
+【拼多多】拼多多运营oc还愿，附面经 https://www.nowcoder.com/discuss/330087 
+【拼多多】拼多多运营群面+hr面+三轮业务 https://www.nowcoder.com/discuss/317422
+
+---
+
+## 拼多多一面面经
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2020-08-20 ｜ [原文链接](https://www.nowcoder.com/discuss/353156795529109504)
+
+一面
+
+ 
+ 项目
+
+ 
+ 
+ 
+ 怎么构造特征
+ 
+
+ 
+
+ 
+ 
+ 如何选择模型
+ 
+
+ 
+
+ 
+ 
+ 用到哪些框架
+ 
+
+ 
+
+ 
+ 
+ 对深度学习了解吗
+ 
+
+ 
+
+ 
+ 
+ 对nlp相关模型了解吗
+ 
+
+ 
+
+ 
+ 
+ Python：
+
+ 
+ 
+ 
+ for 适用的数据类型
+ 
+
+ 
+
+ 
+ 
+ 深拷贝和浅拷贝，如何操作
+ 
+
+ 
+
+ 
+ 
+ 3.单引号，双引号，三引号的区别
+
+ 
+ SQL
+
+ 
+ 
+ 
+ SQL连接方式的区别
+ 
+
+ 
+
+ 
+ 
+ 主键和索引有什么关系
+ 
+
+ 
+
+ 
+ 
+ 索引的类型
+ 
+
+ 
+
+ 
+ 
+ mysql 底层索引怎么实现的
+ 
+
+ 
+
+ 
+ 
+ sql题
+ 
+
+ 
+
+ 
+ 
+ 表1：userID,age,city
+ 
+
+ 
+
+ 
+ 
+ 表2：userID,pv,orderNum
+ 
+
+ 
+
+ 
+ 
+ Q1, 城市为上海，北京，pv>1000,orderNum <10
+
+ 
+ Q2:在表2增加一个dt（时间，精确到天），还是上述问题
+
+ 
+ Q3：有什么优化方式
+
+ 
+ 反问
+
+---
+
 ## 小白面经 | 拼多多 深度学习算法岗 （附带解析）
 
 来源：掘金 ｜ 类型：面经 ｜ 发布：2020-08-16 ｜ [原文链接](https://juejin.cn/post/6861372372121813000)
@@ -2557,6 +2893,23 @@ AUC
 
  
  许愿还有二面！
+
+---
+
+## offer求比较
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2019-10-21 ｜ [原文链接](https://www.nowcoder.com/discuss/353155774039924736)
+
+拼多多是推荐团队，具体未知，二面面试官是前淘宝四年工作经验跳槽来的，对我印象很好。
+ 快手是社区科学部策略分析组，负责同城短视频和直播的推荐业务。
+ 美团是LBS，地图相关。
+ 京东事广告质量部算法团队。
+ 百度是大商业的原生商业推广部。
+ 微博是视频推荐团队，二面leader对我印象很好，虽然微博视频推荐做的不好，但他说有信心从0.1做到2，明年从2做到10。
+ 蘑菇街是推荐算法团队。leader是知乎大佬吴海波老师。
+ 
+ 
+ 各位大佬推荐小弟去哪里。
 
 ---
 
