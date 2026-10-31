@@ -1,6 +1,6 @@
 # 希音 · 算法/AI
 
-> 共 **4** 条 ｜ [返回总目录](../../README.md)
+> 共 **5** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -613,5 +613,89 @@
  8.谈谈标签平滑吧，它为什么也是一种正则化方式，它遵循的是统计学中的什么假设呢？
 
  我目前大致只记得到这么多了，希望朋友们能够多多补充一些你们在面试过程中的问题，祝大家都能斩获到自己满意的offer，最后再次感谢七月在线为我们提供了这样的一个学习与讨论的平台！
+
+---
+
+## 校招速报6.25|近期30家企业提前批网申汇总
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2021-06-25 ｜ [原文链接](https://www.nowcoder.com/discuss/353158038804701184)
+
+前方预警： 
+
+ 21届 春招 补招，22届秋招、暑期实习的小伙伴们请注意，2021年 秋招及提前批战鼓已经正式敲响了 
+
+ 所以各位需要参加笔试的朋友们一定一定注意：看好自己投递公司的笔试时间！ 
+
+ 另外也要注意多 刷题 库，多看 面经 哟~ 
+
+ 
+ 
+
+ 听说，看 校招速报 又 回帖 的朋友们 
+
+ 面试都会 过过过！offer多多哟 ~[告辞] 
+
+ 网申提醒： 
+
+ 近期已开始网申的企业： 
+
+ 360(即日起)： https://www.nowcoder.com/school/schedule/157 博世(即日起)： https://www.nowcoder.com/school/schedule/1751 众安保险(即日起)： https://www.nowcoder.com/school/schedule/2101 三一重工(即日起)： https://www.nowcoder.com/school/schedule/3023 商汤科技(即日起)： https://www.nowcoder.com/school/schedule/802 诺瓦科技(即日起)： https://www.nowcoder.com/school/schedule/1100 联发科技(即日起)： https://www.nowcoder.com/school/schedule/1741 汇顶科技(即日起)： https://www.nowcoder.com/school/schedule/1001 SHEIN希音(即日起)： https://www.nowcoder.com/school/schedule/2639 美的(即日起)： https://www.nowcoder.com/school/schedule/913 Shopee(即日起)： https://www.nowcoder.com/school/schedule/1049 上汽大众(即日起)： https://www.nowcoder.com/school/schedule/1064 麒麟软件(即日起)： https://www.nowcoder.com/school/schedule/5572 TCL(即日起)： https://www.nowcoder.com/school/schedule/785 触宝(即日起)： https://www.nowcoder.com/school/schedule/1005 浙江大华(即日起)： https://www.nowcoder.com/school/schedule/948 旷视(即日起)： https://www.nowcoder.com/school/schedule/936 达能(即日起)： https://www.nowcoder.com/school/schedule/2963 一点资讯(即日起)： https://www.nowcoder.com/school/schedule/982 小米(即日起)： https://www.nowcoder.com/school/schedule/147 蔚来汽车(即日起)： https://www.nowcoder.com/school/schedule/961 英特尔(即日起)： https://www.nowcoder.com/school/schedule/650 拼多多(即日起)： https://www.nowcoder.com/school/schedule/732 华为(即日起)： https://www.nowcoder.com/school/schedule/239 乐鑫科技(即日起)： https://www.nowcoder.com/school/schedule/1986 先声药业(即日起)： https://www.nowcoder.com/school/schedule/6877 韶音科技(即日起)： https://www.nowcoder.com/school/schedule/4961 歌尔声学(即日起)： https://www.nowcoder.com/school/schedule/1067 京东方(即日起)： https://www.nowcoder.com/school/schedule/1244 京东(即日起)： https://www.nowcoder.com/school/schedule/151 
+
+ 
+
+ 
+
+ 近期即将截止网申的企业： 
+
+ 绿盟科技(6月26日网申截止 1 天后 )： https://www.nowcoder.com/school/schedule/956 普华永道(6月30日网申截止)： https://www.nowcoder.com/school/schedule/1786 
+
+ 
+
+ 
+
+ 笔试提醒：6月25日（今日） 
+
+ 无 
+
+ 笔试提醒：6月26日（明日） 
+
+ 无 
+
+ 
+
+ 笔试准备：历年校招真题练习 
+
+ 
+
+ 360(服务端开发)： https://www.nowcoder.com/test/30558139/summary 360(测试开发)： https://www.nowcoder.com/test/30558102/summary 商汤科技(Android开发)： https://www.nowcoder.com/test/11962573/summary 一汽大众(制动系设计)： https://www.nowcoder.com/test/22082999/summary Shopee(编程)： https://www.nowcoder.com/test/28761331/summary 浙江大华： https://www.nowcoder.com/test/42874/summary 旷视(算法研究员)： https://www.nowcoder.com/test/17764811/summary 触宝科技(客户端前端)： https://www.nowcoder.com/test/11330758/summary 小米(开发方向)： https://www.nowcoder.com/test/31126126/summary 英特尔(软件类研发)： https://www.nowcoder.com/test/283383/summary 拼多多(笔试编程)： https://www.nowcoder.com/test/30579184/summary 华为(研发编程)： https://www.nowcoder.com/test/1088888/summary 京东(算法)： https://www.nowcoder.com/test/16778566/summary 
+
+ 
+
+ 
+
+ 更多企业历年校招真题： https://www.nowcoder.com/contestRoom 面经 推荐：每日优质 面经 推荐 
+
+ 2020 诺瓦科技 面经（已拿offer 测试工程师）： https://www.nowcoder.com/discuss/261550 
+ 9.17 众安保险测试开发面经汇总： https://www.nowcoder.com/discuss/522308 
+ 商汤科技战略协同部战略分析实习面经： https://www.nowcoder.com/discuss/653212 
+ shein希音前端2021春招： https://www.nowcoder.com/discuss/617345 
+ 360测试开发面经： https://www.nowcoder.com/discuss/545798 
+ 2021 Shopee前端提前批校招 面经： https://www.nowcoder.com/discuss/590211 
+ TCL数字化转型中心产品经理面经： https://www.nowcoder.com/discuss/638591 
+ 小米社招Java开发一面面经： https://www.nowcoder.com/discuss/673975 
+ 2022届浙江大华嵌入式软件实习电话面试： https://www.nowcoder.com/discuss/668142 
+ 【已offer】一点资讯一二三面面经+HR面： https://www.nowcoder.com/discuss/494629 
+ 蔚来汽车算法一面面经： https://www.nowcoder.com/discuss/672216 
+ 触宝算法一二三四面面经： https://www.nowcoder.com/discuss/479320 
+ 英特尔 Intel SWE 面经： https://www.nowcoder.com/discuss/524507 
+ 拼多多一二三面（Java暑期实习 已offer）： https://www.nowcoder.com/discuss/662330 京东数据分析工程师暑期实习面经： https://www.nowcoder.com/discuss/641139 京东方BOE 计算机视觉算法面经： https://www.nowcoder.com/discuss/591288 
+
+ 
+
+ 更多优质 面经 ： https://www.nowcoder.com/discuss?type=2&order=0 
+
+ 牛客 校招速报 ｜第一时间了解最新校招资讯 
+
+ 求职信息早知道，offer快人一步！
 
 ---

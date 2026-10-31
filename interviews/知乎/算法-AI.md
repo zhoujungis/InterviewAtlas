@@ -1,6 +1,6 @@
 # 知乎 · 算法/AI
 
-> 共 **14** 条 ｜ [返回总目录](../../README.md)
+> 共 **15** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -36,6 +36,14 @@
 （6）Flash attention
 （7）推理阶段显存消耗哪部分最多。
 3、手撕：a2+b2=c
+
+---
+
+## 算法面经：概率题和智力题
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2024-10-06 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/8cd6f0ff162b4b3b8e0024a562bd8581)
+
+见知乎链接：https://zhuanlan.zhihu.com/p/835477805
 
 ---
 
