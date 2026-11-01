@@ -1,6 +1,6 @@
 # 文远知行 · 算法/AI
 
-> 共 **54** 条 ｜ [返回总目录](../../README.md)
+> 共 **55** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -1437,6 +1437,194 @@ https://app.mokahr.com/m/campus_apply/jingchi/2137?recommendCode=DS17ugTB#/jobs
 3.19 offer call
 3.27 offer letter
 稍后会更新自己的面经，uu们有问我必答
+
+---
+
+## 26届校招汇总-实习生（二）
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2025-02-20 ｜ [原文链接](https://www.nowcoder.com/discuss/722025918784417792)
+
+26届的小伙伴快来投递，实习生岗位很多
+
+ 抓紧投递！！
+
+ 整理不易，更多实习生开启的公司在下面专栏里面
+
+ 点赞收藏加评论，这是我更新的动力！！！
+
+ 感谢支持！！！
+
+ 
+
+ 更多专栏：
+
+ 超详细的嵌入式面经专栏 （适用于小白学习和大佬复习）： https://www.nowcoder.com/creation/manager/columnDetail/mGYoDz 
+
+ 校招公司汇总专栏: https://www.nowcoder.com/creation/manager/columnDetail/0ybKdp 
+
+ 
+
+ 
+
+ 企业名称
+
+ 岗位
+
+ 工作地点
+
+ 公司主要业务
+
+ 投递链接
+
+ 校招类型
+
+ 发布时间
+
+ 备注
+
+ 小红书
+
+ 图像算法，音频算法，JAVA，
+
+ 北京，上海，
+
+ APP
+
+ https://job.xiaohongshu.com/campus/position?campusRecruitTypes=term_regular&positionName=&jobTypes=tech&jobProjects=campus_autumn_25
+
+ /
+
+ /
+
+ /
+
+ 中国电信
+
+ 人工智能，前端，大模型，研发，网络，
+
+ /
+
+ 三大运营商
+
+ https://campus.51job.com/chinatelecom/job.html
+
+ 26实习生
+
+ /
+
+ 国企
+
+ 岚图汽车
+
+ 软件管理
+
+ 武汉
+
+ 新能源汽车
+
+ https://mp.weixin.qq.com/s/8xe201aN0mTcBIajAbQ1dQ
+
+ 26实习生
+
+ 2.14
+
+ 
+
+ 文远知行
+
+ 算法，C++，Python，硬件，测试
+
+ 北京，上海，广州，深圳，武汉，
+
+ 自动驾驶
+
+ https://mp.weixin.qq.com/s/2_Ff6C0VKhuSVnu0cUkZXw
+
+ 26实习生
+
+ 2.14
+
+ 
+
+ 焦点科技
+
+ JAVA，测试
+
+ 南京
+
+ /
+
+ https://app.mokahr.com/apply/focus/148405?sourceToken=8d4ab1efa34de38371cf7925f5991afc#/jobs?zhineng%5B0%5D=168032
+
+ 26实习生
+
+ /
+
+ 
+
+ 长征医疗
+
+ 按专业分类招
+
+ 北京
+
+ 航天伺服/医工
+
+ https://mp.weixin.qq.com/s/GY3lTxcAStwsSEkxGz9Cxg
+
+ 26实习生
+
+ 2.08
+
+ 研究所
+
+ 华勤
+
+ IT，驱动开发，应用软件，算法，影像开发，射频，硬件，电源开发，测试，结构
+
+ 上海，无锡，东莞，南昌，西安，天津，武汉
+
+ 消费电子
+
+ https://mp.weixin.qq.com/s/A9lqv9VXgrPhjSZOpnHUaA
+
+ 26实习生
+
+ 2.18
+
+ /
+
+ 德州仪器
+
+ 工艺工程，设备工程师，
+
+ 上海，成都
+
+ 半导体
+
+ https://mp.weixin.qq.com/s/_gUU880cJsgyQeEKXHCpog
+
+ 26实习生
+
+ 2.18
+
+ /
+
+ 芯动科技
+
+ 软件，算法
+
+ 上海，成都，武汉
+
+ 
+
+ https://mp.weixin.qq.com/s/xvXmuzV_ejCEUjPoi5rOGw
+
+ 26实习生
+
+ 2.17
+
+ /
 
 ---
 

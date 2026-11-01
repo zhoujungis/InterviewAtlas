@@ -1,6 +1,388 @@
 # 中芯国际 · 算法/AI
 
-> 共 **4** 条 ｜ [返回总目录](../../README.md)
+> 共 **5** 条 ｜ [返回总目录](../../README.md)
+
+---
+
+## 【27届校招】8月14日新开的秋招
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2026-08-14 ｜ [原文链接](https://www.nowcoder.com/discuss/917897993720717312)
+
+攻略推荐： 校招汇总表格 
+
+ 超万人使用的校招汇总专栏：（助力你更快，更方便投递） 校招汇总表格 
+
+ 介绍请看“订阅前必看说明”
+
+ 
+
+ 攻略推荐：嵌入式面经
+
+ 本人根据自己在学习和面试中遇到的较多的问题准备成面经，
+
+ 分为C/C++模块，嵌入式操作系统模块，STM32模块，计算机网络模块。覆盖了大部分知识，有助于小白逐个学习，也有助于大佬在面试前复习准备，更方便快捷。
+
+ 超万人学习和复习的面经专栏： （适用于小白学习和大佬复习）： 嵌入式面经 
+
+ 
+
+ 只展示部分
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2026-08-12
+
+ 
+ 小米
+
+ 
+ 秋招
+
+ 
+ 
+
+ 硬件研发类
+
+ 
+
+ 芯片类
+
+ 
+
+ 
+ 北京,上海,深圳,南京,武汉,西安,海外
+
+ 
+ https://mp.weixin.qq.com/s/tIKrlH4jQ_CkM-4OfuBj_w 
+
+ 
+ https://hr.xiaomi.com/website/campus.html 
+
+ 
+ 半导体
+
+ 
+ 私企
+
+ 
+ 
+ 
+ 2026-08-12
+
+ 
+ 作业帮
+
+ 
+ 秋招
+
+ 
+ 技术类
+
+ 
+
+ 
+ 北京,上海,香港,西安,郑州,合肥
+
+ 
+ https://mp.weixin.qq.com/s/bbAuBkaBHhxzgg08SdibDw 
+
+ 
+ https://app.mokahr.com/campus-recruitment/zuoyebang/144908?locale=zh-CN#/ 
+
+ 
+ 教育
+
+ 
+ 私企
+
+ 
+ 
+ 
+ 2026-08-12
+
+ 
+ 挚文集团
+
+ 
+ 秋招
+
+ 
+ 工程开发类
+
+ 
+
+ 测试类
+
+ 
+
+ 
+ 北京
+
+ 
+ https://mp.weixin.qq.com/s/qEvGJo3D3MHzjDhuryGWEA 
+
+ 
+ https://app.mokahr.com/campus-recruitment/immomo/54299?sessionid=&sourceToken=e8dfc1790155d58340200cc90ed35f3f#/ 
+
+ 
+ 互联网
+
+ 
+ 私企
+
+ 
+ 
+ 
+ 2026-08-12
+
+ 
+ 朗坤科技
+
+ 
+ 秋招
+
+ 
+ 研发类
+
+ 
+
+ 
+ 北京,深圳,广州,珠海,中山,茂名
+
+ 
+ https://mp.weixin.qq.com/s/zAr6X2n9_invFlmDo923lA 
+
+ 
+ https://leoking.zhiye.com/campus/jobs 
+
+ 
+ 生物医药
+
+ 
+ 私企
+
+ 
+ 
+ 
+ 2026-08-12
+
+ 
+ 思特威电子
+
+ 
+ 秋招
+
+ 
+ 模拟电路设计工程师
+
+ 
+
+ 数字电路设计工程师
+
+ 
+
+ 芯片原型工程师
+
+ 
+
+ 端到端芯片建模工程师
+
+ 
+
+ AI负载建模工程师
+
+ 
+
+ 数字设计工程师-SOC
+
+ 
+
+ 数字验证工程师
+
+ 
+
+ AI芯片工程师
+
+ 
+
+ 数字中端工程师
+
+ 
+
+ 
+ 上海,苏州
+
+ 
+ https://mp.weixin.qq.com/s/E7CauToXzoge-ZTssUQP_w 
+
+ 
+ https://app.mokahr.com/campus-recruitment/smartsenstech1/56088#/jobs 
+
+ 
+ 科技
+
+ 
+ 私企
+
+ 
+ 
+ 
+ 2026-08-12
+
+ 
+ 阳光电源
+
+ 
+ 秋招
+
+ 
+ 电力电子硬件,电力电子软件,嵌入式软件,仿真,产品,结构,器件,可靠性,测试,热设计,碳管理,电力系统,并网技术,储能安全,工业设计,嵌入式
+
+ 
+ 上海,南京,合肥,深圳,西安,海外
+
+ 
+ https://mp.weixin.qq.com/s/KmGe3-ApUafta6p6-b0yJg 
+
+ 
+ https://app.mokahr.com/m/campus-recruitment/sungrow/94416 
+
+ 
+ 汽车新能源
+
+ 
+ 私企
+
+ 
+ 
+ 
+ 2026-08-12
+
+ 
+ 地平线
+
+ 
+ 秋招
+
+ 
+ 
+
+ 芯片
+
+ 
+
+ 硬件
+
+ 
+
+ 测试
+
+ 
+
+ 
+ 北京,上海,南京,成都,杭州,香港,深圳,西安
+
+ 
+ https://mp.weixin.qq.com/s/ROKRPbjJ9xpUOkuiRsO61w 
+
+ 
+ https://wecruit.hotjob.cn/SU6409ef49bef57c635fd390a6/pb/school.html 
+
+ 
+ 汽车新能源
+
+ 
+ 私企
+
+ 
+ 
+ 
+ 2026-08-12
+
+ 
+ 巨人网络
+
+ 
+ 秋招
+
+ 
+ 
+
+ 技术类
+
+ 
+
+ 
+ 上海
+
+ 
+ https://mp.weixin.qq.com/s/mbcnfnXfcq69G9304_yu0w 
+
+ 
+ https://app.mokahr.com/campus-recruitment/ztgame/92438?locale=zh-CN&sessionid=#/jobs 
+
+ 
+ 互联网
+
+ 
+ 私企
+
+ 
+ 
+ 
+ 2026-08-12
+
+ 
+ 蚂蚁集团
+
+ 
+ 秋招
+
+ 
+ 具体岗位见投递链接
+
+ 
+ 杭州,上海,北京,深圳,广州,重庆,成都,香港,海外
+
+ 
+ https://mp.weixin.qq.com/s/smtWkBVdBYsV99m_4BisQQ 
+
+ 
+ https://talent.antgroup.com/campus-full-list?type=campus_graduates 
+
+ 
+ 互联网
+
+ 
+ 私企
+
+ 
+ 
+ 
+ 2026-08-12
+
+ 
+ 四川蜀道装备科技股份有限公司
+
+ 
+ 秋招
+
+ 
+ 技术研发工程师岗（自控设计方向）,技术研发工程师岗（压力容器设计方向）,技术研发工程师岗（透平膨胀机技术方向）,技术研发工程师岗（撬装设计
 
 ---
 

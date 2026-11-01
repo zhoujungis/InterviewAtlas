@@ -1,6 +1,102 @@
 # 科大讯飞 · 算法/AI
 
-> 共 **71** 条 ｜ [返回总目录](../../README.md)
+> 共 **79** 条 ｜ [返回总目录](../../README.md)
+
+---
+
+## 10.26 科大讯飞 推理工程部 AI Infra 一面
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2026-10-26 ｜ [原文链接](https://www.nowcoder.com/discuss/944283905056665600)
+
+10.26 科大讯飞 推理工程部 AI Infra 一面
+
+ 面试形式 ：线上视频面试
+
+ 
+
+ 面试岗位 ：AI研究算法工程师 - 大模型推理 Infra 方向
+
+ 
+
+ 所属部门 ：资源星火公司 - 推理工程部
+
+ 考察重点 ：异构算力适配、vLLM/SGLang 框架理解、推理瓶颈分析、资源调度与 GPU 池化、AI Coding 工程意识、底层岗位稳定性
+
+ 一、自我介绍与项目背景
+
+ 简单做一下自我介绍，重点讲一下和 Infra 最相关的项目或实习经历。
+
+ 简历里写了在华为做过 AI Infra，这段主要做了什么？和推理模型有没有关联？
+
+ 回答思路 ：坦诚没有深度改过底层源码，但重点讲工程侧的真实体感——环境适配、OOM 排查、压测调优、Profiling 数据收集。落脚到“理解开源框架跨到国产算力时，算子不兼容、动态 shape 处理、显存调度差异是主要痛点”。
+
+ 二、异构算力与国产化适配
+
+ 聊聊你对“原生算力”和“异构算力实践”的理解。
+
+ 回答思路 ：原生意指 CUDA 生态成熟、开源框架默认优先支持；异构是为了自主可控，也是部门实际在打的方向。核心矛盾不是“能不能跑”，而是“跑得好不好”——算子覆盖度、图模式编译、通信与内存一致性。插件式适配（如 vllm-ascend 作为后端接入）是保留开源生态迭代速度的工程解法。
+
+ 三、vLLM 与 SGLang 框架理解
+
+ 用 vLLM 或 SGLang 实际跑过模型吗？框架里各个模块分别起什么作用？
+
+ vLLM 的 PagedAttention 和 Continuous Batching 分别解决什么瓶颈？
+
+ SGLang 的 RadixAttention 和 vLLM 的 prefix caching 是什么关系？
+
+ 回答思路 ：
+
+ vLLM：PagedAttention 用 block table 做逻辑到物理映射，消除 KV Cache 碎片；Continuous Batching 把调度粒度下沉到每个 decode step，完成即替换，GPU 槽位不空转。
+
+ SGLang：RadixAttention 用基数树管理前缀 KV 复用，在多轮对话、Agent、RAG 等高前缀重复率场景下额外榨取吞吐；HiCache 进一步把缓存从 HBM 扩展到主机内存和分布式存储。
+
+ 定位差异：vLLM 强在“把每一份显存用得最紧凑、让 GPU 不闲着”；SGLang 强在“让重复的前缀不重复算”。
+
+ 四、推理瓶颈分析与优化实验
+
+ 推理时的瓶颈主要在哪？内存瓶颈和计算瓶颈分别怎么定位？
+
+ 如果让你做优化实验，你会怎么设计？
+
+ 回答思路 ：
+
+ 瓶颈：Prefill 是 compute-bound，Decode 是 memory-bound；长上下文下 KV Cache 显存爆炸是推理侧显存的主战场。
+
+ 实验设计：先跑基线，记录 TTFT、TPOT、吞吐、显存峰值；用 Profiling 工具（Nsight / msProf）确认是 memory-bound 还是 compute-bound，再做针对性调整——显存碎片调 block size / gpu-memory-utilization，前缀重复率高对比开启/关闭前缀缓存，算力打不满考虑量化或投机采样。核心是用数据判断，不盲目调参。
+
+ 五、资源调度与 GPU 池化
+
+ 从产品/资源管理角度，弹性扩缩容和 GPU 池化通常有哪些策略？
+
+ 回答思路 ：
+
+ 池化：MIG 硬件隔离最强但静态；时间切片 / MPS 灵活但隔离性弱；隔离性与利用率此消彼长。
+
+ 扩缩容：推理场景冷启动极慢，扩容易缩容难；指标上不能只看 QPS，队列深度 + 等待延迟才是推理的黄金信号；预测式扩容 + 缩容保护期是防震荡的常用手段。
+
+ 落到岗位：底层引擎决定“每份卡用得有多满”，中间服务决定“几份卡在什么时候存在”，两者配合才能把成本打下来。
+
+ 六、AI Coding 与工程提效
+
+ 团队很看重 AI Coding，你怎么看它在 Infra 场景里的价值？
+
+ 回答思路 ：AI Coding 不是“一键生成系统”，而是底层工程效率的放大器。在 Infra 语境下三个实际落点： 算子迁移辅助 （CUDA → CANN 的理解与初稿生成）、 压测脚本生成 （海量 benchmark 场景的样板代码）、 海量底层日志排障 （把又长又杂的报错喂给 AI 辅助定位方向）。经历少不是问题， 会用 AI 工具快速啃开源代码、快速排错，本身就是这个岗位的生产力 。
+
+ 七、岗位意愿与稳定性
+
+ 你个人兴趣是不是更偏向 AI 产品？如果 Infra 不匹配，也可以推荐你去产品部门。
+
+ 我们底层引擎负责把模型更快、更低成本地跑起来，上层再做规模化 API 服务。你觉得哪个和你更契合？
+
+ 回答思路 （这一环节是面试官反复试探稳定性，回答必须坚决闭环）：
+
+ 承认对产品有热情，但逻辑反杀：AI 产品的体验瓶颈往往就在底层推理速度和成本上。TTFT 下不来、并发一高就 OOM，上层封装再好用户体验也是零。
+
+ 正是因为懂产品痛点，才更要在底层引擎把算力榨干。上层 API 是壳，底层引擎才是定价权。
+
+ 明确表态：愿意从适配、测试、压测这些基础工作干起，目标是沉在底层把真本事练出来，而不是去上层做 API 调用的“传话筒”。
+
+ 不得不说科大讯飞hr和面试官还是太温柔了点 这次没啥准备换其他地方估计都挨骂了
 
 ---
 
@@ -146,6 +242,53 @@
 
 ---
 
+## 科大讯飞一面
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2025-10-15 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/cbde4a1000d6434d88020f74e0d06fb9)
+
+10.23更新
+不出意外收到了感谢信，还真是kpi面啊😂
+
+10.15一面
+投递岗位: Java后端
+面试时长：半小时
+
+面试官先自我介绍
+自我介绍
+
+面试官问我是不是面试实习的，我说投的是校招,他说你不是明年毕业嘛,直接难评,放弃就这个问题争论,干脆认了。
+聊了点校园经历，比如奖学金之类的。
+
+接着就对着简历问了一些挺简单的问题：
+- 你怎么理解Java异常处理的
+- 异常的类型
+- 常见的Java集合
+- 你提到了List和Map,说说它们的应用场景
+- 聊聊哈希冲突
+- JDK1.8里面HashMap咋处理哈希冲突的，底层算法与实现。
+然后问简历上的项目了，并且针对项目问了点简单的八股
+- 项目的背景，是自己学习用的项目么？ 项目是团队还是个人完成的
+- 持久化为啥选择用JPA，JPA貌似比较小众了 
+- 你怎么上手/掌握JPA的
+- 登录注册这一块咋做的 
+- 对密码怎么处理的 （lz上一问回答地比较一般，这里面试官在引导）
+- 登录的有效期咋做的，是有用到token之类的么，有考虑续期么，怎么判断有没有登录有没有过期的
+- 项目里策略模式咋用的（本身不是很难，但貌似讲的不太好，讲完面试官好像没搞懂 ）
+- 缓存穿透的一些常规问题
+- 项目做了单元测试（简历上写了），那有没有做压力测试
+- 单元测试自己写的还是让大模型写的 （回了说自己+AI一块完成）
+- （接上一问）用的什么大模型，怎么用的
+- 介绍下微服务（简历上第二个项目用的是微服务，因此这里会问微服务）
+- 微服务的优劣 （这里和面试官聊了挺久的，他让我结合项目聊聊，因为第一个项目是单体项目，第二个是微服务，做个对比）
+
+最后就是反问，无手撕
+
+面试官人还挺好的，基本上每个问题在回答完之后都会给我一些反馈，聊一聊，人也和蔼，没什么压力，氛围最好的一集。不过感觉和其他人的面经都不太一样，不知道是不是kpi ，毕竟差不多一个月了才把我捞起来面试。 后续就随缘吧
+
+ #发面经攒人品# #面试问题记录#
+
+---
+
 ## 科大讯飞飞星二面
 
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2025-09-23 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/efe09e8e9eb14b7185dffad5979adb8d)
@@ -160,6 +303,23 @@
 5. 讨论了很久数据，sft的数据质量和强化学习的数据质量
 
  #发面经攒人品# #我的秋招日记#
+
+---
+
+## 科大讯飞算法一面
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2025-09-10 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/ec474aafeba844eb8c7d62fe00176e07)
+
+自动驾驶算法岗
+预测自己车和其他车轨迹的思路和算法
+自动驾驶中pid算法
+如何用粒子群优化横纵向协同
+如何判断过拟合还是欠拟合
+口述快排算法
+口述一亿个数，找到前k大的数（最小堆）
+C++中虚函数理解
+程序崩了怎么找问题
+未来规划，城市发展
 
 ---
 
@@ -214,6 +374,22 @@
 - 是否用过正则化（答：未实际使用过）。
 - 是否处理过大规模数据（答：无相关经验）。
  #大厂# #面试经验# #实习# #科大讯飞#
+
+---
+
+## 科大讯飞NLP面经
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2024-12-05 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/e72ec3dd9ad44310b2902e913efa678a)
+
+你对深度学习有什么了解吗？
+蒙特卡罗树有了解吗？
+决策树怎么算信息增益的？
+你怎么理解决策树？随机森林？
+项目问题
+可以实习多久？
+什么时候能来？
+
+面试官说他们主要是做信息提取，实习时间最少三个月。
 
 ---
 
@@ -333,6 +509,49 @@ C# 中的抽象类和接口有什么区别？分别有哪些应用场景？
 
 ---
 
+## 秋招进展总结922
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2024-09-22 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/10e307439dbb4f348479324a79c061b7)
+
+已OC：
+1. 作业帮 大模型
+2. 美团 搜推（相当于跨组转正）
+
+已结束：
+1. 拼多多 算法 三轮技术面+一轮HR面，等结果
+2. 快手 正式批 推荐大模型 三轮技术面+一轮HR面 等结果
+3. 京东 NLP算法 一面HR面，二三面技术面，四面线下HR面，等结果
+4. 饿了么 AIGC 一面技术面，二面是技术面+HR面，等结果
+
+流程中：
+1. 百度 文心一言 很早就三轮面完进offer评估，但是HR打电话说还有一轮HR面在十月。。。，而且说这次沟通可以看成口头意向（感觉是信了我就是🐖😅，这不就是养鱼）
+2. 字节 广告算法 TAC 三轮技术面，约了HR面，等
+3. 智源研究院 行业大模型 三轮技术面，一轮HR面，约了第五轮院长面，还要准备PPT汇报吐了
+4. 腾讯 TEG ai平台部 二面过了，等三面
+5. 中兴 三面完了，约了boss面，话说这个boss面的形式是啥啊？有人知道吗？
+
+已挂：
+1. 淘天集团，挂了三个志愿，全是简历挂
+2. 阿里国际，挂了三个志愿，全是简历挂，最逆天的是其中一个已经到面试安排中了，退回简历挂了😅
+3. 蚂蚁集团，挂了两个志愿，简历挂，话说阿里你要是挂简历能不能别给我发笔试和测评啊，真的有那个大病
+4. 阿里控股，简历挂
+5. 智谱AI，二面完没消息超过一周多，挂
+6. 科大讯飞，二面完超过两周没消息，挂
+7. 同花顺，一面完超过两周没消息，挂
+8. 联想，一面完超过两周没消息，挂
+9. 网易雷火，晾了我接近两个月然后简历挂
+10. 米哈游，minimax，通义实验室，insta360，滴滴提前批，TCL，简历挂
+11. OPPO，蔚来，超参数，小米，荣耀，商汤，旷世，TME，VIVO，太久没消息，当挂
+12. 主动放弃笔试，小红书，文远知行，猿辅导，时间冲突
+
+以上里面作业帮，快手，腾讯都有挂完复活过
+
+总结：全是池子，恒纪元开泡！
+
+这两天抢个我嵩哥的内场票看看😋
+
+---
+
 ## Ambari 中的日志管理是如何设计的？如何查看和分析集群服务的日志？
 
 来源：面试鸭 ｜ 类型：面试题 ｜ 发布：2024-09-20 ｜ [原文链接](https://www.mianshiya.com/question/1837027841938616321)
@@ -370,6 +589,26 @@ Kafka 的流量控制是如何实现的？如何通过流量控制避免系统�
 什么是 MongoDB？它与传统关系型数据库的区别是什么？
 
 题库：科大讯飞面试题｜科大讯飞股份有限公司成立于1999年，是亚太地区知名的智能语音和人工智能上市企业。自成立以来，一直从事智能语音、自然语言理解、计算机视觉等核心技术研究并保持了国际前沿技术水平；积极推动人工智能产品和行业应用落地，致力让机器"能听会说，能理解会思考，用人工智能建设美好世界”，2008年，公司在深圳证券交易所挂牌上市。
+
+---
+
+## 科大讯飞意向
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2024-09-19 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/433100b397534e58820112e67c5100e8)
+
+9.11一面30min
+1.了解大模型吗？
+2.了解科大讯飞吗？怎么了解这些信息的（科大讯飞的影响力让我知道了讯飞这家公司😁，哥们我的顶级情商）
+3.JVM垃圾回收算法
+4.MySQL索引有哪些
+其他忘了
+
+9.14二面+hr面30min
+1.实习拷打
+2.项目拷打
+3.有没有其他offer，为什么选讯飞
+
+9.19意向书
 
 ---
 
@@ -791,6 +1030,22 @@ AI算法测试二面 4.17
 
 ---
 
+## 科大讯飞语音算法二面
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2023-12-25 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/2df053d1ea544484a004b29e09d32b55)
+
+二面总共15min？？
+自我介绍
+问做过CUDA编程吗
+问C++ 基础
+
+两年没写C++凭记忆答了个大概
+然后就问完了？
+
+是否大概率凉凉:0 #科大讯飞二面#
+
+---
+
 ## 科大讯飞 CV算法研究 全面经
 
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2023-10-21 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/e49a777cda284851b2639033e1ad0b89)
@@ -1093,295 +1348,44 @@ NeRF、SLAM、Colmap之间的联系和区别。
 
 ---
 
-## 科大讯飞最全技术岗面经汇总
+## 科大讯飞面经(已意向）
 
-来源：牛客网 ｜ 类型：面经 ｜ 发布：2022-09-09 ｜ [原文链接](https://www.nowcoder.com/discuss/397696623885791232)
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2022-08-19 ｜ [原文链接](https://www.nowcoder.com/discuss/390252346561900544)
 
-23届抱团取暖，减少信息差 
-
- 大家好，我是鬼仔。不知不觉已经到了9月，23届的同学都忙着准备秋招。以过来人的角度来看，秋招最重要的其实是尽可能地 减少信息差 ，清楚地了解哪些公司正在招哪些岗位，网申时间什么时候截止。 
-
- 减少信息差，除了拿到一手招聘信息外，还需要了解自己意向公司&岗位面试时常问的知识点。正所谓前车之鉴，后车之师，同一家公司的面试风格和面试题目往往都有着相似之处，大家可以根据前人的面经对知识点进行查缺补漏，确保以后面试中碰到熟悉的题目都可以顺利解答。 
-
- 为了让23届的同学们互通信息、抱团取暖，鬼仔创建了秋招交流群，群里有持续更新的 秋招日程表 和 面经汇总 ，鬼仔还可以提供多家公司的内推， 欢迎和码农鬼仔聊一聊-扣扣群：725768032， 鬼仔知无不言～ 
-
- 科大讯飞面经汇总 
-
- 今天汇总的是科大讯飞技术岗的面经，包括 嵌入式开发、算法岗、客户端开发、前端开发、测试开发、大数据开发和后端开发 。同学们如果还想要其他公司的面经汇总，可以在评论区留言！ 同学们记得关注鬼仔（点击右上角关注哦），以免错过更新～ 
-
- PS：PC用户可以键盘Ctrl+F搜寻浏览你想找的面经哦~( ﾟ▽ﾟ)/ 
-
- 公众号：码农鬼仔，专注分享算法知识｜面试技巧｜职场感悟｜内推信息。 
-
- 一、嵌入式开发 
-
- 1. 2022-09-05 23秋招 科大讯飞嵌入式二面面经 
-
- 2. 2020-08-27 科大讯飞嵌入式软件开发面经 
-
- 二、算法岗 
-
- 1. 2022-09-01 科大讯飞研究院计算机视觉面经 
-
- 2. 2022-07-20 科大讯飞AI算法工程师提前批一面面经（在踩雷的边缘疯狂试探 
-
- 3. 2021-09-29 科大讯飞CV算法研究面经（已OC） 
-
- 4. 2021-09-14 科大讯飞 算法面经（已OC） 
-
- 5. 2021-08-27 科大讯飞——AI算法工程师 面经 
-
- 6. 2021-08-20 科大讯飞 视觉算法一面 
-
- 7. 2021-08-10 科大讯飞AI算法岗 一二面面经 
-
- 8. 2021-08-01 科大讯飞提前批-AI研究算法工程师计算机视觉方向一面面经 
-
- 9. 2021-01-06 科大讯飞算法岗（寒冬遇暖薪） 
-
- 10. 2020-09-23 科大讯飞算法岗面试 
-
- 11. 2020-09-02 科大讯飞 视觉算法 二面面经 
-
- 12. 2020-08-25 8.25 科大讯飞 算法工程师(CV) 一面（30min） 
-
- 13. 2020-08-14 科大讯飞合肥计算机试卷算法工程师二面过特来还愿 
-
- 14. 2019-09-28 科大讯飞算法提前批凉经 
-
- 15. 2019-09-23 科大讯飞 南京现场面 算法工程师 
-
- 16. 2019-09-04 科大讯飞算法工程师面经 
-
- 17. 2019-07-23 科大讯飞校招-计算机视觉一面面经 
-
- 18. 2018-10-16 科大讯飞 AI算法工程师 一面（sp） 
-
- 三、客户端开发 
-
- 1. 2022-08-25 科大讯飞二面凉经 （安卓）30min 
-
- 2. 2022-08-18 8.9科大讯飞一面(安卓开发) 
-
- 3. 2022-08-07 科大讯飞一面凉经（安卓） 
-
- 4. 2020-08-13 科大讯飞Android开发一二面面经 
-
- 四、前端开发 
-
- 1. 2022-06-10 科大讯飞前端日常实习生一面面经（已OC） 
-
- 2. 2022-04-21 科大讯飞前端面经 无语，kpi面吧总共不到10分钟 
-
- 3. 2022-04-20 科大讯飞前端面经 
-
- 4. 2021-08-30 科大讯飞前端工程师二面 
-
- 5. 2021-08-21 科大讯飞前端工程师一面 
-
- 6. 2021-06-15 2021/6/15 科大讯飞前端实习一面面经 
-
- 7. 2020-08-26 科大讯飞前端面经 
-
- 8. 2020-07-14 科大讯飞前端实习面经 
-
- 9. 2020-06-17 科大讯飞前端实习一面 
-
- 10. 2019-09-18 科大讯飞 前端面试 
-
- 11. 2018-09-14 9.14科大讯飞前端工程师岗位面经 
-
- 五、测试开发 
-
- 1. 2022-09-01 科大讯飞 测试工程师一面 
-
- 2. 2022-08-09 科大讯飞提前批测试工程师一面 
-
- 3. 2022-07-08 24届科大讯飞面经 测试实习 
-
- 4. 2021-09-02 科大讯飞AI测试面经（已oc） 
-
- 5. 2021-08-20 科大讯飞测试一面 
-
- 6. 2021-08-19 科大讯飞——测试一面面经 
-
- 7. 2021-04-21 科大讯飞测试一面面经 
-
- 8. 2020-08-26 科大讯飞AI测试面经 
-
- 9. 2020-08-16 科大讯飞测试一二面面经 
-
- 10. 2020-08-15 科大讯飞-测试-一面面经 
-
- 11. 2020-08-12 科大讯飞AI算法测试开发一面面筋 
-
- 12. 2020-03-25 测试实习面经+超级短的面试+科大讯飞 
-
- 13. 2020-03-05 科大讯飞测试一面+二面面经 
-
- 14. 2019-09-10 科大讯飞系统测试一面面经 
-
- 六、大数据开发 
-
- 1. 2022-08-29 科大讯飞8.29 - 大数据开发 一面面经 
-
- 2. 2022-08-18 科大讯飞大数据一面 
-
- 3. 2022-04-22 科大讯飞大数据工程师面试 
-
- 4. 2021-08-18 科大讯飞大数据一面面经 
-
- 5. 2021-03-03 科大讯飞大数据开发工程师校招三面面经 
-
- 6. 2020-09-19 科大讯飞大数据工程师面经凉经 
-
- 7. 2020-08-24 科大讯飞大数据面经 
-
- 8. 2018-09-14 科大讯飞提前批大数据一面 
-
- 七、后端开发 
-
- 1. 2022-08-30 科大讯飞 C++开发一面二面 面经 
-
- 2. 2022-08-27 科大讯飞 java 秋招正式批 面经 
-
- 3. 2022-08-25 科大讯飞java面经 
-
- 4. 2022-08-25 8.25，科大讯飞，开发岗一面 
-
- 5. 2022-08-24 科大讯飞8.23凉经 
-
- 6. 2022-08-19 科大讯飞面经(已意向） 
-
- 7. 2022-08-19 科大讯飞c++二面面经 
-
- 8. 2022-08-19 科大讯飞 一面二面 面经 
-
- 9. 2022-08-16 科大讯飞南京软件开发面试 
-
- 10. 2022-08-15 科大讯飞 一面 二面 
-
- 11. 2022-08-14 科大讯飞C++一面凉经 
-
- 12. 2022-08-12 科大讯飞Java开发面经 
-
- 13. 2022-08-12 科大讯飞 java面经 
-
- 14. 2022-08-11 科大讯飞秋招一面面经（20220811） 
-
- 15. 2022-08-11 科大讯飞C++一面二面三面面经 
-
- 16. 2022-05-09 科大讯飞讯飞研究院实习面试 
-
- 17. 2022-05-07 科大讯飞一面(Java后端开发) 
-
- 18. 2022-04-03 科大讯飞面经 
-
- 19. 2021-11-10 科大讯飞 c++开发面经（oc） 
-
- 20. 2021-11-02 科大讯飞Java二面面经（已挂） 
-
- 21. 2021-09-28 科大讯飞 【C/C++】面经 
-
- 22. 2021-09-13 科大讯飞 一面 
-
- 23. 2021-09-02 科大讯飞凉经 
-
- 24. 2021-08-26 科大讯飞面经 
-
- 25. 2021-08-19 8.19科大讯飞JAVA开发面经 
-
- 26. 2021-08-13 科大讯飞java一面面经 
-
- 27. 2021-08-12 科大讯飞C++开发一面面经 
-
- 28. 2021-08-12 812科大讯飞一面面经 
-
- 29. 2021-07-24 科大讯飞二面面经 
-
- 30. 2021-06-24 科大讯飞一面、贝壳面经一、二面 
-
- 31. 2021-06-04 科大讯飞Java暑期实习 
-
- 32. 2021-05-21 科大讯飞 8/14 一面聊经 真就纯聊 
-
- 33. 2021-05-19 科大讯飞Java实习生面试 
-
- 34. 2021-03-23 科大讯飞 java面经 
-
- 35. 2021-03-17 科大讯飞 春招 3.11一面 
-
- 36. 2021-03-13 科大讯飞一面凉经 
-
- 37. 2021-03-11 科大讯飞Java校招一面面经 
-
- 38. 2021-03-04 科大讯飞Java开发实习面经 
-
- 39. 2020-10-27 科大讯飞：一面面经 
-
- 40. 2020-09-12 科大讯飞面经 
-
- 41. 2020-09-12 科大讯飞一面技术面 
-
- 42. 2020-09-10 20200910科大讯飞 一面 
-
- 43. 2020-09-09 科大讯飞-核心技术研究院一面二面面经 
-
- 44. 2020-09-08 科大讯飞一面 
-
- 45. 2020-08-26 科大讯飞面经北京 
-
- 46. 2020-08-17 科大讯飞一，二面面经（C++开发工程师） 
-
- 47. 2020-08-14 科大讯飞一面 
-
- 48. 2020-08-11 科大讯飞C++一面面经 
-
- 49. 2020-07-31 7.31科大讯飞四道编程题个人思路 
-
- 50. 2020-06-05 春招烤面筋（科大讯飞/腾讯） 
-
- 51. 2020-02-25 科大讯飞-软件开发工程师（一面） 
-
- 52. 2019-12-24 【Java后端】科大讯飞实习一面 2019-3-29 
-
- 53. 2019-10-18 渣渣的艰难的科大讯飞 
-
- 54. 2019-09-23 科大讯飞凉经 
-
- 55. 2019-09-21 科大讯飞软开面经 
-
- 56. 2019-09-21 科大讯飞&OPPO C++面经 虚拟云 
-
- 57. 2019-09-16 科大讯飞凉凉面经 
-
- 58. 2019-09-14 科大讯飞一面 
-
- 59. 2019-09-11 科大讯飞上岸成功，新鲜三轮面经 
-
- 60. 2019-09-02 记一次糟糕的科大讯飞现场面 
-
- 61. 2019-08-22 2020提前批科大讯飞四投面经 
-
- 62. 2019-03-29 热乎的科大讯飞面经 
-
- 63. 2019-03-26 科大讯飞面经 
-
- 64. 2018-10-25 科大讯飞C++ 一面面经+二面面经(已oc) 
-
- 65. 2018-10-16 【科大讯飞面经】Java后台 
-
- 66. 2018-09-15 科大讯飞java二面面经 
+时间线：0723笔试；0805一面；0810二面；0815HR面；0818意向书 
 
  
  
 
- 希望大家都能成为offer收割机，秋招一路开挂！ 
+ 一面 
+
+ 时长：47分钟 
+
+ 家哪里的？期望在哪工作？ 本科成绩、考研数学英语成绩 自己介绍项目经历 项目中的数据结构是自己设计的吗？（实验室项目） 机器学习模型输入格式 代码量 用到哪些机器学习算法？为什么这么选择？ 介绍Webserver项目 工作线程怎么工作的？while循环的终止条件？这块代码怎么写的描述一下？如果没有等到资源，会怎么样？如果任务队列一直为空工作线程怎么办？ （这里答得不好，知道的友友评论区指导我一下） 如果一直没有等到信号量，会等待多长时间？ 说了这是我自学的项目，面试官问你发现这个项目有哪些问题，还有哪些可以提升的地方？ 学习C++的方法？ C++内存分布 栈溢出什么情况会出现 在堆上分配的方式，new和malloc的区别？ 谈谈多态 项目中哪里用到的多态？ 知道隐藏吗？ 智能指针介绍，weak_ptr 指针和引用的区别 空类里有哪些函数 析构函数里能抛出异常吗 常用的数据结构？ vector清楚吗？ vector的clear()会释放内存？那如果想释放怎么释放内存呢 vector怎么将一个vector的数据转移到另一个vector 想把一个vector的一部分的内容拷贝到另一个vector中？ Python怎么学习的？常用处理数据的库？ 个人发展的规划？ 其他的学习方***看论文吗？学习过程中会做笔记吗？ 反问 
 
  
  
 
- [锦鲤牛期待] [锦鲤牛期待] [锦鲤牛期待]
+ 二面 
+
+ 时长：40min 
+
+ 
+ 
+
+ 选择工作考虑哪些因素 科研遇到的难题是怎么解决的 针对项目，怎么多线程同步互斥？锁加在哪里？ 多线程加锁有性能问题，怎么解决？ 最有成就感的事 团队协作的实例分享 科研探索的过程 get和post区别 又问了会项目 
+ 
+
+ 
+
+ HR面 
+
+ 不太记得了，面试官是个资深的大姐姐，面试官说三天内给结果（真就三天内给了offer） 
+
+ 
+ 
+
+ 整体感受：不养鱼的公司大大滴好评！一面问项目问的很深，知识点也问了不少，虽然没手撕但是还是需要好好准备的，三次面试的面试官都很和蔼，流程也很快，整体感受nice。（讯飞输入法已经用起来了）
 
 ---
 
@@ -1610,6 +1614,3024 @@ NeRF、SLAM、Colmap之间的联系和区别。
  
 
  更新：已经凉凉，不是很匹配，讯飞研究院不做机器学习。。。。
+
+---
+
+## 【技术类】2019校招技术类岗位面经汇总
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2018-12-05 ｜ [原文链接](https://www.nowcoder.com/discuss/353154782175109120)
+
+校招季进入尾声 
+
+ 
+ 这里我们例行整理了这一季秋招的面经 并按岗位进行了分类 
+
+ 
+ 
+
+ 
+
+ 
+ 【包括Java、C++、算法、前端、安卓、iOS、测试、大数据、服务端、后台开发、PHP、python、安全、嵌入式、游戏研发、运维】 
+
+ 
+ 
+
+ 
+
+ 
+ 希望能对大家有所帮助~ 
+
+ 
+
+ 
+ p.s：PC用户可以键盘Ctrl+F搜寻浏览你想找的面经哦~( ﾟ▽ﾟ)/ ❤
+ 
+ 
+ 喜欢可以 收藏点赞留言 三连支持一下！
+
+ 
+ 
+
+ 
+ 本帖为技术类专贴，非技术类： https://www.nowcoder.com/discuss/146657 
+
+ 
+ 以公司维度分类的面经汇总： https://www.nowcoder.com/discuss/90907 
+
+ 
+ 
+ 
+
+ 
+ J ava 
+
+ 
+ 【java】招银网络科技java面经： https://www.nowcoder.com/discuss/139236 
+
+ 
+ 【Java】招银网络java软开面经： https://www.nowcoder.com/discuss/128821 
+
+ 
+ 【Java】招银网络java面经： https://www.nowcoder.com/discuss/120970 
+
+ 
+ 【java】凉经-招银科技： https://www.nowcoder.com/discuss/113040 
+
+ 
+ 【java】招银网络面试： https://www.nowcoder.com/discuss/110687 
+
+ 
+ 【java】招银网络后台开发电话面经： https://www.nowcoder.com/discuss/108588 
+
+ 
+ 【java】4399一面技术面+HR面凉经： https://www.nowcoder.com/discuss/111487 
+
+ 
+ 【java】斗鱼面经： https://www.nowcoder.com/discuss/111472 
+
+ 
+ 【java】百词斩一面9.17： https://www.nowcoder.com/discuss/111305 
+
+ 
+ 【java】有赞面经（详细）： https://www.nowcoder.com/discuss/141451 
+
+ 
+ 【java】百度三面。。。。： https://www.nowcoder.com/discuss/113406 
+
+ 
+ 【java】百度Java开发一面面经： https://www.nowcoder.com/discuss/111454 
+
+ 
+ 【java】百度一面面经： https://www.nowcoder.com/discuss/111099 
+
+ 
+ 【java】百度java一面面经： https://www.nowcoder.com/discuss/109127 
+
+ 
+ 【java】百度DuerOS部门面经，凉凉 https://www.nowcoder.com/discuss/89094 
+
+ 
+ 【java】三七互娱补招技术二面： https://www.nowcoder.com/discuss/137849 
+
+ 
+ 【java】三七互娱一面面经，通过，明天二面不知是HR面还是二轮技术面： https://www.nowcoder.com/discuss/137549 
+
+ 
+ 【java服务端】三七互娱秋招提前批java服务端 https://www.nowcoder.com/discuss/85510 
+
+ 
+ 【java】京东三面面经： https://www.nowcoder.com/discuss/113076 
+
+ 
+ 【java】京东面经： https://www.nowcoder.com/discuss/111943 
+
+ 
+ 【java】京东9月16日北京JAVA研发工程师一面： https://www.nowcoder.com/discuss/110887 
+
+ 
+ 【java】jd一面： https://www.nowcoder.com/discuss/108837 
+
+ 
+ 【java工程师】 京东提前批面试 https://www.nowcoder.com/discuss/91413 
+
+ 
+ 【java】谈谈我那的京东面试，伤心 https://www.nowcoder.com/discuss/9673 
+
+ 
+ 【Java】java京东一面，凉凉 https://www.nowcoder.com/discuss/92447 
+
+ 
+ 【java】阿里一面感受【补面经】： https://www.nowcoder.com/discuss/113050 
+
+ 
+ 【java】阿里巴巴淘宝新制造java后台开发岗一面凉经： https://www.nowcoder.com/discuss/112007 
+
+ 
+ 【java】阿里云Java研发三面技术+HR面： https://www.nowcoder.com/discuss/108343 
+
+ 
+ 【Java】 阿里菜鸟内推/java/一面（电话） https://www.nowcoder.com/discuss/96453 
+
+ 
+ 【java后台】阿里秋招内推1.2.3面面经（Java后台） https://www.nowcoder.com/discuss/87473 
+
+ 
+ 【java】阿里7.24号java开发一面 电话面 https://www.nowcoder.com/discuss/88759 
+
+ 
+ 【java】阿里菜鸟Java简历评估面 https://www.nowcoder.com/discuss/91149 
+
+ 
+ 【JAVA开发 】阿里电面---java开发 https://www.nowcoder.com/discuss/91051 
+
+ 
+ 【java】阿里菜鸟一面经验 https://www.nowcoder.com/discuss/89975 
+
+ 
+ 【java开发】阿里钉钉凉面 https://www.nowcoder.com/discuss/89956 
+
+ 
+ 【Java】阿里技术开发（java）一面面经 https://www.nowcoder.com/discuss/89653 
+
+ 
+ 【Java】 阿里巴巴java 1+2+3+hr面 https://www.nowcoder.com/discuss/94656 
+
+ 
+ 【Java】腾讯java web开发 三面 https://www.nowcoder.com/discuss/97440 
+
+ 
+ 【java】阿里巴巴java开发北美on campus面经（10.27）： https://www.nowcoder.com/discuss/137599 
+
+ 
+ 【java】苏宁面试Java岗（西安站）： https://www.nowcoder.com/discuss/112064 
+
+ 
+ 【java】苏宁南京9.05现场面： https://www.nowcoder.com/discuss/109213 
+
+ 
+ 【Java】华为 成渝IT软件开发java方向： https://www.nowcoder.com/discuss/99229 
+
+ 
+ 【java】小红书凉经，很详细，攒人品： https://www.nowcoder.com/discuss/116085 
+
+ 
+ 【Java】2018年9月28日顺丰java远程一面： https://www.nowcoder.com/discuss/120367 
+
+ 
+ 【java】顺丰面经： https://www.nowcoder.com/discuss/113396 
+
+ 
+ 【java开发】顺丰提前批java开发视频面 一面 https://www.nowcoder.com/discuss/88758 
+
+ 
+ 【java开发】顺丰科技一面面经(内推-Java开发岗) https://www.nowcoder.com/discuss/88782 
+
+ 
+ 【java开发】顺丰Java一面面经 https://www.nowcoder.com/discuss/88786 
+
+ 
+ 【java开发】顺丰科技一面面经（说好的问的少呢。。。） https://www.nowcoder.com/discuss/88851 
+
+ 
+ 【java开发】顺丰内推面Java研发 https://www.nowcoder.com/discuss/88909 
+
+ 
+ 【java】顺丰科技Java技术面面经 https://www.nowcoder.com/discuss/90043 
+
+ 
+ 【Java】顺丰java一面面经 https://www.nowcoder.com/discuss/90726 
+
+ 
+ 【java】顺丰科技面经(HR面) https://www.nowcoder.com/discuss/90564 
+
+ 
+ 【java】58到家 面经 一面挂： https://www.nowcoder.com/discuss/116113 
+
+ 
+ 【Java】【蚂蚁金服】一面挂经，大数据开发java岗 https://www.nowcoder.com/discuss/94574 
+
+ 
+ 【java开发】蚂蚁金服面经 https://www.nowcoder.com/discuss/88079 
+
+ 
+ 【java开发】 蚂蚁三面面经，java开发岗 https://www.nowcoder.com/discuss/92118 
+
+ 
+ 【java】cvte一面： https://www.nowcoder.com/discuss/114028 
+
+ 
+ 【java】cvte 7.26一面面经(电话面) https://www.nowcoder.com/discuss/88476 
+
+ 
+ 【java工程师】cvte面经 挂在hr https://www.nowcoder.com/discuss/91277 
+
+ 
+ 【java后台】CVTE Java后台电话一面 https://www.nowcoder.com/discuss/89961 
+
+ 
+ 【java】CVTE Java后台开发一面二面,攒人品和运气! https://www.nowcoder.com/discuss/92317 
+
+ 
+ 【java】美团点评西安站凉面筋： https://www.nowcoder.com/discuss/113872 
+
+ 
+ 【java】美团 西安9.20求个offer： https://www.nowcoder.com/discuss/117440 
+
+ 
+ 【java】美团点评西安站凉面筋： https://www.nowcoder.com/discuss/113872 
+
+ 
+ 【java】美团 西安9.20求个offer： https://www.nowcoder.com/discuss/117440 
+
+ 
+ 【java】美团123面+hr面： https://www.nowcoder.com/discuss/111179 
+
+ 
+ 【java】美团一面： https://www.nowcoder.com/discuss/110274 
+
+ 
+ 【java】美团3面面经： https://www.nowcoder.com/discuss/109567 
+
+ 
+ 【java】发个周一深圳美团电话面经： https://www.nowcoder.com/discuss/109255 
+
+ 
+ 【java】美团 后台Java研发 三面： https://www.nowcoder.com/discuss/108805 
+
+ 
+ 【java】美团java后台 哈尔滨现场面试面经： https://www.nowcoder.com/discuss/108195 
+
+ 
+ 【Java后台】热腾腾的腾讯java后台一面面经 https://www.nowcoder.com/discuss/90649 
+
+ 
+ 【java web开发】腾讯java web开发 一面 https://www.nowcoder.com/discuss/90542 
+
+ 
+ 【java web开发】腾讯java web开发 二面 https://www.nowcoder.com/discuss/93465 
+
+ 
+ 【java】 腾讯IEG运营开发2面java方向 https://www.nowcoder.com/discuss/92180 
+
+ 
+ 【java】南京小米二面 全程58分钟： https://www.nowcoder.com/discuss/126502 
+
+ 
+ 【Java】小米秋招软件开发(java方向)面经： https://www.nowcoder.com/discuss/125991 
+
+ 
+ 【java服务端】记一次小米一面面经。 https://www.nowcoder.com/discuss/91449 
+
+ 
+ 【java】中兴技术面被怼面经： https://www.nowcoder.com/discuss/113126 
+
+ 
+ 【java】中兴一面凉经，热乎的： https://www.nowcoder.com/discuss/109192 
+
+ 
+ 【java】vivo一面凉经： https://www.nowcoder.com/discuss/112192 
+
+ 
+ 【java开发】 【Vivo二面】新鲜出炉的面经～(Java开发) https://www.nowcoder.com/discuss/90739 ‘
+
+ 
+ 【java开发】vivo面经 https://www.nowcoder.com/discuss/92381 
+
+ 
+ 【java】科大讯飞java二面面经： https://www.nowcoder.com/discuss/110025 
+
+ 
+ 【java】科大讯飞二面面经： https://www.nowcoder.com/discuss/109544 
+
+ 
+ 【java】海康威视，面试： https://www.nowcoder.com/discuss/113293 
+
+ 
+ 【java】海康专业面+综合面（南京面的）： https://www.nowcoder.com/discuss/111923 
+
+ 
+ 【java】海康威视Java面经~（西安站）： https://www.nowcoder.com/discuss/111444 
+
+ 
+ 【Java】网易考拉java凉面面经 https://www.nowcoder.com/discuss/97738 
+
+ 
+ 【Java】网易考拉java三面面经（好多忘了） https://www.nowcoder.com/discuss/97479 
+
+ 
+ 【java】网易Java面经： https://www.nowcoder.com/discuss/111888 
+
+ 
+ 【java】网易刚出炉面经~（秋招批次）： https://www.nowcoder.com/discuss/111005 
+
+ 
+ 【Java】网易java开发面经： https://www.nowcoder.com/discuss/99217 
+
+ 
+ 【Java】java网易考拉面经： https://www.nowcoder.com/discuss/98113 
+
+ 
+ 【Java】网易考拉java凉面面经： https://www.nowcoder.com/discuss/97738 
+
+ 
+ 【java】从零基础到拿到网易Java实习offer，我做对了哪些事： https://www.nowcoder.com/discuss/141176 
+
+ 
+ 【java】运满满面试(9.15)： https://www.nowcoder.com/discuss/110425 
+
+ 
+ 【java】星环科技(JAVA后端)二面凉经： https://www.nowcoder.com/discuss/117530 
+
+ 
+ 【Java】商汤java实习生一面： https://www.nowcoder.com/discuss/142821 
+
+ 
+ 【java】头条2018.9.22一面与二面与三面凉经： https://www.nowcoder.com/discuss/115824 
+
+ 
+ 【java】头条三面透心凉： https://www.nowcoder.com/discuss/109937 
+
+ 
+ 【java后台】头条java后台一面凉经： https://www.nowcoder.com/discuss/142537 
+
+ 
+ 【java】头条好人卡get，一面面经： https://www.nowcoder.com/discuss/142201 
+
+ 
+ 【java】平安银行java后台面经： https://www.nowcoder.com/discuss/115587 
+
+ 
+ 【java】依图一面面经（感觉凉）： https://www.nowcoder.com/discuss/109523 
+
+ 
+ 【java】欢聚时代yy现场java一面热经： https://www.nowcoder.com/discuss/114114 
+
+ 
+ 【java】欢聚时代yy现场java二面凉经： https://www.nowcoder.com/discuss/114672 
+
+ 
+ 【java】重庆360企业安全凉经： https://www.nowcoder.com/discuss/114170 
+
+ 
+ 【java】360公司服务器端软件开发面经： https://www.nowcoder.com/discuss/108604 
+
+ 
+ 【Java】远景能源java现场面面经： https://www.nowcoder.com/discuss/100630 
+
+ 
+ 【Java】远景能源java电面面经 https://www.nowcoder.com/discuss/97406 
+
+ 
+ 【java】好未来面经： https://www.nowcoder.com/discuss/110782 
+
+ 
+ 【java】好未来一面凉经： https://www.nowcoder.com/discuss/110440 
+
+ 
+ 【java】珍爱网java现场一面： https://www.nowcoder.com/discuss/110223 
+
+ 
+ 【java】快手二三面+ hr面： https://www.nowcoder.com/discuss/108707 
+
+ 
+ 【Java】猫眼java岗面经： https://www.nowcoder.com/discuss/100366 
+
+ 
+ 【Java】猫眼java开发一面面经： https://www.nowcoder.com/discuss/99821 
+
+ 
+ 【java】热乎乎的猫眼面经： https://www.nowcoder.com/discuss/106579 
+
+ 
+ 【java】用友凉面_面经： https://www.nowcoder.com/discuss/110232 
+
+ 
+ 【java】贝壳JAVA三面面经： https://www.nowcoder.com/discuss/110486 
+
+ 
+ 【Java】贝壳北京现场面java（等结果）： https://www.nowcoder.com/discuss/99174 
+
+ 
+ 【java】贝壳面试体验真心好： https://www.nowcoder.com/discuss/114037 
+
+ 
+ 【java】蘑菇街玄学一面，凉凉……： https://www.nowcoder.com/discuss/107037 
+
+ 
+ 【java】蘑菇街JAVA后台一面： https://www.nowcoder.com/discuss/106633 
+
+ 
+ 【java】keep面经： https://www.nowcoder.com/discuss/113559 
+
+ 
+ 【java】keep面经，动手能力太差啊啊啊啊： https://www.nowcoder.com/discuss/111050 
+
+ 
+ 【java】keep面经，积累人品。： https://www.nowcoder.com/discuss/110915 
+
+ 
+ 【java】回馈牛客，keep面经： https://www.nowcoder.com/discuss/109972 
+
+ 
+ 【java】途牛微信视频面试一面： https://www.nowcoder.com/discuss/106598 
+
+ 
+ 【Java】宜信大数据中心java研发岗面经： https://www.nowcoder.com/discuss/105875 
+
+ 
+ 【java】宜信java面经： https://www.nowcoder.com/discuss/111611 
+
+ 
+ 【java】阴差阳错的虎牙面试： https://www.nowcoder.com/discuss/105838 
+
+ 
+ 【java】爱奇艺java实习生一面： https://www.nowcoder.com/discuss/141277 
+
+ 
+ 【java后端】爱奇艺java后端一面、二面面经： https://www.nowcoder.com/discuss/142301 
+
+ 
+ 【java】喜马拉雅 西安9.18： https://www.nowcoder.com/discuss/117406 
+
+ 
+ 【java】9月18日武汉去哪儿面经： https://www.nowcoder.com/discuss/113038 
+
+ 
+ 【java】9月18日武汉去哪儿面经： https://www.nowcoder.com/discuss/113038 
+
+ 
+ 【java】迅雷面经： https://www.nowcoder.com/discuss/117002 
+
+ 
+ 【java】迅雷一面面筋： https://www.nowcoder.com/discuss/116185 
+
+ 
+ 【java】居然之家设计一面二面： https://www.nowcoder.com/discuss/116750 
+
+ 
+ 【java】完美世界4面面经（已拿口头offer）： https://www.nowcoder.com/discuss/116547 
+
+ 
+ 【Java】新浪java后台开发工程师一面面经： https://www.nowcoder.com/discuss/119507 
+
+ 
+ 【Java】途家java开发岗凉经： https://www.nowcoder.com/discuss/123403 
+
+ 
+ 【java】中信信用卡面经。感觉过了，等消息。： https://www.nowcoder.com/discuss/143463 
+
+ 
+ 【java】面经继续写 高思集团java后台一面二面面经： https://www.nowcoder.com/discuss/142889 
+
+ 
+ 【java】高思教育视频面： https://www.nowcoder.com/discuss/142727 
+
+ 
+ 【Java】java后端-软通/华微/华为-一面~口头offer： https://www.nowcoder.com/discuss/130954 
+
+ 
+ 【Java】皮一下，java开发菜鸡结束秋招： https://www.nowcoder.com/discuss/129499 
+
+ 
+ 【java】阿里，京东，好未来，水滴面经（含实习）： https://www.nowcoder.com/discuss/113993 
+
+ 
+ 【java】我的秋招之路 ： https://www.nowcoder.com/discuss/117423 
+
+ 
+ 【java】顺丰科技、去哪儿网面经： https://www.nowcoder.com/discuss/113837 
+
+ 
+ 【java】纪念日男票拿offer了(秀波男票，并回馈一波牛友攒人品)： https://www.nowcoder.com/discuss/115517 
+
+ 
+ 【java】一家外包的面经，顺便求助。： https://www.nowcoder.com/discuss/115332 
+
+ 
+ 【java】回馈一波，凉经……大家想看可以参考一下： https://www.nowcoder.com/discuss/114783 
+
+ 
+ 【java/C++】春招到秋招27面面筋总结 ： https://www.nowcoder.com/discuss/113997 
+
+ 
+ 【java】海康和37现场凉面面经： https://www.nowcoder.com/discuss/113543 
+
+ 
+ 【java】秋招几家公司的面经： https://www.nowcoder.com/discuss/112142 
+
+ 
+ 【java】百度，阿里，腾讯，网易面经 ： https://www.nowcoder.com/discuss/108927 
+
+ 
+ 【java】【Java后台开发面经】阿里|网易|头条|腾讯|华为 ： https://www.nowcoder.com/discuss/108655 
+
+ 
+ 【java】完美世界，中兴，新大陆支付面经： https://www.nowcoder.com/discuss/108748 
+
+ 
+ 【java】【回馈】超详细，助你秋招逆袭！： https://www.nowcoder.com/discuss/111311 
+
+ 
+ 【java】贝壳一面凉经+keep三面： https://www.nowcoder.com/discuss/108192 
+
+ 
+ 【java】听说发面经可以拿offer： https://www.nowcoder.com/discuss/110259 
+
+ 
+ 【java】从春招到秋招，经验总结（收获AT）： https://www.nowcoder.com/discuss/106396 
+
+ 
+ 【java】阿里美团京东面经： https://www.nowcoder.com/discuss/106805 
+
+ 
+ 【java】我的秋招经验分享（已拿百度，阿里，网易，头条，华为）： https://www.nowcoder.com/discuss/106619 
+
+ 
+ 【java】非科班渣硕JAVA面经（京东华为小米海康去哪百度美团阿里等）： https://www.nowcoder.com/discuss/138000 
+
+ 
+ 【java】秋招总结，看了这么多相亲贴，是时候来股清流了： https://www.nowcoder.com/discuss/137695 
+
+ 
+ 【java】发一波笔经面经，鼓励自己(大家)坚持走下去： https://www.nowcoder.com/discuss/137613 
+
+ 
+ 【java】非科班秋招面试总结： https://www.nowcoder.com/discuss/143224 
+
+ 
+ 【java】双非的秋招，感谢牛客： https://www.nowcoder.com/discuss/142181 
+
+ 
+ 【java】自己及同学的一些面经整理： https://www.nowcoder.com/discuss/141703 
+
+ 
+ 【java后台开发】跨专业转CS拿下百度java后台开发的干货分享（6000字）： https://www.nowcoder.com/discuss/141507 
+
+ 
+ 【Java】java复***纲（精华版）： https://www.nowcoder.com/discuss/120267 
+
+ 
+ 【Java】回馈牛客！各大公司java面试整理对应问题博客整理！： https://www.nowcoder.com/discuss/120239 
+
+ 
+ 【java】说说两个月的秋招之路和经常碰到的面试题，顺便offer求建议： https://www.nowcoder.com/discuss/117077 
+
+ 
+ 【Java】java并发 面经： https://www.nowcoder.com/discuss/97942 
+
+ 
+ 
+
+ 
+ C++ 
+
+ 
+ 【C++】南京场，招银网络科技面经： https://www.nowcoder.com/discuss/125087 
+
+ 
+ 【C++】热乎乎的长沙招银网络面经： https://www.nowcoder.com/discuss/118473 
+
+ 
+ 【C++】招银软开（C++）三面面经： https://www.nowcoder.com/discuss/115204 
+
+ 
+ 【C++】 多益网络视频面 https://www.nowcoder.com/discuss/96283 
+
+ 
+ 【C++】深信服面筋回馈牛油： https://www.nowcoder.com/discuss/119868 
+
+ 
+ 【C++】刚出炉的深信服二面凉经： https://www.nowcoder.com/discuss/118237 
+
+ 
+ 【C++】深信服霸面： https://www.nowcoder.com/discuss/116845 
+
+ 
+ 【C++】深信服C++开发 一、二、HR面： https://www.nowcoder.com/discuss/116694 
+
+ 
+ 【C++】深信服面经(中秋居然还面试，牛逼。。。)： https://www.nowcoder.com/discuss/116689 
+
+ 
+ 【C++】深信服C++面经 攒人品： https://www.nowcoder.com/discuss/116634 
+
+ 
+ 【C++】2018深信服C++面经： https://www.nowcoder.com/discuss/116569 
+
+ 
+ 【C++云计算岗】水硕的深信服一面，C++云计算岗 https://www.nowcoder.com/discuss/85058 
+
+ 
+ 【C++】百度三面面经： https://www.nowcoder.com/discuss/136247 
+
+ 
+ 【C++】百度一二三面面经： https://www.nowcoder.com/discuss/129433 
+
+ 
+ 【C++】百度凉径： https://www.nowcoder.com/discuss/126809 
+
+ 
+ 【C++】度小满金融面经： https://www.nowcoder.com/discuss/115577 
+
+ 
+ 【C++】百度三面面经，攒人品！！！： https://www.nowcoder.com/discuss/114896 
+
+ 
+ 【C++】百度三面： https://www.nowcoder.com/discuss/114792 
+
+ 
+ 【C++】百度C++面试 一/二面 面经： https://www.nowcoder.com/discuss/113601 
+
+ 
+ 【C++】百度一面二面经历（体验极差）： https://www.nowcoder.com/discuss/112003 
+
+ 
+ 【C++】百度一面凉面面经： https://www.nowcoder.com/discuss/111058 
+
+ 
+ 【C++】百度一面： https://www.nowcoder.com/discuss/109958 
+
+ 
+ 【C++】来自小白的百度一面面经： https://www.nowcoder.com/discuss/109318 
+
+ 
+ 【C++】秋招第一次面试->百度（c++后台岗位） https://www.nowcoder.com/discuss/90069 
+
+ 
+ 【C++】提前批面经C/C++后台开发岗位(持续更新) https://www.nowcoder.com/discuss/94734 
+
+ 
+ 【C++】 百度 提前批C++一面 二面 三面（GG） https://www.nowcoder.com/discuss/96139 
+
+ 
+ 【C++】大佬们新鲜出炉的度秘面经，了解一下~~ https://www.nowcoder.com/discuss/96056 
+
+ 
+ 【C++】京东二面凉面筋： https://www.nowcoder.com/discuss/112228 
+
+ 
+ 【C++】 京东提前批C++面试 https://www.nowcoder.com/discuss/91590 
+
+ 
+ 【C++】有幸被菜鸟开奖，结束秋招，回馈牛油： https://www.nowcoder.com/discuss/110317 
+
+ 
+ 【C++】阿里、C++三面技术面+ hr面面筋~： https://www.nowcoder.com/discuss/100946 
+
+ 
+ 【C/C++】阿里-面经-研发工程师（C/C++）： https://www.nowcoder.com/discuss/101607 
+
+ 
+ 【Java】阿里国际事务部挂经，Java岗 https://www.C ++nowcoder.com/discuss/96464
+
+ 
+ 【后端c++】DJI+阿里巴巴ICBU一面面经（后端C++） https://www.nowcoder.com/discuss/87621 
+
+ 
+ 【C++】阿里-面经-研发工程师（C/C++）： https://www.nowcoder.com/discuss/101607 
+
+ 
+ 【c++】阿里一面面经C++，攒个人品 https://www.nowcoder.com/discuss/88501 
+
+ 
+ 【c++】新鲜热乎的百度一面面筋(C++)，攒人品 https://www.nowcoder.com/discuss/88852 
+
+ 
+ 【C++】阿里飞猪一面凉经 https://www.nowcoder.com/discuss/94080 
+
+ 
+ 【C++后台开发】 阿里巴巴新零售 一面凉凉（C++后台开发） https://www.nowcoder.com/discuss/90335 
+
+ 
+ 【C++】华为凉经： https://www.nowcoder.com/discuss/121852 
+
+ 
+ 【C++】华为优招-长沙-一二面面经（感觉用处不大） https://www.nowcoder.com/discuss/96528 
+
+ 
+ 【C++】 华为优招面经8.20 https://www.nowcoder.com/discuss/96410 
+
+ 
+ 【c++开发】蚂蚁金服中间件一面和二面面筋（C++开发） https://www.nowcoder.com/discuss/87810 
+
+ 
+ 【C++】 秋招提前批面试记录小结 https://www.nowcoder.com/discuss/97474 
+
+ 
+ 【C++】CVTE武汉面经： https://www.nowcoder.com/discuss/113462 
+
+ 
+ 【C++】CVTE一面二面+HR面 https://www.nowcoder.com/discuss/89764 
+
+ 
+ 【C++】CVTE提前批c++开发一面 https://www.nowcoder.com/discuss/89534 
+
+ 
+ 【C++】CVTE的电话两面面经 https://www.nowcoder.com/discuss/91635 
+
+ 
+ 【C++】美团二面凉经： https://www.nowcoder.com/discuss/108186 
+
+ 
+ 【C++】腾讯面经(一面，二面，hr面）： https://www.nowcoder.com/discuss/118386 
+
+ 
+ 【C++开发】腾讯面筋 https://www.nowcoder.com/discuss/89707 
+
+ 
+ 【C++】腾讯内推面试 https://www.nowcoder.com/discuss/93770 
+
+ 
+ 【C++】 腾讯IEG凉经 https://www.nowcoder.com/discuss/96731 
+
+ 
+ 【C++】一脸懵逼的腾讯面试 https://www.nowcoder.com/discuss/96355 
+
+ 
+ 【C++】腾讯云补录一面面经： https://www.nowcoder.com/discuss/140442 
+
+ 
+ 【C++】小米云存储面经： https://www.nowcoder.com/discuss/111718 
+
+ 
+ 【C++】小米面经： https://www.nowcoder.com/discuss/108813 
+
+ 
+ 【C++】中兴武汉面经一面： https://www.nowcoder.com/discuss/112960 
+
+ 
+ 【C++】vivo开发( c++)一面面经： https://www.nowcoder.com/discuss/118539 
+
+ 
+ 【C++】8.10 vivo C++软件开发工程师一面面经 https://www.nowcoder.com/discuss/93137 
+
+ 
+ 【C++】金山WPS C++岗一面： https://www.nowcoder.com/discuss/118302 
+
+ 
+ 【C++】金山WPS，C++，二面面筋 https://www.nowcoder.com/discuss/95219 
+
+ 
+ 【C++】金山C++研发工程师 一面 https://www.nowcoder.com/discuss/96606 
+
+ 
+ 【C++】金山 凉经 https://www.nowcoder.com/discuss/96286 
+
+ 
+ 【C++】wps一面面经 https://www.nowcoder.com/discuss/97704 
+
+ 
+ 【C++】金山wps一面 https://www.nowcoder.com/discuss/97425 
+
+ 
+ 【C++】金山WPS，C++研发工程师，一面 https://www.nowcoder.com/discuss/92322 
+
+ 
+ 【Java】银联应用开发面经（我是Java，他们也有C++） 西安站 https://www.nowcoder.com/discuss/93155 
+
+ 
+ 【C++】8月底的拼多多学霸批面经： https://www.nowcoder.com/discuss/112238 
+
+ 
+ 【C++】拼多多面经： https://www.nowcoder.com/discuss/109638 
+
+ 
+ 【C++】迈瑞面经--C++工程师 https://www.nowcoder.com/discuss/90442 
+
+ 
+ 【C++】中国电信it研发中心面筋： https://www.nowcoder.com/discuss/114075 
+
+ 
+ 【C++】今日海康面试体验： https://www.nowcoder.com/discuss/112148 
+
+ 
+ 【C++】海康威视面经： https://www.nowcoder.com/discuss/111844 
+
+ 
+ 【C++】滴滴面经～回忆版： https://www.nowcoder.com/discuss/136818 
+
+ 
+ 【C++】网易雷火平台开发工程师一面： https://www.nowcoder.com/discuss/120667 
+
+ 
+ 【C++】网易互娱面经： https://www.nowcoder.com/discuss/114820 
+
+ 
+ 【C++】网易雷火一面（估计已经凉了）： https://www.nowcoder.com/discuss/113819 
+
+ 
+ 【C++】网易互娱-我为自己耽误了面试官的时间而愧疚： https://www.nowcoder.com/discuss/113550 
+
+ 
+ 【C++】很难受的网易互娱研发面经 https://www.nowcoder.com/discuss/96710 
+
+ 
+ 【C++】网易初游研面经 https://www.nowcoder.com/discuss/96793 
+
+ 
+ 【C++】网易互娱游戏研发面经（两面）： https://www.nowcoder.com/discuss/111976 
+
+ 
+ 【C++】网易互娱校招面经： https://www.nowcoder.com/discuss/111018 
+
+ 
+ 【C++】网易互娱1面 （）经【括号里的字不确定于是先空着】： https://www.nowcoder.com/discuss/106443 
+
+ 
+ 【C++】字节跳动后端一面被一个巨水的面试官给毙了： https://www.nowcoder.com/discuss/128236 
+
+ 
+ 【C++】今日头条三面面经： https://www.nowcoder.com/discuss/109167 
+
+ 
+ 【C++】头条1 2 3面经： https://www.nowcoder.com/discuss/99287 
+
+ 
+ 【C++】今日头条三面面经： https://www.nowcoder.com/discuss/102612 
+
+ 
+ 【C++】 头条三面（攒一波人品） https://www.nowcoder.com/discuss/93423 
+
+ 
+ 【C++】今日头条c++后台开发 一二面，二面gg https://www.nowcoder.com/discuss/95939 
+
+ 
+ 【C++】平安科技一面又懵逼凉经： https://www.nowcoder.com/discuss/113464 
+
+ 
+ 【C++】2019校招盛大游戏cocos凉经： https://www.nowcoder.com/discuss/109360 
+
+ 
+ 【C++】趋势windows platform developer： https://www.nowcoder.com/discuss/111933 
+
+ 
+ 【后台C++】360后台C++ 2面凉： https://www.nowcoder.com/discuss/103844 
+
+ 
+ 【C++】360面筋！！： https://www.nowcoder.com/discuss/98392 
+
+ 
+ 【C++】360面经： https://www.nowcoder.com/discuss/97830 
+
+ 
+ 【C++】360一面二面，估计凉 https://www.nowcoder.com/discuss/96670 
+
+ 
+ 【C++】刚刚出炉的360一面二面挂经 https://www.nowcoder.com/discuss/96310 
+
+ 
+ 【C++】360一面凉经C++ https://www.nowcoder.com/discuss/97182 
+
+ 
+ 【C++】360面经 https://www.nowcoder.com/discuss/97830 
+
+ 
+ 【C++】360面经 https://www.nowcoder.com/discuss/97741 
+
+ 
+ 【C++】360奇葩挂经 https://www.nowcoder.com/discuss/98188 
+
+ 
+ 【C++】贡献一波知乎面经。。： https://www.nowcoder.com/discuss/120463 
+
+ 
+ 【C++】快手提前批面经： https://www.nowcoder.com/discuss/112954 
+
+ 
+ 【C++】美图C++研发工程师（算法落地）面经~： https://www.nowcoder.com/discuss/103212 
+
+ 
+ 【C++研发岗】贝壳三面面经。： https://www.nowcoder.com/discuss/102429 
+
+ 
+ 【C++】米哈游引擎渲染挂面： https://www.nowcoder.com/discuss/120197 
+
+ 
+ 【C++】微软面经： https://www.nowcoder.com/discuss/136414 
+
+ 
+ 【C++】研发工程师面经（C++）： https://www.nowcoder.com/discuss/126102 
+
+ 
+ 【C++】秋招结束，春招再战！（附面经）： https://www.nowcoder.com/discuss/125248 
+
+ 
+ 【C++】offer选择，随便附上秋招面筋头条百度贝壳电信IT研发华为： https://www.nowcoder.com/discuss/123320 
+
+ 
+ 【C++】某菜鸡的头条+百度菜鸡实习面试记录： https://www.nowcoder.com/discuss/118629 
+
+ 
+ 【C++】秋招的面经：百度+中兴+链家+烽火： https://www.nowcoder.com/discuss/123214 
+
+ 
+ 【C++】写个秋招总结C++开发岗： https://www.nowcoder.com/discuss/124174 
+
+ 
+ 【C++】秋招结束，整理一下。内含面筋 ： https://www.nowcoder.com/discuss/124030 
+
+ 
+ 【C++】一个失败者的秋招面经： https://www.nowcoder.com/discuss/123798 
+
+ 
+ 【C++】2018年秋招游戏公司面经+面试准备心得： https://www.nowcoder.com/discuss/123714 
+
+ 
+ 【C++】结束秋招，总结自己的秋招之旅，回馈牛客（面经大礼包）： https://www.nowcoder.com/discuss/123111 
+
+ 
+ 【C++】弱鸡的游戏秋招之路： https://www.nowcoder.com/discuss/123043 
+
+ 
+ 【C++】2018面经总结： https://www.nowcoder.com/discuss/122973 
+
+ 
+ 【C++】终于轮到我了——来自非科班渣硕的秋招之路： https://www.nowcoder.com/discuss/122105 
+
+ 
+ 【C++】非科班985水硕秋招经历： https://www.nowcoder.com/discuss/122056 
+
+ 
+ 【C++】总结一下到目前为止的秋招，发C++面经攒人品： https://www.nowcoder.com/discuss/121780 
+
+ 
+ 【C++】秋招结束，回馈牛友~（建议和面经）： https://www.nowcoder.com/discuss/121478 
+
+ 
+ 【C++】和女朋友都已完成秋招，发出面经回馈牛客： https://www.nowcoder.com/discuss/120275 
+
+ 
+ 【C++】总结一个菜鸡的秋招之路，望博牛油们一乐： https://www.nowcoder.com/discuss/120185 
+
+ 
+ 【C++】C++开发渣硕妹纸BAT春招秋招面经： https://www.nowcoder.com/discuss/117644 
+
+ 
+ 【C++】不一样的面经（攒人品）： https://www.nowcoder.com/discuss/116175 
+
+ 
+ 【C++】回馈牛客，渣本的秋招总结（BAT）： https://www.nowcoder.com/discuss/114087 
+
+ 
+ 【C++】腾讯、网易互娱面经： https://www.nowcoder.com/discuss/111543 
+
+ 
+ 【C++后台研发工程师】C++后台研发工程师2018年BAT华为网易等面经总结： https://www.nowcoder.com/discuss/103939 
+
+ 
+ 【C++】美团，快手面经~： https://www.nowcoder.com/discuss/101667 
+
+ 
+ 【C++】贝壳现场面（C++）+京东技术管培生专业面： https://www.nowcoder.com/discuss/99274 
+
+ 
+ 【C++/后端】2019秋招C++/后端 今日头条等公司面经 ： https://www.nowcoder.com/discuss/137145 
+
+ 
+ 【C++】2018年秋招面试经验总结 ： https://www.nowcoder.com/discuss/140814 
+
+ 
+ 【C++】秋招总结-奋斗没有结束，这只是一个开始： https://www.nowcoder.com/discuss/138258 
+
+ 
+ 【C++】前来还愿啦，一波面经给需要的人： https://www.nowcoder.com/discuss/137775 
+
+ 
+ 【C++】全凉经： https://www.nowcoder.com/discuss/142903 
+
+ 
+ 【C++】一个非科班普通211硕士如何拿到腾讯、百度等offer： https://www.nowcoder.com/discuss/142151 
+
+ 
+ 【C++】致下一级毕业生：如何将自身强化到斩获国内大厂Offer的水平： https://www.nowcoder.com/discuss/141516 
+
+ 
+ 【C++】非计算机专业苦逼的秋招路： https://www.nowcoder.com/discuss/128187 
+
+ 
+ 【C++】秋招结束，总结一下，说下个人经验： https://www.nowcoder.com/discuss/127797 
+
+ 
+ 【C++】秋招over，回馈牛客网的帮助 ： https://www.nowcoder.com/discuss/122760 
+
+ 
+ 【C++】秋招总结与技巧，回馈与感谢： https://www.nowcoder.com/discuss/122640 
+
+ 
+ 【C++】(C++向)从零开始，游戏程序员学习之路(还愿贴)： https://www.nowcoder.com/discuss/121834 
+
+ 
+ 【C++】2018年9月秋招个人总结 ： https://www.nowcoder.com/discuss/121665 
+
+ 
+ 【C++】秋招结束，回馈牛客一波！： https://www.nowcoder.com/discuss/118716 
+
+ 
+ 【C++】C++面试题目总结： https://www.nowcoder.com/discuss/124724 
+
+ 
+ 【C++】秋招总结（C++）： https://www.nowcoder.com/discuss/124525 
+
+ 
+ 
+
+ 
+ 算法 
+
+ 
+ 人工智能 
+
+ 
+ 【算法】招银信用卡中心AI面试： https://www.nowcoder.com/discuss/120676 
+
+ 
+ 【算法工程师】百度AIG一、二面面筋： https://www.nowcoder.com/discuss/98541 
+
+ 
+ 【AI算法】美团2019校招AI算法提前批面经（已拿两部门offer） https://www.nowcoder.com/discuss/88679 
+
+ 
+ 【游戏产品策划】网易雷火AI游戏产品策划 面经： https://www.nowcoder.com/discuss/124169 
+
+ 
+ 【算法】网易游戏AI研究员面经 https://www.nowcoder.com/discuss/98305 
+
+ 
+ 【算法】网易互娱一二三面（AI工程师）： https://www.nowcoder.com/discuss/112298 
+
+ 
+ 【AI游戏研究员】【网易游戏】雷火&盘古&伏羲AI游戏研究员笔试题型面经分享： https://www.nowcoder.com/discuss/110706 
+
+ 
+ 【AI研究员】网易游戏AI研究员面经： https://www.nowcoder.com/discuss/98305 
+
+ 
+ 【AI】平安人寿AI研发团队算法面经 https://www.nowcoder.com/discuss/92701 
+
+ 
+ 【人工智能岗】热乎乎的招银成都面经： https://www.nowcoder.com/discuss/118423 
+
+ 
+ 【人工智能】顺丰提前批人工智能岗技术面面经【这回大概真的凉了？】 https://www.nowcoder.com/discuss/92370 
+
+ 
+ 【算法】vivo人工智能语音算法工程师面经： https://www.nowcoder.com/discuss/115049 
+
+ 
+ 【算法岗】【vivo人工智能语音算法岗】一面(技术面)面经 https://www.nowcoder.com/discuss/92260 
+
+ 
+ 【算法】【vivo人工智能语音算法岗】二面HR面面经 https://www.nowcoder.com/discuss/95197 
+
+ 
+ 【人工智能岗】中国银联面试经历分享 https://www.nowcoder.com/discuss/91333 
+
+ 
+ 【算法工程师】银联武汉人工智能开发刚面完，热乎着 https://www.nowcoder.com/discuss/91879 
+
+ 
+ 【人工智能】广州网易游戏-人工智能岗 https://www.nowcoder.com/discuss/97818 
+
+ 
+ 【人工智能】网易互娱人工智能研究工程师一面 https://www.nowcoder.com/discuss/97689 
+
+ 
+ 【人工智能】记一次难忘的面试，网易伏羲人工智能研究员5面面经 https://www.nowcoder.com/discuss/97427 
+
+ 
+ 【人工智能研究工程师】网易互娱人工智能研究工程师一面： https://www.nowcoder.com/discuss/97689 
+
+ 
+ 
+
+ 
+ 机器学习 
+
+ 
+ 【学习算法工程师】深信服机器学习算法工程师一面面经 https://www.nowcoder.com/discuss/87545 
+
+ 
+ 【算法】百度-机器学习（已offer-手百推荐feed流）： https://www.nowcoder.com/discuss/121233 
+
+ 
+ 【算法】百度算法岗（机器学习）酱油o.o： https://www.nowcoder.com/discuss/111758 
+
+ 
+ 【算法】秋招面试--百度机器学习面经--更新至二面： https://www.nowcoder.com/discuss/111385 
+
+ 
+ 【算法】秋招面试--百度机器学习一面： https://www.nowcoder.com/discuss/109158 
+
+ 
+ 【算法】华为算法工程师（机器学习）面经：： https://www.nowcoder.com/discuss/121790 
+
+ 
+ 【算法】华为-海外提前批-1技术，2综合，3boss-机器学习算法： https://www.nowcoder.com/discuss/95240 
+
+ 
+ 【算法】华为-海外留学生提前比-机器学习算法 https://www.nowcoder.com/discuss/95240 
+
+ 
+ 【人工智能与机器学习】顺丰科技内推提前批人工智能与机器学习HR面，凉凉面经 https://www.nowcoder.com/discuss/88906 
+
+ 
+ 【机器学习】顺丰科技机器学习 https://www.nowcoder.com/discuss/89042 
+
+ 
+ 【机器学习与人工智能工程师】顺丰机器学习与人工智能工程师面经 https://www.nowcoder.com/discuss/91192 
+
+ 
+ 【机器学习】[阿里蚂蚁]IOT实验室-机器学习算法-一面面经 https://www.nowcoder.com/discuss/92851 
+
+ 
+ 【机器学习算法】阿里蚂蚁金服-机器学习算法-二面 https://www.nowcoder.com/discuss/93959 
+
+ 
+ 【算法】阿里蚂蚁-机器学习算法工程师-三面 https://www.nowcoder.com/discuss/95225 
+
+ 
+ 【算法】美团点评机器学习算法工程师面筋： https://www.nowcoder.com/discuss/111220 
+
+ 
+ 【算法】实习面试--腾讯机器学习面经： https://www.nowcoder.com/discuss/111388 
+
+ 
+ 【算法】小米机器学习算法工程师面经： https://www.nowcoder.com/discuss/128590 
+
+ 
+ 【算法】vivo机器学习面经： https://www.nowcoder.com/discuss/113367 
+
+ 
+ 【算法】vivo机器学习算法工程师视频一面面经 https://www.nowcoder.com/discuss/93329 
+
+ 
+ 【算法】秋招第一次走完全程，vivo机器学习面经 https://www.nowcoder.com/discuss/93521 
+
+ 
+ 【机器学习算法岗】菜鸟的面试：科大讯飞和作业帮 https://www.nowcoder.com/discuss/90245 
+
+ 
+ 【算法】网易互娱面经数据挖掘/机器学习算法（10.9更新二面）： https://www.nowcoder.com/discuss/121338 
+
+ 
+ 【算法】网易云音乐机器学习面经： https://www.nowcoder.com/discuss/99349 
+
+ 
+ 【机器学习算法】360手机卫士-机器学习算法研发工程师 面经 https://www.nowcoder.com/discuss/97260 
+
+ 
+ 【算法】虹软机器学习算法工程师初面面经【貌似没什么用】 https://www.nowcoder.com/discuss/97154 
+
+ 
+ 【算法】快手【机器学习】记录~： https://www.nowcoder.com/discuss/102265 
+
+ 
+ 【算法】快手机器学习算法工程师凉面（经）： https://www.nowcoder.com/discuss/101927 
+
+ 
+ 【机器学习】快手【机器学习】记录~： https://www.nowcoder.com/discuss/102265 
+
+ 
+ 【机器学习】快手机器学习算法工程师凉面（经）： https://www.nowcoder.com/discuss/101927 
+
+ 
+ 【算法】贝壳机器学习算法面经： https://www.nowcoder.com/discuss/124931 
+
+ 
+ 【算法】【数据挖掘】贝壳找房三轮现场面（机器学习/数据挖掘岗）8.26： https://www.nowcoder.com/discuss/99190 
+
+ 
+ 【算法】贝壳-机器学习面经： https://www.nowcoder.com/discuss/99153 
+
+ 
+ 【算法/机器学习】【春招+秋招】个人多厂面经分享： https://www.nowcoder.com/discuss/126457 
+
+ 
+ 【机器学习岗】2018年机器学习岗面试干货(京东／华为／美图／招银)： https://www.nowcoder.com/discuss/108820 
+
+ 
+ 【算法】2018春招秋招算法机器学习岗面经（阿里、腾讯、美团、携程）： https://www.nowcoder.com/discuss/106725 
+
+ 
+ 【机器学习/数据挖掘岗】机器学习/数据挖掘岗2019秋招总结： https://www.nowcoder.com/discuss/138721 
+
+ 
+ 【算法】机器学习相关面经总结，可自查： https://www.nowcoder.com/discuss/102895 
+
+ 
+ 
+
+ 
+ 计算机视觉 
+
+ 
+ 【计算机视觉】透心凉的百度-计算机视觉-一面面经 https://www.nowcoder.com/discuss/90591 
+
+ 
+ 【算法开发工程师】OPPO2019提前批计算机视觉算法开发工程师凉经： https://www.nowcoder.com/discuss/138577 
+
+ 
+ 【算法】计算机视觉算法岗面经：两万字啊你确定不看看： https://www.nowcoder.com/discuss/128148 
+
+ 
+ 
+
+ 
+ 视觉计算 
+
+ 
+ 【视觉计算】CVTE研究院视觉计算一面玄学挂 https://www.nowcoder.com/discuss/88751 
+
+ 
+ 【视觉计算】CVTE视觉计算一面面经 https://www.nowcoder.com/discuss/88856 
+
+ 
+ 
+
+ 
+ 数据分析 
+
+ 
+ 【数据分析】京东数据分析二面： https://www.nowcoder.com/discuss/120618 
+
+ 
+ 【数据分析】58数据分析面经，0offer攒人品！！！！： https://www.nowcoder.com/discuss/121791 
+
+ 
+ 【数据分析】10.8杭州vivo数据分析经理面经： https://www.nowcoder.com/discuss/124269 
+
+ 
+ 【数据分析】10.8vivo数据分析经理面经： https://www.nowcoder.com/discuss/124157 
+
+ 
+ 【数据分析】【攒人品】VIVO面经 互联网数据分析经理： https://www.nowcoder.com/discuss/111542 
+
+ 
+ 【数据分析】银联面经： https://www.nowcoder.com/discuss/102382 
+
+ 
+ 【数据分析岗】西安中国银联数据分析岗2019内推面试 https://www.nowcoder.com/discuss/92555 
+
+ 
+ 【数据分析师】终于收到意向书，回报大家一份拼多多数据分析师的面经： https://www.nowcoder.com/discuss/121091 
+
+ 
+ 【数据分析】网易数据分析面经： https://www.nowcoder.com/discuss/121329 
+
+ 
+ 【数据分析】网易考拉数据分析面经： https://www.nowcoder.com/discuss/119724 
+
+ 
+ 【数据分析+算法】网易数据分析+算法面经： https://www.nowcoder.com/discuss/118891 
+
+ 
+ 【数据分析】网易互联网邮件事业部数据分析面经： https://www.nowcoder.com/discuss/114797 
+
+ 
+ 【数据分析】网易考拉数据分析三面面筋： https://www.nowcoder.com/discuss/98892 
+
+ 
+ 【数据分析岗】今日头条/字节跳动 数据分析岗情况： https://www.nowcoder.com/discuss/128911 
+
+ 
+ 【数据分析】头条数据分析一面凉经： https://www.nowcoder.com/discuss/110037 
+
+ 
+ 【数据分析】8.26头条/字节跳动数据分析面试面经： https://www.nowcoder.com/discuss/105828 
+
+ 
+ 【数据分析】迟到的头条数据分析凉面： https://www.nowcoder.com/discuss/99812 
+
+ 
+ 【数据分析】欢聚YY，数据分析一面凉筋： https://www.nowcoder.com/discuss/119838 
+
+ 
+ 【数据分析】珍爱网数据分析一面面经： https://www.nowcoder.com/discuss/99606 
+
+ 
+ 【数据分析】【19数据分析面经】网易、拼多多、58、vivo笔经面经~： https://www.nowcoder.com/discuss/128127 
+
+ 
+ 【数据分析/产品/项目管理】神策-数据分析&WPS-产品-一面凉经&网易游戏-项目管理： https://www.nowcoder.com/discuss/123125 
+
+ 
+ 【数挖/数据分析】微众（数挖）+京东+拼多多数据分析面经： https://www.nowcoder.com/discuss/122060 
+
+ 
+ 【数据分析】2019数据分析求职经验贴【持续更新】： https://www.nowcoder.com/discuss/123711 
+
+ 
+ 【数据分析】数据分析秋招总结：虽然offer少，但是有我就很开心了： https://www.nowcoder.com/discuss/122992 
+
+ 
+ 【数据分析】实名感谢杨超越小姐姐哈哈哈~： https://www.nowcoder.com/discuss/113279 
+
+ 
+ 【数据分析】秋招面试总结（数据分析岗）： https://www.nowcoder.com/discuss/101014 
+
+ 
+ 【数据分析岗】人力数据分析岗一面二面三面hr面分享： https://www.nowcoder.com/discuss/142169 
+
+ 
+ 【数据分析】你是数据分析吗？我也是！不过我们可能不是同一岗。。。： https://www.nowcoder.com/discuss/127928 
+
+ 
+ 
+
+ 
+ 数据开发 
+
+ 
+ 【数据开发】京东两次面试面经(数据开发)： https://www.nowcoder.com/discuss/124998 
+
+ 
+ 【数据开发】京东内推数据开发岗面经 https://www.nowcoder.com/discuss/93956 
+
+ 
+ 【数据开发】美团上海现场面数据开发面经： https://www.nowcoder.com/discuss/100586 
+
+ 
+ 【数据开发】网易数据仓库开发面试经验： https://www.nowcoder.com/discuss/103215 
+
+ 
+ 【数据开发】携程上海现场面数据开发岗： https://www.nowcoder.com/discuss/100974 
+
+ 
+ 【数据开发】快手数据开发面经： https://www.nowcoder.com/discuss/100512 
+
+ 
+ 
+
+ 
+ 数据挖掘 
+
+ 
+ 【数据挖掘岗】京东数据挖掘岗一面 https://www.nowcoder.com/discuss/87973 
+
+ 
+ 【数据挖掘】CVTE研究院数据挖掘岗三轮面经： https://www.nowcoder.com/discuss/91678 
+
+ 
+ 
+
+ 
+ 图像处理 
+
+ 
+ 【图像算法】被阿里锤爆的一天 https://www.nowcoder.com/discuss/89517 
+
+ 
+ 【图像算法工程师】阿里图像算法工程师内推电话面试记录 https://www.nowcoder.com/discuss/88050 
+
+ 
+ 【图像】Ali aiLab图形图像 凉经 https://www.nowcoder.com/discuss/92698 
+
+ 
+ 【算法岗】新鲜vivo图像面经 https://www.nowcoder.com/discuss/91979 
+
+ 
+ 【算法】海康威视提前批一面（电话面）（图像方向） https://www.nowcoder.com/discuss/92896 
+
+ 
+ 【算法】百度阿里图像算法岗面经（已拿offer）： https://www.nowcoder.com/discuss/122670 
+
+ 
+ 
+
+ 
+ 云计算 
+
+ 
+ 【云计算产品经理】19秋招-腾讯-云计算产品经理-复盘&总结（初试挂）： https://www.nowcoder.com/discuss/123260 
+
+ 
+ 【SRE虚拟化与云计算方向】网易游戏SRE虚拟化与云计算方向面试记录： https://www.nowcoder.com/discuss/140613 
+
+ 
+ 【云计算/信息科技/系统开发】面经：银联、浦发、交行： https://www.nowcoder.com/discuss/101644 
+
+ 
+ 
+
+ 
+ 前端 
+
+ 
+ 【前端】绿盟科技实习面经： https://www.nowcoder.com/discuss/113284 
+
+ 
+ 【前端】百信银行校园招聘： https://www.nowcoder.com/discuss/112972 
+
+ 
+ 【前端】2018.9.29招银网络电话面： https://www.nowcoder.com/discuss/121326 
+
+ 
+ 【前端】招银网络科技面经： https://www.nowcoder.com/discuss/121287 
+
+ 
+ 【前端】【有赞2019秋招前端内推面经】一面顺利通过 https://www.nowcoder.com/discuss/90535 
+
+ 
+ 【前端】【有赞前端2019二面凉凉】一次凉凉的二面 https://www.nowcoder.com/discuss/92033 
+
+ 
+ 【前端】有赞前端一面 https://www.nowcoder.com/discuss/93642 
+
+ 
+ 【前端】有赞前端js面经一面 https://www.nowcoder.com/discuss/93681 
+
+ 
+ 【前端】多益前端一面 https://www.nowcoder.com/discuss/96296 
+
+ 
+ 【前端】百度秋招一面面经，武汉区： https://www.nowcoder.com/discuss/111446 
+
+ 
+ 【智能云前端】百度智能云前端面经 https://www.nowcoder.com/discuss/91112 
+
+ 
+ 【前端】百度前端面经 https://www.nowcoder.com/discuss/97957 
+
+ 
+ 【前端】百度fex面经： https://www.nowcoder.com/discuss/103817 
+
+ 
+ 【前端】百度前端面经： https://www.nowcoder.com/discuss/97957 
+
+ 
+ 【前端】码一篇京东历程： https://www.nowcoder.com/discuss/122088 
+
+ 
+ 【前端】京东广州场前端初试、复试面经： https://www.nowcoder.com/discuss/120128 
+
+ 
+ 【前端】京东前端面试恕我难以洞察您老人家的心： https://www.nowcoder.com/discuss/112872 
+
+ 
+ 【前端】京东前端一面还不知道结果： https://www.nowcoder.com/discuss/111883 
+
+ 
+ 【前端】京东北京前端1面： https://www.nowcoder.com/discuss/110831 
+
+ 
+ 【前端】京东前端一面面筋，已过，18号二面。： https://www.nowcoder.com/discuss/110828 
+
+ 
+ 【前端】认真写下阿里的面筋，祝福大家收到满意的offer（前端向）： https://www.nowcoder.com/discuss/102509 
+
+ 
+ 【前端】阿里前端2面面经[已回绝]写个面经攒攒人品 https://www.nowcoder.com/discuss/95295 
+
+ 
+ 【前端】阿里前端内推一面-电话面试，在线编程 https://www.nowcoder.com/discuss/95215 
+
+ 
+ 【前端】阿里前端一面凉经 https://www.nowcoder.com/discuss/92808 
+
+ 
+ 【前端】阿里前端一面面经 https://www.nowcoder.com/discuss/93672 
+
+ 
+ 【前端】阿里二面凉透经 https://www.nowcoder.com/discuss/94724 
+
+ 
+ 【前端】阿里前端面经 https://www.nowcoder.com/discuss/96781 
+
+ 
+ 【前端】阿里天猫前端一面 https://www.nowcoder.com/discuss/90347 
+
+ 
+ 【前端】阿里菜鸟前端一面 https://www.nowcoder.com/discuss/92272 
+
+ 
+ 【前端】时隔26天后的阿里菜鸟二面 https://www.nowcoder.com/discuss/94106 
+
+ 
+ 【前端】发下阿里三面凉经 https://www.nowcoder.com/discuss/94400 
+
+ 
+ 【前端】前端阿里二面（彻底凉凉血泪教训无参考价值） https://www.nowcoder.com/discuss/97247 
+
+ 
+ 【未知】阿里天猫前端js面经一面 https://www.nowcoder.com/discuss/93504 
+
+ 
+ 【前端】曾很喜欢华为现在不知道说什么： https://www.nowcoder.com/discuss/114010 
+
+ 
+ 【前端】顺丰前端面试： https://www.nowcoder.com/discuss/112130 
+
+ 
+ 【前端】顺丰前端一面凉凉攒人品 https://www.nowcoder.com/discuss/90509 
+
+ 
+ 【前端】顺丰前端视频一面 https://www.nowcoder.com/discuss/90447 
+
+ 
+ 【前端】阿里蚂蚁金服前端一面 https://www.nowcoder.com/discuss/90133 
+
+ 
+ 【前端】阿里一面 https://www.nowcoder.com/discuss/93483 
+
+ 
+ 【前端】阿里前端体验技术部二面 https://www.nowcoder.com/discuss/96496 
+
+ 
+ 【前端】9-14广州CVTE现场前端一面（已凉）： https://www.nowcoder.com/discuss/111510 
+
+ 
+ 【前端】CVTE前端一面 https://www.nowcoder.com/discuss/88493 
+
+ 
+ 【前端】CVTE前端电话一面 https://www.nowcoder.com/discuss/88561 
+
+ 
+ 【前端】CVTE前端开发一面面经 https://www.nowcoder.com/discuss/88607 
+
+ 
+ 【前端】CVTE前端一面面经 https://www.nowcoder.com/discuss/88621 
+
+ 
+ 【前端】cvte前端一面 https://www.nowcoder.com/discuss/88627 
+
+ 
+ 【前端】CVTE前端一面面经 https://www.nowcoder.com/discuss/88897 
+
+ 
+ 【前端】CVTE一面+二面 https://www.nowcoder.com/discuss/90334 
+
+ 
+ 【前端】CVTE HR面 https://www.nowcoder.com/discuss/92649 
+
+ 
+ 【前端】CVTE终面 https://www.nowcoder.com/discuss/93549 
+
+ 
+ 【前端】成都美团前端面试： https://www.nowcoder.com/discuss/118580 
+
+ 
+ 【前端】西安美团前端一面： https://www.nowcoder.com/discuss/112861 
+
+ 
+ 【前端】美团点评前端面经（二三面+hr面）： https://www.nowcoder.com/discuss/103755 
+
+ 
+ 【前端】西安美团前端一面： https://www.nowcoder.com/discuss/112861 
+
+ 
+ 【前端】美团一面： https://www.nowcoder.com/discuss/101449 
+
+ 
+ 【前端】美团前端一、二面面经： https://www.nowcoder.com/discuss/99954 
+
+ 
+ 【前端】美团前端二面： https://www.nowcoder.com/discuss/99736 
+
+ 
+ 【前端】美团前端一面： https://www.nowcoder.com/discuss/99519 
+
+ 
+ 【前端】美团前端一面凉面： https://www.nowcoder.com/discuss/99289 
+
+ 
+ 【前端】美团前端面经： https://www.nowcoder.com/discuss/97562 
+
+ 
+ 【前端】美团前端一面 https://www.nowcoder.com/discuss/97847 
+
+ 
+ 【前端】美团前端面经 https://www.nowcoder.com/discuss/97562 
+
+ 
+ 【前端】美团一面： https://www.nowcoder.com/discuss/101449 
+
+ 
+ 【前端】美团前端意向书get奉上面经： https://www.nowcoder.com/discuss/106576 
+
+ 
+ 【前端】腾讯前端提前批两面+正式批三面（持续更新中）： https://www.nowcoder.com/discuss/120047 
+
+ 
+ 【前端】成都腾讯一面： https://www.nowcoder.com/discuss/120035 
+
+ 
+ 【前端】腾讯凉面： https://www.nowcoder.com/discuss/118723 
+
+ 
+ 【前端】腾讯云前端一面凉经： https://www.nowcoder.com/discuss/101093 
+
+ 
+ 【前端】腾讯前端一面凉经： https://www.nowcoder.com/discuss/98475 
+
+ 
+ 【前端】记十分坎坷的腾讯深圳前端面试经历 https://www.nowcoder.com/discuss/96602 
+
+ 
+ 【前端】昨天投今天面，令人窒息的腾讯前端一面(二面待更新) https://www.nowcoder.com/discuss/88698 
+
+ 
+ 【前端】腾讯MIG前端一面 https://www.nowcoder.com/discuss/96724 
+
+ 
+ 【前端】腾讯前端一面凉经 https://www.nowcoder.com/discuss/91201 
+
+ 
+ 【前端】腾讯前端一面 https://www.nowcoder.com/discuss/90243 
+
+ 
+ 【前端】腾讯wxg前端一面面经 https://www.nowcoder.com/discuss/92679 
+
+ 
+ 【前端】腾讯前端一面（好凉好冷） https://www.nowcoder.com/discuss/93079 
+
+ 
+ 【前端】小米前端视频一面： https://www.nowcoder.com/discuss/109130 
+
+ 
+ 【前端】小米前端电话一面： https://www.nowcoder.com/discuss/108736 
+
+ 
+ 【前端】小米一面面筋： https://www.nowcoder.com/discuss/108694 
+
+ 
+ 【前端】thoughtworks前端技术面+ hr面 https://www.nowcoder.com/discuss/90531 
+
+ 
+ 【前端】金山WPS前端凉面筋 https://www.nowcoder.com/discuss/97137 
+
+ 
+ 【前端】拼多多前端二面： https://www.nowcoder.com/discuss/98470 
+
+ 
+ 【web前端研发岗】拼多多2019提前批web前端研发岗笔试 https://www.nowcoder.com/discuss/90910 
+
+ 
+ 【Web前端】拼多多Web前端面经——一面+二面（等结果中~）： https://www.nowcoder.com/discuss/143035 
+
+ 
+ 【前端】菜是原罪，可是今天真的是被气到了： https://www.nowcoder.com/discuss/115265 
+
+ 
+ 【前端】9.14科大讯飞前端工程师岗位面经： https://www.nowcoder.com/discuss/109356 
+
+ 
+ 【前端】网易前端二面： https://www.nowcoder.com/discuss/103229 
+
+ 
+ 【前端】网易考拉前端开奖啦~分享一波面筋： https://www.nowcoder.com/discuss/102838 
+
+ 
+ 【前端】记网易杭研（教育文漫）前端面试 https://www.nowcoder.com/discuss/96587 
+
+ 
+ 【前端】网易前端面经 https://www.nowcoder.com/discuss/97233 
+
+ 
+ 【前端】网易前端校招一面凉经 https://www.nowcoder.com/discuss/97212 
+
+ 
+ 【前端】广州网易邮件事业部前端一面二面凉面（面经） https://www.nowcoder.com/discuss/97459 
+
+ 
+ 【前端】网易前端一面挂经 https://www.nowcoder.com/discuss/97442 
+
+ 
+ 【前端】网易前端二面： https://www.nowcoder.com/discuss/103229 
+
+ 
+ 【前端】网易考拉前端开奖啦~分享一波面筋： https://www.nowcoder.com/discuss/102838 
+
+ 
+ 【前端】网易有道前端凉经好冷： https://www.nowcoder.com/discuss/100555 
+
+ 
+ 【前端】网易考拉前端面经： https://www.nowcoder.com/discuss/99069 
+
+ 
+ 【头条】前端视频三面+详解： https://www.nowcoder.com/discuss/128106 
+
+ 
+ 【前端】头条凉经： https://www.nowcoder.com/discuss/119796 
+
+ 
+ 【前端】字节跳动笔试面经： https://www.nowcoder.com/discuss/109068 
+
+ 
+ 【前端】头条一面凉经 https://www.nowcoder.com/discuss/92523 
+
+ 
+ 【前端】头条前端面经： https://www.nowcoder.com/discuss/141443 
+
+ 
+ 【前端】猿辅导前端一面： https://www.nowcoder.com/discuss/97744 
+
+ 
+ 【前端】猿辅导前端面筋 https://www.nowcoder.com/discuss/93354 
+
+ 
+ 【前端】猿辅导前端一面 https://www.nowcoder.com/discuss/97744 
+
+ 
+ 【前端】【2019秋招杭州帷幄科技前端面经】一面 https://www.nowcoder.com/discuss/95983 
+
+ 
+ 【前端】老虎证券前端： https://www.nowcoder.com/discuss/113599 
+
+ 
+ 【前端】【老虎证券前端一面】等二面通知： https://www.nowcoder.com/discuss/99625 
+
+ 
+ 【前端】老虎证券前端一面： https://www.nowcoder.com/discuss/99056 
+
+ 
+ 【前端】携程前端一面面筋 https://www.nowcoder.com/discuss/97545 
+
+ 
+ 【前端】远景能源一面： https://www.nowcoder.com/discuss/101479 
+
+ 
+ 【前端】搜狗校招专场三面： https://www.nowcoder.com/discuss/114070 
+
+ 
+ 【前端】知乎提前批前端面经： https://www.nowcoder.com/discuss/103707 
+
+ 
+ 【前端】快手前端视频一、二面： https://www.nowcoder.com/discuss/101914 
+
+ 
+ 【前端】【快手一到四面前端开发面经】口头offer： https://www.nowcoder.com/discuss/99160 
+
+ 
+ 【前端】快手前端视频一、二面： https://www.nowcoder.com/discuss/101914 
+
+ 
+ 【前端】猫眼前端面试，一面～三面，不知道，能通过不： https://www.nowcoder.com/discuss/101321 
+
+ 
+ 【前端】猫眼前端面筋…回馈牛客攒点人品…怕是凉了： https://www.nowcoder.com/discuss/106647 
+
+ 
+ 【前端】猫眼前端北京备胎面： https://www.nowcoder.com/discuss/139117 
+
+ 
+ 【前端】用友前端一面： https://www.nowcoder.com/discuss/108776 
+
+ 
+ 【前端】贝壳开到奖了，发一波面筋吧： https://www.nowcoder.com/discuss/122044 
+
+ 
+ 【前端】贝壳前端一面二面hr面凉面筋： https://www.nowcoder.com/discuss/99003 
+
+ 
+ 【前端】很幸运，结束秋招。面筋奉上。： https://www.nowcoder.com/discuss/106577 
+
+ 
+ 【前端】纷享销客前端一二面： https://www.nowcoder.com/discuss/103876 
+
+ 
+ 【前端】追一科技前端凉经： https://www.nowcoder.com/discuss/102875 
+
+ 
+ 【前端】富途前端线下面试： https://www.nowcoder.com/discuss/110345 
+
+ 
+ 【前端】虎牙前端一面： https://www.nowcoder.com/discuss/110250 
+
+ 
+ 【前端】虎牙前端一面： https://www.nowcoder.com/discuss/110250 
+
+ 
+ 【前端】shopee技术终面+HR面： https://www.nowcoder.com/discuss/125422 
+
+ 
+ 【前端】shopee二面： https://www.nowcoder.com/discuss/119657 
+
+ 
+ 【前端】码一篇千千音乐面经： https://www.nowcoder.com/discuss/126732 
+
+ 
+ 【前端岗】涂鸦智能电话面试,前端岗： https://www.nowcoder.com/discuss/143275 
+
+ 
+ 【前端】分享一波前端面筋，共勉，加油吧： https://www.nowcoder.com/discuss/128497 
+
+ 
+ 【前端】前端面经：途牛，米哈游： https://www.nowcoder.com/discuss/127436 
+
+ 
+ 【前端】从0offer到一天谈完薪资，几乎结束秋招，前端面经回馈牛客： https://www.nowcoder.com/discuss/127134 
+
+ 
+ 【前端】前端秋招面经汇总： https://www.nowcoder.com/discuss/126617 
+
+ 
+ 【前端】秋招结束，9 offer，面经分享一波，加油骚年们！： https://www.nowcoder.com/discuss/125303 
+
+ 
+ 【前端面经】硕渣百度阿里腾讯美团京东爱奇艺58面经~已签华为： https://www.nowcoder.com/discuss/122178 
+
+ 
+ 【前端】百度阿里网易大疆等大小厂前端校招面筋： https://www.nowcoder.com/discuss/123161 
+
+ 
+ 【前端】2019校招前端面试总结： https://www.nowcoder.com/discuss/125842 
+
+ 
+ 【前端】前端不完全面经： https://www.nowcoder.com/discuss/122366 
+
+ 
+ 【前端】码一篇知乎面经： https://www.nowcoder.com/discuss/122076 
+
+ 
+ 【前端】码一篇知乎面经： https://www.nowcoder.com/discuss/122076 
+
+ 
+ 【前端】一波前端面经，回馈牛客~： https://www.nowcoder.com/discuss/119115 
+
+ 
+ 【前端】几个公司的前端面经： https://www.nowcoder.com/discuss/117653 
+
+ 
+ 【回馈牛客】腾讯+网易前端面经： https://www.nowcoder.com/discuss/117490 
+
+ 
+ 【前端】链家&贝壳找房凉经： https://www.nowcoder.com/discuss/114795 
+
+ 
+ 【前端】吉比特&雷霆游戏凉经： https://www.nowcoder.com/discuss/114837 
+
+ 
+ 【前端】不带劲的前端烤面筋： https://www.nowcoder.com/discuss/114699 
+
+ 
+ 【前端】分享下暑期实习到现在的秋招经历，顺便求offer比较，谢谢~： https://www.nowcoder.com/discuss/112117 
+
+ 
+ 【前端】腾讯，百度，京东，美团，VIVO，VIPKID面经和一些感想： https://www.nowcoder.com/discuss/109055 
+
+ 
+ 【前端】快手/头条/BIGO前端面经： https://www.nowcoder.com/discuss/111688 
+
+ 
+ 【前端】百度&多益一面： https://www.nowcoder.com/discuss/110475 
+
+ 
+ 【前端工程师】9月第一天 总结了一下八月份的提前批面试： https://www.nowcoder.com/discuss/101938 
+
+ 
+ 【前端】前端校招提前批，8月收尾： https://www.nowcoder.com/discuss/100430 
+
+ 
+ 【前端】大厂面试经验小汇总（2018秋招）： https://www.nowcoder.com/discuss/100224 
+
+ 
+ 【前端】拿到了几个自己比较满意的offer，特来牛客还愿。： https://www.nowcoder.com/discuss/98417 
+
+ 
+ 【前端】（打怪升级中）炮灰的前端面经（美团、网易有道、小米）： https://www.nowcoder.com/discuss/137094 
+
+ 
+ 【前端岗】秋招结束，感恩牛客： https://www.nowcoder.com/discuss/140716 
+
+ 
+ 【前端】秋招面经合集—前端大作战！： https://www.nowcoder.com/discuss/142989 
+
+ 
+ 【前端】麻烦给前端菜鸡一条活路[狗头]： https://www.nowcoder.com/discuss/142305 
+
+ 
+ 【前端】秋招总结，来自山区的双非本科少年（超长待机！）： https://www.nowcoder.com/discuss/141877 
+
+ 
+ 【未知】前端渣本的打怪历程： https://www.nowcoder.com/discuss/122813 
+
+ 
+ 【未知】一篇还算正规的前端面经： https://www.nowcoder.com/discuss/122092 
+
+ 
+ 【前端】从春招到秋招的个人经历，前端岗： https://www.nowcoder.com/discuss/122960 
+
+ 
+ 【前端】前端基础面试题总结： https://www.nowcoder.com/discuss/136331 
+
+ 
+ 
+
+ 
+ Android 
+
+ 
+ 【Android】百词斩Android一二三面面经： https://www.nowcoder.com/discuss/129764 
+
+ 
+ 【Android】Android-深信服： https://www.nowcoder.com/discuss/116752 
+
+ 
+ 【Android】百度-Android开发工程师面经： https://www.nowcoder.com/discuss/135682 
+
+ 
+ 【Android】Android-深圳百度： https://www.nowcoder.com/discuss/115186 
+
+ 
+ 【Android】百度深圳Android一二面面经： https://www.nowcoder.com/discuss/114761 
+
+ 
+ 【Android应用工程师】OPPO校招提前批Android应用工程师面经 https://www.nowcoder.com/discuss/86113 
+
+ 
+ 【android】京东Android三分钟测验挂经： https://www.nowcoder.com/discuss/110645 
+
+ 
+ 【Android】2018.8.1大疆Android研发校招二面 https://www.nowcoder.com/discuss/89600 
+
+ 
+ 【Android】2018.7.28大疆Android校招一面面经 https://www.nowcoder.com/discuss/88815 
+
+ 
+ 【后台】菜鸟网络-一面（Android转后台） https://www.nowcoder.com/discuss/95957 
+
+ 
+ 【Android】10月11日：华为面经分享，就一点点迷吧： https://www.nowcoder.com/discuss/126426 
+
+ 
+ 【Android】顺丰科技秋招： https://www.nowcoder.com/discuss/118838 
+
+ 
+ 【Android】58集团-Android面经： https://www.nowcoder.com/discuss/124946 
+
+ 
+ 【android】CVTE-Android校招面经： https://www.nowcoder.com/discuss/110388 
+
+ 
+ 【Android】2019腾讯校招广州Android面试凉经： https://www.nowcoder.com/discuss/119901 
+
+ 
+ 【Android】腾讯 一二面 安卓开发 攒人品： https://www.nowcoder.com/discuss/98822 
+
+ 
+ 【Android】小米Android面经，了解一下： https://www.nowcoder.com/discuss/130795 
+
+ 
+ 【Android】断断续续的1小时小米一面： https://www.nowcoder.com/discuss/103057 
+
+ 
+ 【Android】金山WPS Android提前批面经： https://www.nowcoder.com/discuss/100786 
+
+ 
+ 【Android】金山WPS安卓一面面经： https://www.nowcoder.com/discuss/99918 
+
+ 
+ 【Android】金山安卓一面，拿到口头二面： https://www.nowcoder.com/discuss/99799 
+
+ 
+ 【Android开发工程师】金山WPS，Android开发工程师，一面,攒人品 https://www.nowcoder.com/discuss/92648 
+
+ 
+ 【安卓】网易北京传媒部Android面试8.31： https://www.nowcoder.com/discuss/101668 
+
+ 
+ 【android】Android面经-网易邮件事业部： https://www.nowcoder.com/discuss/111480 
+
+ 
+ 【Android】回馈牛客：网易互娱-Android面经： https://www.nowcoder.com/discuss/102515 
+
+ 
+ 【Android】网易北京传媒部Android面试8.31： https://www.nowcoder.com/discuss/101668 
+
+ 
+ 【Android】网易云音乐 杭州Android面经： https://www.nowcoder.com/discuss/99771 
+
+ 
+ 【Android】字节跳动Android工程师秋招面筋： https://www.nowcoder.com/discuss/127009 
+
+ 
+ 【Android】android头条三面面经,攒人品,求offer： https://www.nowcoder.com/discuss/128017 
+
+ 
+ 【Android】字节跳动一二面： https://www.nowcoder.com/discuss/136687 
+
+ 
+ 【Android】头条视频三面面经-Android岗： https://www.nowcoder.com/discuss/140609 
+
+ 
+ 【Android】头条现场3+1Android面试： https://www.nowcoder.com/discuss/138407 
+
+ 
+ 【Android】字节跳动/今日头条2019秋招Android开发面经： https://www.nowcoder.com/discuss/137124 
+
+ 
+ 【Android】头条-Android-offer： https://www.nowcoder.com/discuss/143381 
+
+ 
+ 【Android】再见二次元，不能为爱发电了。B站Android一面凉经。： https://www.nowcoder.com/discuss/121491 
+
+ 
+ 【Android】欢聚/广州-Android一面筋： https://www.nowcoder.com/discuss/113434 
+
+ 
+ 【Android】猫眼-Android面经： https://www.nowcoder.com/discuss/124943 
+
+ 
+ 【Android】贝壳安卓面筋，攒人品求offer： https://www.nowcoder.com/discuss/98858 
+
+ 
+ 【Android】Android-蘑菇街面经： https://www.nowcoder.com/discuss/115195 
+
+ 
+ 【Android】美丽联合校招Android面经： https://www.nowcoder.com/discuss/138952 
+
+ 
+ 【Android】富途移动端面经： https://www.nowcoder.com/discuss/98537 
+
+ 
+ 【Android】触宝广州Android面经： https://www.nowcoder.com/discuss/140836 
+
+ 
+ 【Android】Android面经：京东、美团、猫眼： https://www.nowcoder.com/discuss/128516 
+
+ 
+ 【Android】秋招结束，一点个人感想+头条面经回馈： https://www.nowcoder.com/discuss/125167 
+
+ 
+ 【Android】安卓求职者的秋招总结，感谢牛客网，感谢牛友们： https://www.nowcoder.com/discuss/122421 
+
+ 
+ 【Android】秋招Android面经（武汉）： https://www.nowcoder.com/discuss/120282 
+
+ 
+ 【Android】阿里菜鸟-客户端Android开发面经： https://www.nowcoder.com/discuss/120295 
+
+ 
+ 【Android客户端】阿里Android客户端一面经历 https://www.nowcoder.com/discuss/88869 
+
+ 
+ 【Android】回馈牛客，一个月的秋招之旅： https://www.nowcoder.com/discuss/100796 
+
+ 
+ 【Android】双非Android秋招总结，压轴头条offer： https://www.nowcoder.com/discuss/140596 
+
+ 
+ 【Android】懒渣秋招之路- android -杂谈： https://www.nowcoder.com/discuss/136116 
+
+ 
+ 【安卓】大疆非正经安卓开发一面 https://www.nowcoder.com/discuss/88647 
+
+ 
+ 【安卓工程师】顺丰hr面 https://www.nowcoder.com/discuss/90743 
+
+ 
+ 【安卓】顺丰安卓技术一面 https://www.nowcoder.com/discuss/90183 
+
+ 
+ 【android】2019秋招——CVTE安卓一面面经： https://www.nowcoder.com/discuss/110000 
+
+ 
+ 【安卓】cvte安卓一面失败 https://www.nowcoder.com/discuss/88486 
+
+ 
+ 【安卓】CVTE安卓二面面经 https://www.nowcoder.com/discuss/88500 
+
+ 
+ 【安卓】cvte安卓二面 https://www.nowcoder.com/discuss/88503 
+
+ 
+ 【安卓】cvte安卓岗一面+二面+hr面 https://www.nowcoder.com/discuss/90954 
+
+ 
+ 【android】美团安卓北京二面： https://www.nowcoder.com/discuss/108689 
+
+ 
+ 【安卓】鹅厂安卓一面面经 https://www.nowcoder.com/discuss/90268 
+
+ 
+ 【安卓】腾讯移动端面经 https://www.nowcoder.com/discuss/91873 
+
+ 
+ 【安卓】金山wps一面凉经 https://www.nowcoder.com/discuss/93348 
+
+ 
+ 【安卓】360一二面 金山wps二面 安卓 攒人品 https://www.nowcoder.com/discuss/96364 
+
+ 
+ 【安卓】网易(广州)安卓开发凉经 https://www.nowcoder.com/discuss/98306 
+
+ 
+ 【安卓】聊聊网易校招内推面试 https://www.nowcoder.com/discuss/97296 
+
+ 
+ 【安卓】360提前批面经 https://www.nowcoder.com/discuss/97142 
+
+ 
+ 
+
+ 
+ IOS 
+
+ 
+ 【IOS】今日头条面试秀出新智商： https://www.nowcoder.com/discuss/128211 
+
+ 
+ 【IOS】头条IOS三面，有点小神奇： https://www.nowcoder.com/discuss/128110 
+
+ 
+ 【IOS】2019秋招面经大汇总 ： https://www.nowcoder.com/discuss/122402 
+
+ 
+ 测试 
+
+ 
+ 【测开】招银测开面经： https://www.nowcoder.com/discuss/130888 
+
+ 
+ 【测开】招银网络科技烫手面经： https://www.nowcoder.com/discuss/120264 
+
+ 
+ 【测开】【实习-百度测开】： https://www.nowcoder.com/discuss/137970 
+
+ 
+ 【测开】发一波百度测开面经，攒一波人品吧~： https://www.nowcoder.com/discuss/128249 
+
+ 
+ 【测开】百度提前批测开面经： https://www.nowcoder.com/discuss/125206 
+
+ 
+ 【测开】百度测开一面-深圳： https://www.nowcoder.com/discuss/114202 
+
+ 
+ 【测开】百度测开面经（二面凉凉）： https://www.nowcoder.com/discuss/111815 
+
+ 
+ 【测开】百度测开面筋(更新一下二面)： https://www.nowcoder.com/discuss/110218 
+
+ 
+ 【测开】百度测开面经： https://www.nowcoder.com/discuss/109630 
+
+ 
+ 【测开】阿里测开面经~~： https://www.nowcoder.com/discuss/111661 
+
+ 
+ 【测开】阿里测开岗（有且只有一面） https://www.nowcoder.com/discuss/96264 
+
+ 
+ 【测开】阿里测开一面面经 https://www.nowcoder.com/discuss/97445 
+
+ 
+ 【测开】美团测开面经： https://www.nowcoder.com/discuss/117556 
+
+ 
+ 【测开】美团测开四面面筋： https://www.nowcoder.com/discuss/114631 
+
+ 
+ 【Java】刚出炉的美团Java面经： https://www.nowcoder.com/discuss/103038 【测开】美团测开面经： https://www.nowcoder.com/discuss/117556 
+
+ 
+ 【测开】美团测开四面面筋： https://www.nowcoder.com/discuss/114631 
+
+ 
+ 【测开】小米测开一二面面经： https://www.nowcoder.com/discuss/130468 
+
+ 
+ 【测开】10月15小米新鲜测开面经 一面凉： https://www.nowcoder.com/discuss/128944 
+
+ 
+ 【测开】中国电信IT研发中心 测开两面面筋： https://www.nowcoder.com/discuss/109998 
+
+ 
+ 【测开】实习-滴滴测开 一二面： https://www.nowcoder.com/discuss/141367 
+
+ 
+ 【测开】网易有道测开一面凉经（北京）： https://www.nowcoder.com/discuss/125264 
+
+ 
+ 【测开】网易测开面经攒人品，等的快秃头了！更新：不秃头了，开奖了： https://www.nowcoder.com/discuss/121300 
+
+ 
+ 【测开】网易测开攒人品： https://www.nowcoder.com/discuss/120569 
+
+ 
+ 【测开】网易互娱测开面经： https://www.nowcoder.com/discuss/114659 
+
+ 
+ 【测开】网易互娱测开一面凉面 https://www.nowcoder.com/discuss/93995 
+
+ 
+ 【测开】网易互娱测开一面，凉凉 https://www.nowcoder.com/discuss/93941 
+
+ 
+ 【测开】网易互娱测开一面凉经 https://www.nowcoder.com/discuss/92672 
+
+ 
+ 【测开】>网易互娱 测开三面 https://www.nowcoder.com/discuss/97251 
+
+ 
+ 【测开】网易传媒（北京）面经～： https://www.nowcoder.com/discuss/103944 
+
+ 
+ 【测开】今天头条分享一波凉凉的测开面经： https://www.nowcoder.com/discuss/119297 
+
+ 
+ 【测开】实习-抖音测开 三面凉： https://www.nowcoder.com/discuss/141370 
+
+ 
+ 【测开】头条测开： https://www.nowcoder.com/discuss/139339 
+
+ 
+ 【测开岗】头条实习测开岗三面面筋： https://www.nowcoder.com/discuss/143387 
+
+ 
+ 【测开】依图科技测开面经 https://www.nowcoder.com/discuss/96323 
+
+ 
+ 【测开】360北京现场面试测开一面挂面经 https://www.nowcoder.com/discuss/97707 
+
+ 
+ 【测开】搜狗测开一面面经(顺便求二面面经)： https://www.nowcoder.com/discuss/122513 
+
+ 
+ 【测开】贝壳测开面经： https://www.nowcoder.com/discuss/109032 
+
+ 
+ 【测开】去哪儿网测开面经： https://www.nowcoder.com/discuss/113387 
+
+ 
+ 【测开】去哪儿网测开面经： https://www.nowcoder.com/discuss/113387 
+
+ 
+ 【测开】融360测开面经： https://www.nowcoder.com/discuss/136552 
+
+ 
+ 【测开】总结一下自己的面试经验，主要是测开： https://www.nowcoder.com/discuss/126407 
+
+ 
+ 【测开】秋招面经分享（测开和开发都有）： https://www.nowcoder.com/discuss/119016 
+
+ 
+ 【测开】英特尔，京东，百度，阿里面经： https://www.nowcoder.com/discuss/112175 
+
+ 
+ 【测开，c++】秋招到现在的面经（测开，c++）： https://www.nowcoder.com/discuss/109051 
+
+ 
+ 【测开】测开秋招求职面经： https://www.nowcoder.com/discuss/138408 
+
+ 
+ 【测开】兜兜转转还是要去北京了，附上测开面经~： https://www.nowcoder.com/discuss/135632 
+
+ 
+ 【软件测试】深信服一面+二面+HR面（软件测试）： https://www.nowcoder.com/discuss/119990 
+
+ 
+ 【测试】深信服测试面经--武汉地区（没见到HR,应该是凉了）： https://www.nowcoder.com/discuss/117567 
+
+ 
+ 【测试】深信服-测试面经： https://www.nowcoder.com/discuss/117337 
+
+ 
+ 【测试开发】百度测试开发工程师二面凉经： https://www.nowcoder.com/discuss/126171 
+
+ 
+ 【测试开发】百度测试开发面经： https://www.nowcoder.com/discuss/113802 
+
+ 
+ 【测开】百度测试开发一面（凉凉）： https://www.nowcoder.com/discuss/110721 
+
+ 
+ 【开发测试岗】百度开发测试岗送人头一面凉经： https://www.nowcoder.com/discuss/109505 
+
+ 
+ 【测试开发】京东测试开发二面： https://www.nowcoder.com/discuss/118249 
+
+ 
+ 【测试开发】京东测试开发一面： https://www.nowcoder.com/discuss/117320 
+
+ 
+ 【测开】京东测试开发一面 https://www.nowcoder.com/discuss/92253 
+
+ 
+ 【测开】京东提前批测试开发面试 https://www.nowcoder.com/discuss/92806 
+
+ 
+ 【测试岗】大疆一面：测试岗 https://www.nowcoder.com/discuss/89085 
+
+ 
+ 【测试岗】大疆测试岗：二面 https://www.nowcoder.com/discuss/90667 
+
+ 
+ 【测试工程师】美的测试工程师一面： https://www.nowcoder.com/discuss/110554 
+
+ 
+ 【测试开发】腾讯阿里3+1面经，岗位测试开发： https://www.nowcoder.com/discuss/101602 
+
+ 
+ 【测试开发】阿里一二面面经，测开岗 https://www.nowcoder.com/discuss/87692 
+
+ 
+ 【测试开发工程师】秋招第一战：测试开发工程师阿里一面 https://www.nowcoder.com/discuss/88060 
+
+ 
+ 【测试开发】阿里测开凉经 https://www.nowcoder.com/discuss/90707 
+
+ 
+ 【测试开发】顺丰测试岗提前批一面 https://www.nowcoder.com/discuss/90692 
+
+ 
+ 【测试开发】阿里测试开发5面面经 攒人品 https://www.nowcoder.com/discuss/91278 
+
+ 
+ 【测试】阿里测试二面凉凉面经 https://www.nowcoder.com/discuss/89691 
+
+ 
+ 【测试】华为测试岗的面经分享： https://www.nowcoder.com/discuss/113432 
+
+ 
+ 【测试】秋招第一场面试华为测试南研所 https://www.nowcoder.com/discuss/96279 
+
+ 
+ 【测试岗】顺丰测试岗面经： https://www.nowcoder.com/discuss/118823 
+
+ 
+ 【测试开发】顺丰科技测试开发HR面 https://www.nowcoder.com/discuss/90946 
+
+ 
+ 【测试岗】顺丰测试岗提前批一面 https://www.nowcoder.com/discuss/90660 
+
+ 
+ 【测试岗】顺丰科技测试岗提前批面攒人品 https://www.nowcoder.com/discuss/93682 
+
+ 
+ 【测试工程师】顺丰提前批测试一面技术二面HR https://www.nowcoder.com/discuss/90386 
+
+ 
+ 【测试岗】华为优招测试面经 https://www.nowcoder.com/discuss/94741 
+
+ 
+ 【测开】9.14 CVTE测试开发凉面T^T： https://www.nowcoder.com/discuss/111580 
+
+ 
+ 【测开】美团-测试开发-一面经验： https://www.nowcoder.com/discuss/101142 
+
+ 
+ 【测开】2018.8.29美团点评测试开发面经（坐标上海）： https://www.nowcoder.com/discuss/100650 
+
+ 
+ 【测开】腾讯一面面经系统测试岗： https://www.nowcoder.com/discuss/97858 
+
+ 
+ 【测试】腾讯一面面经系统测试岗 https://www.nowcoder.com/discuss/97858 
+
+ 
+ 【测试开发】腾讯阿里3+1面经，岗位测试开发： https://www.nowcoder.com/discuss/101602 
+
+ 
+ 【测试】思特沃克测试面经： https://www.nowcoder.com/discuss/113807 
+
+ 
+ 【测试工程师】vivo。26号测试工程师面试： https://www.nowcoder.com/discuss/118721 
+
+ 
+ 【软件测试】vivo软件测试岗面经，努力过，等结果，攒人品： https://www.nowcoder.com/discuss/113598 
+
+ 
+ 【软件测试】金山-软件测试工程师-一面 https://www.nowcoder.com/discuss/96750 
+
+ 
+ 【测试开发】vipkid测试开发面经(吐槽)： https://www.nowcoder.com/discuss/128791 
+
+ 
+ 【游戏测试开发】网易游戏测试开发面经： https://www.nowcoder.com/discuss/121343 
+
+ 
+ 【测试】网易测试面经： https://www.nowcoder.com/discuss/113795 
+
+ 
+ 【游戏测试】网易互娱游戏测试面经求offer！ https://www.nowcoder.com/discuss/98123 
+
+ 
+ 【游戏测试】网易互娱游戏测试工程师一二三面 https://www.nowcoder.com/discuss/98045 
+
+ 
+ 【测开】网易游戏，测试开发面经 https://www.nowcoder.com/discuss/93917 
+
+ 
+ 【测开】网易游戏测试开发一面面筋 https://www.nowcoder.com/discuss/93639 
+
+ 
+ 【测试】网易游戏测试面试分享 https://www.nowcoder.com/discuss/94213 
+
+ 
+ 【测开】网易游戏测试开发二面凉经 https://www.nowcoder.com/discuss/96401 
+
+ 
+ 【测开】网易互娱测试开发工程师二面 https://www.nowcoder.com/discuss/96333 
+
+ 
+ 【测试】网易游戏测试二面凉凉帖 https://www.nowcoder.com/discuss/97392 
+
+ 
+ 【未知】网易互娱测试岗，一面，面凉的经 https://www.nowcoder.com/discuss/94008 
+
+ 
+ 【测试岗】透心凉的网易面筋测试： https://www.nowcoder.com/discuss/111908 
+
+ 
+ 【Java】广州网易有道Java开发工程师一二三面面经：【测开】网易考拉 测试 三面面筋： https://www.nowcoder.com/discuss/100178 
+
+ 
+ 【测试工程师】网易游戏测试工程师面经： https://www.nowcoder.com/discuss/100644 
+
+ 
+ 【游戏测试】网易互娱游戏测试三轮面经： https://www.nowcoder.com/discuss/102147 
+
+ 
+ 【游戏测试】网易游戏互娱游戏测试面经： https://www.nowcoder.com/discuss/100836 
+
+ 
+ 【游戏测试】网易互娱游戏测试面经求offer！： https://www.nowcoder.com/discuss/98123 
+
+ 
+ 【游戏测试】网易互娱游戏测试工程师一二三面： https://www.nowcoder.com/discuss/98045 
+
+ 
+ 【测试开发】网易游戏测试开发三轮面经（10.26面完）： https://www.nowcoder.com/discuss/137600 
+
+ 
+ 【测试岗】商汤科技，测试岗二面凉： https://www.nowcoder.com/discuss/116028 
+
+ 
+ 【测试开发岗】今日头条测试开发岗面经（一二面，GG）： https://www.nowcoder.com/discuss/139374 
+
+ 
+ 【测试开发】今日头条/字节跳动补招测试开发凉径： https://www.nowcoder.com/discuss/143070 
+
+ 
+ 【测试开发】字节跳动/今日头条 测试开发三面： https://www.nowcoder.com/discuss/142739 
+
+ 
+ 【测试开发】依图测试开发岗面经： https://www.nowcoder.com/discuss/122754 
+
+ 
+ 【测试开发】360测开一面凉经： https://www.nowcoder.com/discuss/104008 
+
+ 
+ 【测开】360测试岗位面筋： https://www.nowcoder.com/discuss/103913 
+
+ 
+ 【测开】360视频面试 测试开发 一面凉凉 https://www.nowcoder.com/discuss/97203 
+
+ 
+ 【测试】360很失败的面经 https://www.nowcoder.com/discuss/97157 
+
+ 
+ 【测开】搜狗测试开发岗凉面经： https://www.nowcoder.com/discuss/110809 
+
+ 
+ 【测开】知乎测试开发面经～～： https://www.nowcoder.com/discuss/102047 
+
+ 
+ 【测开】快手秋招面经,测试工程师： https://www.nowcoder.com/discuss/101945 
+
+ 
+ 【测试工程师】快手秋招面经,测试工程师： https://www.nowcoder.com/discuss/101945 
+
+ 
+ 【测开】猫眼测试开发一面凉经(内推)： https://www.nowcoder.com/discuss/111702 
+
+ 
+ 【测试】猫眼电话复面面经【测试岗】： https://www.nowcoder.com/discuss/115486 
+
+ 
+ 【测开】贝壳+测试开发面经： https://www.nowcoder.com/discuss/108573 
+
+ 
+ 【测试开发】贝壳测试开发面经： https://www.nowcoder.com/discuss/113805 
+
+ 
+ 【测试开发】贝壳找房测开面筋： https://www.nowcoder.com/discuss/113364 
+
+ 
+ 【测试开发】去哪儿网测试开发一面面经： https://www.nowcoder.com/discuss/126848 
+
+ 
+ 【测试岗】恒生电子群面奇葩经历： https://www.nowcoder.com/discuss/122576 
+
+ 
+ 【测试工程师】创梦天地测试工程师一面面经： https://www.nowcoder.com/discuss/136917 
+
+ 
+ 【测开/测试】回馈牛友，发一波测开/测试面经啦： https://www.nowcoder.com/discuss/130841 
+
+ 
+ 【测开】测试/测开面经： https://www.nowcoder.com/discuss/124011 
+
+ 
+ 【测试开发】结束秋招，回馈牛客，测试开发岗面经： https://www.nowcoder.com/discuss/123153 
+
+ 
+ 【测试】真菜-不是假的菜-废话很多-测试-求职惨路（内附学习资料）： https://www.nowcoder.com/discuss/122667 
+
+ 
+ 【测开】腾讯阿里3+1面经，岗位测试开发： https://www.nowcoder.com/discuss/101602 
+
+ 
+ 【测试/测开】菜鸡的测试/测开秋招面经： https://www.nowcoder.com/discuss/138294 
+
+ 
+ 
+
+ 
+ 大数据 
+
+ 
+ 【大数据平台研发岗】深信服提前批面经（大数据平台研发岗） https://www.nowcoder.com/discuss/86060 
+
+ 
+ 【大数据】感谢牛客网！发一波面经！阿里、网易游戏、京东等offer。： https://www.nowcoder.com/discuss/101712 
+
+ 
+ 【算法】华为大数据面经： https://www.nowcoder.com/discuss/120732 
+
+ 
+ 【大数据研发】顺丰科技面经-大数据研发： https://www.nowcoder.com/discuss/120499 
+
+ 
+ 【大数据挖掘与分析】顺丰科技一面面经（内推--大数据挖掘与分析岗） https://www.nowcoder.com/discuss/88818 
+
+ 
+ 【信息科技岗(大数据创新岗)】 【浦发银行】信息科技岗(大数据创新岗)8.6日上海总行面经 https://www.nowcoder.com/discuss/91147 
+
+ 
+ 【大数据】上海浦发面经(秋招面经持续更新，攒人品) https://www.nowcoder.com/discuss/90871 
+
+ 
+ 【大数据创新岗】浦发银行大数据创新岗上海打卡 https://www.nowcoder.com/discuss/91675 
+
+ 
+ 【大数据】浦发银行总行（上海）大数据岗8月6号面经 https://www.nowcoder.com/discuss/91911 
+
+ 
+ 【大数据】菜鸟的面试：科大讯飞和作业帮 https://www.nowcoder.com/discuss/90245 
+
+ 
+ 【大数据】海康威视-大数据岗-一面面经总结18年8月8日 https://www.nowcoder.com/discuss/92149 
+
+ 
+ 【大数据】网易大数据面经--有点凉： https://www.nowcoder.com/discuss/118336 
+
+ 
+ 【大数据】网易大数据面经： https://www.nowcoder.com/discuss/103119 
+
+ 
+ 【Java】网易杭研所(大数据、云计算)Java研发面经 https://www.nowcoder.com/discuss/97078 
+
+ 
+ 【大数据】感谢牛客网！发一波面经！阿里、网易游戏、京东等offer。： https://www.nowcoder.com/discuss/101712 
+
+ 
+ 【数据开发】网易大数据面经： https://www.nowcoder.com/discuss/103119 
+
+ 
+ 【大数据】网易杭研大数据玄面分享： https://www.nowcoder.com/discuss/100227 
+
+ 
+ 【大数据】网易云音乐大数据：一点引导都没有的二面面试官： https://www.nowcoder.com/discuss/99553 
+
+ 
+ 【数据开发】网易（北京）-大数据开发工程师二面面经： https://www.nowcoder.com/discuss/99861 
+
+ 
+ 【大数据工程师】头条一面面经： https://www.nowcoder.com/discuss/127831 
+
+ 
+ 【大数据开发】360企业安全大数据开发面经： https://www.nowcoder.com/discuss/111970 
+
+ 
+ 【大数据开发】第四范式大数据开发： https://www.nowcoder.com/discuss/110224 
+
+ 
+ 【宜信大数据中心】
+
+ 
+ 【数据挖掘/大数据开发】说好的面经来啦！！ 数据挖掘/大数据开发： https://www.nowcoder.com/discuss/127104 
+
+ 
+ 【大数据开发】十余家公司大数据开发面经： https://www.nowcoder.com/discuss/109518 
+
+ 
+ 【大数据开发】美团、网易、贝壳、华为、小米、携程、快手大数据开发面经： https://www.nowcoder.com/discuss/106368 
+
+ 
+ 【大数据岗】新鲜出炉的浦发大数据岗面筋： https://www.nowcoder.com/discuss/140690 
+
+ 
+ 【大数据】分享一个大数据的面经： https://www.nowcoder.com/discuss/142963 
+
+ 
+ 【大数据开发】大数据开发（研发）面经： https://www.nowcoder.com/discuss/120918 
+
+ 
+ 【大数据】大数据面经好少啊，我来写点： https://www.nowcoder.com/discuss/119208 
+
+ 
+ 
+
+ 
+ 服务端 
+
+ 
+ 【服务端】百度服务端一面凉凉 https://www.nowcoder.com/discuss/92333 
+
+ 
+ 【服务端】小米服务端电话二面： https://www.nowcoder.com/discuss/109436 
+
+ 
+ 【未知】新鲜的猿辅导服务端研发视频面面经 https://www.nowcoder.com/discuss/93073 
+
+ 
+ 【C++】360面经 个人安全-服务端开发(C++)： https://www.nowcoder.com/discuss/111818 
+
+ 
+ 【服务端开发】奇虎360服务端开发岗面筋，自行了解一下： https://www.nowcoder.com/discuss/102556 
+
+ 
+ 【c++】【服务端开发c++】11家面经合集（内含知识点福利）： https://www.nowcoder.com/discuss/129739 
+
+ 
+ 
+
+ 
+ 后台开发 
+
+ 
+ 【云计算后台开发】深信服提前批电话二面，很迷。。。 https://www.nowcoder.com/discuss/91307 
+
+ 
+ 【后台】百度提前批后台开发123面面经 https://www.nowcoder.com/discuss/96749 
+
+ 
+ 【Java】春招实习时，百度凤巢Java后台开发岗面经（跪经）： https://www.nowcoder.com/discuss/99265 
+
+ 
+ 【后台开发】大疆后台开发（深圳）一面16分钟面经 https://www.nowcoder.com/discuss/87387 
+
+ 
+ 【Java后台开发】Java后台开发，小红书，现场： https://www.nowcoder.com/discuss/137360 
+
+ 
+ 【后台】58同城后台开发工程师三轮面试(2018年9月21)： https://www.nowcoder.com/discuss/115216 
+
+ 
+ 【后台】58转转后台开发工程师三轮面试(2018年9月20)： https://www.nowcoder.com/discuss/114529 
+
+ 
+ 【后台开发岗】CVTE广州站-Web后台开发岗面试： https://www.nowcoder.com/discuss/111448 
+
+ 
+ 【Web后台开发】CVTE Web后台开发一面 https://www.nowcoder.com/discuss/88642 
+
+ 
+ 【web后台开发】cvte一面+二面+终面 面经 https://www.nowcoder.com/discuss/90937 
+
+ 
+ 【后台开发】美团大零售事业群-闪购 一面（已通过）： https://www.nowcoder.com/discuss/103915 
+
+ 
+ 【后台】腾讯后台开发面筋： https://www.nowcoder.com/discuss/129660 
+
+ 
+ 【后台开发】腾讯后台开发面经： https://www.nowcoder.com/discuss/119693 
+
+ 
+ 【后台开发】腾讯后台开发面经： https://www.nowcoder.com/discuss/119355 
+
+ 
+ 【后台开发】热气腾腾的腾讯后台开发面经（总共五面）： https://www.nowcoder.com/discuss/100383 
+
+ 
+ 【后台开发】帮朋友发的热乎乎的腾讯SNG面筋： https://www.nowcoder.com/discuss/98473 
+
+ 
+ 【后台开发】腾讯QQ音乐一面和二面 https://www.nowcoder.com/discuss/90723 
+
+ 
+ 【后台开发】腾讯后台开发二面面经 https://www.nowcoder.com/discuss/91110 
+
+ 
+ 【后台】腾讯面试，后台开发 https://www.nowcoder.com/discuss/96774 
+
+ 
+ 【后台开发】滴滴后台开发面经： https://www.nowcoder.com/discuss/142526 
+
+ 
+ 【Java】根据牛客上网易面试贴整理的，Java后台开发面经： https://www.nowcoder.com/discuss/106018 
+
+ 
+ 【后台开发】头条面经后台开发： https://www.nowcoder.com/discuss/128011 
+
+ 
+ 【后台开发】头条后台开发面经： https://www.nowcoder.com/discuss/105917 
+
+ 
+ 【后台开发】去哪儿网西安后台开发9 .18： https://www.nowcoder.com/discuss/117390 
+
+ 
+ 【后台开发】去哪儿网西安后台开发9 .18： https://www.nowcoder.com/discuss/117390 
+
+ 
+ 【后台】迅雷后台开发面经： https://www.nowcoder.com/discuss/106779 
+
+ 
+ 【后台开发】BAT后台开发新鲜面经，回馈牛客网： https://www.nowcoder.com/discuss/108280 
+
+ 
+ 【后台开发】美团、腾讯秋招面试（一面）： https://www.nowcoder.com/discuss/100489 
+
+ 
+ 【后台研发】多益视频一面-后台研发 https://www.nowcoder.com/discuss/96327 
+
+ 
+ 【后台】头条后台研发面经（共三面） https://www.nowcoder.com/discuss/94233 
+
+ 
+ 【后台研发】搜狗后台研发一面二面面经： https://www.nowcoder.com/discuss/126149 
+
+ 
+ 【后台研发】旷视后台研发三面： https://www.nowcoder.com/discuss/101942 
+
+ 
+ 【后台研发】2018这一年 ： https://www.nowcoder.com/discuss/137593 
+
+ 
+ 【软件开发】腾讯软件开发-移动客户端方向电话面试 https://www.nowcoder.com/discuss/91773 
+
+ 
+ 【基础平台研发岗】百度3面面经，基础平台研发岗： https://www.nowcoder.com/discuss/110963 
+
+ 
+ 【基础平台研发】百度提前批面试一面，基础平台研发（感觉凉凉） https://www.nowcoder.com/discuss/85593 
+
+ 
+ 
+
+ 
+ PHP 
+
+ 
+ 【PHP工程师】百度深圳一面凉经： https://www.nowcoder.com/discuss/113405 
+
+ 
+ 【PHP】美团PHP一面： https://www.nowcoder.com/discuss/101265 
+
+ 
+ 【php】贝壳面经（PHP及相关后端技术栈）： https://www.nowcoder.com/discuss/106653 
+
+ 
+ 【php】贝壳PHP三面挂经： https://www.nowcoder.com/discuss/114877 
+
+ 
+ 【PHP】10.26阅文（武汉场）PHP面试： https://www.nowcoder.com/discuss/136339 
+
+ 
+ 
+
+ 
+ python 
+
+ 
+ 【python后端】字节跳动python后端一，二轮，三轮online： https://www.nowcoder.com/discuss/139734 
+
+ 
+ 【后端】360 python后端 内推面试 https://www.nowcoder.com/discuss/97250 
+
+ 
+ 
+
+ 
+ 安全 
+
+ 
+ 【c++】深信服一面，c++研发（网络安全方向） https://www.nowcoder.com/discuss/87521 
+
+ 
+ 【安全工程师】vivo武汉 安全工程师： https://www.nowcoder.com/discuss/113212 
+
+ 
+ 【内容安全中心-内容监控专员】【欢聚时代】内容安全中心-内容监控专员面试 https://www.nowcoder.com/discuss/95974 
+
+ 
+ 【安全岗】企业安全意向offer，安全岗终于开张了： https://www.nowcoder.com/discuss/118730 
+
+ 
+ 【Java】秋招季面试经验分享——360企业安全： https://www.nowcoder.com/discuss/121260 
+
+ 
+ 【算法】360企业安全一面二面凉面经： https://www.nowcoder.com/discuss/115414 
+
+ 
+ 【算法】360企业安全武汉现场一面凉经： https://www.nowcoder.com/discuss/115218 
+
+ 
+ 【后端】360企业安全后端开发二面： https://www.nowcoder.com/discuss/114717 
+
+ 
+ 【服务器端开发】360企业安全服务器端开发面经： https://www.nowcoder.com/discuss/113579 
+
+ 
+ 【安全岗】本渣来总结下安全岗的面试经历，等一个好运： https://www.nowcoder.com/discuss/111857 
+
+ 
+ 【安全岗】安全岗菜鸡的坎坷秋招路（面经+笔试题分享）： https://www.nowcoder.com/discuss/139226 
+
+ 
+ 【Android】网易、360企业安全、有赞和远景能源(Android)面经： https://www.nowcoder.com/discuss/136714 
+
+ 
+ 
+
+ 
+ 嵌入式 
+
+ 
+ 【嵌入式工程师】阿里-自动化嵌入式-一面已挂 https://www.nowcoder.com/discuss/92892 
+
+ 
+ 【嵌入式】CVTE嵌入式凉面经： https://www.nowcoder.com/discuss/109591 
+
+ 
+ 【嵌入式】CVTE嵌入式一面面经 https://www.nowcoder.com/discuss/90250 
+
+ 
+ 【嵌入式岗】回馈牛客网，CVTE秋招嵌入式面经： https://www.nowcoder.com/discuss/139261 
+
+ 
+ 
+
+ 
+ 游戏研发 
+
+ 
+ 【游戏研发】多益网络游戏研发面试 https://www.nowcoder.com/discuss/85208 
+
+ 
+ 【游戏研发】多益（视频面）-----游戏研发工程师 https://www.nowcoder.com/discuss/95262 
+
+ 
+ 【游戏研发】多益视频面游戏开发工程师 https://www.nowcoder.com/discuss/96382 
+
+ 
+ 【游戏研发】网易游戏研发offer已发： https://www.nowcoder.com/discuss/120371 
+
+ 
+ 【游戏研发工程师】感谢牛客网，收到了网易游戏的offer，回馈一波 ： https://www.nowcoder.com/discuss/121587 
+
+ 
+ 【游戏研发】8.15网易游戏互动娱乐提前批面试（初级游戏研发工程师） https://www.nowcoder.com/discuss/94350 
+
+ 
+ 【游戏研发】[面经]网易互娱游戏研发工程师 https://www.nowcoder.com/discuss/97703 
+
+ 
+ 【游戏研发】网易互娱初级游戏研发面经 https://www.nowcoder.com/discuss/97563 
+
+ 
+ 【游戏研发】网易游戏研发工程师一面（8.23） https://www.nowcoder.com/discuss/97866 
+
+ 
+ 【游戏研发】网易互娱(初级游戏研发) https://www.nowcoder.com/discuss/95256 
+
+ 
+ 【游戏研发】网易游戏研发一面（电话）凉凉面经 https://www.nowcoder.com/discuss/94681 
+
+ 
+ 【游戏研发】网易游戏研发1面 https://www.nowcoder.com/discuss/98181 
+
+ 
+ 【游戏研发】网易互娱初级游戏研发面筋 https://www.nowcoder.com/discuss/97989 
+
+ 
+ 【游戏研发】网易游戏互娱游戏研发一面挂经回忆版： https://www.nowcoder.com/discuss/101395 
+
+ 
+ 【游戏研发】2019网易互娱初级游戏研发工程师凉经： https://www.nowcoder.com/discuss/111003 
+
+ 
+ 【游戏研发】网易互娱初级游戏研发现场面凉经： https://www.nowcoder.com/discuss/110764 
+
+ 
+ 【游戏研发】网易初级游戏研发面经（已收offer）： https://www.nowcoder.com/discuss/110558 
+
+ 
+ 【游戏研发】网易互娱游戏研发，凉经，大家参考： https://www.nowcoder.com/discuss/110487 
+
+ 
+ 【游戏研发】南京站网易互娱初级游戏研发一面： https://www.nowcoder.com/discuss/109503 
+
+ 
+ 【研发工程师】网易雷火游戏研发工程师面经（已收到offer邮件）： https://www.nowcoder.com/discuss/109468 
+
+ 
+ 【游戏研发】网易游戏研发1面： https://www.nowcoder.com/discuss/98181 
+
+ 
+ 【游戏研发】网易游戏互娱游戏研发一面挂经回忆版： https://www.nowcoder.com/discuss/101395 
+
+ 
+ 【游戏研发】网易游戏（盘古）-游戏研发一面凉经： https://www.nowcoder.com/discuss/100344 
+
+ 
+ 【游戏研发】网易互娱初级游戏研发面筋： https://www.nowcoder.com/discuss/97989 
+
+ 
+ 【游戏研发】网易雷火凉面： https://www.nowcoder.com/discuss/97949 
+
+ 
+ 【游戏研发】网易游戏研发工程师一面（8.23）： https://www.nowcoder.com/discuss/97866 
+
+ 
+ 【游戏研发】[面经]网易互娱游戏研发工程师： https://www.nowcoder.com/discuss/97703 
+
+ 
+ 【游戏研发】广州网易互娱： https://www.nowcoder.com/discuss/106613 
+
+ 
+ 【游戏研发】网易互娱初级游戏研发一二面面经： https://www.nowcoder.com/discuss/107050 
+
+ 
+ 
+
+ 
+ 运维 
+
+ 
+ 【运维工程师】百度凉凉，但还是分享一波面经： https://www.nowcoder.com/discuss/119010 
+
+ 
+ 【运维】美团点评运维面试题： https://www.nowcoder.com/discuss/117425 
+
+ 
+ 【运维】美团点评运维面试题： https://www.nowcoder.com/discuss/117425 
+
+ 
+ 【运维】小米面试，感谢牛客网的大家分享，还在等结果： https://www.nowcoder.com/discuss/115683 
+
+ 
+ 【运维】断断续续的1小时小米一面： https://www.nowcoder.com/discuss/103057 
+
+ 
+ 【运维工程师】技术小白到vivo offer之路： https://www.nowcoder.com/discuss/97566 
+
+ 
+ 【运维】vivo运维一面+HR面 https://www.nowcoder.com/discuss/94264 
+
+ 
+ 【运维工程师】感谢网易捞我出来，太激动了： https://www.nowcoder.com/discuss/125186 
+
+ 
+ 【运维开发】喜提360企业安全offer一枚（附面经--运维开发）： https://www.nowcoder.com/discuss/115982 
+
+ 
+ 【ios】虎牙OS系统运维一面+二面+HR面： https://www.nowcoder.com/discuss/113967 
+
+ 
+ 【运维工程师】51信用卡面经，求好运： https://www.nowcoder.com/discuss/124783 
+
+ 
+ 【运维工程师】我的秋招面经——问题篇： https://www.nowcoder.com/discuss/125144 
+
+ 
+ 【运维工程师】攒波人品，希望国庆后能够开奖： https://www.nowcoder.com/discuss/123466 
+
+ 
+ 【运维工程师】今天有点邪乎，51加面，小米还加面： https://www.nowcoder.com/discuss/125903 
+
+ 
+ 【运维开发】两天五场面试。。发波面经攒人品（运维开发）： https://www.nowcoder.com/discuss/119106 
+
+ 
+ 【运维工程师】凉经反馈希望不再凉凉： https://www.nowcoder.com/discuss/112144 
+
+ 
+ 【运维】秋招总结（运维）： https://www.nowcoder.com/discuss/142474
 
 ---
 

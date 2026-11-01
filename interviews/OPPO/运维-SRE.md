@@ -1,6 +1,18 @@
 # OPPO · 运维/SRE
 
-> 共 **1** 条 ｜ [返回总目录](../../README.md)
+> 共 **2** 条 ｜ [返回总目录](../../README.md)
+
+---
+
+## oppo 暑期实习 凉
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2025-04-19 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/f3ac05d6bac74ee1bcd9971d55a604b6)
+
+笔试A了两道…
+第一意向后端开发，复筛挂 未进面；
+第二意向DevOps，二面综合面试挂。
+
+看看oppo的兄弟公司会不会给offer吧🤒
 
 ---
 
