@@ -1,6 +1,6 @@
 # 寒武纪 · 算法/AI
 
-> 共 **40** 条 ｜ [返回总目录](../../README.md)
+> 共 **39** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -2770,38 +2770,6 @@ gdb调试
  感觉会凉，希望能有下次面试，秋招难，自己也太菜了。。 
 
  [面试必过][笔试必过][面试多多][来个offer][offer+1][消灭0offer]
-
----
-
-## 2020秋招面经大汇总（寒武纪）
-
-来源：牛客网 ｜ 类型：面经 ｜ 发布：2019-08-31 ｜ [原文链接](https://www.nowcoder.com/discuss/353155332664926208)
-
-C++
-
-【作业帮、寒武纪、商汤、科大讯飞】分享最近的作业帮/寒武纪/商汤/科大讯飞面经 https://www.nowcoder.com/discuss/218906 
-
-【寒武纪】【寒武纪框架开发C++提前批三面凉经】 https://www.nowcoder.com/discuss/217334 
-
-【寒武纪】寒武纪加面，C++ 面经 https://www.nowcoder.com/discuss/210686 
-
-【寒武纪】寒武纪，软件研发工程师（虚拟化方向）（提前批） 一面 https://www.nowcoder.com/discuss/208579 
-
- 
- 前端
-
-【依图 寒武纪 疯狂游戏】7月提前批一面挂经 依图 寒武纪 疯狂游戏 前端 https://www.nowcoder.com/discuss/235467 
-
-【寒武纪】寒武纪前端一面面经 https://www.nowcoder.com/discuss/209664 
-
-【寒武纪】寒武纪一面面经 https://www.nowcoder.com/discuss/207803 
-
- 
- 算法
-
-【寒武纪、作业帮、百度、腾讯、拼多多、蘑菇街】算法工程师面经+少量后端内容 2019年8月 BAT面经都有 https://www.nowcoder.com/discuss/231656 
-
-【寒武纪】寒武纪深度学习三面面经 https://www.nowcoder.com/discuss/216007
 
 ---
 

@@ -372,7 +372,156 @@ reward model如何训练的，训练目标是什么?
 
 来源：掘金 ｜ 类型：面经 ｜ 发布：2024-08-27 ｜ [原文链接](https://juejin.cn/post/7407271112995717146)
 
-小米汽车 近日，小米公布了财报。 小米 Q2 营收 889 亿，同比 +32%，调整后净利润 62 亿，同比 +20.1%。 营收符合预期，利润超预期 20 亿左右。 雷军说，这是小米成立以来最出色的
+小米汽车
+
+ 近日，小米公布了财报。
+
+ 小米 Q2 营收 889 亿，同比 +32%，调整后净利润 62 亿，同比 +20.1%。
+
+ 营收符合预期，利润超预期 20 亿左右。
+
+ 雷军说，这是小米成立以来最出色的财报。
+
+ 有意思的是： 小米汽车亏损 18 亿左右，结合销量来看，平均卖一台小米汽车，要亏损 6 万。 
+
+ 就这事儿还被极越的公关负责人在朋友圈指责：
+
+ 
+
+ 不过很快这位当事人就公开道歉了。
+
+ 明明亏这么多，为什么雷军还说这是出色财报？
+
+ 因为据数据显示，小米汽车毛利率高达 15.4%，远超预期。
+
+ 
+
+ 目前亏损只是因为小米汽车的前期投入（工厂建设、人员成本、研发支出等各项费用）尚未被销量摊开，将来如果产能上去，销量再上一个级别，利润由负转正的希望很大。
+
+ 换句话说，如果将来小米汽车不亏钱，那么小米将会是一家年赚 300 亿的公司，如果小米汽车还能赚钱，那好家伙，你们自己想吧。
+
+ ...
+
+ 回归主线。
+
+ 来一道和「米哈游（原神）」相关的算法题。
+
+ 题目描述
+
+ 平台：LeetCode
+
+ 题号：646
+
+ 给出 n 个数对。
+
+ 在每一个数对中，第一个数字总是比第二个数字小。
+
+ 现在，我们定义一种跟随关系，当且仅当 b [3,4] 
+ 
+ 提示：
+
+ 
+ 给出数对的个数在 [ 1 , 1000 ] [1, 1000] [ 1 , 1000 ] 范围内。
+
+ 
+ 排序 + 贪心 DP
+
+ 起始先将 pairs 根据第一维排升序（或直接双关键字排升序）。
+
+ 考虑定义 f [ i ] f[i] f [ i ] 为以 p a i r s [ i ] pairs[i] p ai rs [ i ] 为结尾的最长数对链长度，所有 f [ i ] f[i] f [ i ] 中的最大值为答案。
+
+ 不失一般性考虑 f [ i ] f[i] f [ i ] 该如何转移：不难发现 f [ i ] f[i] f [ i ] 为所有满足「下标范围在 [ 0 , i − 1 ] [0, i - 1] [ 0 , i − 1 ] ，且 p a i r s [ j ] [ 1 ] f [ j ] f[j'] > f[j] f [ j ′ ] > f [ j ] 。根据我们的排序规则必然有 p a i r s [ j ′ ] [ 0 ] a[ 0 ]-b[ 0 ]);
+ int n = pairs.length, ans = 1 ;
+ int [] f = new int [n];
+ for ( int i = 0 ; i = 0 && f[i] == 1 ; j--) {
+ if (pairs[j][ 1 ] >& pairs) {
+ sort (pairs. begin (), pairs. end ());
+ int n = pairs. size (), ans = 1 ;
+ vector f (n, 1 ) ;
+ for ( int i = 0 ; i = 0 && f[i] == 1 ; j--) {
+ if (pairs[j][ 1 ] int :
+ pairs.sort()
+ n, ans = len (pairs), 1 
+ f = [ 1 ] * n
+ for i in range (n):
+ j = i - 1 
+ while j >= 0 and f[i] == 1 :
+ if pairs[j][ 1 ] a[ 0 ] - b[ 0 ]);
+ let n = pairs. length , ans = 1 ;
+ const f : number [] = new Array (n). fill ( 1 ); 
+ for ( let i = 0 ; i = 0 && f[i] == 1 ; j--) {
+ if (pairs[j][ 1 ] a[ 0 ]-b[ 0 ]);
+ int n = pairs.length, ans = 1 ;
+ int [] g = new int [n + 10 ];
+ Arrays.fill(g, 0x3f3f3f3f );
+ for ( int i = 0 ; i > 1 ;
+ if (g[mid] >= pairs[i][ 0 ]) r = mid;
+ else l = mid + 1 ;
+ }
+ g[r] = Math.min(g[r], pairs[i][ 1 ]);
+ ans = Math.max(ans, r);
+ }
+ return ans;
+ }
+}
+ 
+ C++ 代码：
+
+ class Solution {
+ public :
+ int findLongestChain (vector >& pairs) {
+ sort (pairs. begin (), pairs. end ());
+ int n = pairs. size (), ans = 1 ;
+ vector g (n + 10 , 0x3f3f3f3f ) ;
+ for ( int i = 0 ; i > 1 ;
+ if (g[mid] >= pairs[i][ 0 ]) r = mid;
+ else l = mid + 1 ;
+ }
+ g[r] = min (g[r], pairs[i][ 1 ]);
+ ans = max (ans, r);
+ }
+ return ans;
+ }
+};
+ 
+ Python 代码：
+
+ class Solution :
+ def findLongestChain ( self, pairs: List [ List [ int ]] ) -> int :
+ pairs.sort()
+ n, ans = len (pairs), 1 
+ g = [ 0x3f3f3f3f ] * (n + 10 )
+ for i in range (n):
+ l, r = 1 , i + 1 
+ while l > 1 
+ if g[mid] >= pairs[i][ 0 ]:
+ r = mid
+ else :
+ l = mid + 1 
+ g[r] = min (g[r], pairs[i][ 1 ])
+ ans = max (ans, r)
+ return ans
+ 
+ TypeScript 代码：
+
+ function findLongestChain ( pairs: number [][] ): number {
+ pairs. sort ( ( a, b ) => a[ 0 ] - b[ 0 ]);
+ let n = pairs. length , ans = 1 ;
+ const g : number [] = new Array (n + 10 ). fill ( 0x3f3f3f3f );
+ for ( let i = 0 ; i > 1 ;
+ if (g[mid] >= pairs[i][ 0 ]) r = mid; 
+ else l = mid + 1 ; 
+ }
+ g[r] = Math . min (g[r], pairs[i][ 1 ]);
+ ans = Math . max (ans, r);
+ }
+ return ans;
+};
+ 
+ 
+ 时间复杂度：排序的复杂度为 O ( n log ⁡ n ) O(n\log{n}) O ( n lo g n ) ； DP 复杂度为 O ( n log ⁡ n ) O(n\log{n}) O ( n lo g n ) 。整体复杂度为 O ( n log ⁡ n ) O(n\log{n}) O ( n lo g n ) 
+
+ 空间复杂度： O ( n ) O(n) O ( n )
 
 ---
 
