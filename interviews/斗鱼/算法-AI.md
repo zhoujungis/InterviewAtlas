@@ -60,6 +60,889 @@ word2vec原理实现
 
 ---
 
+## 校招速报7.29| 斗鱼、吉比特等8家提前批/正式批新开启
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2021-07-29 ｜ [原文链接](https://www.nowcoder.com/discuss/353158157285400576)
+
+前方预警：
+ 
+
+ 
+ 21届 春招 补招，22届秋招、暑期实习的小伙伴们请注意，2021年 秋招及提前批战鼓已经正式敲响了
+ 
+
+ 
+ 所以各位需要参加笔试的朋友们一定一定注意：看好自己投递公司的笔试时间！
+ 
+
+ 
+ 另外也要注意多 刷题 库，多看 面经 哟~
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 听说，看 校招速报 又 回帖 的朋友们
+
+ 
+ 面试都会 过过过！offer多多哟 ~[告辞] 
+
+ 
+ 网申提醒：
+
+ 
+ 近期已开始网申的企业： 
+
+ 
+ 
+ 
+ 斗鱼 (即日起- 新 )： https://www.nowcoder.com/school/schedule/701 
+ 
+
+ 
+ 吉比特 (即日起- 新 )： https://www.nowcoder.com/school/schedule/760 
+ 
+
+ 
+ 货拉拉 (即日起- 新 )： https://www.nowcoder.com/school/schedule/1119 
+ 
+
+ 
+ tcl华星光电 (即日起- 新 )： https://www.nowcoder.com/school/schedule/3050 
+ 
+
+ 
+ 中原银行 (即日起- 新 )： https://www.nowcoder.com/school/schedule/2401 
+ 
+
+ 
+ 神策数据 (即日起- 新 )： https://www.nowcoder.com/school/schedule/1084 
+ 
+
+ 
+ 好未来 (即日起- 新 )： https://www.nowcoder.com/school/schedule/710 
+ 
+
+ 
+ 网易(即日起- 新 )： https://www.nowcoder.com/school/schedule/149 
+ 
+
+ 
+ 兴业数金(即日起)： https://www.nowcoder.com/school/schedule/8854 
+ 
+
+ 
+ 维信诺(即日起)： https://www.nowcoder.com/school/schedule/8130 
+ 
+
+ 
+ 泰隆银行(即日起)： https://www.nowcoder.com/school/schedule/2421 
+ 
+
+ 
+ 有赞(即日起)： https://www.nowcoder.com/school/schedule/764 
+ 
+
+ 
+ 欢聚集团(即日起)： https://www.nowcoder.com/school/schedule/167 
+ 
+
+ 
+ 搜狐(即日起)： https://www.nowcoder.com/school/schedule/148 
+ 
+
+ 
+ 锐明技术(即日起)： https://www.nowcoder.com/school/schedule/2124 
+ 
+
+ 
+ 理想汽车(即日起)： https://www.nowcoder.com/school/schedule/12240 
+ 
+
+ 
+ 多抓鱼(即日起)： https://www.nowcoder.com/school/schedule/3093 
+ 
+
+ 
+ 长江存储(即日起)： https://www.nowcoder.com/school/schedule/3117 
+ 
+
+ 
+ 星环科技(即日起)： https://www.nowcoder.com/school/schedule/1053 
+ 
+
+ 
+ 完美世界(即日起)： https://www.nowcoder.com/school/schedule/160 
+ 
+
+ 
+ 莉莉丝游戏(即日起)： https://www.nowcoder.com/school/schedule/1648 
+ 
+
+ 
+ 图森未来(即日起)： https://www.nowcoder.com/school/schedule/801 
+ 
+
+ 
+ 搜狐畅游(即日起)： https://www.nowcoder.com/school/schedule/814 
+ 
+
+ 
+ 贝壳找房(即日起)： https://www.nowcoder.com/school/schedule/1008 
+ 
+
+ 
+ 红杉资本成员企业(即日起)： https://www.nowcoder.com/school/schedule/2708 
+ 
+
+ 
+ 陌陌(即日起)： https://www.nowcoder.com/school/schedule/180 
+ 
+
+ 
+ 药明康德(即日起)： https://www.nowcoder.com/school/schedule/6675 
+ 
+
+ 
+ 虹软(即日起)： https://www.nowcoder.com/school/schedule/949 
+ 
+
+ 
+ ZOOM(即日起)： https://www.nowcoder.com/school/schedule/1051 
+ 
+
+ 
+ 新浪微博(即日起)： https://www.nowcoder.com/school/schedule/812 
+ 
+
+ 
+ 哈啰出行(即日起)： https://www.nowcoder.com/school/schedule/1235 
+ 
+
+ 
+ 海信集团(即日起)： https://www.nowcoder.com/school/schedule/1129 
+ 
+
+ 
+ 虹软(即日起)： https://www.nowcoder.com/school/schedule/949 
+ 
+
+ 
+ 奇安信(即日起)： https://www.nowcoder.com/school/schedule/2227 
+ 
+
+ 
+ 高途(即日起)： https://www.nowcoder.com/school/schedule/1065 
+ 
+
+ 
+ 达实智能(即日起)： https://www.nowcoder.com/school/schedule/3047 
+ 
+
+ 
+ 新和成(即日起)： https://www.nowcoder.com/school/schedule/12758 
+ 
+
+ 
+ 星宸科技(即日起)： https://www.nowcoder.com/school/schedule/3157 
+ 
+
+ 
+ 赢彻科技(即日起)： https://www.nowcoder.com/school/schedule/4234 
+ 
+
+ 
+ 联想(即日起)： https://www.nowcoder.com/school/schedule/958 
+ 
+
+ 
+ 寒武纪(即日起)： https://www.nowcoder.com/school/schedule/1082 
+ 
+
+ 
+ 阿里巴巴(即日起)： https://www.nowcoder.com/school/schedule/134 
+ 
+
+ 
+ 平安产险科技中心(即日起)： https://www.nowcoder.com/school/schedule/2197 
+ 
+
+ 
+ 亿联网络(即日起)： https://www.nowcoder.com/school/schedule/1901 
+ 
+
+ 
+ 爱奇艺(即日起)： https://www.nowcoder.com/school/schedule/166 
+ 
+
+ 
+ 思特威(即日起)： https://www.nowcoder.com/school/schedule/6686 
+ 
+
+ 
+ 老板电器(即日起)： https://www.nowcoder.com/school/schedule/10695 
+ 
+
+ 
+ 紫光展锐(即日起)： https://www.nowcoder.com/school/schedule/1180 
+ 
+
+ 
+ 祖龙娱乐(即日起)： https://www.nowcoder.com/school/schedule/1085 
+ 
+
+ 
+ 第四范式(即日起)： https://www.nowcoder.com/school/schedule/918 
+ 
+
+ 
+ 广汽丰田(即日起)： https://www.nowcoder.com/school/schedule/4402 
+ 
+
+ 
+ 网易互娱(即日起)： https://www.nowcoder.com/school/schedule/1063 
+ 
+
+ 
+ 网易游戏综合类(即日起)： https://www.nowcoder.com/school/schedule/149 
+ 
+
+ 
+ 信捷电气(即日起)： https://www.nowcoder.com/school/schedule/7964 
+ 
+
+ 
+ 万得(即日起)： https://www.nowcoder.com/school/schedule/2342 
+ 
+
+ 
+ 大华股份(即日起)： https://www.nowcoder.com/school/schedule/948 
+ 
+
+ 
+ 畅捷通(即日起)： https://www.nowcoder.com/school/schedule/9059 
+ 
+
+ 
+ 精测电子(即日起)： https://www.nowcoder.com/school/schedule/7025 
+ 
+
+ 
+ 海康威视(即日起)： https://www.nowcoder.com/school/schedule/795 
+ 
+
+ 
+ BIGO(即日起)： https://www.nowcoder.com/school/schedule/1019 
+ 
+
+ 
+ 百度(即日起)： https://www.nowcoder.com/school/schedule/139 
+ 
+
+ 
+ 全志科技(即日起)： https://www.nowcoder.com/school/schedule/5744 
+ 
+
+ 
+ 字节跳动(即日起)： https://www.nowcoder.com/school/schedule/665 
+ 
+
+ 
+ 大疆(即日起)： https://www.nowcoder.com/school/schedule/708 
+ 
+
+ 
+ 明略科技(即日起)： https://www.nowcoder.com/school/schedule/2754 
+ 
+
+ 
+ 深信服(即日起)： https://www.nowcoder.com/school/schedule/711 
+ 
+
+ 
+ OPPO(即日起)： https://www.nowcoder.com/school/schedule/676 
+ 
+
+ 
+ 招商银行信用卡中心(即日起)： https://www.nowcoder.com/school/schedule/767 
+ 
+
+ 
+ 中科创达(即日起)： https://www.nowcoder.com/school/schedule/1156 
+ 
+
+ 
+ SmartX(即日起)： https://www.nowcoder.com/school/schedule/2815 
+ 
+
+ 
+ 中望软件(即日起)： https://www.nowcoder.com/school/schedule/3186 
+ 
+
+ 
+ 传音控股(即日起)： https://www.nowcoder.com/school/schedule/2494 
+ 
+
+ 
+ 美团(即日起)： https://www.nowcoder.com/school/schedule/179 
+ 
+
+ 
+ 多益网络(即日起)： https://www.nowcoder.com/school/schedule/800 
+ 
+
+ 
+ 德邦快递(即日起)： https://www.nowcoder.com/school/schedule/771 
+ 
+
+ 
+ 猿辅导(即日起)： https://www.nowcoder.com/school/schedule/758 
+ 
+
+ 
+ 中国航天(即日起)： https://www.nowcoder.com/school/schedule/2999 
+ 
+
+ 
+ 中兴(即日起)： https://www.nowcoder.com/school/schedule/664 
+ 
+
+ 
+ 基恩士(即日起)： https://www.nowcoder.com/school/schedule/4295 
+ 
+
+ 
+ 星际荣耀(即日起)： https://www.nowcoder.com/school/schedule/3783 
+ 
+
+ 
+ 沃尔玛(即日起)： https://www.nowcoder.com/school/schedule/4282 
+ 
+
+ 
+ 盛趣游戏(即日起)： https://www.nowcoder.com/school/schedule/155 
+ 
+
+ 
+ 吉利(即日起)： https://www.nowcoder.com/school/schedule/1164 
+ 
+
+ 
+ 安踏(即日起)： https://www.nowcoder.com/school/schedule/4339 
+ 
+
+ 
+ 拜耳中国(即日起)： https://www.nowcoder.com/school/schedule/2941 
+ 
+
+ 
+ 网易游戏雷火事业群(即日起)： https://www.nowcoder.com/school/schedule/895 
+ 
+
+ 
+ 宁波银行(即日起)： https://www.nowcoder.com/school/schedule/1002 
+ 
+
+ 
+ 联想(即日起)： https://www.nowcoder.com/school/schedule/958 
+ 
+
+ 
+ 平安银行(即日起)： https://www.nowcoder.com/school/schedule/908 
+ 
+
+ 
+ 乐学教育(即日起)： https://www.nowcoder.com/school/schedule/10410 
+ 
+
+ 
+ 360(即日起)： https://www.nowcoder.com/school/schedule/157 
+ 
+
+ 
+ 博世(即日起)： https://www.nowcoder.com/school/schedule/1751 
+ 
+
+ 
+ 众安保险(即日起)： https://www.nowcoder.com/school/schedule/2101 
+ 
+
+ 
+ 三一重工(即日起)： https://www.nowcoder.com/school/schedule/3023 
+ 
+
+ 
+ 商汤科技(即日起)： https://www.nowcoder.com/school/schedule/802 
+ 
+
+ 
+ 联发科技(即日起)： https://www.nowcoder.com/school/schedule/1741 
+ 
+
+ 
+ SHEIN希音(即日起)： https://www.nowcoder.com/school/schedule/2639 
+ 
+
+ 
+ 美的(即日起)： https://www.nowcoder.com/school/schedule/913 
+ 
+
+ 
+ Shopee(即日起)： https://www.nowcoder.com/school/schedule/1049 
+ 
+
+ 
+ 上汽大众(即日起)： https://www.nowcoder.com/school/schedule/1064 
+ 
+
+ 
+ 麒麟软件(即日起)： https://www.nowcoder.com/school/schedule/5572 
+ 
+
+ 
+ TCL(即日起)： https://www.nowcoder.com/school/schedule/785 
+ 
+
+ 
+ 浙江大华(即日起)： https://www.nowcoder.com/school/schedule/948 
+ 
+
+ 
+ 旷视(即日起)： https://www.nowcoder.com/school/schedule/936 
+ 
+
+ 
+ 达能(即日起)： https://www.nowcoder.com/school/schedule/2963 
+ 
+
+ 
+ 小米(即日起)： https://www.nowcoder.com/school/schedule/147 
+ 
+
+ 
+ 蔚来汽车(即日起)： https://www.nowcoder.com/school/schedule/961 
+ 
+
+ 
+ 英特尔(即日起)： https://www.nowcoder.com/school/schedule/650 
+ 
+
+ 
+ 拼多多(即日起)： https://www.nowcoder.com/school/schedule/732 
+ 
+
+ 
+ 华为(即日起)： https://www.nowcoder.com/school/schedule/239 
+ 
+
+ 
+ 先声药业(即日起)： https://www.nowcoder.com/school/schedule/6877 
+ 
+
+ 
+ 歌尔声学(即日起)： https://www.nowcoder.com/school/schedule/1067 
+ 
+
+ 
+ 京东方(即日起)： https://www.nowcoder.com/school/schedule/1244 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 近期即将截止网申的企业： 
+ 
+
+ 
+ 
+ 
+ 虎牙直播(7月30日网申截止)： https://www.nowcoder.com/school/schedule/890 
+ 
+
+ 
+ 一点资讯(7月30日网申截止)： https://www.nowcoder.com/school/schedule/982 
+ 
+
+ 
+ 长鑫存储(7月31日网申截止)： https://www.nowcoder.com/school/schedule/5758 
+ 
+
+ 
+ 鼎信通讯(7月31日网申截止)： https://www.nowcoder.com/school/schedule/7144 
+ 
+
+ 
+ 用友(7月31日网申截止)： https://www.nowcoder.com/school/schedule/782 
+ 
+
+ 
+ 乐鑫(7月31日网申截止)： https://www.nowcoder.com/school/schedule/1986 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 笔试提醒：7月29日（今日）
+ 
+
+ 
+ 无
+ 
+
+ 
+ 笔试提醒：7月30日（明日）
+ 
+
+ 
+ 
+ 
+ 阿里巴巴 07月30日19:00 - 20:00
+ 
+
+ 
+ 
+
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 笔试准备：历年校招真题练习
+ 
+
+ 
+
+ 
+ 
+ 
+ 猿辅导(算法)： https://www.nowcoder.com/test/29855908/summary 
+ 
+
+ 
+ 用友(web前端)： https://www.nowcoder.com/test/17091353/summary 
+ 
+
+ 
+ 美图网(客户端)： https://www.nowcoder.com/test/6159919/summary 
+ 
+
+ 
+ 德邦(Java工程师)： https://www.nowcoder.com/test/6090147/summary 
+ 
+
+ 
+ 美团(编程)： https://www.nowcoder.com/test/28665343/summary 
+ 
+
+ 
+ 网易游戏实习(客户端)： https://www.nowcoder.com/test/10780537/summary 
+ 
+
+ 
+ 联合利华(分析)： https://www.nowcoder.com/test/21776698/summary 
+ 
+
+ 
+ 平安科技(编程)： https://www.nowcoder.com/test/21256789/summary 
+ 
+
+ 
+ 360(服务端开发)： https://www.nowcoder.com/test/30558139/summary 
+ 
+
+ 
+ 360(测试开发)： https://www.nowcoder.com/test/30558102/summary 
+ 
+
+ 
+ 商汤科技(Android开发)： https://www.nowcoder.com/test/11962573/summary 
+ 
+
+ 
+ 一汽大众(制动系设计)： https://www.nowcoder.com/test/22082999/summary 
+ 
+
+ 
+ Shopee(编程)： https://www.nowcoder.com/test/28761331/summary 
+ 
+
+ 
+ 浙江大华： https://www.nowcoder.com/test/42874/summary 
+ 
+
+ 
+ 旷视(算法研究员)： https://www.nowcoder.com/test/17764811/summary 
+ 
+
+ 
+ 触宝科技(客户端前端)： https://www.nowcoder.com/test/11330758/summary 
+ 
+
+ 
+ 小米(开发方向)： https://www.nowcoder.com/test/31126126/summary 
+ 
+
+ 
+ 英特尔(软件类研发)： https://www.nowcoder.com/test/283383/summary 
+ 
+
+ 
+ 拼多多(笔试编程)： https://www.nowcoder.com/test/30579184/summary 
+ 
+
+ 
+ 华为(研发编程)： https://www.nowcoder.com/test/1088888/summary 
+ 
+
+ 
+ 猿辅导(技术)： https://www.nowcoder.com/test/29855730/summary 
+ 
+
+ 
+ 金山办公(运维)： https://www.nowcoder.com/test/21500207/summary 
+
+ 
+
+ 
+ 京东(算法)： https://www.nowcoder.com/test/16778566/summary 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 更多企业历年校招真题： https://www.nowcoder.com/contestRoom 
+ 
+ 
+ 面经 推荐：每日优质 面经 推荐
+ 
+
+ 
+ 
+ 
+ 蔚来一二三面-校招提前批-Java： https://www.nowcoder.com/discuss/686990 
+
+ 
+
+ 
+ 字节跳动测试开发提前批一面凉经： https://www.nowcoder.com/discuss/683307 
+
+ 
+
+ 
+ 同花顺测试岗提前批 ： https://www.nowcoder.com/discuss/679199 
+
+ 
+
+ 
+ 字节住小帮一二面凉经： https://www.nowcoder.com/discuss/688542 
+
+ 
+
+ 
+ 春招银行笔试面试经验 ： https://www.nowcoder.com/discuss/670597 
+
+ 
+
+ 
+ 美团社招(上海)Java开发面经： https://www.nowcoder.com/discuss/676206 
+
+ 
+
+ 
+ 多益网络研发春招： https://www.nowcoder.com/discuss/630096 
+
+ 
+
+ 
+ 德邦快递市场规划秋招面经： https://www.nowcoder.com/discuss/557692 
+
+ 
+
+ 
+ 非科班小硕转码之路 ： https://www.nowcoder.com/discuss/541303 
+
+ 
+
+ 
+ 用友后台开发岗社招面经： https://www.nowcoder.com/discuss/673381 
+
+ 
+
+ 
+ 美图网/2144游戏网php工程师校招面经分享： https://www.nowcoder.com/discuss/441745 
+
+ 
+
+ 
+ 长鑫存储面试： https://www.nowcoder.com/discuss/499447 
+ 
+
+ 
+ 【网易雷火】游戏文案策划暑期实习面经（已offer）： https://www.nowcoder.com/discuss/655468 
+
+ 
+
+ 
+ 网易雷火前端实习面经(1、2、3、HR)： https://www.nowcoder.com/discuss/652583 
+
+ 
+
+ 
+ 安踏财务管培生校招面经： https://www.nowcoder.com/discuss/586392 
+
+ 
+
+ 
+ 联想前端暑假实习面经(已offer)： https://www.nowcoder.com/discuss/642961 
+
+ 
+
+ 
+ 平安银行java岗社招五面面经（三四五面）： https://www.nowcoder.com/discuss/663443 
+
+ 
+
+ 
+ 宁波银行金融科技测试方向终面凉经： https://www.nowcoder.com/discuss/553454 
+
+ 
+
+ 
+ 2020 诺瓦科技 面经（已拿offer 测试工程师）： https://www.nowcoder.com/discuss/261550 
+
+ 
+
+ 
+ 9.17 众安保险测试开发面经汇总： https://www.nowcoder.com/discuss/522308 
+
+ 
+
+ 
+ 商汤科技战略协同部战略分析实习面经： https://www.nowcoder.com/discuss/653212 
+
+ 
+
+ 
+ shein希音前端2021春招： https://www.nowcoder.com/discuss/617345 
+
+ 
+
+ 
+ 360测试开发面经： https://www.nowcoder.com/discuss/545798 
+
+ 
+
+ 
+ 2021 Shopee前端提前批校招 面经： https://www.nowcoder.com/discuss/590211 
+
+ 
+
+ 
+ TCL数字化转型中心产品经理面经： https://www.nowcoder.com/discuss/638591 
+
+ 
+
+ 
+ 小米社招Java开发一面面经： https://www.nowcoder.com/discuss/673975 
+
+ 
+
+ 
+ 2022届浙江大华嵌入式软件实习电话面试： https://www.nowcoder.com/discuss/668142 
+
+ 
+
+ 
+ 【已offer】一点资讯一二三面面经+HR面： https://www.nowcoder.com/discuss/494629 
+
+ 
+
+ 
+ 蔚来汽车算法一面面经： https://www.nowcoder.com/discuss/672216 
+
+ 
+
+ 
+ 触宝算法一二三四面面经： https://www.nowcoder.com/discuss/479320 
+
+ 
+
+ 
+ 英特尔 Intel SWE 面经： https://www.nowcoder.com/discuss/524507 
+
+ 
+
+ 
+ 拼多多一二三面（Java暑期实习 已offer）： https://www.nowcoder.com/discuss/662330 
+ 
+
+ 
+ 京东数据分析工程师暑期实习面经： https://www.nowcoder.com/discuss/641139 
+ 
+
+ 
+ 京东方BOE 计算机视觉算法面经： https://www.nowcoder.com/discuss/591288 
+ 
+
+ 
+ 
+ 
+
+ 
+
+ 
+ 更多优质 面经 ： https://www.nowcoder.com/discuss?type=2&order=0 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 牛客 校招速报 ｜第一时间了解最新校招资讯
+ 
+
+ 
+ 求职信息早知道，offer快人一步！
+
+---
+
 ## 斗鱼后台一二面+hr面
 
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2020-08-18 ｜ [原文链接](https://www.nowcoder.com/discuss/353156781897621504)
@@ -165,759 +1048,6 @@ word2vec原理实现
  
 
  未来发展
-
----
-
-## 惨淡的秋招记录，投了80多家，终于有一家走到了二面
-
-来源：牛客网 ｜ 类型：面经 ｜ 发布：2020-07-28 ｜ [原文链接](https://www.nowcoder.com/discuss/353156660057284608)
-
-公司 
- 简历 综合笔试（心理） 技术笔试 一面 二面 三面 hr面 字节跳动（提前批） 😜 
- 无 无 😥 
- 
- 
- 
- 字节跳动 😜 
- 
- 
- 
- 
- 
- 
- 阿里巴巴 
- 
- 
- 
- 
- 
- 
- 美团 😜 
- 无 😜 
- 😥 
- 
- 
- 
- 拼多多（拼越计划） 😜 
- 😜 
- 😥 
- 
- 
- 
- 
- 拼多多（提前批） 😜 
- 
- 
- 
- 
- 
- 
- 华为 😜 
- 😜 😜 
- 😜 
- 😜 
- 😜 
- 
- 网易互联网 😜 😜 😁 
- 
- 
- 
- 
- 网易游戏 
- 
- 
- 
- 
- 
- 
- 快手 😜 
- 无 😜 
- 😜 
- 😥 
- 
- 
- 京东（提前批） 😥 
- 
- 
- 
- 
- 
- 京东 😜 
- 无 
- 
- 
- 
- 
- 百度 
- 
- 
- 
- 
- 
- 
- 大疆 😜 😜 😥 
- 
- 
- 
- 
- shopee 😜 
- 无 😣 
- 
- 
- 
- 
- bigo 😜 
- 
- 😜 
- 😁 
- 
- 
- 
- OPPO 😜 
- 
- 😁 
- 
- 
- 
- 
- 旷视 
- 
- 
- 
- 
- 
- 
- 好未来（提前批） 😥 
- 
- 
- 
- 
- 
- 
- 浪潮 😜 
- 😜 
- 😜 
- 😁 
- 
- 
- 
- 用友 😜 
- 无 无 😁 
- 
- 
- 
- 海尔 
- 
- 
- 
- 
- 
- 
- TP-LINK 
- 
- 
- 
- 
- 
- 
- 中兴 😜 
- 
- 😁 
- 
- 
- 
- 
- 新浪 
- 
- 
- 
- 
- 
- 
- 牛客 😁 
- 😁 
- 
- 
- 
- 
- 
- 祖龙娱乐 
- 
- 
- 
- 
- 
- 
- 一点资讯 
- 
- 
- 
- 
- 
- 
- 海康威视 😜 
- 😁 
- 😁 
- 
- 
- 
- 
- TCL 😜 
- 
- 
- 
- 
- 
- 
- 汇顶科技 😜 
- 
- 😁 
- 
- 
- 
- 
- 美的 😜 
- 😜 
- 😥 
- 
- 
- 
- 
- 吉比特 😜 
- 
- 
- 
- 
- 
- 
- 联想 
- 
- 
- 
- 
- 
- 
- VIPKID 
- 
- 
- 
- 
- 
- 
- 趋势科技 
- 
- 
- 
- 
- 
- 
- 中国平安 
- 
- 
- 
- 
- 
- 
- 搜狐 😜 
- 
- 
- 
- 
- 
- 
- 完美世界 😜 
- 
- 
- 
- 
- 
- 
- 58 😜 
- 
- 
- 
- 
- 
- 
- 欢聚 😜 
- 
- 
- 
- 
- 
- 
- 竞技世界 
- 
- 
- 
- 
- 
- 
- 贝壳 😜 
- 😜 
- 😁 
- 
- 
- 
- 
- 赢彻科技 😥 
- 
- 
- 
- 
- 
- 
- 全志科技 😜 
- 😁 
- 
- 
- 
- 
- 
- 奇安信 😜 
- 无 😥 
- 
- 
- 
- 
- 科大讯飞 😜 
- 
- 😣 
- 
- 
- 
- 
- 招行信用卡 
- 
- 
- 
- 
- 
- 
- SmartX 😜 
- 无 无 😁 
- 
- 
- 
- 诺瓦科技 😜 
- 😥 
- 
- 
- 
- 
- 
- 亿联网络 😜 
- 😜 
- 
- 😥 
- 
- 
- 
- 商汤 😜 
- 无 😁 
- 
- 
- 
- 
- 图森 
- 
- 
- 
- 
- 
- 
- 携程 😜 
- 😜 
- 😁 
- 
- 
- 
- 
- 搜狗 
- 
- 
- 
- 
- 
- 
- 速游 
- 
- 
- 
- 
- 
- 
- 衡泰软件 
- 
- 
- 
- 
- 
- 
- 网龙 😁 
- 
- 
- 
- 
- 
- 
- 爱奇艺 😜 
- 😁 
- 😁 
- 
- 
- 
- 
- 声网 
- 
- 
- 
- 
- 
- 
- 招联金融 
- 
- 
- 
- 
- 
- 
- 地平线 😜 
- 无 😜 
- 😜 
- 😜 😁 
- 
- 滴滴 😜 
- 
- 😁 
- 
- 
- 
- 
- 顺丰 😜 
- 😜 
- 😜 
- 
- 
- 
- 
- MOKA系列 
-
- 
- 
- 
- 
- 
- 
- 
- 作业帮 😥 
- 
- 
- 
- 
- 
- 
- 猿辅导 😜 
- 无 😜 
- 😜 
- 😥 
- 
- 
- 跟谁学 
- 
- 
- 
- 
- 
- 
- 广联达 😁 
- 无 😥 
- 
- 
- 
- 
- 猫眼娱乐 
- 
- 
- 
- 
- 
- 
- 映客直播 😥 
- 
- 
- 
- 
- 
- 
- 虎牙 
- 
- 
- 
- 
- 
- 
- 斗鱼 
- 
- 
- 
- 
- 
- 
- SHEIN 😜 
- 无 😜 
- 😥 
- 
- 
- 
- SHEIN（复活） 😜 
- 😁 
- 😁 
- 
- 
- 
- 
- 触宝 
- 
- 
- 
- 
- 
- 
- 寒武纪 
- 
- 
- 
- 
- 
- 
- 知乎 
- 
- 
- 
- 
- 
- 
- 哔哩哔哩 😜 
- 
- 
- 
- 
- 
- 
- 神策数据 😜 
- 无 😁 
- 
- 
- 
- 
- 米哈游 😜 
- 
- 😁 
- 
- 
- 
- 
- 大华（提前批） 😁 
- 无 😥 
- 
- 
- 
- 
- 联影 😁 
- 😁 
- 
- 
- 
- 
- 
- 小鹏汽车 😜 
- 
- 
- 
- 
- 
- 
- 证券类 
-
- 
- 
- 
- 
- 
- 
- 
- 广发证券（过期了） 😁 
- 😁 
- 
- 
- 
- 
- 
- 中信证券 😜 
- 
- 
- 
- 
- 
- 
- 华泰证券 😜 
- 无 😜 
- 😁 
- 
- 
- 
- 老虎集团 😜 
- 
- 
- 
- 
- 
- 
- 国企类 
-
- 
- 
- 
- 
- 
- 
- 
- 中国航天集团
- 
- 
- 
- 
- 
- 
- 
- 公安部第三研究所
- 😜 
- 
- 
- 😜 
- 😁 
- 
- 
- 银行类 
-
- 
- 
- 
- 
- 
- 
- 
- 中国农业银行 😜 
- 
- 
- 
- 
- 
- 
- 中原银行 😜 
- 
- 
- 😁 
- 
- 
- 
- 交通银行 
- 
- 
- 
- 
- 
- 
- 运行商类 
-
- 
- 
- 
- 
- 
- 
- 
- 中移物联网 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 注：😜 == 通过 😁 == 完成， 😣 == 冲突，意外情况 😥 == 凉凉。 
- 
-
- 楼主投递的职位是Java开发，感觉今年的Java内卷很严重啊，要不要转前端或者安卓呢？ 
-
- 在知乎上看到算法岗今年特别惨烈，但是在投递的过程中，感觉算法岗的数量比Java还多啊？ 
-
- 找工作太难了 😥 😥 😥 😥（7.28） 
-
- ======================================================================= 
-
- 哈哈，谢谢大家的鼓励，支持和建议！！[抱大腿] 
-
- 没想到随便发了个帖子居然有这么高的热度，还登上实时榜第一了！！[点赞] 
-
- 看到有不少小伙伴们要求更新，如果有别的公司招聘我会在表格上添加的，同时如果笔试或面试完成我也会同步更新，让大家看看我这个菜鸡的悲惨秋招之路[安排明白]，请大家文明观猴 
-
- 今年的形式和环境很不容易，特别是对我等弱鸡更是不友好，大家一起努力，希望最后都能够成功上岸[顺利签约]， 消除恐惧的最好办法是面对恐惧!微笑着面对它， 干就完事了，奥利给！！（7.29） 
-
- ======================================================================== 
-
- 哈哈，终于有面到二面了，华为面了二面，不过感觉岗位不是特别适合我，终于不再一轮游了[震惊]（8.7） 
-
- ======================================================================== 
-
- 笔经 
-
- 奇安信 ： https://www.nowcoder.com/discuss/464450?source_id=profile_create&channel=666 
-
- 猿辅导： https://www.nowcoder.com/discuss/464558?source_id=profile_create&channel=666 
- 
-
- 拼多多： https://www.nowcoder.com/discuss/464980?source_id=profile_create&channel=666 
-
- 网易： https://www.nowcoder.com/discuss/471018?toCommentId=6724999 
- 
-
- 老虎证券： https://www.nowcoder.com/discuss/471776 
- 
-
- bilibili: https://www.nowcoder.com/discuss/476383?source_id=profile_create&channel=666 
-
- 贝壳： https://www.nowcoder.com/discuss/473979?source_id=profile_create&channel=666 
-
- 大疆： https://www.nowcoder.com/discuss/472920?source_id=profile_create&channel=666 
-
- 美团： https://www.nowcoder.com/discuss/478346?source_id=profile_create&channel=666 
-
- 商汤： https://www.nowcoder.com/discuss/483917 
-
- 面经 
-
- SHEIN: https://www.nowcoder.com/discuss/458037?source_id=profile_create&channel=2000 
- 
-
- 字节跳动 ： https://www.nowcoder.com/discuss/463723 
-
- 华泰证券： https://www.nowcoder.com/discuss/465309?source_id=profile_create&channel=666 
-
- smartx: https://www.nowcoder.com/discuss/467803?source_id=profile_create&channel=666 
-
- 猿辅导： https://www.nowcoder.com/discuss/470106 
- 
-
- 快手（一面）： https://www.nowcoder.com/discuss/482313
 
 ---
 

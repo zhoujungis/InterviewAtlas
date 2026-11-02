@@ -1,6 +1,6 @@
 # 百度 · 算法/AI
 
-> 共 **88** 条 ｜ [返回总目录](../../README.md)
+> 共 **96** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -3874,6 +3874,131 @@ batch norm的偏置项和温度系数的作用
 
 ---
 
+## 算法秋招进度
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2024-08-01 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/f80efa39913047eb906a36074eb0144a)
+
+普通财经双非硕士小菜鸡，在线勇闯算法，做个记录。
+
+1.百度提前批大模型算法一面：
+自我介绍
+具体介绍一下RAG项目中的应用，如何处理文档，如何计算相似度
+手撕transformer模型代码，介绍模型架构，介绍交叉熵损失函数，介绍L1，L2正则化有什么区别，写下完整损失函数公式，写下transformer所有矩阵转换的数学公式，如何理解需要除根号d
+手撕算法题 leetcode 2116. 检查一个由括号组成的字符串是否是有效的
+
+2.快手提前批大模型应用算法一面：
+自我介绍
+RAG怎么用的，有没有更好的改进方法，为什么套用大模型结合BM25算法，文档怎么处理的，文档都有什么类型，如何整入数据库并提取
+介绍transformer，编码器解码器的作用。介绍一下损失函数，介绍qlora，说说bert以及roberta和deberta区别和联系，介绍一下bert模型都有什么任务
+手撕算法题 快排
+快手大模型应用算法二面：
+手撕算法题 反转链表
+
+3.360集团提前批 算法：
+笔试 选择题+算法- 1.传染病防控 2. 加密算法
+一面
+
+4.岩山科技（2345）算法一面：
+自我介绍，具体细节，个人兴趣。无八股无手撕
+
+5.好未来算法 -实习转正：
+笔试 20道单选+算法- 1.leetcode 1137 第n个泰波那契数，2. leetcode 55 跳跃游戏
+
+6.信也科技算法一面：
+自我介绍，项目介绍，相关问题，无八股无手撕
+
+7.华夏银行提前批管培生：
+笔试100道选择，60道行测，20道专业课单选，20道专业课多选
+
+8 中国电信算法：
+笔试
+
+9.特易信息算法—实习转正：
+一面，自我介绍，介绍推理框架ollama，流程化结构dify，rag原理，用到的开源闭源大模型效果如何
+
+10.国泰产险数据风控—实习转正：
+一面自我介绍，项目深挖，熟悉哪个险种，百万医疗风控怎么做需要哪些步骤，怎么构建风控模型，健康险分为哪些类别，让你做健康险风控模型你会提取哪些特征，重疾险做什么样的特征工程，如何识别风险
+
+11.问道云算法：
+一面
+
+12.中科物联网行业分析师：
+一面行业研究问题
+
+13.国家智能网联汽车算法：
+一面 自我介绍，爬虫，行业分析报告，rag作用机制，bert的bpe，subtokenizer是什么，分词方法有哪些，boosting和bagging，特征工程特征筛选方法都有什么，ln层归一化和bn批归一化，说说漏斗分析模型，说说大模型和传统模型的区别和联系，说说意图识别怎么做，loss的公式，self-attention的公式，梯度反向传播的公式
+手撕leetcode215数组中的第k个最大元素
+
+14.江苏泰迪智能算法：
+一面
+
+15.海信集团算法：
+笔试17道算法单选，2道编程
+区间内唯一数，左右子树相等
+
+Ai一面，综合面试问题四个题，英语面试问题两个题，综合面试主要问个人和团队的工作中的问题，英语面试读一段话加一个关于兴趣和学习的问题
+
+16.联想算法：
+笔试 20道专业选择题，其中有多选题
+2道编程题，一道爆破题，一道生产题
+
+17.安踏集团算法：
+ai一面 四道个人实习学习中遇到的事情的态度表现叙述评价相关题目
+10道以内行测题，限时
+
+18.小天才nlp算法：
+笔试：32道单选，12道多选，一个小时限时
+离谱的公司，发了三次笔试，然后还没做完笔试就拒绝你
+
+19.挚文集团推荐算法：
+笔试：三道编程题，一个半小时限时
+
+20.巨人网络大模型算法：
+笔试：20道单选，10道多选，三道编程题，一个半小时限时
+一面手撕两道编程题，一道数据结构，一道FFN图片分类。拷打项目细节，以及神经网络基础知识点，还问了一下linux操作系统的知识
+
+21.滴滴算法：
+笔试：笔试有点难，放弃
+
+22.元象算法：
+一面
+
+23.金山办公算法：
+笔试：20道单选题、3道编程题
+
+24.58同城算法：
+笔试：15道单选，5道不定项，选择题都是408的知识点。3道编程题，寻找共同活动时间段，字符串分割，移动k次到达endpos
+
+25.中国建筑：
+第二次测试，行测题很多很多模块，做麻了。笔试后发邮件过了，但是怎么还要重新投递子公司？？？？？？没懂
+
+26.招商银行：
+无锡分行数字金融岗笔试，麻了，做麻了，一刻不停做了两个多小时，英语题+行测题+性格测试+各种乱七八糟的题型。。。谁懂啊
+
+27.百威中国数据管培：
+ai面试，9道中文题，基本都是个人情况的了解以及对待事物的态度
+
+28.海康威视技术支持：
+笔试，全是408的题，难顶
+
+29.牧原股份nlp算法：
+笔试
+
+30.中国外运：
+三测！三测！别测了。。。还没面试先来个三次测评，谁顶得住
+
+31.太平鸟：
+ai测评
+
+32.歌尔股份算法：
+打电话约了一面一直没面。。。
+
+33.
+
+ #秋招# #秋招提前批，你开始投了吗# #算法#
+
+---
+
 ## 百度ai产品实习二面面经
 
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2024-06-28 ｜ [原文链接](https://www.nowcoder.com/discuss/636227405346029568)
@@ -4130,15 +4255,79 @@ batch norm的偏置项和温度系数的作用
 
 ---
 
-## slam实习？
+## 百度AI平台产品日常实习一面面经一面挂
 
-来源：牛客网 ｜ 类型：面经 ｜ 发布：2024-05-09 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/703c259fd7494cd59771a6416718ced0)
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2024-05-18 ｜ [原文链接](https://www.nowcoder.com/discuss/621311776184909824)
 
-#牛客帮帮团来啦！有问必答# 暑期实习: 百度IDG、momenta、地平线，三个都是slam地图定位或者地图4D label方向的算法岗。
-已知信息：百度实习待遇比较好，魔子北京无房补；面试下来感觉地和魔倾向于实际落地可以接触到实际的工程项目经验，也介绍了对应的工作内容，清晰有挑战性；百度这边也是和robot taxi L4相关的算法岗，只是介绍工作内容的时候给我感觉比较笼统，可能当时讲的没那么清晰叭；此外，度和地属于暑期可转正，目前倾向于度子，想请教一下各位前辈同行的看法。可以的话能说一下为什么嘛？
+背景 
 
-引流 momenta 地平线 华力 百度 小马智行
- #momenta 地平线 华力 百度 小马智行#
+ 个人bg： 末流985本，c9硕。生医工专业，医学图像炼丹方向。求职方向产品岗。 
+
+ 1月投递日常实习成果： 
+
+ 一面挂：百度、京东健康、字节跳动 
+
+ 收获offer：小米、集度汽车、作业帮、好未来 
+
+ 最终去向：好未来 
+
+ 暑期实习成果： 
+
+ 收获offer：腾讯平台型产品经理（技术背景）、中兴 产品需求工程师 
+
+ 泡池子：华为解决方案测试 
+
+ 流程中：荣耀用户体验工程师 
+
+ 百度是24年一月份投递的日常实习。总共近40分钟的拷打，当时自己经验不足，最后挂了。 
+
+ 考察个人产品素养能力 
+
+ 介绍部门业务，介绍jd1 
+
+ 自我介绍 
+
+ 询问专业和专业核心课程（希望计算机背景，AI，机器学习，深度学习背景） 
+
+ 你学到的或者项目经历中了解的常见算法类型有哪些？其中有哪些主流的算法？分别面向什么样的场景去使用？ 
+
+ 有没有自己拉取大模型跑具体的case？主要是大语言模型 
+
+ 有用过什么大语言模型产品？ 
+
+ 对比提到的几个大语言模型产品，使用整体感受是什么？有什么优势和不足？ 
+
+ 如果你是产品经理，你会怎么去做这几个大语言模型产品未来的发展和迭代？ 
+
+ 有用过部门业务的产品吗？详细讲一讲 
+
+ 了解大模型训练的方法吗？介绍训练方法，比如什么情况适合用什么样的方法？ 
+
+ 介绍大模型微调的方法？ 
+
+ 看你的经历有做过不少开发的工作，你使用的编辑器是什么？ 
+
+ 对比下 Pycharm 和 Jupyter Notebook 编辑器？这两个软件分别适合什么样的用户？ 
+
+ 平时做数据分析和数据可视化 Python 有用到什么包？ 
+
+ 聊实习经历 
+
+ 实习中产品的前期立项有参与过吗？ 
+
+ 为什么要做这个产品，产品的需求是什么？ 
+
+ 详细介绍产品的具体使用方式？ 
+
+ 在这段实习经历中你最大的收获是什么？你做出的最重要的一个设计点是什么？强调实习中你的工作贡献成果 
+
+ 具体设计了产品哪一个功能？取得了什么结果？ 
+
+ 明确入职时间 
+
+ 最快到岗时间，实习时长 
+
+ 反问环节
 
 ---
 
@@ -4541,6 +4730,14 @@ batch norm的偏置项和温度系数的作用
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2023-10-15 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/8d0e0eaace8e4d4dbfb1808cad9a6654)
 
 😭，有无佬教蜀黍一下 #百度# ...项目八股问题都不大主要手撕数组中只含有1和2找1和2个数相同的子序列，要求O（n），只想遍历一边吧2看成-1求和是否0（提示了一下），如果是维护最大值，否就左指针遍历直到0维护最大值，面试官说不对，直接挂了二面
+
+---
+
+## hhh百度地铁广告太搞笑了；24家国内大模型公司面经；LLM法律应用实践；AI+教育产品图谱与工作流 | ShowMeAI日报
+
+来源：掘金 ｜ 类型：面经 ｜ 发布：2023-09-28 ｜ [原文链接](https://juejin.cn/post/7283516197488033811)
+
+为期一个月的AI＋游戏开发季；红杉美国：生成式AI进入第二阶段；早期创始人必须亲自做销售；AI音乐生成的前沿产品和技术原理……点击阅读全文
 
 ---
 
@@ -5234,6 +5431,214 @@ b. 快速幂 二面：聊项目
 
 ---
 
+## 秋招记录—投递记录
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2021-10-18 ｜ [原文链接](https://www.nowcoder.com/discuss/353158753941921792)
+
+————持续更新中
+
+ 
+
+ 秋招投了很多公司，大部分集中在互联网、运营商、银行及一些有落户指标的国企，投递的方向主要是数据分析
+
+ 
+
+ 总体来说，7月-8月互联网提前批，8月—9月是互联网高峰期，10月陆续收offer开奖
+
+ 国企央企晚一些，9月报名10-11月笔面试11-12月offer的节奏
+
+ 
+
+ 整个过程中，进入面试环节的有：
+
+ 1.百度提前批 duros数据分析工程师 挂在三面×
+
+ 2.腾讯地图提前批 数据分析工程师 挂在一面，方向不合适，他们需要深度学习
+
+ 3.美团优选 策略产品 offer✓
+
+ 4.中石油二级单位昆仑数智（国企）数据分析工程师 意向书✓
+
+ 5.马上消费金融 风控数据决策分析师 二面时已有美团offer，所以拒了二面
+
+ 6.立信会计师事务所（北京）数据分析师 IT主管面，聊得不错，加了微信，后续有需要联系。
+
+ 7.北京国际工程咨询有限公司 ，奔着户口去面试的，要求提前实习，不去。
+
+ 8.联通数科 数据运营工程师 来校宣讲，面试，拿到pass卡免笔试通终面。等待中。
+
+ 9.growing IO 商业分析 挂初面
+
+ 
+
+ 其他公司要么投了简历或笔试后没后续，要么自己放弃了后续流程。
+
+ 
+
+ 【互联网】百度提前批（免笔试） Duros 数据分析工程师（boss直聘） 7.23一面二面2h 在线测评 性格+文字分析 7.29三面1h挂
+
+ 
+
+ 东方国信提前批6.21-9.21（免笔试） 数据挖掘工程师 7.14投简历 7.24在线测评 没下文 正式批没再投
+
+ 
+
+ 阿里巴巴 数据分析 7.24官网投递 7.27简历评估 挂了
+
+ 
+
+ 国研大数据研究院（国企 b4d@srit.com.cn）大数据分析师 7.25发邮件投简历 没下文
+
+ 
+
+ 中国船舶重工集团公司第七一四研究所（央企）数据分析、数据挖掘岗 7.25发邮件 没下文
+
+ 
+
+ 腾讯提前批 软件开发-数据分析 云与智慧产业事业群 6月投递 7.27更新简历 8.10初试 不符合岗位 8.10投商业分析 笔试2次 行测40道+一个案例分析题 塞码网系统 没下文
+
+ 
+
+ 嘉实基金校招 7.24 boss直聘帮投-金融科技-数据工程师 官网投递-研究类-量化研究（风险管理及人工智能方向）-北京02051 没下文
+
+ 
+
+ 京东内推 管培生-综合方向 7.27投递官网 没过
+
+ 
+
+ 京东（筛选未过） 数据分析 7.23 通过boss 邮件投递
+
+ 
+
+ 小米内推 数据分析师 7.27投递 在线测评 图形推理+材料分析 没下文
+
+ 
+
+ 神策数据 数据分析 8.15 微信投递 8.29笔试 没过
+
+ 
+
+ 快手 数据分析 8.15 官网投递 在线测评 图形推理+材料分析 挂了简历初筛
+
+ 
+
+ 8.19 boss 茄子科技 数据分析 瞎投
+
+ 
+
+ 中国电信北京公司 客户服务部-数据挖掘与运营/电子渠道部 移动互联网产品经理
+
+ 中国电信研究院 北京园区 数据分析工程师（统计学）
+
+ 总部 大数据和AI中心 大数据分析挖掘工程师 1人（点名统计学），大数据运营工程师1人
+
+ 信元公众信息发展有限责任公司 数据分析师一，产品需求分析与策划
+
+ 天翼电子商务有限公司 数据分析岗（上海）
+
+ 
+
+ 8.24 新浪微博 网申 沉了
+
+ 
+
+ Growing IO 商业数据分析师 8.23用人部门筛选 笔试过了 9.23初面 挂
+
+ 
+
+ 【国有银行】8.29 农行总部 数据分析 金融科技 北京分行 10.17笔试
+
+ 
+
+ 【国有银行】8.29工商银行 总行管培生 ；10.8 北京分行 科技菁英/专业英才；远程银行中心总中心 专业英才 
+
+ 
+
+ 8.29字节跳动 数据分析 挂简历
+
+ 
+
+ 8.30中国信通院 研究员 没下文
+
+ 
+
+ 8.30 明略科技 数据分析 已笔试 简历没过。
+
+ 
+
+ 8.31中科宇能 项目工程师 微信投 瞎投
+
+ 
+
+ 8.31蓝诺微银 数据分析 boss 投，邮件通知 瞎投没下文
+
+ 
+
+ 锐捷网络 产品工程经理 管培生 战略研究员 2天内完成测评 后来陆续给我发了很多测试，当时已有别的offer.，都放弃了
+
+ 
+
+ 中建七局国际工程公司 中建七局城市投资公司
+
+ 
+
+ 融360数据分析 boss投 发邮件 已笔试 没过
+
+ 
+
+ 9.6便利蜂 数据分析 应届网 没下文
+
+ 
+
+ 9.6 联想 服务业务数据分析师 应届网 没下文
+
+ 
+
+ 美团优选 风控部门 数据分析 识别/挖掘风险特征 欺诈 虚假交易 作弊 刷单 过一面 过二面 过三面 10.8意向书 10.16offer！
+
+ 
+
+ 中软国际 外包公司，13k pass!
+
+ 
+
+ 贝壳找房 测评 没下文
+
+ 
+
+ 中建一局集团第三建筑有限公司 职能类 每天特定岗位 发邮件
+
+ 
+
+ 马上消费金融 笔试✓ 9.23初面 过 10.18二面，已有offer 没去参加
+
+ 
+
+ 【国有银行】中邮 信用卡中心 9月听宣讲 拿到简历筛选pass卡 报 数据分析岗 ；本部智能风控
+
+ 
+
+ 【运营商 国企】联通数据运营工程师 9.23 学校现场面试，拿到pass卡免笔试 报名联通数科 数据运营工程师 ；市场经营岗
+
+ 
+
+ 【国企】中石油下子公司 昆仑 9.20 学校宣讲 线下双选 9.30收到意向书
+
+ 
+
+ 9.30立信会计师事务所，北京这边的数据分析师面试。没有笔试和初面，直接技术主管面试。但是这边要求实习，我没大有时间。加了微信，后续有需要再保持联系。
+
+ 
+
+ 9.23参加了北京的一个双选会，投了一些简历
+
+ 
+
+ 【国有银行】10.9 建行 总部 北分 直属机构
+
+---
+
 ## 百度NLP算法面经（已OC）
 
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2021-09-17 ｜ [原文链接](https://www.nowcoder.com/discuss/353158553395470336)
@@ -5810,6 +6215,68 @@ offer比较：百度地图 vs 滴滴
  求求各位牛友给个建议呀，小弟在此感激不尽，希望有更多的人给个建议，如果投票数很多的话，后面就补上面试经验和总结呀（开玩笑，没有票数也要补上的啦） 
 
  {nowcoder-vote}{7624}
+
+---
+
+## 算法岗重要面经及记录
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2020-09-25 ｜ [原文链接](https://www.nowcoder.com/discuss/353157061611560960)
+
+百度提前批
+
+ 面试为北京时间晚上将近11点，感谢面试官，整场非常专业，有项目相关，也有基础知识，每一个点都会继续问下去直到我不会或者说错为止（就是宿舍的破网速影响好几个问题都没听清,RCN就是个智障）。
+
+ 一面（过）
+
+ 讲一下gbdt
+
+ GBDT中使用了残差，为什么此时用负梯度可以拟合残差（我理解的是这个意思，所以如下回答， 但是可能没听清楚）
+
+ 讲一下词嵌入：
+
+ Word2vec讲一下，你比较熟悉哪个模型，我说cbow，于是讲了一下。
+
+ Skip-gram的负采样详细说说，负采样是怎么采的（非常juti）
+
+ 快排：
+
+ 为什么快排的时间复杂度是nlog(n),快排和归并排序有什么区别
+
+ CNN与RNN有什么区别
+
+ RNN为什么难以训练，LSTM又做了什么改进 
+
+ 两个正则化的参数分布
+
+ 先验分布与后验分布
+
+ 接着手撕5道算法，进两小时
+
+ 二面（挂）
+
+ 简历面，问bert和xlnet的互相弥补与改进，论文等，不是特别了解预训练模型基本原理，挂。
+
+ 阿里
+
+ 阿里一面（过）
+
+ 简历面
+
+ 阿里二面（失联卡流程）
+
+ Seq2seq生成式，encoder,decoder采用RNN的时候，训练和测试时有什么区别，groudtruth等问题，问到特别特别细，没手写过直接hugging face真的顶不住。
+
+ 第四范式
+
+ 二面（过）
+
+ 简历面 实际问题：有一些产品，现在要发奖券，有面值不同的奖券，如何建模将这些奖券分发给用户，需要提取用户的那些历史信息等。（提出一种思路，给每个奖券建模，二分类，发或不发，然后加权balabala....） 三面总监面(挂)
+
+ 依旧是实际问题，amazon定价，实际情况如何降维，答的不好还瞎说自己有市场意识果断被挂了，Financial的课上了个寂寞......希望如果简历上写了这门课，即使不是特别和专业相关，也要看一眼，后面几面没准就问到了。 京东（OFFER）
+
+ 一面二面都是电话面，基本是问简历上有的东西，昨天终于开奖了。
+
+ PS：算法白菜offer,海外top30硕，时差面试党，本科硬件，硕士转的计算机，无实习无论文有两个比赛，虽然算法今年很难，特别难，但是如果真的喜欢，还是可以冲一冲的，最后还是劝大家慎重再慎重！
 
 ---
 
@@ -7542,209 +8009,45 @@ offer比较：百度地图 vs 滴滴
 
 ---
 
-## 总结一下自己的秋招吧 附带面经。
+## 2019 转行cv秋招总结
 
-来源：牛客网 ｜ 类型：面经 ｜ 发布：2019-11-07 ｜ [原文链接](https://www.nowcoder.com/discuss/353155875638550528)
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2019-11-20 ｜ [原文链接](https://www.nowcoder.com/discuss/353147554009391104)
 
-收到offer：阿里，百度，顺丰。 
+秋招总结
 
- 只说面试。 
+ 从3月春找找实习到9月底最后面完百度，总共历时半年，期间经历了无数次想放弃好在最后自己和身边同学都拿到了不错的offer。
+背景介绍：985硕非科班、cv算法、无论文、无实习、无竞赛、只有自己折腾的项目
 
- 实习：面了 追一，百度，阿里，创邻科技，随手科技，x-order，商汤，CVTE，大众，京东数科，深信服。毫无疑问全都挂了。 
+ 太长不看版
 
- 秋招：依次面了百度，顺丰，依图，阿里，京东。百度提前批挂，正式批顺利通过。顺丰，阿里通过，依图面完三轮被综合排序刷了。京东hr面挂。 
+ 投递岗位：cv、后台开发
+offer情况
 
- 主要针对以下几个点 强化： 
+ 投递完或笔试完没消息（19家）：阿里、腾讯、爱奇艺、搜狗、aibee、微软、京东(实习、提前批、正式批)、网易（提前批）、招银（心态不好没认真做笔试）、微众、thoughtwork、联想、大疆、ov、商汤、ibm、小米、zoom、英伟达 一面挂（10家）：头条（提前批 后端）、大华（提前批、cv）、微博（后端）、美团（后端）、猿辅导（cv）、阿里（实习）、滴滴（实习）、招行（fintech）、bigo（ai平台开发）、讯飞（ai平台开发） 放弃面试（3家）：平安（时间冲突）、快手（时间冲突）、亚马逊（11月19联系面试时间太晚三方已签） 终面挂（2家）：招行卡中心（提前批）、虹软（提前批）、 offer（5家）：百度（php后端 白菜）、pdd（cv 白菜）、华为（车联网 白菜）、浦发（系统开发 体检来不及拒了）、tp（cv sp）
+总结： 明确方向多准备、算法基础要扎实。一面挂的大部分都是后端开发岗位，但我只是稍微看了下tcp的原理，对操作系统网络编程都不了解，而拿到百度后端offer的关键原因就是我看了1/3本算法导论，所有面试题都手撕出来了。 路漫漫其修远兮、吾将上下而求索。笔试挂面试挂都是很常见的情况，即使是大佬也会莫名其妙被挂，所以面试或者笔试挂了不要对自己进行任何评价，反思不足继续努力，秋招最困难的时刻是产生自我怀疑想要放弃时，从6月开始我一直有自己好菜拿不到offer了的念头，每天无所事事也不准备整个人处于焦躁的状态，从而错过了很多机会，包括海康笔试做完一直拖着不做测评结果没面试，看到intel招聘信息却不投递想要投时却早已错过，提前批不敢投阿里腾讯结果正式批投了也毫无消息，正式批不敢投头条，不敢去投算法岗，结果浪费很多时间去面后台开发但还是全挂了。这些我不敢投的岗位身边有同学投了而且最后拿到了offer，希望大家在秋招的过程中不要轻易放弃，把握每一次机会。 offer选择优先级：大厂、个人爱好、加班、工资。太小的公司以及名声太差的公司不建议即使是喜欢的方向或者工资很高（除非没得选）；在工资和大厂中间建议差距在10w以上选择工资、除非是大厂核心部门或者更喜欢大厂的工作；从事互联网就做好加班的准备，只是995、大小周、996的差异而已，不能接受加班建议外企或者995的公司。 ————————————————分割线————————————————
 
- 1。编程：Leecode刷了150题，剑指offer刷了3遍。 
+ 啰里啰嗦叽叽歪歪版
 
- 2。数据结构系统的看了一遍，网络和系统将常考点认真的总结了。 
+ 写完总结好像没什么可写了，再加一点
 
- 3。对自己写在简历中的论文，项目不断复盘，不断熟悉及相关的延伸。 
+ 前期准备
 
- 4。专业知识，NLP的知识，深度学习的知识，机器学习的知识，这部分主要看博客和统计机器学习这书。 
+ 1.机器学习相关知识，春节前完成。18年11月左右开始看吴恩达机器学习课程，深度学习课程。那时候白天在实验室干活晚上回来自己看，花了差不多两三个月才看完，这里面机器学习课程用的是matlab，我在实验室也用的比较多上手很快，深度学习课程用的是tensorflow，怎么学也学不会，课后习题一度是噩梦，后来就直接投奔pytorch了[/捂脸]。后面零零散散看完了李航的统计机器学习，学得不深，也看了写经典论文，VGG、NIN、Inception、ResNet、YOLO、SSD、faster-RCNN之类的，然后就是看了一些关于深度可分离卷积，focal-loss，shuffle-net相关的博客。
+2.项目相关。看完吴恩达的课后发现自己的动手能力很弱，吴恩达给的课后习题能做是因为他把数据处理，模型结构相关的东西都准备好了，我们只需要往里面填空就行，但是到了自己上手就是完全不一样，数据怎么导入，用什么算法，算法里面的检测部分怎么写，怎么评价算法效果。往往从github上找的代码要么是不支持断电保存，恢复训练，要么是没有指标评价的代码，运气好碰上都有的不一定是pytorch的，以及更关键的是不支持自己的数据格式，可能你用的是yolo格式的标注，人家用的是coco格式或者voc格式的，这种时候就得研究一下各种格式的数据特点，不同类型间的转换，这些工作都很基础，但是面试的时候也不会有人问，我也自己写过nms和k-means就从来没人问我这些[/摔]。
+另外就是项目从哪找的，我是找的遥感图像目标检测公开数据集dota去做的，但是做的效果很不好，只能说通过这个项目知道一个算法从理论到实践需要做哪些工作。另一个项目也是找的遥感图像公开数据集，是一个图像分割的任务，用的是别人改进过的u-net网络，我主要就是从图像预处理和损失函数这些地方花了点功夫，网络方面改动不大。
+这些项目做的时间都不多，主要是刚入门时折腾代码上github找代码，改代码，熟悉不同数据格式这些地方花功夫，真正花在改模型调整算法上几乎没法什么时间（主要是我菜，也不知道怎么改，到处瞎试，哭泣）。
+3.C++。大一时学过C++有一点基础，因此没有特别去学习，平时刷算法题的时候会查一查vector，string相关的用法。只是在19年8月花过几天时间把C++ Primer过了一遍，另外就是每回面试前查查C++相关面试题，把相关内容过一过。
+4.算法题。春节之后每天中午休息时我都会看半个小时到1个小时的算法导论，晚上吃完饭也会看上一会，算法导论看得仔细的话会发现很多笔试题或者算法题的原型都是出自算法导论的例题与习题。我差不多看到红黑树这一块就没往后看了，总共花了3-4个月。
+刷题上花的时间不多，身边有同学直接看视频学习的效果也挺不错，但是剑指offer和leetcode hot100建议都看一看，面试真的有特别多原题。
 
- 5。数学知识，智力题,逻辑题：只能靠总结。此外还要多看面经。 
+ 中期面试
 
- 复习点总结： 
+ 不想回忆自己无尽的一面就跪，简单总计下就是一般开始自我介绍，我介绍的很简单就说自己本科硕士在什么学校读的，是什么专业，实验室的研究方向是什么，接着是自己有做过什么项目，有时也会提一下项目的思路和技术，后面还有的话就是提一下自己参加过什么比赛（我就只参加过数学建模，菜鸡的救赎）
+我的简历很一般几乎就没什么亮点，所以总是简历挂，一面也挂的很多是因为那是后台开发，我没认真去学网络编程相关的，愿意给我算法岗面试机会的公司挺少，也很感激这些公司，大华一面挂是因为当时还在准备项目，基础不扎实，猿辅导当时刚好出了一个我盲区内的算法题没写出来就挂了，建议大家面试的时候有什么题不会写回去一定要好好查一查，因为猿辅导这个题我在面百度的时候也出了。
 
- 1。自然语言处理的知识：word2vec，BERT，ERNIE，分词原理，lucene搜索等。 
+ 后期等offer
 
- 2。深度学习：CNN，卷积，LSMT，BN，dropout，常见参数优化器，梯度爆炸与梯度弥散。激活函数，反向传播等。 
-
- 3。机器学习知识：朴素贝叶斯，SVM,LR,CRF,HMM,XGBOOST,LGB,线性回归，决策树，KNN，k-mean，gbdt，PCA,LAD,ADABOOST，特征工程，评价指标，正则化，生成/判别/概率模型之类的等。 
-
- 此外，还有一些零碎的知识点需要平时去总结。 
-
- 4。基础知识：栈，队列，二叉树，dfs/bfs，基础排序，最短路径，最大路径。死锁，tcp/udp。python/java的具体语法。 
-
- 5。智力题，逻辑题，概率题，大数据题等。如疯子坐飞机，小球，倒水，等等。 
-
- 针对开放问题的一些问答： 
-
- 场景题：一般从项目中入手，进行特征优化与方法优化。如对话系统：搜索，知识图谱，生成。
- hr面和总监面：职业规划，人生规划，性格心态，初心，团队协作能力。收获与得失，优缺点等。
- 智力题：小球倒水问题，100层楼丢小球问题等，疯子坐飞机，生男生女问题。
- 概率题：高斯分布，二次分布，几何分布，古典概型，概率密度，排列组合，求期望等。抛硬币问题等。
- 
-
- 面经汇总： 
-
- 百度：自然语言处理 
-
- 一面： 
-
- 1.手写softmax，手写BN公式。 
-
- 2.word2vec，bert详细介绍。 
-
- 3.激活函数无限维的问题。 
-
- 4.为什么使用交叉熵，不用平方差。 
-
- 5.硬币兑换最小数。 
-
- 6.100层楼2个小球问题。 
-
- 7.linux命令,不会。 
-
- 8.python多线程，不会，进程内存互相访问，不会。。 
-
- 二面： 
-
- 1.手写svm， 
-
- 2.手写LR， 
-
- 3.手推前向传播。 
-
- 4.xgb详细讲解。 
-
- 5.knn，k-mean。 
-
- 6.旋转数组：用额外内存和不用。 
-
- 7.判断是不是后续遍历中序二叉树。 
-
- 8.python内存管理，内存池最大？ 
-
- 9.python可变不可变数据结构。 
-
- 10 python lamba与def 定义函数的区别 
-
- 三面： 
-
- 1.redis和mongodb与mysql。。真不会。 
-
- 2.加快搜索速度方法。 
-
- 3.计算相似度方法。 
-
- 4.bert微调。 
-
- 5.研究生最大收获。 
-
- 6.研究生与本科生区别。 
-
- 阿里面经：自然语言处理 
-
- 一面：组长面。 
-
- 1.cnn的卷积计算，参数计算。35分钟 
-
- 2。L1，L2正则化。 
-
- 3.Bert详解。 
-
- 4.论文。 
-
- 5.智力题,倒水问题。 
-
- 6.word2vec详解。 
-
- 7.SVM,XGB,crf. 
-
- 8.设计对话系统 
-
- 9.一道简单的编程题。 
-
- 一面实在是久远记不太清楚了 
-
- 二面，难到头发都掉了。1个小时。 
-
- 1.lucene搜索。 
-
- 2.关键字搜索如何实现。 
-
- 3.单元测试。 
-
- 4.设计一个对话系统。 
-
- 5.什么是互联网。 
-
- 6.深度优先和广度优先的本质区别。 
-
- 7.从搜谷歌到返回页面，发生了什么。 
-
- 三面：20分钟。 
-
- 1.项目参与人员，团队合作情况 
-
- 2.科研经历。 
-
- 3.平时如何学习。 
-
- 4.计算机基础如何，数据结构，算法刷题情况。 
-
- 5.有那些offer。 
-
- 交叉面：1个小时 
-
- 1.自然语言处理综述一下。 
-
- 2.神经网络在nlp中的应用。 
-
- 3.一个关于推荐问题的场景题。 
-
- 4.为什么人工智能在图像里应用落地更好，在nlp不行。谈谈你的看法。 
-
- 5.平时怎么学习的。 
-
- hr面：40分钟 
-
- 1.你们学校几乎没有校招进阿里的，谈谈为什么。 
-
- 2。研究生最大的收获。 
-
- 3.对阿里的理解：996.. 
-
- 4.想做一个什么样的人：最懂技术的产品经理。 
-
- 5.反问环节：阿里对于hr面的考量。 
-
- 顺丰：数据挖掘岗 
-
- 
-
- 1.xgb和lgb的区别。xgb和gbdt，xgb用的正则化。
- 2.pca和lda。
- 3.lstm和rnn。
- 4.激活函数各自优缺点。
- 5.一道简单的编程：两个数组排序。
- hr面，顺丰的hr面是最舒服的。
- 1.喜欢什么，武侠。
- 2谈谈对武侠的理解：惩恶扬善，为国为民，匡扶正义。
- 3武侠在你身上的映射：强大自己，帮助弱者。
- 4.最喜欢的武侠类电影 ？龙门飞甲，朝堂，江湖，爱情，探险元素。丰富剧情，千奇百怪的武器，经典的特效。
- 
-
- 依图面试 
-
- 编程题：旋转数组，大数相乘，二叉树的序列化与反序列化，堆排序。 
-
- 智力题：砝码称重问题。项目。 
-
- 最后 多复习，多复盘，多总结。遇到的题一定要会。天道酬勤。没有那么多的大神，有的只是不停的努力。
+ 面试完成了等offer也是很糟心的，你永远不知道那些大厂的备胎池有多深，以及你会不会是那个白菜，建议面试通过拿到口头offer了也不要松懈，某些公司的口头offer就不等于正式offer，以及给你offer也可能是个劝退价，像我就拿了一大堆白菜价，但是开奖之前因为有几个offer而拒掉了一些面试感觉很后悔，offer还是拿多了更好，拿得多也能跟自己想去的公司argue薪资，后续选择更多，风险也更小，比如今年某团的一系列操作，以及某易爆出来一系列事情，建议多拿offer，不要松懈，适当的也要放松一下。
 
 ---
 
@@ -8371,6 +8674,993 @@ C++：
 
 ---
 
+## 历年算法面经自己观看
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2019-08-01 ｜ [原文链接](https://www.nowcoder.com/discuss/353147160885665792)
+
+作者：huangdao
+ 链接： https://www.nowcoder.com/discuss/87657 
+ 来源：牛客网
+ 缘分］霸面，四小时，百度算法offer company: 百度
+ https://www.nowcoder.com/discuss/56263 
+ 《美团机器学习算法岗》希望发个美团四面面经攒点人品，字多 company: 百度,美团
+ https://www.nowcoder.com/discuss/50709 
+ 【17届校招面经合集——C++研发】 company: 百度,深信服,招银,网易,阿里,腾讯,京东,今日头条,美团,华为,微店,好未来,CVTE
+ https://www.nowcoder.com/discuss/29266 
+ 【17届校招面经合集——数据挖掘/机器学习】 company: 百度,招银,网易,阿里,腾讯,京东,美团,滴滴,华为,好未来
+ https://www.nowcoder.com/discuss/33958 
+ 【2017秋季校园招聘笔经面经专题汇总】 company: 百度,小米,蘑菇街,深信服,招银,网易,网易游戏,阿里,腾讯,京东,今日头条,美团,滴滴,华为,携程,七牛云,爱奇艺,阅文集团,海康威视,招银网络科技,58同城,挖财,有赞,微店,酷家乐,好未来,CVTE
+ https://www.nowcoder.com/discuss/12805 
+ 【阿里、腾讯、大疆】【算法岗实习生】春招面试经验 company: 阿里,腾讯,华为
+ https://www.nowcoder.com/discuss/26557 
+ 【百度】【腾讯】【网易游戏】算法岗实习面试，场景题面经 company: 百度,网易,网易游戏,腾讯
+ https://www.nowcoder.com/discuss/24604 
+ 【回馈牛客】后台实习面经 company: 百度,小米,网易,阿里,腾讯,京东,今日头条,美团,滴滴,爱奇艺,搜狗
+ https://www.nowcoder.com/discuss/82865 
+ 【机器学习算法】转专业渣硕面经 company: 百度,小米,京东,美团,滴滴,唯品会,爱奇艺,作业帮
+ https://www.nowcoder.com/discuss/59595 
+ 【面经】阿里+腾讯+网易游戏面经（均已拿offer） company: 百度,蘑菇街,网易,网易游戏,阿里,腾讯,华为,唯品会
+ https://www.nowcoder.com/discuss/14953 
+ 【面经汇总】2018校招面经汇总贴（持续更新） company: 百度,小米,蘑菇街,招银,网易,网易游戏,阿里,腾讯,京东,今日头条,美团,滴滴,华为,携程,唯品会,爱奇艺,拼多多,海康威视,58同城,有赞,搜狗,顺丰,好未来,CVTE
+ https://www.nowcoder.com/discuss/53246 
+ 【牛客访谈】a.out：面过15家公司后，我搞懂了面试套路 company: 百度,腾讯,华为
+ https://www.nowcoder.com/discuss/18588 
+ 【牛客访谈】对话金良雨：非计算机专业如何拿到百度offer。 company: 百度,网易,腾讯
+ https://www.nowcoder.com/discuss/19926 
+ 【牛客访谈03期】话唠先生：做好这些细节，学渣也能逆袭 company: 百度,58同城
+ https://www.nowcoder.com/discuss/17920 
+ 【秋招结束】已拿offer:链家+京东+网易+美团，附上面经 company: 网易,京东,美团
+ https://www.nowcoder.com/discuss/45991 
+ 【史上最全面经】各岗位汇总目录（技术篇） company: 
+ https://www.nowcoder.com/discuss/84023 
+ 【史上最全面经】算法，机器学习，大数据 company: 百度,小米,深信服,网易,网易游戏,阿里,腾讯,京东,今日头条,美团,滴滴,华为,携程,七牛云,爱奇艺,拼多多,51信用卡,搜狗,神策数据,CVTE
+ https://www.nowcoder.com/discuss/84012 
+ 【数据挖掘面经】腾讯+百度+华为（均拿到sp offer） company: 百度,网易,阿里,腾讯,京东,今日头条,美团,滴滴,华为
+ https://www.nowcoder.com/discuss/15168 
+ 【头条AI lab&百度】转专业美国渣硕的机器学习面经 company: 百度,腾讯,今日头条
+ https://www.nowcoder.com/discuss/80846 
+ 【西安】【迅雷】数据开发面经 company: 
+ https://www.nowcoder.com/discuss/13322 
+ 【携程】视频面经分享，offer已到手 company: 携程
+ https://www.nowcoder.com/discuss/44339 
+ 【一只渣硕算法菜鸟的面经】百度+京东 offer company: 百度,小米,阿里,腾讯,京东,美团,华为
+ https://www.nowcoder.com/discuss/15615 
+ 【这可能不只是一篇面经】 company: 百度,小米,招银,网易,阿里,腾讯,京东,美团,滴滴,携程,个推
+ https://www.nowcoder.com/discuss/29890 
+ 17日头条现场面试算法岗三面面经 company: 
+ https://www.nowcoder.com/discuss/43308 
+ 2016秋招面经(百度、华为、腾讯)以及阿里实习的一点感慨 company: 百度,网易,阿里,腾讯,华为
+ https://www.nowcoder.com/discuss/13463 
+ 2016校招百度美团360机器学习岗面试经历 company: 百度,蘑菇街,美团
+ https://www.nowcoder.com/discuss/3243 
+ 2016校招-百度一面经（失败） company: 百度,阿里,腾讯
+ https://www.nowcoder.com/discuss/3071 
+ 2017前端实习面经之腾讯、阿里、360、IBM、美团 company: 百度,阿里,腾讯,美团
+ https://www.nowcoder.com/discuss/26410 
+ 2017秋招互联网内推面经（华为，搜狐，阿里，网易） company: 网易,阿里,华为
+ https://www.nowcoder.com/discuss/12476 
+ 2017秋招算法岗位一点点小面经。 company: 今日头条,滴滴,携程,拼多多,搜狗
+ https://www.nowcoder.com/discuss/70012 
+ 2017暑期实习春招面经：网易互娱+腾讯IEG company: 网易,网易游戏,腾讯
+ https://www.nowcoder.com/discuss/23255 
+ 2017腾讯基础研究实习生面经，已拿到offer company: 腾讯
+ https://www.nowcoder.com/discuss/25919 
+ 2018 后台开发 春招总结&面经分享 company: 百度,网易,阿里,腾讯,京东,今日头条,滴滴,大华
+ https://www.nowcoder.com/discuss/80774 
+ 2018春招科大讯飞，华为，神策数据，今日头条面经 company: 百度,今日头条,美团,华为,海康威视,神策数据
+ https://www.nowcoder.com/discuss/75136 
+ 2018春招实习汇总（7个offer） company: 百度,小米,蘑菇街,网易,网易游戏,阿里,腾讯,京东,今日头条,美团,华为
+ https://www.nowcoder.com/discuss/82049 
+ 2018今日头条后端实习面经 company: 今日头条
+ https://www.nowcoder.com/discuss/84531 
+ 2018秋季校园招聘互联网IT名企最新笔经面经汇总（更新中） company: 百度,小米,蘑菇街,深信服,网易,阿里,腾讯,京东,今日头条,美团,华为,携程,唯品会,拼多多,海康威视,挖财,有赞,CVTE
+ https://www.nowcoder.com/discuss/32899 
+ 2018秋招freewheeljava笔试题，祝大家春招好运 company: 
+ https://www.nowcoder.com/discuss/69430 
+ 2018秋招面经-Java开发工程师(网易跨境电商事业部) company: 网易
+ https://www.nowcoder.com/discuss/34752 
+ 2018腾讯实习面经 company: 百度,腾讯
+ https://www.nowcoder.com/discuss/77480 
+ 360公司 计算机视觉3面面试面经 company: 百度,美团,滴滴
+ https://www.nowcoder.com/discuss/37925 
+ 360面经 company: 
+ https://www.nowcoder.com/discuss/38433 
+ 51信用卡数据挖掘岗面经 company: 京东,51信用卡
+ https://www.nowcoder.com/discuss/53677 
+ 58二面面经 company: 
+ https://www.nowcoder.com/discuss/46304 
+ 58算法岗远程面试 二面or三面失败面经 company: 
+ https://www.nowcoder.com/discuss/80547 
+ 8.28携程大数据分析面经（已收到offer） company: 携程
+ https://www.nowcoder.com/discuss/35813 
+ 8月25日北京华为优招面经 company: 阿里,华为
+ https://www.nowcoder.com/discuss/34979 
+ Android开发2017春招总结和面经分享 company: 网易,网易游戏,阿里,腾讯,华为,携程,CVTE
+ https://www.nowcoder.com/discuss/25949 
+ Android面经-百度、腾讯、网易、360、去哪网面经 company: 百度,网易,腾讯,CVTE
+ https://www.nowcoder.com/discuss/14852 
+ Android终极面试总结+经验（文末有终极大招） company: 百度,网易,阿里,腾讯,美团,滴滴,华为,CVTE
+ https://www.nowcoder.com/discuss/63683 
+ BA,去哪儿,美团,网易,京东,华为面经 company: 百度,蘑菇街,网易,网易游戏,阿里,京东,美团,华为
+ https://www.nowcoder.com/discuss/3189 
+ bigo算法一面 company: 
+ https://www.nowcoder.com/discuss/53671 
+ C++面经：一个三本的菜鸡秋招的历程大牛可入跟我一样菜更可入 company: 百度,深信服,阿里
+ https://www.nowcoder.com/discuss/60441 
+ C++研发岗春招面经，待更 company: 深信服,CVTE
+ https://www.nowcoder.com/discuss/69757 
+ iOS开发&测试开发 多家公司实习面经整理 company: 网易,网易游戏,阿里,腾讯,美团
+ https://www.nowcoder.com/discuss/41837 
+ IT公司笔经面经【转】 company: 网易,网易游戏,阿里,腾讯,美团,搜狗
+ https://www.nowcoder.com/discuss/1658 
+ java面经四：链家（技术三面+hr面） company: 
+ https://www.nowcoder.com/discuss/41309 
+ java面经一：阿里（技术三面+hr面） company: 阿里
+ https://www.nowcoder.com/discuss/41296 
+ Momenta算法实习面经 company: 
+ https://www.nowcoder.com/discuss/80837 
+ 阿里 数据研发 九面面经 内推转校招 company: 阿里
+ https://www.nowcoder.com/discuss/41091 
+ 阿里，摩根，野村，腾讯，微软，图鸭科技机器学习面经分享 company: 阿里,腾讯,依图科技
+ https://www.nowcoder.com/discuss/24900 
+ 阿里、百度、腾讯、华为算法工程师面经（均已拿到offer） company: 百度,阿里,腾讯,华为
+ https://www.nowcoder.com/discuss/11495 
+ 阿里、网易、美团、商汤科技大数据研发面经 company: 百度,网易,阿里,腾讯,美团,华为
+ https://www.nowcoder.com/discuss/48021 
+ 阿里19届前端实习面经（更新至交叉面） company: 阿里
+ https://www.nowcoder.com/discuss/74890 
+ 阿里7面+百度3面+各种其他的面（更新面经中） company: 百度,阿里,腾讯,美团,携程,拼多多
+ https://www.nowcoder.com/discuss/36523 
+ 阿里offer，终于等到了offer call，内附面经 company: 阿里
+ https://www.nowcoder.com/discuss/79365 
+ 阿里巴巴-蚂蚁金服-数据研发岗（一面） company: 阿里
+ https://www.nowcoder.com/discuss/29537 
+ 阿里巴巴算法工程师面经 company: 阿里
+ https://www.nowcoder.com/discuss/23261 
+ 阿里菜鸟机器学习算法一面面经 company: 阿里,美团
+ https://www.nowcoder.com/discuss/70004 
+ 阿里测试开发一面面经 company: 阿里
+ https://www.nowcoder.com/discuss/40871 
+ 阿里机器学习七面面经 company: 阿里
+ https://www.nowcoder.com/discuss/75360 
+ 阿里机器学习实习岗，两面技术面之后流程到了人力部门 company: 阿里
+ https://www.nowcoder.com/discuss/73612 
+ 阿里机器学习四轮面试反馈一波 company: 阿里
+ https://www.nowcoder.com/discuss/24520 
+ 阿里机器学习一面面经 company: 阿里
+ https://www.nowcoder.com/discuss/68217 
+ 阿里六面面经 company: 阿里
+ https://www.nowcoder.com/discuss/36288 
+ 阿里面经 company: 阿里
+ https://www.nowcoder.com/discuss/32987 
+ 阿里内推算法-图形图像方向，三面结束，总结面经祭奠一下.. company: 阿里
+ https://www.nowcoder.com/discuss/74234 
+ 阿里实习生C/C++ 研发岗位面经 company: 阿里
+ https://www.nowcoder.com/discuss/22501 
+ 阿里算法-图像图形一面面经 company: 阿里
+ https://www.nowcoder.com/discuss/75519 
+ 阿里文娱运营暑期实习-网申至offer-挺详细的！ company: 阿里
+ https://www.nowcoder.com/discuss/83202 
+ 安卓面经：百度腾讯滴滴美团头条网易搜狐华为链家小米拼多多 company: 百度,小米,网易,腾讯,今日头条,美团,滴滴,华为,拼多多
+ https://www.nowcoder.com/discuss/56712 
+ 百度 北京 机器学习/数据挖掘 1+2+3面 company: 百度
+ https://www.nowcoder.com/discuss/12706 
+ 百度2016实习面经，大数据组（统计出身） company: 百度
+ https://www.nowcoder.com/discuss/6111 
+ 百度2016实习生面经(3面已过) company: 百度,腾讯
+ https://www.nowcoder.com/discuss/5691 
+ 百度2018年春招实习面经，回馈牛客【实习offer已到手】 company: 百度
+ https://www.nowcoder.com/discuss/68130 
+ 百度凤巢 机器学习 散招实习面经 company: 百度,小米
+ https://www.nowcoder.com/discuss/63783 
+ 百度寒假实习生面试面经 company: 百度,搜狗
+ https://www.nowcoder.com/discuss/64902 
+ 百度机器学习岗位123面面经 company: 百度
+ https://www.nowcoder.com/discuss/12091 
+ 百度面经：谨以此纪念五挂百度 company: 百度,阿里,腾讯
+ https://www.nowcoder.com/discuss/12527 
+ 百度网页搜索部实习生面经（攒人品） company: 百度
+ https://www.nowcoder.com/discuss/55090 
+ 百度校招测试开发工程师笔经面经【转】 company: 百度
+ https://www.nowcoder.com/discuss/1652 
+ 百度校招技术岗面经（已确定通过，等正式offer通知中） company: 百度
+ https://www.nowcoder.com/discuss/3039 
+ 百度一面面经 company: 百度
+ https://www.nowcoder.com/discuss/10939 
+ 本科秋招前端面经+心得 company: 深信服,京东,美团
+ https://www.nowcoder.com/discuss/62286 
+ 本科渣渣前端的秋招分享 company: 阿里,腾讯,美团,滴滴
+ https://www.nowcoder.com/discuss/39485 
+ 菜鸟网络一面面经 数据挖掘岗 company: 
+ https://www.nowcoder.com/discuss/23317 
+ 惨痛春招经历（附个人面经） company: 百度,网易,网易游戏,腾讯,京东,华为,唯品会
+ https://www.nowcoder.com/discuss/80158 
+ 成都爱奇艺面经，算法工程师 company: 爱奇艺
+ https://www.nowcoder.com/discuss/64680 
+ 迟来的面经，回馈牛客 company: 阿里,美团,华为
+ https://www.nowcoder.com/discuss/67952 
+ 春招大战腾讯阿里京东面试经验贴-产品小白的进阶之路 company: 百度,阿里,腾讯,京东,美团
+ https://www.nowcoder.com/discuss/83832 
+ 春招实习面经（Java开发） company: 百度,小米,网易,阿里,腾讯,京东,今日头条,美团,爱奇艺,美丽联合集团,51信用卡
+ https://www.nowcoder.com/discuss/81027 
+ 春招实习终于结束啦 company: 阿里,腾讯,华为,爱奇艺,58同城
+ https://www.nowcoder.com/discuss/80089 
+ 春招实习总结，算法岗 company: 网易,网易游戏,腾讯,美团,滴滴
+ https://www.nowcoder.com/discuss/80357 
+ 从春招到秋招，算法工程师养成记（阿里+腾讯+其他） company: 百度,阿里,腾讯,京东,今日头条,美团,滴滴,搜狗
+ https://www.nowcoder.com/discuss/41696 
+ 从实习到秋招的机器学习面试纪录 company: 蘑菇街,阿里,腾讯,京东,今日头条,拼多多,好未来,CVTE
+ https://www.nowcoder.com/discuss/50654 
+ 大量面经总结(包括牛客网的和我听来的) company: 百度,阿里,今日头条
+ https://www.nowcoder.com/discuss/33737 
+ 等了大半个月的b站offer，附算法岗三面面经 company: 
+ https://www.nowcoder.com/discuss/53858 
+ 滴滴测开 一二面面经 company: 百度,滴滴
+ https://www.nowcoder.com/discuss/40573 
+ 滴滴-机器学习一面面经 company: 滴滴
+ https://www.nowcoder.com/discuss/40456 
+ 滴滴数据分析面经 company: 滴滴
+ https://www.nowcoder.com/discuss/6357 
+ 滴滴算法岗面经 company: 滴滴
+ https://www.nowcoder.com/discuss/12730 
+ 地标哈尔滨：百度123，机器学习／数据挖掘面经 company: 百度,腾讯
+ https://www.nowcoder.com/discuss/12679 
+ 地平线机器人面经（已拿offer，算法岗，计算机视觉方向，） company: 阿里
+ https://www.nowcoder.com/discuss/23418 
+ 发面经，攒人品 company: 美团,华为
+ https://www.nowcoder.com/discuss/46673 
+ 反馈，阿里机器学习面经，也是对我研究生期间的一个总结分享 company: 网易,阿里,大华
+ https://www.nowcoder.com/discuss/64829 
+ 非211本CS应届求职路 company: 百度,蘑菇街,网易,阿里,腾讯,京东,今日头条,滴滴,华为,有赞
+ https://www.nowcoder.com/discuss/19902 
+ 非CS专业小硕的机器学习/数据挖掘岗位秋招经验 company: 百度,网易,阿里,美团,华为
+ https://www.nowcoder.com/discuss/19379 
+ 非CS专业找软件开发工作的经历 company: 百度,小米,招银,华为,招银网络科技
+ https://www.nowcoder.com/discuss/63944 
+ 非科班野路子的2018秋招机器学习面经：面试实录+人生经验 company: 
+ https://www.nowcoder.com/discuss/59687 
+ 非科班野路子的2018秋招算法工程师面经：面试实录+人生经验 company: 百度,网易,腾讯,拼多多
+ https://www.nowcoder.com/discuss/63165 
+ 非科班渣硕的校招季结束啦，写个算法面经回馈牛客了 company: 百度,网易,阿里,腾讯,京东,美团,滴滴,华为,唯品会,搜狗
+ https://www.nowcoder.com/discuss/51009 
+ 非科班渣硕秋招总结-回馈牛客 company: 百度,网易,阿里,京东,今日头条
+ https://www.nowcoder.com/discuss/50923 
+ 非科班渣渣的秋招机器学习算法岗面经 company: 百度,网易,阿里,腾讯,京东,美团,滴滴,华为,携程
+ https://www.nowcoder.com/discuss/48976 
+ 分享一下实习及秋招的面试经历【长文慎入】【更新所有面试结果】 company: 网易,阿里,腾讯,京东,美团,滴滴,华为,携程,唯品会,拼多多
+ https://www.nowcoder.com/discuss/58849 
+ 刚刚面完机器学习百度二面 写个面经 回馈牛客网上大家的帮助 company: 百度
+ https://www.nowcoder.com/discuss/44211 
+ 谷歌，微软，阿里，美团实习生面经 company: 小米,网易,阿里,腾讯,京东,美团,个推
+ https://www.nowcoder.com/discuss/81353 
+ 光学硕士，视觉算法岗秋招总结分享 company: CVTE
+ https://www.nowcoder.com/discuss/65546 
+ 滚烫的阿里机器学习算法实习岗面经 company: 阿里
+ https://www.nowcoder.com/discuss/69401 
+ 过来人的面试经验总结和分享 company: 阿里,腾讯,华为,CVTE
+ https://www.nowcoder.com/discuss/64759 
+ 杭州望恒国际面经2018.6.1 company: 百度
+ https://www.nowcoder.com/discuss/83119 
+ 好吧我想下链家面经，奇葩公司 company: 
+ https://www.nowcoder.com/discuss/35353 
+ 好未来(已拿offer)+ CVTE(3面通过) company: 百度,阿里,好未来,CVTE
+ https://www.nowcoder.com/discuss/9855 
+ 好未来测开面经 company: 好未来
+ https://www.nowcoder.com/discuss/35562 
+ 好未来面经分享 company: 招银,网易,好未来
+ https://www.nowcoder.com/discuss/52461 
+ 好未来提前批图像算法岗面经 company: 好未来
+ https://www.nowcoder.com/discuss/35526 
+ 好未来现场面试 面经 company: 好未来
+ https://www.nowcoder.com/discuss/34748 
+ 华为春招实习记录 company: 华为
+ https://www.nowcoder.com/discuss/75613 
+ 华为面经 company: 华为
+ https://www.nowcoder.com/discuss/7699 
+ 华为武汉c++面经 company: 华为
+ https://www.nowcoder.com/discuss/24419 
+ 华为优招面试机器学习面经 company: 华为
+ https://www.nowcoder.com/discuss/32563 
+ 回馈牛客，通信转数据挖掘，我的慢慢秋招路 company: 百度,网易,阿里,腾讯,京东,美团,唯品会
+ https://www.nowcoder.com/discuss/64908 
+ 回馈牛客：斗鱼、滴滴、百度、美团、小米、腾讯面经 company: 百度,小米,招银,网易,腾讯,京东,美团,滴滴,华为
+ https://www.nowcoder.com/discuss/48206 
+ 回馈社区~阿里巴巴2018校招笔试题和面经汇总 company: 百度,小米,招银,网易,阿里,腾讯,京东,美团,滴滴,华为,携程,唯品会,拼多多,搜狗
+ https://www.nowcoder.com/discuss/85744 
+ 机器学习面经 company: 网易
+ https://www.nowcoder.com/discuss/51437 
+ 机器学习实习面经分享（蚂蚁金服，微信，美国亚马逊，完美） company: 阿里,腾讯
+ https://www.nowcoder.com/discuss/23570 
+ 机器学习算法面经（腾讯阿里网易） company: 网易,网易游戏,阿里,腾讯
+ https://www.nowcoder.com/discuss/75166 
+ 机器学习算法面经---2018秋招 company: 百度,阿里,腾讯,京东,美团,华为,拼多多,搜狗
+ https://www.nowcoder.com/discuss/32008 
+ 江浙沪的java春招实习综合面经 company: 百度,小米,网易,阿里,腾讯,京东,今日头条,美团,华为,携程,爱奇艺,拼多多,58同城,有赞,酷家乐,CVTE
+ https://www.nowcoder.com/discuss/82422 
+ 今日头条高级后端开发实习生三轮技术面+HR面 面经 company: 今日头条
+ https://www.nowcoder.com/discuss/71777 
+ 今日头条后台开发面经，主要是想询问大家的情况 company: 今日头条
+ https://www.nowcoder.com/discuss/13790 
+ 今日头条加面（第五面）已跪 company: 今日头条
+ https://www.nowcoder.com/discuss/51968 
+ 京东，广告部门，算法工程师，面经 company: 阿里,京东
+ https://www.nowcoder.com/discuss/32003 
+ 京东，华为面经 company: 京东,华为
+ https://www.nowcoder.com/discuss/10381 
+ 京东2016暑期实习生机器学习面经[已拿offer] company: 京东
+ https://www.nowcoder.com/discuss/5525 
+ 京东AI三面面经，已拿口头Offer company: 京东
+ https://www.nowcoder.com/discuss/40082 
+ 京东春招实习，算法工程师迟到面经 company: 京东
+ https://www.nowcoder.com/discuss/74759 
+ 京东算法面经，已拿offer company: 阿里,腾讯,京东
+ https://www.nowcoder.com/discuss/5476 
+ 科大讯飞，万革始WAP,百度，阿里面经 company: 百度,阿里
+ https://www.nowcoder.com/discuss/30992 
+ 客户端开发面经（iOS方向） company: 百度,网易,阿里,京东,华为,58同城,微店,好未来
+ https://www.nowcoder.com/discuss/14164 
+ 来说说我暑期找实习的事儿吧（搜狗、百度、网易等公司电面面经） company: 百度,小米,网易,美团,搜狗
+ https://www.nowcoder.com/discuss/3635 
+ 来说说我暑期找实习的事儿吧（搜狗、百度、网易等公司电面面经） company: 百度,小米,网易,美团,搜狗
+ https://www.nowcoder.com/discuss/3023 
+ 链家春招机器学习岗面经 company: 
+ https://www.nowcoder.com/discuss/74098 
+ 链家-大数据开发 company: 
+ https://www.nowcoder.com/discuss/35399 
+ 蚂蚁金服 机器学习面经 company: 阿里,腾讯
+ https://www.nowcoder.com/discuss/71480 
+ 蚂蚁金服(Java）vs滴滴出行(C++算法) 附赠蚂蚁面经 company: 阿里,滴滴
+ https://www.nowcoder.com/discuss/79942 
+ 蚂蚁金服·链家 面经 company: 美团
+ https://www.nowcoder.com/discuss/37873 
+ 蚂蚁金服社招三面通过 客服说目前状态是待确认面试结果 company: 
+ https://www.nowcoder.com/discuss/72994 
+ 美团北京技术岗的一点经验（已拿offer） company: 美团,个推
+ https://www.nowcoder.com/discuss/78115 
+ 美团大众点评面试经验——后台开发 company: 美团,华为
+ https://www.nowcoder.com/discuss/16893 
+ 美团的面经，还是整理下吧 company: 网易,美团,滴滴,华为
+ https://www.nowcoder.com/discuss/46779 
+ 美团点评 机器学习/数据挖掘工程师 面经 company: 美团
+ https://www.nowcoder.com/discuss/75787 
+ 美团点评 数据挖掘和算法 面经 company: 美团
+ https://www.nowcoder.com/discuss/71109 
+ 美团点评机器学习面经 company: 美团
+ https://www.nowcoder.com/discuss/79207 
+ 美团点评面经大汇总 company: 网易,美团,唯品会,拼多多
+ https://www.nowcoder.com/discuss/40867 
+ 美团点评前端岗三面面经/已拿 offer company: 美团
+ https://www.nowcoder.com/discuss/41902 
+ 美团机器学习面经 company: 美团
+ https://www.nowcoder.com/discuss/44421 
+ 美团机器学习一面面经，全程46分钟 company: 美团
+ https://www.nowcoder.com/discuss/36432 
+ 美团金融面试二面经验分享 company: 美团
+ https://www.nowcoder.com/discuss/44004 
+ 美团面经（面的晚...发的晚） company: 美团,搜狗
+ https://www.nowcoder.com/discuss/16853 
+ 美团面经（已面完hr） company: 美团
+ https://www.nowcoder.com/discuss/10894 
+ 美团数据挖掘内推一面面经 company: 美团
+ https://www.nowcoder.com/discuss/5857 
+ 美团一二面面经 company: 美团
+ https://www.nowcoder.com/discuss/45885 
+ 美团自然语言处理工程师三面面经 9.19武汉站 company: 小米,美团,华为
+ https://www.nowcoder.com/discuss/44732 
+ 面经- - company: 京东,华为
+ https://www.nowcoder.com/discuss/52050 
+ 面经和想说的话，以及大学这三年 company: 百度
+ https://www.nowcoder.com/discuss/39424 
+ 面经回忆流水账(算法工程师) company: 网易,华为,唯品会,好未来
+ https://www.nowcoder.com/discuss/61760 
+ 面经续：360华为阿里腾讯京东小米搜狐滴滴一点资讯微店…… company: 百度,小米,阿里,腾讯,京东,滴滴,华为,微店
+ https://www.nowcoder.com/discuss/13902 
+ 面啥挂啥的算法、机器学习岗面经（大量文字） company: 百度,美团,拼多多,作业帮
+ https://www.nowcoder.com/discuss/36815 
+ 秒针内推机器学习一面跪面经 company: 
+ https://www.nowcoder.com/discuss/36143 
+ 秒针一面面经 company: 
+ https://www.nowcoder.com/discuss/36854 
+ 拿到阿里、百度、美团、华为offter后的一些想法 company: 百度,网易,网易游戏,阿里,腾讯,美团,滴滴,华为,唯品会
+ https://www.nowcoder.com/discuss/14443 
+ 你要善良并努力，上天不会亏待你的 company: 百度,京东
+ https://www.nowcoder.com/discuss/63898 
+ 牛客史上最水算法面经 company: 阿里,腾讯,京东,今日头条,美团,滴滴,携程,爱奇艺,搜狗,顺丰,CVTE
+ https://www.nowcoder.com/discuss/77758 
+ 牛客网平均水平的算法工程师面经分享 company: 百度,阿里,腾讯,京东,美团,滴滴,好未来
+ https://www.nowcoder.com/discuss/51529 
+ 拼多多 算法岗位 三面面经 company: 拼多多
+ https://www.nowcoder.com/discuss/81880 
+ 拼多多数据分析二面面经 company: 拼多多
+ https://www.nowcoder.com/discuss/34318 
+ 普通的公司的普通面经 company: 百度
+ https://www.nowcoder.com/discuss/64052 
+ 普通的算法/机器学习面经 company: 百度,京东,美团,滴滴
+ https://www.nowcoder.com/discuss/61907 
+ 普通学校找工作总结，不进来看看？ company: 百度,蘑菇街,腾讯,华为,携程,CVTE
+ https://www.nowcoder.com/discuss/9166 
+ 潜水党回馈牛友，算法工程师2017年学习，实习，秋招总结 company: 百度,蘑菇街,阿里,腾讯,京东,今日头条
+ https://www.nowcoder.com/discuss/65186 
+ 秋招（阿里，华为，搜狐，唯品会offer）分享面经攒人品 company: 百度,阿里,美团,华为,唯品会
+ https://www.nowcoder.com/discuss/51782 
+ 秋招各个公司 算法工程师 面经(微软,百度，头条，美团等) company: 百度,小米,网易,阿里,今日头条,美团,滴滴,拼多多,个推,搜狗
+ https://www.nowcoder.com/discuss/52210 
+ 秋招过程中学习的知识以及辛酸史（java研发） company: 阿里,美团,华为
+ https://www.nowcoder.com/discuss/59959 
+ 秋招结束，告别牛客，感谢牛客一路陪伴，分享一下算法工程师面经 company: 阿里,海康威视
+ https://www.nowcoder.com/discuss/38802 
+ 秋招结束，各大公司BATMD等公司的面经 company: 百度,小米,网易,阿里,腾讯,京东,美团,滴滴
+ https://www.nowcoder.com/discuss/62849 
+ 秋招面经 company: 百度,网易,网易游戏,阿里,滴滴
+ https://www.nowcoder.com/discuss/58508 
+ 秋招之万字流水账 company: 网易,美团,滴滴,华为,海康威视,CVTE
+ https://www.nowcoder.com/discuss/51121 
+ 秋招总结 company: 百度,小米,网易,腾讯,好未来,CVTE
+ https://www.nowcoder.com/discuss/58034 
+ 求小米数据挖掘面经~ company: 小米
+ https://www.nowcoder.com/discuss/45275 
+ 趋势科技软件开发 一二面面经 company: 
+ https://www.nowcoder.com/discuss/45077 
+ 热乎乎的海康大数据算法工程师面经 company: 
+ https://www.nowcoder.com/discuss/47609 
+ 认真脸：多offer，数据分析面经及工程渣硕转数据的经验总结 company: 百度,网易,阿里,腾讯,京东,滴滴,好未来
+ https://www.nowcoder.com/discuss/46803 
+ 如果感觉自己能力不强，又想去BATJ，我的经验对你将很有用！ company: 百度,阿里,京东
+ https://www.nowcoder.com/discuss/47326 
+ 弱校本科生算法岗春招实习历程——面经篇 company: 百度,网易,网易游戏,阿里,腾讯,美团,滴滴,华为
+ https://www.nowcoder.com/discuss/27550 
+ 深度学习面经 company: 
+ https://www.nowcoder.com/discuss/65323 
+ 深信服 机器学习 笔试面经 company: 深信服
+ https://www.nowcoder.com/discuss/84578 
+ 深信服机器学习算法工程师一面面经 company: 深信服
+ https://www.nowcoder.com/discuss/87545 
+ 深信服一面面经 company: 深信服
+ https://www.nowcoder.com/discuss/12217 
+ 失败的秋招总结 company: 网易,腾讯
+ https://www.nowcoder.com/discuss/59724 
+ 十一前的总结-一个算法汪的求职路 company: 百度,小米,网易,网易游戏,阿里,腾讯,美团,滴滴,华为,搜狗
+ https://www.nowcoder.com/discuss/13624 
+ 受挫不断，思索我是不是方向没找对【附有顺丰科技内推面试面经】 company: 百度,小米,网易,华为,大华,顺丰
+ https://www.nowcoder.com/discuss/45164 
+ 数据方向学渣的春招总结 company: 阿里,腾讯
+ https://www.nowcoder.com/discuss/26113 
+ 数据分析笔经面经 company: 腾讯,京东,华为,51信用卡,顺丰
+ https://www.nowcoder.com/discuss/61349 
+ 数据挖掘/数据研发面经分享 company: 蘑菇街,网易,阿里,腾讯,滴滴,华为,微店
+ https://www.nowcoder.com/discuss/8328 
+ 数据挖掘算法工程师面经 company: 百度,阿里,腾讯,华为,拼多多,搜狗,好未来
+ https://www.nowcoder.com/discuss/51686 
+ 双非机器学习秋招坎坷路（现在可点进来了 秋招经历持续更新中） company: 百度,蘑菇街,招银,网易,阿里,京东,美团,滴滴,华为,携程,唯品会,爱奇艺,拼多多,大华,招银网络科技,51信用卡,挖财,有赞,酷家乐,顺丰
+ https://www.nowcoder.com/discuss/59132 
+ 双非渣硕2018秋招春招面经，请各位大佬开喷，反正我不会回复 company: 百度,阿里,京东,滴滴,有赞,酷家乐
+ https://www.nowcoder.com/discuss/79529 
+ 双非渣渣安卓校招面经(阿里腾讯百度美团大疆英语流利说等……) company: 百度,阿里,腾讯,京东,今日头条,美团,滴滴,CVTE
+ https://www.nowcoder.com/discuss/60743 
+ 顺丰AI产品经理offer到手的面经 company: 腾讯,顺丰
+ https://www.nowcoder.com/discuss/82985 
+ 顺丰科技一面(机器学习)面经 company: 顺丰
+ https://www.nowcoder.com/discuss/48467 
+ 说说春招实习的京东面试，算法岗 company: 百度,网易,阿里,腾讯,京东
+ https://www.nowcoder.com/discuss/75301 
+ 搜狗武汉图像算法岗一面面经 company: 搜狗
+ https://www.nowcoder.com/discuss/40552 
+ 算法工程师（地平线/商汤/美团/华为） 面经精华帖 company: 阿里,美团,滴滴,华为
+ https://www.nowcoder.com/discuss/51522 
+ 算法面经，回馈牛客 阿里今日头条腾讯商汤科技 company: 百度,网易,阿里,腾讯,今日头条,美团,滴滴,华为,个推
+ https://www.nowcoder.com/discuss/48981 
+ 算法学习与求职经验(腾讯SP,滴滴SP,百度,华为) company: 百度,阿里,腾讯,京东,滴滴,华为
+ https://www.nowcoder.com/discuss/61379 
+ 算法渣说一下自己碰到的算法面试 company: 百度
+ https://www.nowcoder.com/discuss/68828 
+ 算法渣硕面经（阿里、腾讯、美团等），攒人品 company: 阿里,腾讯,美团,好未来
+ https://www.nowcoder.com/discuss/77924 
+ 腾讯“三面”，凉凉。。。。 company: 腾讯
+ https://www.nowcoder.com/discuss/74596 
+ 腾讯2018春招实习产品经理岗面经（IEG互动娱乐） company: 腾讯,美团
+ https://www.nowcoder.com/discuss/82841 
+ 腾讯2018暑期实习生后台开发面经（已收offer） company: 阿里,腾讯
+ https://www.nowcoder.com/discuss/79860 
+ 腾讯Android一面面经 company: 腾讯,华为
+ https://www.nowcoder.com/discuss/70784 
+ 腾讯OMG后台开发面经 company: 腾讯
+ https://www.nowcoder.com/discuss/81099 
+ 腾讯sng基础研究面经 company: 阿里,腾讯,华为
+ https://www.nowcoder.com/discuss/4980 
+ 腾讯滴滴阿里三星实习面经 company: 阿里,腾讯,滴滴
+ https://www.nowcoder.com/discuss/73306 
+ 腾讯广州基础研究面经(一面，二面) company: 腾讯
+ https://www.nowcoder.com/discuss/4922 
+ 腾讯后台一二面面经 company: 腾讯
+ https://www.nowcoder.com/discuss/70021 
+ 腾讯机器学习面经 company: 腾讯
+ https://www.nowcoder.com/discuss/79407 
+ 腾讯基础研究一面面经（挂） company: 腾讯
+ https://www.nowcoder.com/discuss/25707 
+ 腾讯前端暑期实习一面面经3.22 company: 腾讯
+ https://www.nowcoder.com/discuss/69856 
+ 腾讯暑期实习笔经面经（转） company: 腾讯
+ https://www.nowcoder.com/discuss/1654 
+ 腾讯暑期实习生面经 company: 腾讯
+ https://www.nowcoder.com/discuss/68953 
+ 腾讯算法hr面经 company: 阿里,腾讯
+ https://www.nowcoder.com/discuss/74214 
+ 腾讯系统测试一面+二面+HR面（面经），回馈牛油 company: 腾讯
+ https://www.nowcoder.com/discuss/79338 
+ 腾讯一面面经分享（数据分析）~攒好运 company: 腾讯
+ https://www.nowcoder.com/discuss/73609 
+ 腾讯一面面经分享~攒好运 company: 腾讯
+ https://www.nowcoder.com/discuss/73582 
+ 头条一级部门Data如何？收到推荐算法offer，面经如下 company: 
+ https://www.nowcoder.com/discuss/80875 
+ 挖掘工程师面经已拿到offer company: 百度
+ https://www.nowcoder.com/discuss/5470 
+ 网易java后台实习生面试面经 company: 网易
+ https://www.nowcoder.com/discuss/73111 
+ 网易测试岗面经 company: 网易
+ https://www.nowcoder.com/discuss/24998 
+ 网易杭研院C++内推，拿到offer，我也来水一下面经 company: 网易
+ https://www.nowcoder.com/discuss/2812 
+ 网易杭州研究院offer全过程（附加阿里巴巴笔经面经)【转】 company: 网易,阿里
+ https://www.nowcoder.com/discuss/1656 
+ 网易互联网人工智能事业部计算机视觉岗面试总结 company: 网易
+ https://www.nowcoder.com/discuss/74187 
+ 网易互联网数据分析工程师面试经验 company: 网易
+ https://www.nowcoder.com/discuss/3215 
+ 网易互娱 数据挖掘研究员 面经(offer) company: 网易
+ https://www.nowcoder.com/discuss/78275 
+ 网易互娱数据挖掘一面面经 company: 网易
+ https://www.nowcoder.com/discuss/75992 
+ 网易数据挖掘面经 company: 网易
+ https://www.nowcoder.com/discuss/35175 
+ 网易邮箱数据挖掘，滴滴数据工程师，均跪的面经 company: 百度,网易,阿里,腾讯,美团,滴滴,华为
+ https://www.nowcoder.com/discuss/25185 
+ 微店面经(12月12更新，已经面完三面和HR面) company: 微店
+ https://www.nowcoder.com/discuss/19476 
+ 微软阿里实习面经（offer） company: 阿里
+ https://www.nowcoder.com/discuss/78885 
+ 为什么那么多android开发的帖子？ company: 
+ https://www.nowcoder.com/discuss/3128 
+ 我的2017校招总结+经验分享（巨长慎入） company: 百度,小米,蘑菇街,阿里,腾讯,京东,今日头条,滴滴
+ https://www.nowcoder.com/discuss/19487 
+ 我的前端春招之路 company: 腾讯,CVTE
+ https://www.nowcoder.com/discuss/25849 
+ 我的秋招面经(经验教训--希望大家以我为戒吧！) company: 百度,阿里,搜狗
+ https://www.nowcoder.com/discuss/62714 
+ 我这里有一份网易2018内推面经合集，你真的不想进来看看吗？ company: 网易,网易游戏
+ https://www.nowcoder.com/discuss/44386 
+ 无比曲折的阿里机器学习实习面试经历，附面经 company: 阿里
+ https://www.nowcoder.com/discuss/80033 
+ 西安应用研究面经，写出来攒人品 company: 
+ https://www.nowcoder.com/discuss/75820 
+ 西安站百度一二三面面经 company: 百度
+ https://www.nowcoder.com/discuss/45583 
+ 现在发面经会有点晚吗？bat，京东，360，完美面经 company: 百度,阿里,腾讯,京东,滴滴,拼多多
+ https://www.nowcoder.com/discuss/47754 
+ 小米内推-搜索推荐算法岗一面，二面，三面面经 company: 小米,个推
+ https://www.nowcoder.com/discuss/36840 
+ 小米深度学习一面面经 company: 小米
+ https://www.nowcoder.com/discuss/40654 
+ 小弱鸡的春招算法实习面经 company: 百度,七牛云,拼多多
+ https://www.nowcoder.com/discuss/79584 
+ 携程大数据分析，首面面经攒人品 company: 京东,携程
+ https://www.nowcoder.com/discuss/41529 
+ 携程金融北京部的算法岗一面面经 company: 携程
+ https://www.nowcoder.com/discuss/80550 
+ 写点东西留给下一届的师弟师妹 company: 网易,阿里
+ https://www.nowcoder.com/discuss/17371 
+ 写一篇不常见题目面经大杂烩（算法岗） company: 百度,蘑菇街,网易,阿里,腾讯,京东,美团,搜狗
+ https://www.nowcoder.com/discuss/58052 
+ 新鲜的美团面经，机器学习岗 company: 美团,搜狗
+ https://www.nowcoder.com/discuss/10634 
+ 玄学的秋招面经，华为，美团（选择），顺丰等等 company: 百度,阿里,腾讯,京东,美团,华为,拼多多,顺丰
+ https://www.nowcoder.com/discuss/52215 
+ 眼看9月过大半，0offer的我决定继续前行 company: 美团
+ https://www.nowcoder.com/discuss/46776 
+ 一份完整的大疆2018校招笔试题和面经送给大家~ company: 招银,网易,阿里,美团,华为,携程,搜狗
+ https://www.nowcoder.com/discuss/85302 
+ 一个菜鸡算法的实习面经(蚂蚁 美团 七牛云 爱奇艺 深信服) company: 百度,深信服,网易,阿里,美团,华为,七牛云,爱奇艺
+ https://www.nowcoder.com/discuss/79327 
+ 一些面试记录，希望能帮到某些同学吧 company: 阿里,腾讯,华为,海康威视,oppo
+ https://www.nowcoder.com/discuss/55498 
+ 依图科技面经分享 company: 华为,依图科技
+ https://www.nowcoder.com/discuss/25714 
+ 壹钱包 java岗 一面面经 company: 
+ https://www.nowcoder.com/discuss/81484 
+ 银联-云闪付产品策划 面经 company: 百度
+ https://www.nowcoder.com/discuss/82219 
+ 有人面试过招银网络科技的数据挖掘岗位的吗？求面经。。 company: 招银,招银网络科技
+ https://www.nowcoder.com/discuss/14435 
+ 云音乐终于发啦~~~加面经 company: 
+ https://www.nowcoder.com/discuss/37892 
+ 暂时告别牛客，回馈社区。百度、美团、搜狐等前端面经集合 company: 百度,深信服,腾讯,今日头条,美团,滴滴,华为,58同城,酷家乐,神策数据
+ https://www.nowcoder.com/discuss/74836 
+ 渣硕的找工作经历 company: 百度,小米,腾讯,美团,华为,好未来
+ https://www.nowcoder.com/discuss/16897 
+ 渣硕算法岗秋招面经 company: 百度,小米,招银,网易,阿里,腾讯,京东,美团,滴滴,华为,爱奇艺,好未来,作业帮
+ https://www.nowcoder.com/discuss/52357 
+ 渣渣的实习春招总结 company: 网易,阿里,腾讯,京东,美团,华为,拼多多
+ https://www.nowcoder.com/discuss/74494 
+ 渣渣硕分享下测开的面经-努力坚持就有收获 company: 招银,网易,网易游戏,阿里,腾讯,京东,今日头条,美团,华为,唯品会,招银网络科技
+ https://www.nowcoder.com/discuss/49895 
+ 招商银行招银科技一面，java岗面经 company: 招银
+ https://www.nowcoder.com/discuss/41214 
+ 招银算法工程师 网络电话面试面经 company: 招银
+ https://www.nowcoder.com/discuss/41422 
+ 招银网络算法三面面经 company: 招银
+ https://www.nowcoder.com/discuss/58390 
+ 找工作攻略(offer:阿里,腾讯,百度,华为,今日头条等） company: 百度,网易,网易游戏,阿里,腾讯,今日头条,华为
+ https://www.nowcoder.com/discuss/21003 
+ 找实习真的累，跟风分享波面经吧~ company: 百度,阿里,腾讯,京东,华为
+ https://www.nowcoder.com/discuss/77936 
+ 真·学渣的秋招总结 company: 百度,小米,深信服,网易,阿里,腾讯,京东,华为,爱奇艺,58同城,搜狗,顺丰,oppo,好未来
+ https://www.nowcoder.com/discuss/18518 
+ 整理了网易2018届的笔试面试题目，希望能给学弟学妹们帮助 company: 百度,小米,网易,网易游戏,阿里,腾讯,京东,美团,滴滴,华为,携程,拼多多,好未来,CVTE
+ https://www.nowcoder.com/discuss/87121 
+ 中国银联算法二面面经（数据方向） company: 
+ https://www.nowcoder.com/discuss/47217 
+ 中兴测试岗专业面试面经 company: 
+ https://www.nowcoder.com/discuss/40928 
+ 总结一下春招（附面经） company: 百度,网易,网易游戏,阿里,腾讯,京东,携程,爱奇艺,拼多多
+ https://www.nowcoder.com/discuss/79729 
+ 最好的推荐给最美的你 company: 百度,招银,美团,华为,携程,个推,好未来
+ https://www.nowcoder.com/discuss/59076 
+ 昨天头条算法面经 company: 
+ https://www.nowcoder.com/discuss/71505 
+ 腾讯春招实习产品经理面经 company: 腾讯
+ https://www.nowcoder.com/discuss/83321 
+ 关于机器学习/数据挖掘岗校招准备 company: 
+ https://www.nowcoder.com/discuss/26234 
+ 网易杭研，数据挖掘，21号面经分享（估计都面完了） company: 网易
+ https://www.nowcoder.com/discuss/7633 
+ 有面试机器学习或者算法的小伙伴吗？求面经和建议啊！！ company: 
+ https://www.nowcoder.com/discuss/28523 
+ 【日本留学生】渣渣硕算法面经：华为，链家，头条，阿里，快手 company: 招银,阿里,华为,携程,拼多多
+ https://www.nowcoder.com/discuss/81397 
+ 【英国渣硕】Java后端面经：华为、链家、趋势科技、微策略 company: 百度,阿里,华为
+ https://www.nowcoder.com/discuss/81081 
+ 法国工程师（渣硕）的春招实习经历及链家微博面经 company: 百度,网易,阿里,腾讯,美团,携程
+ https://www.nowcoder.com/discuss/81619 
+ 留学生春招面经汇总（包括港澳台） company: 阿里,腾讯,今日头条,华为,唯品会,拼多多,搜狗
+ https://www.nowcoder.com/discuss/85061 
+ 美国留学生 暑期实习面经 company: 腾讯
+ https://www.nowcoder.com/discuss/82296 
+ 美国渣硕中的渣渣的面经（算法，软件，后端） company: 阿里
+ https://www.nowcoder.com/discuss/81669 
+ 美国真渣硕春招实习面经 company: 阿里,腾讯,华为
+ https://www.nowcoder.com/discuss/81839 
+ 日本留学生】渣硕视觉算法面经：华为，搜狗, 大疆 company: 华为,搜狗
+ https://www.nowcoder.com/discuss/84919 
+ 英国留学生一年水硕算法、数据挖掘岗面经 company: 招银,华为
+ https://www.nowcoder.com/discuss/81814 
+ 【牛客网红】2017牛客年度网红评选大赛！ company: 百度,网易,阿里,腾讯,华为
+ https://www.nowcoder.com/discuss/65117 
+ 2015-2016年度年会CEO说了什么 company: 百度,蘑菇街,阿里,腾讯,滴滴
+ https://www.nowcoder.com/discuss/3643 
+ 菜菜的感悟（非面经） company: 百度,网易,阿里,京东,美团,携程,oppo,好未来
+ https://www.nowcoder.com/discuss/62636 
+ 吊车尾985渣硕怎么努力拿到算法岗offer？ company: 
+ https://www.nowcoder.com/discuss/57658 
+ 关于春招，糟心的原因还是我自己太菜～ company: 
+ https://www.nowcoder.com/discuss/75854 
+ 看看清华大学的信息技术类专业课程 company: 
+ https://www.nowcoder.com/discuss/65786 
+ 牛客网2018秋招面经大赛颁奖典礼！【附面经汇总】 company: 百度,小米,招银,网易,阿里,腾讯,京东,美团,滴滴,华为,携程,拼多多,好未来
+ https://www.nowcoder.com/discuss/64527 
+ 牛客网使用指南（针对刚被安利来的，想好好了解牛客网的同适用） company: 
+ https://www.nowcoder.com/discuss/20849 
+ 小米面试官真的很好，赞一个~ company: 小米
+ https://www.nowcoder.com/discuss/46508 
+ 总结下自己春招的一路走来 company: 百度,网易,网易游戏,阿里,腾讯,京东,美团,华为,爱奇艺,51信用卡
+ https://www.nowcoder.com/discuss/80271 
+ 【牛客访谈01期】饼神：靠这些项目经验我拿了十多个offer company: 百度,阿里,腾讯,美团
+ https://www.nowcoder.com/discuss/15760 
+ 【年度热门排行榜】牛客网2017年度数据大盘点！ company: 百度,网易,网易游戏,阿里,腾讯,京东,今日头条,美团,滴滴,华为,携程
+ https://www.nowcoder.com/discuss/65061 
+ 【日更】春招备战实习/补录/面经消息汇总（3.23更新） company: 百度,网易,阿里,腾讯,京东,今日头条,美团,滴滴,携程,七牛云,爱奇艺
+ https://www.nowcoder.com/discuss/64732 
+ 阿里巴巴2018校园招聘_行程_网申_笔试资料_面经攻略 company: 百度,阿里,腾讯,华为,CVTE
+ https://www.nowcoder.com/discuss/30116 
+ 网易2018校园招聘_行程_网申_笔试资料_面经攻略 company: 百度,网易,网易游戏,腾讯
+ https://www.nowcoder.com/discuss/30230 
+ 迅雷2018校园招聘_行程_网申_笔试资料_面经攻略 company: 
+ https://www.nowcoder.com/discuss/31740
+
+---
+
+## 【还愿】一些秋招面经 CV vs NLP
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2018-11-17 ｜ [原文链接](https://www.nowcoder.com/discuss/353154762117947392)
+
+经过一段时间的刷题和刷公式，小硕秋招有幸收割了一些offer，offer了的公司面经如下～ 
+
+ 【NLP面经】 
+
+ I 百度NLP部 
+
+ 一面： 项目介绍：CRF-loss梯度，self-attention原理公式，LR和SVM原理和异同；有向图模型标注偏执问题(n-gram); 
+
+ 代码：k-group 链表反转； 
+
+ 
+
+ 二面： 项目：charCNN-emb，BiLSTM-CRF结构介绍，CTC原理，word2vec和GloVec和fasttext； 
+
+ 算法：GBDT和Xgboost，同为boost和adaboost的关注点异同，LSTM结构，为神马改善梯度消失； 
+
+ 代码：二分、10亿数据中O(1)定位； 
+
+ 
+
+ 三面(经理面)： 项目：NLP和CV项目(标点，实体标注、OCR，视频分类，理解，目标检测，语义分割) 
+
+ 代码：单词翻转，不考虑空格； 
+
+ 
+
+ 部门四面: 开放性问题，是否了解机器翻译，小语种机器翻译如何实现良好的训练； 
+
+ 样本不平衡问题，ohem_loss,focal_loss; smooth_L1_loss公式，mAP计算； 
+
+ 代码：从(0,0)点出发，点阵中有障碍，求到(m,n)的最短路径，BFS； 
+
+ 
+
+ II 好未来AI lab 
+
+ 一面： 项目介绍：seq2seq-attention原理和公式，soft、hard-attention; 
+
+ lattice-LSTM，解决char分词问题； 
+
+ 代码：删除链表节点O(1)、3sum； 
+
+ 
+
+ 二面： 项目介绍； 
+
+ attention推导，RNN梯度消失的罪魁祸首，LSTM为什么改善梯度消失，梯度更新； 
+
+ EM算法步骤，为什么Q(z)为后验概率(下界)，E-step(更新Q(z)),M-step(更新估计参数)； 
+
+ PLSA，LDA介绍，有向图介绍(根据图方向判断生成模型) 
+
+ gibbs采样和MCMC采样的关系，描述拒绝采样； 
+
+ 
+
+ 三面： 项目介绍； 
+
+ 部门做的项目介绍，交流； 
+
+ SVM推导，Xgboost和GBDT和lightGBM区别； 
+
+ 代码：编辑距离，最长公共子序列； 
+
+ 
+
+ III 网易互娱AI Lab 
+
+ 一面(电话)： 项目介绍； 
+
+ RNN为什么梯度消失，BPTT；LSTM结构，为什么改善梯度消失； 
+
+ SVM为什么要对偶(优化复杂度转变，核化) 
+
+ 1x1 conv介绍，运用场景； 
+
+ 代码：Top K； 
+
+ 
+
+ 二面(现场)： 项目介绍； 
+
+ CTC_loss公式推导； 
+
+ Viterbi解码公式和简单代码； 
+
+ self-attention原理和推导； 
+
+ beam-search decode介绍； 
+
+ 代码：二位矩阵中，每个点可以走四邻域，求最大连续和路径； 
+
+ 
+
+ 三面(leader面)：learder人很好 项目介绍； 
+
+ 互娱的基本介绍，以及nlp团队情况； 
+
+ word2vec：层次softmax和负采样的原理和公式；GloVec的推导，解决对称问题； 
+
+ 代码：最大正方形； 
+
+ 
+
+ IV 腾讯 
+
+ 一面： 项目介绍； 
+
+ viterbi解码原理，code；beamsearch； 
+
+ 代码：一道hash的题，忘了； 
+
+ 
+
+ 二面： 项目介绍； 
+
+ BN介绍(为什么加速收敛，从SGD更新角度和weight scale角度)，dropout介绍，训练测试差异； 
+
+ 代码：二分查找的题，绝对值； 
+
+ 
+
+ 三面(总监)： 聊项目； 
+
+ 
+
+ V 阿里妈妈 
+
+ 一面(电话)： 项目介绍，self-attention； 
+
+ xgboost和gbdt区别，开放问题，淘宝评论； 
+
+ 代码：买卖股票不限次数； 
+
+ 
+
+ 二面(电话)： 项目介绍； 
+
+ 场景问题； 
+
+ 代码：全排列； 
+
+ 
+
+ 三面(现场)： 项目介绍； 
+
+ image caption中的attention；视频场景题； 
+
+ 字典树，B-tree，B+tree； 
+
+ 代码：字典树，share_ptr 
+
+ 
+
+ 四面(交叉)： 项目介绍； 
+
+ 开放问题淘宝评分系统，LDA主题模型定价，面试官被我一波频率学派和贝叶斯学派给逗笑了； 
+
+ 
+
+ 【CV面经】 
+
+ I 旷视Face++ 
+
+ 现场笔试：疯狂数学题，图像基础题，code题； 
+
+ 一面： 项目介绍； 
+
+ Bi-LSTM-CRF介绍，charCNN介绍； 
+
+ 检测框架介绍，分割框架介绍； 
+
+ 代码：Top-K，二分； 
+
+ 概率题：给定n个苹果，其中一个轻，求最优称的次数的期望； 
+
+ 
+
+ 二面： 项目介绍； 
+
+ 人脸Loss介绍，尺度因子，Triple_loss和hinge_loss; 
+
+ FCN、DeepLab系列 
+
+ 代码：max pooling、softmax 
+
+ 
+
+ 三面： 项目介绍； 
+
+ 变种快排； 
+
+ CTC推导；语义分割网络介绍； 
+
+ 
+
+ 四面： 聊自己的兴趣点，和摄影，如何拍妹，摄影三要素； 
+
+ 
+
+ II 猿辅导 
+
+ 一面(40min)： 10min项目介绍：seq2seq-attention推导； 
+
+ 代码1: 二维空间矩阵相交合并； 
+
+ 代码2: 联通域问题； 
+
+ 
+
+ 二面(leader): 项目介绍：beam-search手写代码； 
+
+ 最小生成树解决组行问题；传统CV算法，SIFT，Surf，LBP等； 
+
+ 聊猿厂额薪资吊打其他互联网； 
+
+ 
+
+ III 华为2012诺亚实验室 
+
+ 一面(10min)： 超快语速把自己介绍了一遍，见了人脸和OCR的东西； 
+
+ 
+
+ 二面(10min)： 介绍项目； 
+
+ 深度学习框架的比较； 
+
+ B-tree，B+tree； 
+
+ 
+
+ 三面(10min)： chat 
+
+ 
+
+ IV 小红书 
+
+ 一面： 项目介绍； 
+
+ 代码：斐波那契，数组实现队列； 
+
+ 数据结构，hash冲突； 
+
+ 
+
+ 二面： 项目介绍； 
+
+ 代码：杨辉三角，最长连续自数组O(n); 
+
+ 
+
+ 三面： 项目介绍； 
+
+ SGD，从泰勒一阶展开角度； 
+
+ Xgboost，从泰勒二阶展开角度； 
+
+ AuC，RoC，mAP，Recall，Precision，F1-score； 
+
+ 
+
+ 四面： 项目介绍； 
+
+ BN(泛化体现在哪里，训练测试差别，滑动平均还是无偏估计)；dropout； 
+
+ 场景题； 
+
+ 
+
+ 其他厂的问题： 
+
+ 概率角度分析逻辑回归； 
+
+ GLM角度分析线性回归和逻辑回归； 
+
+ SVM处理回归问题； 
+
+ SMO优化； 
+
+ 最大熵模型和逻辑回归的关联； 
+
+ 总结 
+
+ 自己是电子专业的，互联网的工作可以突击，但是要做好学习计划和安排，多刷题，多推公式绝对没问题；
+ 这是一些个人的经历，希望对大家有帮助；还愿；
+
+---
+
 ## 算法offer方向求比较（主要是cv）
 
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2018-09-20 ｜ [原文链接](https://www.nowcoder.com/discuss/353154581314084864)
@@ -8436,6 +9726,1540 @@ C++：
 
  
  感觉百度这次提前批我比较幸运，希望大家都能拿到满意的offer！
+
+---
+
+## 牛客网历年算法面经汇总（部分为开发）
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2018-07-22 ｜ [原文链接](https://www.nowcoder.com/discuss/353154417614594048)
+
+［缘分］霸面，四小时，百度算法offer company: 百度
+
+ https://www.nowcoder.com/discuss/56263 
+
+《美团机器学习算法岗》希望发个美团四面面经攒点人品，字多 company: 百度,美团
+
+ https://www.nowcoder.com/discuss/50709 
+
+【17届校招面经合集——C++研发】 company: 百度,深信服,招银,网易,阿里,腾讯,京东,今日头条,美团,华为,微店,好未来,CVTE
+
+ https://www.nowcoder.com/discuss/29266 
+
+【17届校招面经合集——数据挖掘/机器学习】 company: 百度,招银,网易,阿里,腾讯,京东,美团,滴滴,华为,好未来
+
+ https://www.nowcoder.com/discuss/33958 
+
+【2017秋季校园招聘笔经面经专题汇总】 company: 百度,小米,蘑菇街,深信服,招银,网易,网易游戏,阿里,腾讯,京东,今日头条,美团,滴滴,华为,携程,七牛云,爱奇艺,阅文集团,海康威视,招银网络科技,58同城,挖财,有赞,微店,酷家乐,好未来,CVTE
+
+ https://www.nowcoder.com/discuss/12805 
+
+【阿里、腾讯、大疆】【算法岗实习生】春招面试经验 company: 阿里,腾讯,华为
+
+ https://www.nowcoder.com/discuss/26557 
+
+【百度】【腾讯】【网易游戏】算法岗实习面试，场景题面经 company: 百度,网易,网易游戏,腾讯
+
+ https://www.nowcoder.com/discuss/24604 
+
+【回馈牛客】后台实习面经 company: 百度,小米,网易,阿里,腾讯,京东,今日头条,美团,滴滴,爱奇艺,搜狗
+
+ https://www.nowcoder.com/discuss/82865 
+
+【机器学习算法】转专业渣硕面经 company: 百度,小米,京东,美团,滴滴,唯品会,爱奇艺,作业帮
+
+ https://www.nowcoder.com/discuss/59595 
+
+【面经】阿里+腾讯+网易游戏面经（均已拿offer） company: 百度,蘑菇街,网易,网易游戏,阿里,腾讯,华为,唯品会
+
+ https://www.nowcoder.com/discuss/14953 
+
+【面经汇总】2018校招面经汇总贴（持续更新） company: 百度,小米,蘑菇街,招银,网易,网易游戏,阿里,腾讯,京东,今日头条,美团,滴滴,华为,携程,唯品会,爱奇艺,拼多多,海康威视,58同城,有赞,搜狗,顺丰,好未来,CVTE
+
+ https://www.nowcoder.com/discuss/53246 
+
+【牛客访谈】a.out：面过15家公司后，我搞懂了面试套路 company: 百度,腾讯,华为
+
+ https://www.nowcoder.com/discuss/18588 
+
+【牛客访谈】对话金良雨：非计算机专业如何拿到百度offer。 company: 百度,网易,腾讯
+
+ https://www.nowcoder.com/discuss/19926 
+
+【牛客访谈03期】话唠先生：做好这些细节，学渣也能逆袭 company: 百度,58同城
+
+ https://www.nowcoder.com/discuss/17920 
+
+【秋招结束】已拿offer:链家+京东+网易+美团，附上面经 company: 网易,京东,美团
+
+ https://www.nowcoder.com/discuss/45991 
+
+【史上最全面经】各岗位汇总目录（技术篇） company: 
+
+ https://www.nowcoder.com/discuss/84023 
+
+【史上最全面经】算法，机器学习，大数据 company: 百度,小米,深信服,网易,网易游戏,阿里,腾讯,京东,今日头条,美团,滴滴,华为,携程,七牛云,爱奇艺,拼多多,51信用卡,搜狗,神策数据,CVTE
+
+ https://www.nowcoder.com/discuss/84012 
+
+【数据挖掘面经】腾讯+百度+华为（均拿到sp offer） company: 百度,网易,阿里,腾讯,京东,今日头条,美团,滴滴,华为
+
+ https://www.nowcoder.com/discuss/15168 
+
+【头条AI lab&百度】转专业美国渣硕的机器学习面经 company: 百度,腾讯,今日头条
+
+ https://www.nowcoder.com/discuss/80846 
+
+【西安】【迅雷】数据开发面经 company: 
+
+ https://www.nowcoder.com/discuss/13322 
+
+【携程】视频面经分享，offer已到手 company: 携程
+
+ https://www.nowcoder.com/discuss/44339 
+
+【一只渣硕算法菜鸟的面经】百度+京东 offer company: 百度,小米,阿里,腾讯,京东,美团,华为
+
+ https://www.nowcoder.com/discuss/15615 
+
+【这可能不只是一篇面经】 company: 百度,小米,招银,网易,阿里,腾讯,京东,美团,滴滴,携程,个推
+
+ https://www.nowcoder.com/discuss/29890 
+
+17日头条现场面试算法岗三面面经 company: 
+
+ https://www.nowcoder.com/discuss/43308 
+
+2016秋招面经(百度、华为、腾讯)以及阿里实习的一点感慨 company: 百度,网易,阿里,腾讯,华为
+
+ https://www.nowcoder.com/discuss/13463 
+
+2016校招百度美团360机器学习岗面试经历 company: 百度,蘑菇街,美团
+
+ https://www.nowcoder.com/discuss/3243 
+
+2016校招-百度一面经（失败） company: 百度,阿里,腾讯
+
+ https://www.nowcoder.com/discuss/3071 
+
+2017前端实习面经之腾讯、阿里、360、IBM、美团 company: 百度,阿里,腾讯,美团
+
+ https://www.nowcoder.com/discuss/26410 
+
+2017秋招互联网内推面经（华为，搜狐，阿里，网易） company: 网易,阿里,华为
+
+ https://www.nowcoder.com/discuss/12476 
+
+2017秋招算法岗位一点点小面经。 company: 今日头条,滴滴,携程,拼多多,搜狗
+
+ https://www.nowcoder.com/discuss/70012 
+
+2017暑期实习春招面经：网易互娱+腾讯IEG company: 网易,网易游戏,腾讯
+
+ https://www.nowcoder.com/discuss/23255 
+
+2017腾讯基础研究实习生面经，已拿到offer company: 腾讯
+
+ https://www.nowcoder.com/discuss/25919 
+
+2018 后台开发 春招总结&面经分享 company: 百度,网易,阿里,腾讯,京东,今日头条,滴滴,大华
+
+ https://www.nowcoder.com/discuss/80774 
+
+2018春招科大讯飞，华为，神策数据，今日头条面经 company: 百度,今日头条,美团,华为,海康威视,神策数据
+
+ https://www.nowcoder.com/discuss/75136 
+
+2018春招实习汇总（7个offer） company: 百度,小米,蘑菇街,网易,网易游戏,阿里,腾讯,京东,今日头条,美团,华为
+
+ https://www.nowcoder.com/discuss/82049 
+
+2018今日头条后端实习面经 company: 今日头条
+
+ https://www.nowcoder.com/discuss/84531 
+
+2018秋季校园招聘互联网IT名企最新笔经面经汇总（更新中） company: 百度,小米,蘑菇街,深信服,网易,阿里,腾讯,京东,今日头条,美团,华为,携程,唯品会,拼多多,海康威视,挖财,有赞,CVTE
+
+ https://www.nowcoder.com/discuss/32899 
+
+2018秋招freewheeljava笔试题，祝大家春招好运 company: 
+
+ https://www.nowcoder.com/discuss/69430 
+
+2018秋招面经-Java开发工程师(网易跨境电商事业部) company: 网易
+
+ https://www.nowcoder.com/discuss/34752 
+
+2018腾讯实习面经 company: 百度,腾讯
+
+ https://www.nowcoder.com/discuss/77480 
+
+360公司 计算机视觉3面面试面经 company: 百度,美团,滴滴
+
+ https://www.nowcoder.com/discuss/37925 
+
+360面经 company: 
+
+ https://www.nowcoder.com/discuss/38433 
+
+51信用卡数据挖掘岗面经 company: 京东,51信用卡
+
+ https://www.nowcoder.com/discuss/53677 
+
+58二面面经 company: 
+
+ https://www.nowcoder.com/discuss/46304 
+
+58算法岗远程面试 二面or三面失败面经 company: 
+
+ https://www.nowcoder.com/discuss/80547 
+
+8.28携程大数据分析面经（已收到offer） company: 携程
+
+ https://www.nowcoder.com/discuss/35813 
+
+8月25日北京华为优招面经 company: 阿里,华为
+
+ https://www.nowcoder.com/discuss/34979 
+
+Android开发2017春招总结和面经分享 company: 网易,网易游戏,阿里,腾讯,华为,携程,CVTE
+
+ https://www.nowcoder.com/discuss/25949 
+
+Android面经-百度、腾讯、网易、360、去哪网面经 company: 百度,网易,腾讯,CVTE
+
+ https://www.nowcoder.com/discuss/14852 
+
+Android终极面试总结+经验（文末有终极大招） company: 百度,网易,阿里,腾讯,美团,滴滴,华为,CVTE
+
+ https://www.nowcoder.com/discuss/63683 
+
+BA,去哪儿,美团,网易,京东,华为面经 company: 百度,蘑菇街,网易,网易游戏,阿里,京东,美团,华为
+
+ https://www.nowcoder.com/discuss/3189 
+
+bigo算法一面 company: 
+
+ https://www.nowcoder.com/discuss/53671 
+
+C++面经：一个三本的菜鸡秋招的历程大牛可入跟我一样菜更可入 company: 百度,深信服,阿里
+
+ https://www.nowcoder.com/discuss/60441 
+
+C++研发岗春招面经，待更 company: 深信服,CVTE
+
+ https://www.nowcoder.com/discuss/69757 
+
+iOS开发&测试开发 多家公司实习面经整理 company: 网易,网易游戏,阿里,腾讯,美团
+
+ https://www.nowcoder.com/discuss/41837 
+
+IT公司笔经面经【转】 company: 网易,网易游戏,阿里,腾讯,美团,搜狗
+
+ https://www.nowcoder.com/discuss/1658 
+
+java面经四：链家（技术三面+hr面） company: 
+
+ https://www.nowcoder.com/discuss/41309 
+
+java面经一：阿里（技术三面+hr面） company: 阿里
+
+ https://www.nowcoder.com/discuss/41296 
+
+Momenta算法实习面经 company: 
+
+ https://www.nowcoder.com/discuss/80837 
+
+阿里 数据研发 九面面经 内推转校招 company: 阿里
+
+ https://www.nowcoder.com/discuss/41091 
+
+阿里，摩根，野村，腾讯，微软，图鸭科技机器学习面经分享 company: 阿里,腾讯,依图科技
+
+ https://www.nowcoder.com/discuss/24900 
+
+阿里、百度、腾讯、华为算法工程师面经（均已拿到offer） company: 百度,阿里,腾讯,华为
+
+ https://www.nowcoder.com/discuss/11495 
+
+阿里、网易、美团、商汤科技大数据研发面经 company: 百度,网易,阿里,腾讯,美团,华为
+
+ https://www.nowcoder.com/discuss/48021 
+
+阿里19届前端实习面经（更新至交叉面） company: 阿里
+
+ https://www.nowcoder.com/discuss/74890 
+
+阿里7面+百度3面+各种其他的面（更新面经中） company: 百度,阿里,腾讯,美团,携程,拼多多
+
+ https://www.nowcoder.com/discuss/36523 
+
+阿里offer，终于等到了offer call，内附面经 company: 阿里
+
+ https://www.nowcoder.com/discuss/79365 
+
+阿里巴巴-蚂蚁金服-数据研发岗（一面） company: 阿里
+
+ https://www.nowcoder.com/discuss/29537 
+
+阿里巴巴算法工程师面经 company: 阿里
+
+ https://www.nowcoder.com/discuss/23261 
+
+阿里菜鸟机器学习算法一面面经 company: 阿里,美团
+
+ https://www.nowcoder.com/discuss/70004 
+
+阿里测试开发一面面经 company: 阿里
+
+ https://www.nowcoder.com/discuss/40871 
+
+阿里机器学习七面面经 company: 阿里
+
+ https://www.nowcoder.com/discuss/75360 
+
+阿里机器学习实习岗，两面技术面之后流程到了人力部门 company: 阿里
+
+ https://www.nowcoder.com/discuss/73612 
+
+阿里机器学习四轮面试反馈一波 company: 阿里
+
+ https://www.nowcoder.com/discuss/24520 
+
+阿里机器学习一面面经 company: 阿里
+
+ https://www.nowcoder.com/discuss/68217 
+
+阿里六面面经 company: 阿里
+
+ https://www.nowcoder.com/discuss/36288 
+
+阿里面经 company: 阿里
+
+ https://www.nowcoder.com/discuss/32987 
+
+阿里内推算法-图形图像方向，三面结束，总结面经祭奠一下.. company: 阿里
+
+ https://www.nowcoder.com/discuss/74234 
+
+阿里实习生C/C++ 研发岗位面经 company: 阿里
+
+ https://www.nowcoder.com/discuss/22501 
+
+阿里算法-图像图形一面面经 company: 阿里
+
+ https://www.nowcoder.com/discuss/75519 
+
+阿里文娱运营暑期实习-网申至offer-挺详细的！ company: 阿里
+
+ https://www.nowcoder.com/discuss/83202 
+
+安卓面经：百度腾讯滴滴美团头条网易搜狐华为链家小米拼多多 company: 百度,小米,网易,腾讯,今日头条,美团,滴滴,华为,拼多多
+
+ https://www.nowcoder.com/discuss/56712 
+
+百度 北京 机器学习/数据挖掘 1+2+3面 company: 百度
+
+ https://www.nowcoder.com/discuss/12706 
+
+百度2016实习面经，大数据组（统计出身） company: 百度
+
+ https://www.nowcoder.com/discuss/6111 
+
+百度2016实习生面经(3面已过) company: 百度,腾讯
+
+ https://www.nowcoder.com/discuss/5691 
+
+百度2018年春招实习面经，回馈牛客【实习offer已到手】 company: 百度
+
+ https://www.nowcoder.com/discuss/68130 
+
+百度凤巢 机器学习 散招实习面经 company: 百度,小米
+
+ https://www.nowcoder.com/discuss/63783 
+
+百度寒假实习生面试面经 company: 百度,搜狗
+
+ https://www.nowcoder.com/discuss/64902 
+
+百度机器学习岗位123面面经 company: 百度
+
+ https://www.nowcoder.com/discuss/12091 
+
+百度面经：谨以此纪念五挂百度 company: 百度,阿里,腾讯
+
+ https://www.nowcoder.com/discuss/12527 
+
+百度网页搜索部实习生面经（攒人品） company: 百度
+
+ https://www.nowcoder.com/discuss/55090 
+
+百度校招测试开发工程师笔经面经【转】 company: 百度
+
+ https://www.nowcoder.com/discuss/1652 
+
+百度校招技术岗面经（已确定通过，等正式offer通知中） company: 百度
+
+ https://www.nowcoder.com/discuss/3039 
+
+百度一面面经 company: 百度
+
+ https://www.nowcoder.com/discuss/10939 
+
+本科秋招前端面经+心得 company: 深信服,京东,美团
+
+ https://www.nowcoder.com/discuss/62286 
+
+本科渣渣前端的秋招分享 company: 阿里,腾讯,美团,滴滴
+
+ https://www.nowcoder.com/discuss/39485 
+
+菜鸟网络一面面经 数据挖掘岗 company: 
+
+ https://www.nowcoder.com/discuss/23317 
+
+惨痛春招经历（附个人面经） company: 百度,网易,网易游戏,腾讯,京东,华为,唯品会
+
+ https://www.nowcoder.com/discuss/80158 
+
+成都爱奇艺面经，算法工程师 company: 爱奇艺
+
+ https://www.nowcoder.com/discuss/64680 
+
+迟来的面经，回馈牛客 company: 阿里,美团,华为
+
+ https://www.nowcoder.com/discuss/67952 
+
+春招大战腾讯阿里京东面试经验贴-产品小白的进阶之路 company: 百度,阿里,腾讯,京东,美团
+
+ https://www.nowcoder.com/discuss/83832 
+
+春招实习面经（Java开发） company: 百度,小米,网易,阿里,腾讯,京东,今日头条,美团,爱奇艺,美丽联合集团,51信用卡
+
+ https://www.nowcoder.com/discuss/81027 
+
+春招实习终于结束啦 company: 阿里,腾讯,华为,爱奇艺,58同城
+
+ https://www.nowcoder.com/discuss/80089 
+
+春招实***结，算法岗 company: 网易,网易游戏,腾讯,美团,滴滴
+
+ https://www.nowcoder.com/discuss/80357 
+
+从春招到秋招，算法工程师养成记（阿里+腾讯+其他） company: 百度,阿里,腾讯,京东,今日头条,美团,滴滴,搜狗
+
+ https://www.nowcoder.com/discuss/41696 
+
+从实习到秋招的机器学习面试纪录 company: 蘑菇街,阿里,腾讯,京东,今日头条,拼多多,好未来,CVTE
+
+ https://www.nowcoder.com/discuss/50654 
+
+大量面经总结(包括牛客网的和我听来的) company: 百度,阿里,今日头条
+
+ https://www.nowcoder.com/discuss/33737 
+
+等了大半个月的b站offer，附算法岗三面面经 company: 
+
+ https://www.nowcoder.com/discuss/53858 
+
+滴滴测开 一二面面经 company: 百度,滴滴
+
+ https://www.nowcoder.com/discuss/40573 
+
+滴滴-机器学习一面面经 company: 滴滴
+
+ https://www.nowcoder.com/discuss/40456 
+
+滴滴数据分析面经 company: 滴滴
+
+ https://www.nowcoder.com/discuss/6357 
+
+滴滴算法岗面经 company: 滴滴
+
+ https://www.nowcoder.com/discuss/12730 
+
+地标哈尔滨：百度123，机器学习／数据挖掘面经 company: 百度,腾讯
+
+ https://www.nowcoder.com/discuss/12679 
+
+地平线机器人面经（已拿offer，算法岗，计算机视觉方向，） company: 阿里
+
+ https://www.nowcoder.com/discuss/23418 
+
+发面经，攒人品 company: 美团,华为
+
+ https://www.nowcoder.com/discuss/46673 
+
+反馈，阿里机器学习面经，也是对我研究生期间的一个总结分享 company: 网易,阿里,大华
+
+ https://www.nowcoder.com/discuss/64829 
+
+非211本CS应届求职路 company: 百度,蘑菇街,网易,阿里,腾讯,京东,今日头条,滴滴,华为,有赞
+
+ https://www.nowcoder.com/discuss/19902 
+
+非CS专业小硕的机器学习/数据挖掘岗位秋招经验 company: 百度,网易,阿里,美团,华为
+
+ https://www.nowcoder.com/discuss/19379 
+
+非CS专业找软件开发工作的经历 company: 百度,小米,招银,华为,招银网络科技
+
+ https://www.nowcoder.com/discuss/63944 
+
+非科班野路子的2018秋招机器学习面经：面试实录+人生经验 company: 
+
+ https://www.nowcoder.com/discuss/59687 
+
+非科班野路子的2018秋招算法工程师面经：面试实录+人生经验 company: 百度,网易,腾讯,拼多多
+
+ https://www.nowcoder.com/discuss/63165 
+
+非科班渣硕的校招季结束啦，写个算法面经回馈牛客了 company: 百度,网易,阿里,腾讯,京东,美团,滴滴,华为,唯品会,搜狗
+
+ https://www.nowcoder.com/discuss/51009 
+
+非科班渣硕秋招总结-回馈牛客 company: 百度,网易,阿里,京东,今日头条
+
+ https://www.nowcoder.com/discuss/50923 
+
+非科班渣渣的秋招机器学习算法岗面经 company: 百度,网易,阿里,腾讯,京东,美团,滴滴,华为,携程
+
+ https://www.nowcoder.com/discuss/48976 
+
+分享一下实习及秋招的面试经历【长文慎入】【更新所有面试结果】 company: 网易,阿里,腾讯,京东,美团,滴滴,华为,携程,唯品会,拼多多
+
+ https://www.nowcoder.com/discuss/58849 
+
+刚刚面完机器学习百度二面 写个面经 回馈牛客网上大家的帮助 company: 百度
+
+ https://www.nowcoder.com/discuss/44211 
+
+谷歌，微软，阿里，美团实习生面经 company: 小米,网易,阿里,腾讯,京东,美团,个推
+
+ https://www.nowcoder.com/discuss/81353 
+
+光学硕士，视觉算法岗秋招总结分享 company: CVTE
+
+ https://www.nowcoder.com/discuss/65546 
+
+滚烫的阿里机器学习算法实习岗面经 company: 阿里
+
+ https://www.nowcoder.com/discuss/69401 
+
+过来人的面试经验总结和分享 company: 阿里,腾讯,华为,CVTE
+
+ https://www.nowcoder.com/discuss/64759 
+
+杭州望恒国际面经2018.6.1 company: 百度
+
+ https://www.nowcoder.com/discuss/83119 
+
+好吧我想下链家面经，奇葩公司 company: 
+
+ https://www.nowcoder.com/discuss/35353 
+
+好未来(已拿offer)+ CVTE(3面通过) company: 百度,阿里,好未来,CVTE
+
+ https://www.nowcoder.com/discuss/9855 
+
+好未来测开面经 company: 好未来
+
+ https://www.nowcoder.com/discuss/35562 
+
+好未来面经分享 company: 招银,网易,好未来
+
+ https://www.nowcoder.com/discuss/52461 
+
+好未来提前批图像算法岗面经 company: 好未来
+
+ https://www.nowcoder.com/discuss/35526 
+
+好未来现场面试 面经 company: 好未来
+
+ https://www.nowcoder.com/discuss/34748 
+
+华为春招实习记录 company: 华为
+
+ https://www.nowcoder.com/discuss/75613 
+
+华为面经 company: 华为
+
+ https://www.nowcoder.com/discuss/7699 
+
+华为武汉c++面经 company: 华为
+
+ https://www.nowcoder.com/discuss/24419 
+
+华为优招面试机器学习面经 company: 华为
+
+ https://www.nowcoder.com/discuss/32563 
+
+回馈牛客，通信转数据挖掘，我的慢慢秋招路 company: 百度,网易,阿里,腾讯,京东,美团,唯品会
+
+ https://www.nowcoder.com/discuss/64908 
+
+回馈牛客：斗鱼、滴滴、百度、美团、小米、腾讯面经 company: 百度,小米,招银,网易,腾讯,京东,美团,滴滴,华为
+
+ https://www.nowcoder.com/discuss/48206 
+
+回馈社区~阿里巴巴2018校招笔试题和面经汇总 company: 百度,小米,招银,网易,阿里,腾讯,京东,美团,滴滴,华为,携程,唯品会,拼多多,搜狗
+
+ https://www.nowcoder.com/discuss/85744 
+
+机器学习面经 company: 网易
+
+ https://www.nowcoder.com/discuss/51437 
+
+机器学习实习面经分享（蚂蚁金服，微信，美国亚马逊，完美） company: 阿里,腾讯
+
+ https://www.nowcoder.com/discuss/23570 
+
+机器学习算法面经（腾讯阿里网易） company: 网易,网易游戏,阿里,腾讯
+
+ https://www.nowcoder.com/discuss/75166 
+
+机器学习算法面经---2018秋招 company: 百度,阿里,腾讯,京东,美团,华为,拼多多,搜狗
+
+ https://www.nowcoder.com/discuss/32008 
+
+江浙沪的java春招实习综合面经 company: 百度,小米,网易,阿里,腾讯,京东,今日头条,美团,华为,携程,爱奇艺,拼多多,58同城,有赞,酷家乐,CVTE
+
+ https://www.nowcoder.com/discuss/82422 
+
+今日头条高级后端开发实习生三轮技术面+HR面 面经 company: 今日头条
+
+ https://www.nowcoder.com/discuss/71777 
+
+今日头条后台开发面经，主要是想询问大家的情况 company: 今日头条
+
+ https://www.nowcoder.com/discuss/13790 
+
+今日头条加面（第五面）已跪 company: 今日头条
+
+ https://www.nowcoder.com/discuss/51968 
+
+京东，广告部门，算法工程师，面经 company: 阿里,京东
+
+ https://www.nowcoder.com/discuss/32003 
+
+京东，华为面经 company: 京东,华为
+
+ https://www.nowcoder.com/discuss/10381 
+
+京东2016暑期实习生机器学习面经[已拿offer] company: 京东
+
+ https://www.nowcoder.com/discuss/5525 
+
+京东AI三面面经，已拿口头Offer company: 京东
+
+ https://www.nowcoder.com/discuss/40082 
+
+京东春招实习，算法工程师迟到面经 company: 京东
+
+ https://www.nowcoder.com/discuss/74759 
+
+京东算法面经，已拿offer company: 阿里,腾讯,京东
+
+ https://www.nowcoder.com/discuss/5476 
+
+科大讯飞，万革始WAP,百度，阿里面经 company: 百度,阿里
+
+ https://www.nowcoder.com/discuss/30992 
+
+客户端开发面经（iOS方向） company: 百度,网易,阿里,京东,华为,58同城,微店,好未来
+
+ https://www.nowcoder.com/discuss/14164 
+
+来说说我暑期找实习的事儿吧（搜狗、百度、网易等公司电面面经） company: 百度,小米,网易,美团,搜狗
+
+ https://www.nowcoder.com/discuss/3635 
+
+来说说我暑期找实习的事儿吧（搜狗、百度、网易等公司电面面经） company: 百度,小米,网易,美团,搜狗
+
+ https://www.nowcoder.com/discuss/3023 
+
+链家春招机器学习岗面经 company: 
+
+ https://www.nowcoder.com/discuss/74098 
+
+链家-大数据开发 company: 
+
+ https://www.nowcoder.com/discuss/35399 
+
+蚂蚁金服 机器学习面经 company: 阿里,腾讯
+
+ https://www.nowcoder.com/discuss/71480 
+
+蚂蚁金服(Java）vs滴滴出行(C++算法) 附赠蚂蚁面经 company: 阿里,滴滴
+
+ https://www.nowcoder.com/discuss/79942 
+
+蚂蚁金服·链家 面经 company: 美团
+
+ https://www.nowcoder.com/discuss/37873 
+
+蚂蚁金服社招三面通过 客服说目前状态是待确认面试结果 company: 
+
+ https://www.nowcoder.com/discuss/72994 
+
+美团北京技术岗的一点经验（已拿offer） company: 美团,个推
+
+ https://www.nowcoder.com/discuss/78115 
+
+美团大众点评面试经验——后台开发 company: 美团,华为
+
+ https://www.nowcoder.com/discuss/16893 
+
+美团的面经，还是整理下吧 company: 网易,美团,滴滴,华为
+
+ https://www.nowcoder.com/discuss/46779 
+
+美团点评 机器学习/数据挖掘工程师 面经 company: 美团
+
+ https://www.nowcoder.com/discuss/75787 
+
+美团点评 数据挖掘和算法 面经 company: 美团
+
+ https://www.nowcoder.com/discuss/71109 
+
+美团点评机器学习面经 company: 美团
+
+ https://www.nowcoder.com/discuss/79207 
+
+美团点评面经大汇总 company: 网易,美团,唯品会,拼多多
+
+ https://www.nowcoder.com/discuss/40867 
+
+美团点评前端岗三面面经/已拿 offer company: 美团
+
+ https://www.nowcoder.com/discuss/41902 
+
+美团机器学习面经 company: 美团
+
+ https://www.nowcoder.com/discuss/44421 
+
+美团机器学习一面面经，全程46分钟 company: 美团
+
+ https://www.nowcoder.com/discuss/36432 
+
+美团金融面试二面经验分享 company: 美团
+
+ https://www.nowcoder.com/discuss/44004 
+
+美团面经（面的晚...发的晚） company: 美团,搜狗
+
+ https://www.nowcoder.com/discuss/16853 
+
+美团面经（已面完hr） company: 美团
+
+ https://www.nowcoder.com/discuss/10894 
+
+美团数据挖掘内推一面面经 company: 美团
+
+ https://www.nowcoder.com/discuss/5857 
+
+美团一二面面经 company: 美团
+
+ https://www.nowcoder.com/discuss/45885 
+
+美团自然语言处理工程师三面面经 9.19武汉站 company: 小米,美团,华为
+
+ https://www.nowcoder.com/discuss/44732 
+
+面经- - company: 京东,华为
+
+ https://www.nowcoder.com/discuss/52050 
+
+面经和想说的话，以及大学这三年 company: 百度
+
+ https://www.nowcoder.com/discuss/39424 
+
+面经回忆流水账(算法工程师) company: 网易,华为,唯品会,好未来
+
+ https://www.nowcoder.com/discuss/61760 
+
+面经续：360华为阿里腾讯京东小米搜狐滴滴一点资讯微店…… company: 百度,小米,阿里,腾讯,京东,滴滴,华为,微店
+
+ https://www.nowcoder.com/discuss/13902 
+
+面啥挂啥的算法、机器学习岗面经（大量文字） company: 百度,美团,拼多多,作业帮
+
+ https://www.nowcoder.com/discuss/36815 
+
+秒针内推机器学习一面跪面经 company: 
+
+ https://www.nowcoder.com/discuss/36143 
+
+秒针一面面经 company: 
+
+ https://www.nowcoder.com/discuss/36854 
+
+拿到阿里、百度、美团、华为offter后的一些想法 company: 百度,网易,网易游戏,阿里,腾讯,美团,滴滴,华为,唯品会
+
+ https://www.nowcoder.com/discuss/14443 
+
+你要善良并努力，上天不会亏待你的 company: 百度,京东
+
+ https://www.nowcoder.com/discuss/63898 
+
+牛客史上最水算法面经 company: 阿里,腾讯,京东,今日头条,美团,滴滴,携程,爱奇艺,搜狗,顺丰,CVTE
+
+ https://www.nowcoder.com/discuss/77758 
+
+牛客网平均水平的算法工程师面经分享 company: 百度,阿里,腾讯,京东,美团,滴滴,好未来
+
+ https://www.nowcoder.com/discuss/51529 
+
+拼多多 算法岗位 三面面经 company: 拼多多
+
+ https://www.nowcoder.com/discuss/81880 
+
+拼多多数据分析二面面经 company: 拼多多
+
+ https://www.nowcoder.com/discuss/34318 
+
+普通的公司的普通面经 company: 百度
+
+ https://www.nowcoder.com/discuss/64052 
+
+普通的算法/机器学习面经 company: 百度,京东,美团,滴滴
+
+ https://www.nowcoder.com/discuss/61907 
+
+普通学校找工作总结，不进来看看？ company: 百度,蘑菇街,腾讯,华为,携程,CVTE
+
+ https://www.nowcoder.com/discuss/9166 
+
+潜水党回馈牛友，算法工程师2017年学习，实习，秋招总结 company: 百度,蘑菇街,阿里,腾讯,京东,今日头条
+
+ https://www.nowcoder.com/discuss/65186 
+
+秋招（阿里，华为，搜狐，唯品会offer）分享面经攒人品 company: 百度,阿里,美团,华为,唯品会
+
+ https://www.nowcoder.com/discuss/51782 
+
+秋招各个公司 算法工程师 面经(微软,百度，头条，美团等) company: 百度,小米,网易,阿里,今日头条,美团,滴滴,拼多多,个推,搜狗
+
+ https://www.nowcoder.com/discuss/52210 
+
+秋招过程中学习的知识以及辛酸史（java研发） company: 阿里,美团,华为
+
+ https://www.nowcoder.com/discuss/59959 
+
+秋招结束，告别牛客，感谢牛客一路陪伴，分享一下算法工程师面经 company: 阿里,海康威视
+
+ https://www.nowcoder.com/discuss/38802 
+
+秋招结束，各大公司BATMD等公司的面经 company: 百度,小米,网易,阿里,腾讯,京东,美团,滴滴
+
+ https://www.nowcoder.com/discuss/62849 
+
+秋招面经 company: 百度,网易,网易游戏,阿里,滴滴
+
+ https://www.nowcoder.com/discuss/58508 
+
+秋招之万字流水账 company: 网易,美团,滴滴,华为,海康威视,CVTE
+
+ https://www.nowcoder.com/discuss/51121 
+
+秋招总结 company: 百度,小米,网易,腾讯,好未来,CVTE
+
+ https://www.nowcoder.com/discuss/58034 
+
+求小米数据挖掘面经~ company: 小米
+
+ https://www.nowcoder.com/discuss/45275 
+
+趋势科技软件开发 一二面面经 company: 
+
+ https://www.nowcoder.com/discuss/45077 
+
+热乎乎的海康大数据算法工程师面经 company: 
+
+ https://www.nowcoder.com/discuss/47609 
+
+认真脸：多offer，数据分析面经及工程渣硕转数据的经验总结 company: 百度,网易,阿里,腾讯,京东,滴滴,好未来
+
+ https://www.nowcoder.com/discuss/46803 
+
+如果感觉自己能力不强，又想去BATJ，我的经验对你将很有用！ company: 百度,阿里,京东
+
+ https://www.nowcoder.com/discuss/47326 
+
+弱校本科生算法岗春招实习历程——面经篇 company: 百度,网易,网易游戏,阿里,腾讯,美团,滴滴,华为
+
+ https://www.nowcoder.com/discuss/27550 
+
+深度学习面经 company: 
+
+ https://www.nowcoder.com/discuss/65323 
+
+深信服 机器学习 笔试面经 company: 深信服
+
+ https://www.nowcoder.com/discuss/84578 
+
+深信服机器学习算法工程师一面面经 company: 深信服
+
+ https://www.nowcoder.com/discuss/87545 
+
+深信服一面面经 company: 深信服
+
+ https://www.nowcoder.com/discuss/12217 
+
+失败的秋招总结 company: 网易,腾讯
+
+ https://www.nowcoder.com/discuss/59724 
+
+十一前的总结-一个算法汪的求职路 company: 百度,小米,网易,网易游戏,阿里,腾讯,美团,滴滴,华为,搜狗
+
+ https://www.nowcoder.com/discuss/13624 
+
+受挫不断，思索我是不是方向没找对【附有顺丰科技内推面试面经】 company: 百度,小米,网易,华为,大华,顺丰
+
+ https://www.nowcoder.com/discuss/45164 
+
+数据方向学渣的春招总结 company: 阿里,腾讯
+
+ https://www.nowcoder.com/discuss/26113 
+
+数据分析笔经面经 company: 腾讯,京东,华为,51信用卡,顺丰
+
+ https://www.nowcoder.com/discuss/61349 
+
+数据挖掘/数据研发面经分享 company: 蘑菇街,网易,阿里,腾讯,滴滴,华为,微店
+
+ https://www.nowcoder.com/discuss/8328 
+
+数据挖掘算法工程师面经 company: 百度,阿里,腾讯,华为,拼多多,搜狗,好未来
+
+ https://www.nowcoder.com/discuss/51686 
+
+双非机器学习秋招坎坷路（现在可点进来了 秋招经历持续更新中） company: 百度,蘑菇街,招银,网易,阿里,京东,美团,滴滴,华为,携程,唯品会,爱奇艺,拼多多,大华,招银网络科技,51信用卡,挖财,有赞,酷家乐,顺丰
+
+ https://www.nowcoder.com/discuss/59132 
+
+双非渣硕2018秋招春招面经，请各位大佬开喷，反正我不会回复 company: 百度,阿里,京东,滴滴,有赞,酷家乐
+
+ https://www.nowcoder.com/discuss/79529 
+
+双非渣渣安卓校招面经(阿里腾讯百度美团大疆英语流利说等……) company: 百度,阿里,腾讯,京东,今日头条,美团,滴滴,CVTE
+
+ https://www.nowcoder.com/discuss/60743 
+
+顺丰AI产品经理offer到手的面经 company: 腾讯,顺丰
+
+ https://www.nowcoder.com/discuss/82985 
+
+顺丰科技一面(机器学习)面经 company: 顺丰
+
+ https://www.nowcoder.com/discuss/48467 
+
+说说春招实习的京东面试，算法岗 company: 百度,网易,阿里,腾讯,京东
+
+ https://www.nowcoder.com/discuss/75301 
+
+搜狗武汉图像算法岗一面面经 company: 搜狗
+
+ https://www.nowcoder.com/discuss/40552 
+
+算法工程师（地平线/商汤/美团/华为） 面经精华帖 company: 阿里,美团,滴滴,华为
+
+ https://www.nowcoder.com/discuss/51522 
+
+算法面经，回馈牛客 阿里今日头条腾讯商汤科技 company: 百度,网易,阿里,腾讯,今日头条,美团,滴滴,华为,个推
+
+ https://www.nowcoder.com/discuss/48981 
+
+算法学习与求职经验(腾讯SP,滴滴SP,百度,华为) company: 百度,阿里,腾讯,京东,滴滴,华为
+
+ https://www.nowcoder.com/discuss/61379 
+
+算法渣说一下自己碰到的算法面试 company: 百度
+
+ https://www.nowcoder.com/discuss/68828 
+
+算法渣硕面经（阿里、腾讯、美团等），攒人品 company: 阿里,腾讯,美团,好未来
+
+ https://www.nowcoder.com/discuss/77924 
+
+腾讯“三面”，凉凉。。。。 company: 腾讯
+
+ https://www.nowcoder.com/discuss/74596 
+
+腾讯2018春招实习产品经理岗面经（IEG互动娱乐） company: 腾讯,美团
+
+ https://www.nowcoder.com/discuss/82841 
+
+腾讯2018暑期实习生后台开发面经（已收offer） company: 阿里,腾讯
+
+ https://www.nowcoder.com/discuss/79860 
+
+腾讯Android一面面经 company: 腾讯,华为
+
+ https://www.nowcoder.com/discuss/70784 
+
+腾讯OMG后台开发面经 company: 腾讯
+
+ https://www.nowcoder.com/discuss/81099 
+
+腾讯sng基础研究面经 company: 阿里,腾讯,华为
+
+ https://www.nowcoder.com/discuss/4980 
+
+腾讯滴滴阿里三星实习面经 company: 阿里,腾讯,滴滴
+
+ https://www.nowcoder.com/discuss/73306 
+
+腾讯广州基础研究面经(一面，二面) company: 腾讯
+
+ https://www.nowcoder.com/discuss/4922 
+
+腾讯后台一二面面经 company: 腾讯
+
+ https://www.nowcoder.com/discuss/70021 
+
+腾讯机器学习面经 company: 腾讯
+
+ https://www.nowcoder.com/discuss/79407 
+
+腾讯基础研究一面面经（挂） company: 腾讯
+
+ https://www.nowcoder.com/discuss/25707 
+
+腾讯前端暑期实习一面面经3.22 company: 腾讯
+
+ https://www.nowcoder.com/discuss/69856 
+
+腾讯暑期实习笔经面经（转） company: 腾讯
+
+ https://www.nowcoder.com/discuss/1654 
+
+腾讯暑期实习生面经 company: 腾讯
+
+ https://www.nowcoder.com/discuss/68953 
+
+腾讯算法hr面经 company: 阿里,腾讯
+
+ https://www.nowcoder.com/discuss/74214 
+
+腾讯系统测试一面+二面+HR面（面经），回馈牛油 company: 腾讯
+
+ https://www.nowcoder.com/discuss/79338 
+
+腾讯一面面经分享（数据分析）~攒好运 company: 腾讯
+
+ https://www.nowcoder.com/discuss/73609 
+
+腾讯一面面经分享~攒好运 company: 腾讯
+
+ https://www.nowcoder.com/discuss/73582 
+
+头条一级部门Data如何？收到推荐算法offer，面经如下 company: 
+
+ https://www.nowcoder.com/discuss/80875 
+
+挖掘工程师面经已拿到offer company: 百度
+
+ https://www.nowcoder.com/discuss/5470 
+
+网易java后台实习生面试面经 company: 网易
+
+ https://www.nowcoder.com/discuss/73111 
+
+网易测试岗面经 company: 网易
+
+ https://www.nowcoder.com/discuss/24998 
+
+网易杭研院C++内推，拿到offer，我也来水一下面经 company: 网易
+
+ https://www.nowcoder.com/discuss/2812 
+
+网易杭州研究院offer全过程（附加阿里巴巴笔经面经)【转】 company: 网易,阿里
+
+ https://www.nowcoder.com/discuss/1656 
+
+网易互联网人工智能事业部计算机视觉岗面试总结 company: 网易
+
+ https://www.nowcoder.com/discuss/74187 
+
+网易互联网数据分析工程师面试经验 company: 网易
+
+ https://www.nowcoder.com/discuss/3215 
+
+网易互娱 数据挖掘研究员 面经(offer) company: 网易
+
+ https://www.nowcoder.com/discuss/78275 
+
+网易互娱数据挖掘一面面经 company: 网易
+
+ https://www.nowcoder.com/discuss/75992 
+
+网易数据挖掘面经 company: 网易
+
+ https://www.nowcoder.com/discuss/35175 
+
+网易邮箱数据挖掘，滴滴数据工程师，均跪的面经 company: 百度,网易,阿里,腾讯,美团,滴滴,华为
+
+ https://www.nowcoder.com/discuss/25185 
+
+微店面经(12月12更新，已经面完三面和HR面) company: 微店
+
+ https://www.nowcoder.com/discuss/19476 
+
+微软阿里实习面经（offer） company: 阿里
+
+ https://www.nowcoder.com/discuss/78885 
+
+为什么那么多android开发的帖子？ company: 
+
+ https://www.nowcoder.com/discuss/3128 
+
+我的2017校招总结+经验分享（巨长慎入） company: 百度,小米,蘑菇街,阿里,腾讯,京东,今日头条,滴滴
+
+ https://www.nowcoder.com/discuss/19487 
+
+我的前端春招之路 company: 腾讯,CVTE
+
+ https://www.nowcoder.com/discuss/25849 
+
+我的秋招面经(经验教训--希望大家以我为戒吧！) company: 百度,阿里,搜狗
+
+ https://www.nowcoder.com/discuss/62714 
+
+我这里有一份网易2018内推面经合集，你真的不想进来看看吗？ company: 网易,网易游戏
+
+ https://www.nowcoder.com/discuss/44386 
+
+无比曲折的阿里机器学习实习面试经历，附面经 company: 阿里
+
+ https://www.nowcoder.com/discuss/80033 
+
+西安应用研究面经，写出来攒人品 company: 
+
+ https://www.nowcoder.com/discuss/75820 
+
+西安站百度一二三面面经 company: 百度
+
+ https://www.nowcoder.com/discuss/45583 
+
+现在发面经会有点晚吗？bat，京东，360，完美面经 company: 百度,阿里,腾讯,京东,滴滴,拼多多
+
+ https://www.nowcoder.com/discuss/47754 
+
+小米内推-搜索推荐算法岗一面，二面，三面面经 company: 小米,个推
+
+ https://www.nowcoder.com/discuss/36840 
+
+小米深度学习一面面经 company: 小米
+
+ https://www.nowcoder.com/discuss/40654 
+
+小弱鸡的春招算法实习面经 company: 百度,七牛云,拼多多
+
+ https://www.nowcoder.com/discuss/79584 
+
+携程大数据分析，首面面经攒人品 company: 京东,携程
+
+ https://www.nowcoder.com/discuss/41529 
+
+携程金融北京部的算法岗一面面经 company: 携程
+
+ https://www.nowcoder.com/discuss/80550 
+
+写点东西留给下一届的师弟师妹 company: 网易,阿里
+
+ https://www.nowcoder.com/discuss/17371 
+
+写一篇不常见题目面经大杂烩（算法岗） company: 百度,蘑菇街,网易,阿里,腾讯,京东,美团,搜狗
+
+ https://www.nowcoder.com/discuss/58052 
+
+新鲜的美团面经，机器学习岗 company: 美团,搜狗
+
+ https://www.nowcoder.com/discuss/10634 
+
+玄学的秋招面经，华为，美团（选择），顺丰等等 company: 百度,阿里,腾讯,京东,美团,华为,拼多多,顺丰
+
+ https://www.nowcoder.com/discuss/52215 
+
+眼看9月过大半，0offer的我决定继续前行 company: 美团
+
+ https://www.nowcoder.com/discuss/46776 
+
+一份完整的大疆2018校招笔试题和面经送给大家~ company: 招银,网易,阿里,美团,华为,携程,搜狗
+
+ https://www.nowcoder.com/discuss/85302 
+
+一个菜鸡算法的实习面经(蚂蚁 美团 七牛云 爱奇艺 深信服) company: 百度,深信服,网易,阿里,美团,华为,七牛云,爱奇艺
+
+ https://www.nowcoder.com/discuss/79327 
+
+一些面试记录，希望能帮到某些同学吧 company: 阿里,腾讯,华为,海康威视,oppo
+
+ https://www.nowcoder.com/discuss/55498 
+
+依图科技面经分享 company: 华为,依图科技
+
+ https://www.nowcoder.com/discuss/25714 
+
+壹钱包 java岗 一面面经 company: 
+
+ https://www.nowcoder.com/discuss/81484 
+
+银联-云闪付产品策划 面经 company: 百度
+
+ https://www.nowcoder.com/discuss/82219 
+
+有人面试过招银网络科技的数据挖掘岗位的吗？求面经。。 company: 招银,招银网络科技
+
+ https://www.nowcoder.com/discuss/14435 
+
+云音乐终于发啦~~~加面经 company: 
+
+ https://www.nowcoder.com/discuss/37892 
+
+暂时告别牛客，回馈社区。百度、美团、搜狐等前端面经集合 company: 百度,深信服,腾讯,今日头条,美团,滴滴,华为,58同城,酷家乐,神策数据
+
+ https://www.nowcoder.com/discuss/74836 
+
+渣硕的找工作经历 company: 百度,小米,腾讯,美团,华为,好未来
+
+ https://www.nowcoder.com/discuss/16897 
+
+渣硕算法岗秋招面经 company: 百度,小米,招银,网易,阿里,腾讯,京东,美团,滴滴,华为,爱奇艺,好未来,作业帮
+
+ https://www.nowcoder.com/discuss/52357 
+
+渣渣的实习春招总结 company: 网易,阿里,腾讯,京东,美团,华为,拼多多
+
+ https://www.nowcoder.com/discuss/74494 
+
+渣渣硕分享下测开的面经-努力坚持就有收获 company: 招银,网易,网易游戏,阿里,腾讯,京东,今日头条,美团,华为,唯品会,招银网络科技
+
+ https://www.nowcoder.com/discuss/49895 
+
+招商银行招银科技一面，java岗面经 company: 招银
+
+ https://www.nowcoder.com/discuss/41214 
+
+招银算法工程师 网络电话面试面经 company: 招银
+
+ https://www.nowcoder.com/discuss/41422 
+
+招银网络算法三面面经 company: 招银
+
+ https://www.nowcoder.com/discuss/58390 
+
+找工作攻略(offer:阿里,腾讯,百度,华为,今日头条等） company: 百度,网易,网易游戏,阿里,腾讯,今日头条,华为
+
+ https://www.nowcoder.com/discuss/21003 
+
+找实习真的累，跟风分享波面经吧~ company: 百度,阿里,腾讯,京东,华为
+
+ https://www.nowcoder.com/discuss/77936 
+
+真·学渣的秋招总结 company: 百度,小米,深信服,网易,阿里,腾讯,京东,华为,爱奇艺,58同城,搜狗,顺丰,oppo,好未来
+
+ https://www.nowcoder.com/discuss/18518 
+
+整理了网易2018届的笔试面试题目，希望能给学弟学妹们帮助 company: 百度,小米,网易,网易游戏,阿里,腾讯,京东,美团,滴滴,华为,携程,拼多多,好未来,CVTE
+
+ https://www.nowcoder.com/discuss/87121 
+
+中国银联算法二面面经（数据方向） company: 
+
+ https://www.nowcoder.com/discuss/47217 
+
+中兴测试岗专业面试面经 company: 
+
+ https://www.nowcoder.com/discuss/40928 
+
+总结一下春招（附面经） company: 百度,网易,网易游戏,阿里,腾讯,京东,携程,爱奇艺,拼多多
+
+ https://www.nowcoder.com/discuss/79729 
+
+最好的推荐给最美的你 company: 百度,招银,美团,华为,携程,个推,好未来
+
+ https://www.nowcoder.com/discuss/59076 
+
+昨天头条算法面经 company: 
+
+ https://www.nowcoder.com/discuss/71505 
+
+腾讯春招实习产品经理面经 company: 腾讯
+
+ https://www.nowcoder.com/discuss/83321 
+
+关于机器学习/数据挖掘岗校招准备 company: 
+
+ https://www.nowcoder.com/discuss/26234 
+
+网易杭研，数据挖掘，21号面经分享（估计都面完了） company: 网易
+
+ https://www.nowcoder.com/discuss/7633 
+
+有面试机器学习或者算法的小伙伴吗？求面经和建议啊！！ company: 
+
+ https://www.nowcoder.com/discuss/28523 
+
+【日本留学生】渣渣硕算法面经：华为，链家，头条，阿里，快手 company: 招银,阿里,华为,携程,拼多多
+
+ https://www.nowcoder.com/discuss/81397 
+
+【英国渣硕】Java后端面经：华为、链家、趋势科技、微策略 company: 百度,阿里,华为
+
+ https://www.nowcoder.com/discuss/81081 
+
+法国工程师（渣硕）的春招实习经历及链家微博面经 company: 百度,网易,阿里,腾讯,美团,携程
+
+ https://www.nowcoder.com/discuss/81619 
+
+留学生春招面经汇总（包括港澳台） company: 阿里,腾讯,今日头条,华为,唯品会,拼多多,搜狗
+
+ https://www.nowcoder.com/discuss/85061 
+
+美国留学生 暑期实习面经 company: 腾讯
+
+ https://www.nowcoder.com/discuss/82296 
+
+美国渣硕中的渣渣的面经（算法，软件，后端） company: 阿里
+
+ https://www.nowcoder.com/discuss/81669 
+
+美国真渣硕春招实习面经 company: 阿里,腾讯,华为
+
+ https://www.nowcoder.com/discuss/81839 
+
+日本留学生】渣硕视觉算法面经：华为，搜狗, 大疆 company: 华为,搜狗
+
+ https://www.nowcoder.com/discuss/84919 
+
+英国留学生一年水硕算法、数据挖掘岗面经 company: 招银,华为
+
+ https://www.nowcoder.com/discuss/81814 
+
+【牛客网红】2017牛客年度网红评选大赛！ company: 百度,网易,阿里,腾讯,华为
+
+ https://www.nowcoder.com/discuss/65117 
+
+2015-2016年度年会CEO说了什么 company: 百度,蘑菇街,阿里,腾讯,滴滴
+
+ https://www.nowcoder.com/discuss/3643 
+
+菜菜的感悟（非面经） company: 百度,网易,阿里,京东,美团,携程,oppo,好未来
+
+ https://www.nowcoder.com/discuss/62636 
+
+吊车尾985渣硕怎么努力拿到算法岗offer？ company: 
+
+ https://www.nowcoder.com/discuss/57658 
+
+关于春招，糟心的原因还是我自己太菜～ company: 
+
+ https://www.nowcoder.com/discuss/75854 
+
+看看清华大学的信息技术类专业课程 company: 
+
+ https://www.nowcoder.com/discuss/65786 
+
+牛客网2018秋招面经大赛颁奖典礼！【附面经汇总】 company: 百度,小米,招银,网易,阿里,腾讯,京东,美团,滴滴,华为,携程,拼多多,好未来
+
+ https://www.nowcoder.com/discuss/64527 
+
+牛客网使用指南（针对刚被安利来的，想好好了解牛客网的同适用） company: 
+
+ https://www.nowcoder.com/discuss/20849 
+
+小米面试官真的很好，赞一个~ company: 小米
+
+ https://www.nowcoder.com/discuss/46508 
+
+总结下自己春招的一路走来 company: 百度,网易,网易游戏,阿里,腾讯,京东,美团,华为,爱奇艺,51信用卡
+
+ https://www.nowcoder.com/discuss/80271 
+
+【牛客访谈01期】饼神：靠这些项目经验我拿了十多个offer company: 百度,阿里,腾讯,美团
+
+ https://www.nowcoder.com/discuss/15760 
+
+【年度热门排行榜】牛客网2017年度数据大盘点！ company: 百度,网易,网易游戏,阿里,腾讯,京东,今日头条,美团,滴滴,华为,携程
+
+ https://www.nowcoder.com/discuss/65061 
+
+【日更】春招备战实习/补录/面经消息汇总（3.23更新） company: 百度,网易,阿里,腾讯,京东,今日头条,美团,滴滴,携程,七牛云,爱奇艺
+
+ https://www.nowcoder.com/discuss/64732 
+
+阿里巴巴2018校园招聘_行程_网申_笔试资料_面经攻略 company: 百度,阿里,腾讯,华为,CVTE
+
+ https://www.nowcoder.com/discuss/30116 
+
+网易2018校园招聘_行程_网申_笔试资料_面经攻略 company: 百度,网易,网易游戏,腾讯
+
+ https://www.nowcoder.com/discuss/30230 
+
+迅雷2018校园招聘_行程_网申_笔试资料_面经攻略 company: 
+
+ https://www.nowcoder.com/discuss/31740
+
+---
+
+## 百度2018年春招实习面经，回馈牛客【实习offer已到手】
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2018-03-08 ｜ [原文链接](https://www.nowcoder.com/discuss/353154294234947584)
+
+1.写在之前 
+
+ 从2017年10月左右就一直在牛客上刷题，然后计划着找实习。持续关注着牛客网的讨论区，看招聘信息，看面经，看技术交流，就想着要不断充实自己。 
+
+ 几乎每天都要上牛客，不是刷题就是看帖子，一直持续了好几个月，直到有一天看到一位牛友发布的百度垂直行业搜索部的实习生招聘 https://www.nowcoder.com/discuss/65718 
+
+ 仔细阅读了职位要求之后，发现还是比较符合自己预期的，就果断开始写简历投递了。投递详情：垂直行业搜索部-机器学习岗 
+
+ 这就开始了我读研以来的第一次求职之旅。 
+
+ 2.时间进度 
+
+ 2018.01.04 投递简历 
+
+ 2018.01.10 收到邮件约一面 
+
+ 2018.01.11 电话一面 
+
+ 2018.01.19 发邮件问进度 
+
+ 2018.01.29 收到邮件约二面 
+
+ 2018.01.30 电话二面 
+
+ 2018.02.13 发邮件问进度 
+
+ 2018.02.28 接到百度HR的私人电话 
+
+ 2018.03.01 接到百度大搜部门HR的电话（电话三面） 
+
+ 2018.03.02 再次接到百度HR的电话（谈实习offer） 
+
+ 2018.03.08 收到实习offer邮件 
+
+ 3.形式：电话面试 
+
+ 4.面试过程 
+
+ 一面——技术基础面（大约1个小时） 
+
+ 问题如下： 
+
+ 数组和链表的区别 排序算法，从稳定性分析 项目哪里用了MySQL？（面试官看了我的GitHub） TCP、UDP的区别 Python多线程（不太会，没答出来） GitHub项目里面哪里用了Java？ Java会不会内存泄漏？ Java能否多继承？ Java里的hashmap、hashtable 哈希冲突的解决方式 比赛使用的数据量 说一下贝叶斯模型（自己尝试转移话题，换成讲SVM） 为什么用结巴分词？ 情感分析用了snownlp，说一下算法原理，效果如何？为什么效果不好？ 实习经历有做过前端，简单说一下情况 挖GitHub代码，教务管理系统是Java写得？新浪爬虫那个详细说一下。 开始围绕新浪爬虫提问（为什么做？遇到的问题？有没有碰到过死链？错误是如何解决的？） 算法题（没有撸码，讲的思路，要点是明确问题，表述清晰，有逻辑）
+ 在一个数组中找两个不同的数字（剑指offer原题）
+ 判断单链表是否有环？找到入口节点（剑指offer原题） 场景题
+ 百度账号有男女之分，设有唯一标识ID（数字形式，0-2亿之间），数据量有1亿条。要求输入数字，输出是男？还是女？
+ 尽己所能地回答了，但感觉没有答到要点上，后来面试官提示用位运算，瞬间恍然大悟。 其他
+ 为什么简历上写城市不限？（投的北京的，面试官是上海的）
+ 北京or上海，你会如何选择？
+ 投的哪个部门？
+ 有没有其他想问的？ 自主提问：部门主要是在做些什么业务？需要储备业务相关的知识吗？
+ 回答：有一个阿拉丁的项目，很重要，而且特别有意思，能力方面还是注重基础，新人会有培训，基础好很容易进入状态。 
+
+ 表示感谢之后，愉快地结束电话。 
+
+ 全程感受：面试官人超级好，全程很耐心，还会适当引导我回答，快结束时不小心透露说帮我去找二面面试官，真的太感谢他了。 
+
+ 中间的挣扎 
+
+ 等了快2周，一直没有接到二面的电话，心里有点慌。然后鼓起勇气给HR发了邮件，因为只有这一个联系方式，决定拼一下，绝不放过“救命”的最后一根稻草。 
+
+ 二面——感觉是部门大佬面（大约1个小时20分钟） 
+
+ 1.全程挖简历 
+
+ 比赛和实习，你选一个详细聊（选了比赛） 怎么做的？讲细节（输入、输出、数据量、效果） 分词、词典怎么构建的？ 不准的有多少？怎么解决的？效果如何？ 有没有改进的空间？想过怎么改进吗？ 结果/排名的那个数字表示什么？怎么算的？ 主题模型讲一下 情感词怎么算的？ 感觉是压力面，一直问到我答不上话，可怕。 
+
+ 2.挖GitHub代码（还是那个新浪爬虫的） 
+
+ 有没有试过多线程模拟并发？ 如何找到一个进程？ socket如何统计个数？（没讲清楚） 3.操作系统 
+
+ Windows和Linux内存管理对比（没答出来，好慌） 4.网络 
+
+ TCP和UDP的区别 回答时提到了拥塞控制，接着就问为什么会出现？ 
+
+ 解决策略是什么？
+ 回答了滑动窗口 
+
+ 又问滑动窗口怎么做的？没答出来 
+
+ 感觉是自己给自己挖坑啊！ 
+
+ socket是啥？ socket传输怎么实现的？（没说清楚） 5.算法场景题 
+
+ 用手机键盘输入字符串，输入首字母，后面就会跟着出现其他字符，是怎么实现的？ 
+
+ 我的回答：从子串入手，一直在讲字符串子串相关的问题，分析算法复杂度（没有答到点子上，感觉悬） 
+
+ 面试官最后给的答案：用字典树解决（之前看到过trie树，但是不知道它就是字典树，没有好好研究学习，感觉亏大了） 
+
+ 全程感受： 
+
+ 面试官是技术大佬，问的都是原理，需要真的理解才能回答好。 电话是午饭时间打过来的，持续一个多小时，也是蛮辛苦的，还是很感谢他愿意花时间给我面试。 感觉自己还是有理解不到位的知识，这轮面试算是一个很好的查缺补漏的机会，发现要把基础知识再深入补充一下，以前学的都太浅了。 结束电话之后都不敢多想，只觉得认真对待这次面试，能在与面试官的交谈中学习到宝贵的经验，就是我最大的收获了。 中间的小插曲 
+
+ 和实验室的好多同学出去聚餐，刚回到实验室就接到北京联通的私人电话，心里想着会不会是百度的，结果还真是。秒速调节了一下心里状态，和电话那边的小姐姐正式开聊。 
+
+ 问：每周能实习的时间、能实习多久？、能持续半年吗？
+ 答：每周能保证5天，计划3月份就过去，可以实习半年。真心想去，时间不是问题。
+ 然后小姐姐就说等通知吧，挂断电话。 
+
+ 三面——HR面（大约7分钟） 
+
+ 这次来电换成了一位小哥哥。这才是正式的HR面。
+ 问： 
+
+ 学术型硕士培养时间、什么时候毕业？ 能实习多久？ 实习结束的计划 导师同意外出实习吗？ 系统记录有投递过产品经理，为什么会换岗位？
+ 然后自己都据实一一回答了，HR小哥哥就说需要再和部门里反馈沟通一下，看是否符合需求，说很快会给确切通知。 自主提问：我人在外地，又没有北京户口，住房问题怎么解决？ 答：公司不提供住房，但有补贴。具体按公司的规章制度发放。
+ 至此，我再次感谢之后就挂断了电话。 等offer 
+
+ 感觉offer有戏，就静候佳音啦~~~ 
+
+ 发放口头offer（大约6分钟） 
+
+ 隔了一天，中午吃饭回到实验室就接到了百度HR的电话。谈了一下确切的入职时间、薪资、工作时间、餐补、租房补贴等。然后问我有没有想问的？
+ 问：报道需要准备哪些材料？
+ 答：正式的电子offer会发到简历提供的邮箱里，参照里面的要求准备就可以了。记得收到邮件后尽快确认！ 
+
+ 收到实习offer（敲开心~~~） 
+
+ 5.写在最后 
+
+ 致谢（排名不分先后） 
+
+ 父母 原生家庭从小的教育理念和培养方式影响了我大部分的思维方式以及为人处世的状态。我现在勇敢独立、乐观开朗的性格多半来自家庭的熏陶。感谢父母默默的付出，他们一直是我的精神支柱，我正在一点点努力回报他们。 
+
+ 我自己 感谢自己的坚持与不服输。我好强，追求完美，我认真对待生活中的每一件事。我想全力以赴做好我想做的，我也相信自己能越来越优秀。 
+
+ 牛客网 大四就注册的牛客，真的是超级好用啊！我在牛客上刷题、刷面经、看各种贴，真的是涨知识、涨经验。这次又通过这个平台获得实习机会，真诚地给牛客网全体员工打call，谢谢你们~ 
+
+ 这位牛友（虽然不认识，但是给我提供了一个很好的机会，这里贴出他的牛客网链接）
+ https://www.nowcoder.com/profile/9110515 
+
+ 同门 
+
+ 感谢两位同门的陪伴。我们一起打比赛，一起讨论，一起交流。在我遇到问题的时候，他们耐心地倾听并尽力帮助我解决问题。有时间我们还一起出去聚餐，劳逸结合才有最佳状态嘛。 
+
+ 实验室的师兄、师姐 感谢师兄、师姐帮我修改简历，还给我分享找工作时的各种经验，真的是帮大忙了！ 
+
+ 室友 感谢三位室友的朝夕陪伴。几个人性格都很活泼，有缘相聚，她们让我的课余生活多姿多彩。 
+
+ 导师 一位是我的大学班主任——吴晟老师。他真的帮助我太多，很多关键的选择都参考了他的建议。 
+
+ 另一位是我现在的导师——万里老师。他的许多观念都深深影响着我，比如注重细节、踏实认真、精益求精等，都值得我一一践行。 
+
+ 我还要唠叨几句 
+
+ 先灌两句鸡汤 
+
+ 迷茫期谁都会有，但是不能因为迷茫就什么都不做。 不能等看到结果才去坚持，只有坚持了才会有希望。 再来一碟干货 
+
+ 一旦打定主意就要提前准备（认真看书必不可少，没有捷径可走） 计算机类找工作，基础很重要（数据结构、操作系统、网络、数据库，必问） 刷题、刷面经也是必要的（直接在牛客上刷就行，编程题、选择题都可以刷；面经可以用关键词搜索着看，优先看与期望岗位相关的） 养成记录的好习惯（不要嫌麻烦，不要怕花时间，记录、思考、总结三合一肯定会有帮助） 最后附一句赠言，与君共勉 
+
+ 当你不够强大的时候，你想要一个小小的机会都没有。当你足够牛×的时候，你面前有一万个机会，你挡都挡不住。当你足够优秀的时候，你想要的一切都会主动来找你。
 
 ---
 
