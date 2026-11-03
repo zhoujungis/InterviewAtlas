@@ -1,6 +1,6 @@
 # 作业帮 · 算法/AI
 
-> 共 **33** 条 ｜ [返回总目录](../../README.md)
+> 共 **34** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -467,6 +467,78 @@
 作业帮算法二面，没有手撕没有八股，全程我在说对方在听，几乎没反问，最后对我的评价是，做的东西太老了。看到我做的知识图谱，认为现在大模型都出来了，怎么还传统的手动做知识表示知识对齐，在他眼里就是大模型就是万能的，走了大模型再用其他的手段都是方法落后。
 
 kpi太明显了，也说了没有多少hc。给的反馈是方法老，哎梭哈下家了
+
+---
+
+## 作业帮-语音算法暑期实习-面经
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2025-03-06 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/e8a42f694d5c486987b2786db42945c0)
+
+一面
+一个小时
+
+自我介绍
+
+介绍实习
+
+介绍sensevoice模型原理
+
+介绍ctc， loss是怎么计算的，空白符号的作用
+
+传统的asr方案了解吗 hmm gmm dnn 和ctc有什么区别
+
+怎么得到时间戳
+
+有没分析bad case，怎么解决
+
+如何解决多人说话混叠问题（pyannote）
+
+sensevoicelarge和small有什么区别
+
+sensevoicesmall迁移到large有什么考量
+
+encoder，decoder，decoder-only的区别
+
+ddp和dp的区别
+
+网络训练的流程抽象出来介绍一下
+
+dynamic batch了解吗
+
+dataset随机采样，不同节点的样本长度不一样怎么解决
+
+手撕self-attention
+
+介绍注意力机制的原理
+
+为什么要除以根号dk
+
+transformer cnn lstm的区别
+
+cnn不能解决长距离依赖吗（空洞卷积）
+
+transformer和lstm推理的过程有什么差异
+
+反问
+
+组内业务
+ #语音算法工程师实习# #语音算法# #语音算法实习# #牛客AI配图神器#
+
+---
+
+## 作业帮测评
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2025-03-02 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/0d88675a763042e1bb9d76d0c71ba2ec)
+
+📍面试公司：作业帮
+👜面试岗位：NLP算法工程师
+📖面试问题：5单项选择，4不定项，4填空，3道编程大题
+单项选择：softmax定义，堆栈区别，线性链表原理，int pow时间复杂度二茬，二叉树计算
+不定项：gpt功能，sigmoid函数，AI多样性，early stopping dropout 正则
+填空：概率题目等
+编程：骆驼命名法，kotori和迷宫，编辑距离问题
+🙌面试体验：无
+ #软件开发笔面经#
 
 ---
 
@@ -1798,117 +1870,6 @@ transformer的经典八股
  3、有什么要问我的吗？
 
  正式宣告秋招结束（感谢牛客）
-
----
-
-## 2020秋招面经大汇总（作业帮）
-
-来源：牛客网 ｜ 类型：面经 ｜ 发布：2019-08-31 ｜ [原文链接](https://www.nowcoder.com/discuss/353155331842842624)
-
-C++
-
-【作业帮、寒武纪、商汤、科大讯飞】分享最近的作业帮/寒武纪/商汤/科大讯飞面经 https://www.nowcoder.com/discuss/218906 
-
-【作业帮】作业帮数据研发面经 https://www.nowcoder.com/discuss/215188 
-
-【作业帮】作业帮提前批 后端开发一面面经 https://www.nowcoder.com/discuss/209716 
-
- Java.txt 
-
-【作业帮】迟到的作业帮面经(口头offer) https://www.nowcoder.com/discuss/226978 
-
-【百度,作业帮, 华为】菜鸡面经（百度 & 作业帮 & 华为） https://www.nowcoder.com/discuss/225270 
-
-【作业帮】作业帮提前批后端上岸贴 https://www.nowcoder.com/discuss/221026 
-
-【作业帮】作业帮后端开发一面面经 https://www.nowcoder.com/discuss/213987 
-
-【作业帮】作业帮后端一面，本菜鸡秋招第一枪，希望没凉 https://www.nowcoder.com/discuss/209726 
-
-【作业帮】作业帮后端面经 https://www.nowcoder.com/discuss/207128 
-
-【作业帮】作业帮后端面经 https://www.nowcoder.com/discuss/207754 
-
- 
- 前端
-
-【作业帮】作业帮前端提前批一面 https://www.nowcoder.com/discuss/223692 
-
-【作业帮】作业帮，一波三折的一面,前端 https://www.nowcoder.com/discuss/222147 
-
-【作业帮】作业帮前端提前批面经 https://www.nowcoder.com/discuss/219441 
-
-【作业帮】作业帮一面 https://www.nowcoder.com/discuss/211561 
-
-【作业帮】作业帮前端凉面 https://www.nowcoder.com/discuss/211055 
-
- 
- 后端&后台开发
-
-【作业帮】作业帮后台开发凉面 https://www.nowcoder.com/discuss/210308 
-
- 
- 测开&测试
-
-【作业帮】作业帮测试开发二面 https://www.nowcoder.com/discuss/236713 
-
-【头条 阿里 百度 作业帮】测开面经 头条 阿里 百度 作业帮 https://www.nowcoder.com/discuss/214829 
-
-【作业帮】作业帮提前批测试开发全流程详细面经 https://www.nowcoder.com/discuss/212867 
-
-【作业帮】作业帮测开一面凉经 https://www.nowcoder.com/discuss/212805 
-
-【作业帮】作业帮测开面经 https://www.nowcoder.com/discuss/211391 
-
-【作业帮】作业帮提前批测开一面二面hr面经 https://www.nowcoder.com/discuss/210324 
-
-【作业帮】作业帮提前批测开面试 https://www.nowcoder.com/discuss/208151 
-
-【作业帮】作业帮提前批测开面经 https://www.nowcoder.com/discuss/206572 
-
- 
- 算法
-
-【作业帮】作业帮1,2,3面面经（不包含hr面） https://www.nowcoder.com/discuss/235791 
-
-【寒武纪、作业帮、百度、腾讯、拼多多、蘑菇街】算法工程师面经+少量后端内容 2019年8月 BAT面经都有 https://www.nowcoder.com/discuss/231656 
-
-【作业帮、腾讯】作业帮NLP面试+腾讯NLP面试 https://www.nowcoder.com/discuss/230234 
-
-【作业帮】作业帮NLP面经 https://www.nowcoder.com/discuss/227552 
-
-【作业帮】2020作业帮提前批面经（凉经） https://www.nowcoder.com/discuss/226439 
-
-【作业帮】【作业帮NLP】成功面筋 https://www.nowcoder.com/discuss/218590 
-
-【作业帮】作业帮 视觉算法工程师 面经 https://www.nowcoder.com/discuss/218362 
-
-【作业帮】作业帮 机器学习算法面经 https://www.nowcoder.com/discuss/218216 
-
-【作业帮】作业帮CV一面 https://www.nowcoder.com/discuss/215679 
-
-【作业帮】作业帮一面凉经 https://www.nowcoder.com/discuss/216131 
-
-【作业帮】作业帮nlp面经 https://www.nowcoder.com/discuss/215140 
-
-【作业帮】作业帮一面 https://www.nowcoder.com/discuss/214657 
-
-【作业帮】深夜-作业帮NLP凉面 https://www.nowcoder.com/discuss/211426 
-
-【作业帮】作业帮_北京_算法岗_sp https://www.nowcoder.com/discuss/212220 
-
-【作业帮】作业帮 机器学习算法 面经 https://www.nowcoder.com/discuss/211326 
-
-【作业帮】作业帮一面，二面。估计二面已凉 https://www.nowcoder.com/discuss/208777 
-
-【作业帮】两次作业帮凉经 https://www.nowcoder.com/discuss/208481 
-
-【作业帮】作业帮nlp面经 https://www.nowcoder.com/discuss/208986 
-
- 
- 软件开发
-
-【作业帮】作业帮一面 https://www.nowcoder.com/discuss/210555
 
 ---
 
