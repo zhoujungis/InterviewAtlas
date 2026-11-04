@@ -1,6 +1,6 @@
 # 阿里巴巴 · 算法/AI
 
-> 共 **82** 条 ｜ [返回总目录](../../README.md)
+> 共 **83** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -10584,6 +10584,50 @@ adam和sgd区别
 
  
  （P.S.申精！！！）
+
+---
+
+## 秋招算法岗面经汇总
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2018-10-19 ｜ [原文链接](https://www.nowcoder.com/discuss/353154696628084736)
+
+秋招算法岗基本面完了，本人所有的面经附上，希望大家点个喜欢或关注，希望大家都能找到好的offer！ 
+
+ 
+ 
+
+ 阿里： https://www.jianshu.com/p/304e1023c4cb 
+
+ 美团： https://www.jianshu.com/p/bbe21ff40724 
+
+ 滴滴： https://www.jianshu.com/p/bc9d5f8206a0 
+
+ 头条： https://www.jianshu.com/p/5bc533d1bf62 
+
+ 百度大搜： https://www.jianshu.com/p/02d931d5c1c8 
+
+ 百度feed： https://www.jianshu.com/p/65032f77f903 
+
+ 知乎： https://www.jianshu.com/p/40259bb05357 
+
+ 贝壳： https://www.jianshu.com/p/cd0a809cf198 
+
+ 思特沃克： https://www.jianshu.com/p/0b5514908683 
+
+ 小米： https://www.jianshu.com/p/e34ebebae15f 
+
+ 搜狗： https://www.jianshu.com/p/8a116eb7fd32 
+
+ 猫眼： https://www.jianshu.com/p/c32787be3dc8 
+
+ 一点资讯： https://www.jianshu.com/p/fffc15c9d31d 
+
+ 便利蜂： https://www.jianshu.com/p/51e2d16f16a5 
+
+ 
+ 
+
+ 另外，本人建立了一个技术交流群，还有30个坑位，想要入群的可以私信我！
 
 ---
 
