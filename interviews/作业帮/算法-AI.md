@@ -1,6 +1,6 @@
 # 作业帮 · 算法/AI
 
-> 共 **34** 条 ｜ [返回总目录](../../README.md)
+> 共 **36** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -1509,6 +1509,98 @@ transformer的经典八股
 
 ---
 
+## 作业帮算法1，2，hr面面经
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2020-08-08 ｜ [原文链接](https://www.nowcoder.com/discuss/353156718710431744)
+
+作业帮，8月3，一面
+
+ 
+ 1.自我介绍
+
+ 
+ 2.介绍项目
+
+ 
+ 3.梯度下降的优化算法
+
+ 
+ 4.线程进程区别
+
+ 
+ 5.xgboost，lightgbm的区别
+
+ 
+ 6.完全二叉树的定义
+
+ 
+ 7.数组，链表的区别
+
+ 
+ 8.为什么树模型对于稀疏特征效果不好
+
+ 
+ 9.手撕代码
+
+ 
+ 第一个题验证平衡二叉树
+
+ 
+ 第二个题给定一个链表，划分成子链表反转。例如，10个节点，前4个反转，4-8反转，剩下两个不足4，不用反转
+
+ 
+ 
+
+ 
+ 作业帮，8月5日，二面
+
+ 
+ 1.自我介绍
+
+ 
+ 2.介绍比赛
+
+ 
+ 3.对于传统的lr，svm和树模型，对于他们的特征，你分别是怎么处理的。
+
+ 
+ 4.如果说给你一个数据，只让你用传统的那些线性模型，如何提高精度
+
+ 
+ 5.树模型的损失函数是什么
+
+ 
+ 6.写一下softmax的公式
+
+ 
+ 7.写一下交叉熵的公式
+
+ 
+ 8.问了一个数学题，a，b，c三个连续的数，其中有两个质数，证明剩下的那个数一定可以被6整除
+
+ 
+ 9.代码题：给定一个矩阵，以及两个左边，返回以两个左边为左上角和右下角的矩形中所有数字之和。要求每次调用时间复杂度尽可能低，意思就是不能遍历相加。
+
+ 
+ （先用动态规划的思路，求出以每一个点为右下角的大矩形的所有数字的和，然后根据传入的两个坐标，将矩形面积相减就可以了）
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 作业帮hr面
+
+ 
+ 正常聊天，问了工作地意向，职业规划，家里都有谁，有没有女朋友，兴趣爱好。
+
+ 
+ 反问：问了如果通过面试的话，大概什么时候会发放offer，说8月底
+
+---
+
 ## 作业帮二面凉经
 
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2020-07-31 ｜ [原文链接](https://www.nowcoder.com/discuss/353156672652779520)
@@ -1870,6 +1962,117 @@ transformer的经典八股
  3、有什么要问我的吗？
 
  正式宣告秋招结束（感谢牛客）
+
+---
+
+## 2020秋招面经大汇总（作业帮）
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2019-08-31 ｜ [原文链接](https://www.nowcoder.com/discuss/353155331842842624)
+
+C++
+
+【作业帮、寒武纪、商汤、科大讯飞】分享最近的作业帮/寒武纪/商汤/科大讯飞面经 https://www.nowcoder.com/discuss/218906 
+
+【作业帮】作业帮数据研发面经 https://www.nowcoder.com/discuss/215188 
+
+【作业帮】作业帮提前批 后端开发一面面经 https://www.nowcoder.com/discuss/209716 
+
+ Java.txt 
+
+【作业帮】迟到的作业帮面经(口头offer) https://www.nowcoder.com/discuss/226978 
+
+【百度,作业帮, 华为】菜鸡面经（百度 & 作业帮 & 华为） https://www.nowcoder.com/discuss/225270 
+
+【作业帮】作业帮提前批后端上岸贴 https://www.nowcoder.com/discuss/221026 
+
+【作业帮】作业帮后端开发一面面经 https://www.nowcoder.com/discuss/213987 
+
+【作业帮】作业帮后端一面，本菜鸡秋招第一枪，希望没凉 https://www.nowcoder.com/discuss/209726 
+
+【作业帮】作业帮后端面经 https://www.nowcoder.com/discuss/207128 
+
+【作业帮】作业帮后端面经 https://www.nowcoder.com/discuss/207754 
+
+ 
+ 前端
+
+【作业帮】作业帮前端提前批一面 https://www.nowcoder.com/discuss/223692 
+
+【作业帮】作业帮，一波三折的一面,前端 https://www.nowcoder.com/discuss/222147 
+
+【作业帮】作业帮前端提前批面经 https://www.nowcoder.com/discuss/219441 
+
+【作业帮】作业帮一面 https://www.nowcoder.com/discuss/211561 
+
+【作业帮】作业帮前端凉面 https://www.nowcoder.com/discuss/211055 
+
+ 
+ 后端&后台开发
+
+【作业帮】作业帮后台开发凉面 https://www.nowcoder.com/discuss/210308 
+
+ 
+ 测开&测试
+
+【作业帮】作业帮测试开发二面 https://www.nowcoder.com/discuss/236713 
+
+【头条 阿里 百度 作业帮】测开面经 头条 阿里 百度 作业帮 https://www.nowcoder.com/discuss/214829 
+
+【作业帮】作业帮提前批测试开发全流程详细面经 https://www.nowcoder.com/discuss/212867 
+
+【作业帮】作业帮测开一面凉经 https://www.nowcoder.com/discuss/212805 
+
+【作业帮】作业帮测开面经 https://www.nowcoder.com/discuss/211391 
+
+【作业帮】作业帮提前批测开一面二面hr面经 https://www.nowcoder.com/discuss/210324 
+
+【作业帮】作业帮提前批测开面试 https://www.nowcoder.com/discuss/208151 
+
+【作业帮】作业帮提前批测开面经 https://www.nowcoder.com/discuss/206572 
+
+ 
+ 算法
+
+【作业帮】作业帮1,2,3面面经（不包含hr面） https://www.nowcoder.com/discuss/235791 
+
+【寒武纪、作业帮、百度、腾讯、拼多多、蘑菇街】算法工程师面经+少量后端内容 2019年8月 BAT面经都有 https://www.nowcoder.com/discuss/231656 
+
+【作业帮、腾讯】作业帮NLP面试+腾讯NLP面试 https://www.nowcoder.com/discuss/230234 
+
+【作业帮】作业帮NLP面经 https://www.nowcoder.com/discuss/227552 
+
+【作业帮】2020作业帮提前批面经（凉经） https://www.nowcoder.com/discuss/226439 
+
+【作业帮】【作业帮NLP】成功面筋 https://www.nowcoder.com/discuss/218590 
+
+【作业帮】作业帮 视觉算法工程师 面经 https://www.nowcoder.com/discuss/218362 
+
+【作业帮】作业帮 机器学习算法面经 https://www.nowcoder.com/discuss/218216 
+
+【作业帮】作业帮CV一面 https://www.nowcoder.com/discuss/215679 
+
+【作业帮】作业帮一面凉经 https://www.nowcoder.com/discuss/216131 
+
+【作业帮】作业帮nlp面经 https://www.nowcoder.com/discuss/215140 
+
+【作业帮】作业帮一面 https://www.nowcoder.com/discuss/214657 
+
+【作业帮】深夜-作业帮NLP凉面 https://www.nowcoder.com/discuss/211426 
+
+【作业帮】作业帮_北京_算法岗_sp https://www.nowcoder.com/discuss/212220 
+
+【作业帮】作业帮 机器学习算法 面经 https://www.nowcoder.com/discuss/211326 
+
+【作业帮】作业帮一面，二面。估计二面已凉 https://www.nowcoder.com/discuss/208777 
+
+【作业帮】两次作业帮凉经 https://www.nowcoder.com/discuss/208481 
+
+【作业帮】作业帮nlp面经 https://www.nowcoder.com/discuss/208986 
+
+ 
+ 软件开发
+
+【作业帮】作业帮一面 https://www.nowcoder.com/discuss/210555
 
 ---
 
