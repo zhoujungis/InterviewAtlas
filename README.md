@@ -1755,3 +1755,11 @@
 - 每周全量：`.github/workflows/weekly-full.yml` 每周日 10:00（北京时间）执行 `--full`。
 - 本地运行：`pip install -r requirements.txt && python -m src.main --config config.yaml`。
 - 只跑单个数据源：`python -m src.main --source nowcoder`。
+
+<!-- blog-backlink -->
+---
+
+## 相关阅读
+
+- 博客：[尘世栈帧 — 技术、编程、AI 与科学](https://blog.zhoujun.dev/)
+- 项目详解：[InterviewAtlas：3 万条面经的自动采集与 LLM 归纳](https://blog.zhoujun.dev/article/interviewatlas-daily-crawl-llm-analysis/)
