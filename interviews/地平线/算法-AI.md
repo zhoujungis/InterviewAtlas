@@ -1,6 +1,6 @@
 # 地平线 · 算法/AI
 
-> 共 **48** 条 ｜ [返回总目录](../../README.md)
+> 共 **49** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -1762,6 +1762,133 @@ PC端可使用链接投递： https://horizon.hotjob.cn/
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2021-08-22 ｜ [原文链接](https://www.nowcoder.com/discuss/353158312302682112)
 
 😅一面时 面试官说这个岗位偏技术支持，解决用户用产品时遇到的一些问题， 有小伙伴也投这个岗位吗？或者有经验的可以聊一聊
+
+---
+
+## 地平线面经-地图算法（三面挂）
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2021-08-10 ｜ [原文链接](https://www.nowcoder.com/discuss/353158222116757504)
+
+面试官超好！！！ 
+
+ 
+ 
+
+ 上来先来两道基础题 
+
+ 1、合并有序链表 
+
+ 2、计算树的深度 
+
+ #include "common.h"
+
+struct ListNode{
+ ListNode* next;
+ int val;
+ ListNode(int v):val(v), next(nullptr){;}
+
+}; // ListNode
+
+struct TreeNode{
+ TreeNode* left;
+ TreeNode* right;
+ int val;
+ TreeNode(int a):val(a), left(nullptr), right(nullptr){;}
+
+}; // TreeNode
+
+// 合并两个链表
+ListNode* Test1(ListNode* L1, ListNode* L2){
+ ListNode* new_head = new ListNode(0);
+ ListNode* cur = new_head;
+ 
+ ListNode* p1 = L1;
+ ListNode* p2 = L2;
+ while(p1&&p1){
+ if(p1->val val){
+ cur->next = new ListNode(p1->val);
+ cur = cur->next;
+ p1 = p1->next;
+ }
+ else{
+ cur->next = new ListNode(p2->val);
+ cur = cur->next;
+ p2 = p2->next;
+ }
+
+ }
+
+ while(p1){
+ cur->next = new ListNode(p1->val);
+ p1 = p1->next;
+ cur = cur->next;
+ }
+
+ while(p2){
+ cur->next = new ListNode(p2->val);
+ p2 = p2->next;
+ cur = cur->next;
+ }
+
+ cur->next = nullptr;
+
+ return new_head->next;
+
+}
+
+// 输入一棵二叉树，求该树的深度。
+int compute_depth(TreeNode* root){
+ if(root==nullptr){
+ return 0;
+ }
+
+ int left_depth = compute_depth(root->left);
+ int right_depth = compute_depth(root->right);
+ return max(left_depth, right_depth)+1;
+}
+
+// 非递归
+int compute_depth2(TreeNode* root){
+ if(root==nullptr){
+ return 0;
+ }
+ queue q;
+ q.push(root);
+ int count = 0;
+ while(!q.empty()){
+ count++;
+
+ int len = q.size();
+ while (len-->0)
+ {
+ /* code */
+ auto cur = q.front();
+ q.pop();
+ if(cur->left){
+ q.push(cur->left);
+ }
+ if(cur->right){
+ q.push(cur->right);
+ }
+ 
+ }
+
+ 
+ }
+ return count;
+}
+
+int main(int argc, char** argv){
+
+ return 0;
+} 
+ 
+ 
+
+ 
+ 
+
+ 其余的就是项目相关的，因为投的岗位不是很对口，所以面试官说帮我转岗
 
 ---
 
