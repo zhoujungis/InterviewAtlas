@@ -1,6 +1,6 @@
 # 顺丰 · 算法/AI
 
-> 共 **16** 条 ｜ [返回总目录](../../README.md)
+> 共 **17** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -581,6 +581,122 @@ hr面：
  6.海量的ip地址，内存放不下，问怎么取出top 10的ip地址----hash
  7.最后写了一个算法题，复原ip地址
  整体上二面感觉不太好，估计是凉了
+
+---
+
+## 2020秋招面经大汇总（顺丰科技）
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2019-08-31 ｜ [原文链接](https://www.nowcoder.com/discuss/353155330047680512)
+
+java
+
+ 
+ 顺丰sp专场面经 java https://www.nowcoder.com/discuss/225403 
+
+ 
+ 顺丰科技SP专场3面-java https://www.nowcoder.com/discuss/224296 
+
+ 
+ 顺丰第二轮技术面 https://www.nowcoder.com/discuss/221090 
+
+ 
+ 顺丰提前批java后端一面面经 https://www.nowcoder.com/discuss/217234 
+
+顺丰科技面试 https://www.nowcoder.com/discuss/217192 
+
+顺丰sp--java后台开发一面 https://www.nowcoder.com/discuss/217115 
+
+ 
+ 顺丰科技java面经 https://www.nowcoder.com/discuss/212766 
+
+ 
+ 
+
+ 
+ 测试&测开
+
+ 
+ 顺丰科技一面面经，测开（北京） https://www.nowcoder.com/discuss/223022 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 产品 
+
+ 
+ 
+
+ 
+ 顺丰科技产品经理一二三面面经合集 https://www.nowcoder.com/discuss/231216 
+
+ 
+ 顺丰SP产品三面 https://www.nowcoder.com/discuss/225882 
+
+ 
+ 顺丰sp产品一面总结 https://www.nowcoder.com/discuss/217934 
+
+ 
+ 
+
+ 
+ 大数据
+
+ 
+ 顺丰科技视频面-大数据开发 https://www.nowcoder.com/discuss/221382 
+
+顺丰科技 大数据分析与挖掘一面凉经 https://www.nowcoder.com/discuss/218228 
+
+顺丰科技 大数据挖掘与分析工程师 一面面经 https://www.nowcoder.com/discuss/217930 
+
+ 
+ 
+
+ 
+ 前端
+
+ 
+ 顺丰科技 SP 前端 https://www.nowcoder.com/discuss/212847 
+
+ 
+ 顺丰科技大数据分析与挖掘 https://www.nowcoder.com/discuss/224765 
+
+ 
+ 
+
+ 
+ 
+ 数据挖掘
+ 
+
+ 
+ 顺丰科技数据挖掘岗20分钟第一面 https://www.nowcoder.com/discuss/214042 
+ 
+
+ 
+ 机器学习
+
+ 
+ 顺丰 机器学习一面 https://www.nowcoder.com/discuss/218219 
+
+ 
+ 
+
+算法
+
+ 
+ 顺丰视频面经——视觉算法 https://www.nowcoder.com/discuss/213283 
+
+顺丰 运筹优化算法工程师 一面经 https://www.nowcoder.com/discuss/213263 
+
+顺丰科技人工智能机器学习算法视频面经 https://www.nowcoder.com/discuss/213259 
+
+顺丰科技人工智能机器学习算法视频面经 https://www.nowcoder.com/discuss/213820 
+
+AI&机器学习突击面试【顺丰科技】 https://www.nowcoder.com/discuss/213816
 
 ---
 

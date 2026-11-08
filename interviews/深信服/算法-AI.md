@@ -1,6 +1,6 @@
 # 深信服 · 算法/AI
 
-> 共 **14** 条 ｜ [返回总目录](../../README.md)
+> 共 **16** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -205,6 +205,20 @@ Neo4j对并行计算的支持度如何 压力管理的案例与思考；
 今年秋招环境下定位的自我认知与思考（被面试官吐槽简历往年可能算特别优秀的，但是今年只能算中等偏上，xs太真实了）
  ------ 
  #关于秋招我想说# 让我女朋友有个Offer吧~！！
+
+---
+
+## 深信服算法一面
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2022-11-15 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/ccc049d390f34627b9585756b085006f)
+
+#关于秋招我想说# 
+论文；
+networkx的性能问题；
+loss波动与过拟合的原因分析与处理方法；
+数据样本不均衡的处理方法；
+向量数据增强的具体做法；
+反问； #你的秋招进展怎么样了#
 
 ---
 
@@ -939,6 +953,116 @@ Neo4j对并行计算的支持度如何 压力管理的案例与思考；
 来源：掘金 ｜ 类型：面经 ｜ 发布：2020-03-18 ｜ [原文链接](https://juejin.cn/post/6844904095900254222)
 
 我们先来看一下Linux后台开发的要求和薪资待遇。 负责移动游戏实时语音业务系统设计和开发工作。 熟悉Go语言开发，有机器学习开发经验者优先。 熟悉shell、其它常用脚本(lua、python)。 大家可以加群获取。
+
+---
+
+## 2020秋招面经大汇总（深信服）
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2019-08-27 ｜ [原文链接](https://www.nowcoder.com/discuss/353155299274072064)
+
+C++
+
+ 
+ 深信服二面面经 https://www.nowcoder.com/discuss/230653 
+
+ 
+ 深信服一二面 https://www.nowcoder.com/discuss/231906 
+
+ 
+ 深信服一面 攒人品 https://www.nowcoder.com/discuss/233161 
+
+ 
+ 深信服一面C++ https://www.nowcoder.com/discuss/229218 
+
+ 
+ 我真的太难了..深信服一面凉面 https://www.nowcoder.com/discuss/228876 
+
+ 
+ 深信服面试软开二面 https://www.nowcoder.com/discuss/227772 
+
+ 
+ 深信服电话一面凉经 https://www.nowcoder.com/discuss/227715 
+
+ 
+ 为什么我的深信服三面不是HR啊 https://www.nowcoder.com/discuss/227359 
+
+ 
+ 深信服 一面 可能是凉经 https://www.nowcoder.com/discuss/225929 
+
+ 
+ 深信服C++凉筋 https://www.nowcoder.com/discuss/226196 
+
+ 
+ 深信服电话面试一面二面(菜鸡没有三面) https://www.nowcoder.com/discuss/226107 
+
+ 
+ 深信服优招研发C++一面凉经 https://www.nowcoder.com/discuss/226026 
+
+ 
+ 
+
+ 
+ 测开&测试
+
+ 
+ 深信服- 一面/二面 测开面经 https://www.nowcoder.com/discuss/231613 
+
+ 
+ 深信服测试面试经 https://www.nowcoder.com/discuss/233027 
+
+ 
+ 深信服测开电话一面，33min https://www.nowcoder.com/discuss/225828 
+
+ 
+ 迷迷糊糊的深信服测开一面 https://www.nowcoder.com/discuss/225906 
+
+ 
+ 深信服长研所测开一面凉经 https://www.nowcoder.com/discuss/226104 
+
+ 
+ 深信服测开二面凉经 https://www.nowcoder.com/discuss/226045 
+
+ 
+ 
+
+ 
+ 产品
+
+ 
+ 【攒人品】深信服一面（凉～） https://www.nowcoder.com/discuss/226210 
+
+ 
+ 深信服（售前产品经理）一面挂凉经 https://www.nowcoder.com/discuss/223649 
+
+ 
+ 
+
+ 
+ 前端
+
+ 
+ 深信服前端电话二面(同时也求个offer) https://www.nowcoder.com/discuss/227734 
+
+ 
+ 深信服一面过经 https://www.nowcoder.com/discuss/225869 
+
+ 
+ 深信服 一面面经. https://www.nowcoder.com/discuss/225843 
+
+ 
+ 
+
+ 
+ 算法
+
+ 
+ 【深信服算法工程师一面-复盘】-希望能有二面 https://www.nowcoder.com/discuss/232192 
+
+ 
+ 深信服一面面经 https://www.nowcoder.com/discuss/228067 
+
+ 
+ 2020深信服提前批面经（凉经） https://www.nowcoder.com/discuss/226440
 
 ---
 
