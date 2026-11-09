@@ -1584,271 +1584,6 @@ public final class KeyedExecutor {
 
 ---
 
-## 【27届校招】8月11日新开的秋招
-
-来源：牛客网 ｜ 类型：面经 ｜ 发布：2026-08-11 ｜ [原文链接](https://www.nowcoder.com/discuss/916837079693201408)
-
-攻略推荐： 校招汇总表格 
-
- 超万人使用的校招汇总专栏：（助力你更快，更方便投递） 校招汇总表格 
-
- 介绍请看“订阅前必看说明”
-
- 
-
- 攻略推荐：嵌入式面经
-
- 本人根据自己在学习和面试中遇到的较多的问题准备成面经，
-
- 分为C/C++模块，嵌入式操作系统模块，STM32模块，计算机网络模块。覆盖了大部分知识，有助于小白逐个学习，也有助于大佬在面试前复习准备，更方便快捷。
-
- 超万人学习和复习的面经专栏： （适用于小白学习和大佬复习）： 嵌入式面经 
-
- 
-
- 只展示部分
-
- 
-
- 
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 2026-08-10
-
- 
- 英飞凌
-
- 
- 秋招
-
- 
- Staff FAE Application Center,Director Partnership and Ecosystem Management,International Graduate Pr......
-
- 
- 上海,无锡,宁波,深圳,西安
-
- 
- https://mp.weixin.qq.com/s/w8U7een8bG7A4lSmJqGi8w?scene=1 
-
- 
- https://wx8c056c0a57e4e18e.wx.moseeker.com/m/position?candidate_source=1&wechat_signature=MDE4MDY0OTlmYWE0NDEzOTlhZDExYzNiYWQyZGFlMThhZDAwNjIyMg#1786073321575 
-
- 
- 
- 
- 2026-08-10
-
- 
- 航天控制
-
- 
- 秋招
-
- 
- 
-
- 软件类
-
- 
-
- 
- 贵阳
-
- 
- https://mp.weixin.qq.com/s/ytQWlkGqDDLticML6UQ2ew 
-
- 
- https://mp.weixin.qq.com/s/ytQWlkGqDDLticML6UQ2ew 
-
- 
- 
- 
- 2026-08-10
-
- 
- 阿里云瓴羊
-
- 
- 秋招
-
- 
- AI Agent研发工程师
-
- 
-
- AI产品经理
-
- 
-
- 数据科学家
-
- 
-
- 大模型应用算法工程师
-
- 
-
- FDE(前沿部署工程师)
-
- 
- 北京,成都,杭州,上海,深圳
-
- 
- https://mp.weixin.qq.com/s/miihtZhgacIcninQQD4vMg?clicktag=bar_share&scene=1&clickpos=0&from_safari=0&click_id=693020704 
-
- 
- https://campus-talent.alibaba.com/campus/position?batchId=100000760001&circleCode=60002&filterParams=customDeptJM3EV05YTU0NM0ALLTVFRMM3PIOLW3S9O4SA7EYTIHWPLY3RN1AHM4 
-
- 
- 
- 
- 2026-08-10
-
- 
- 搜狐集团-AI人才专项
-
- 
- 秋招
-
- 
- AI全栈研发工程师
-
- 
-
- 大模型算法工程师
-
- 
-
- AI算法研发工程师
-
- 
-
- AI助理研究员
-
- 
- 北京
-
- 
- https://mp.weixin.qq.com/s/cgFeNMdo6JvSqlyZKS5ZAw 
-
- 
- https://app.mokahr.com/campus-recruitment/sohu/5682?sourceToken=b74e8a9dc0050254f9ae3f3c501d21bb&sessionid=#/jobs?page=1&anchorName=jobsList&project0=100120113 
-
- 
- 
- 
- 2026-08-10
-
- 
- 汇顶科技
-
- 
- 秋招
-
- 
- 
-
- 系统软件工程师
-
- 
-
- 软件开发工程师（IT系统）
-
- 
-
- 图像算法工程师
-
- 
-
- 安全算法工程师
-
- 
-
- 
- 深圳,上海,成都,武汉
-
- 
- https://mp.weixin.qq.com/s/FvMtfoceKms_AybARXQ2qA 
-
- 
- https://goodix.zhiye.com/Campus 
-
- 
- 
- 
- 2026-08-10
-
- 
- 去哪儿旅行
-
- 
- 秋招
-
- 
- AI应用开发工程师(Java/客户端/测开）
-
- 
-
- AI全栈工程师
-
- 
-
- AI算法工程师
-
- 
-
- 
- 北京,上海
-
- 
- https://mp.weixin.qq.com/s/Hr-l-CUKp9Vw6rX_K591bQ 
-
- 
- https://hf7l9aiqzx.jobs.feishu.cn/704852/position/list 
-
- 
- 
- 
- 2026-08-10
-
- 
- 轻舟智航
-
- 
- 实习
-
- 
- 感知算法实习生
-
- 
-
- 世界模型算法实习生
-
- 
-
- 一段式端到端模型算法实习生
-
- 
-
- 
- 北京,苏州,上海
-
- 
- https://mp.weixin.qq.com/s/BdIiuzp8
-
----
-
 ## LLM算法实习一面面经分享-阿里云
 
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2026-05-07 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/c42fa9ce81e64e778f7c178c58d007f9)
@@ -3348,5 +3083,33 @@ vector > matrix_mul(vector > A, vector > B){
  等待hr面中.... 
 
  面试也是沟通的过程 尤其一对一比较直接 所以有什么问题可以探讨一下
+
+---
+
+## offer比较
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2019-10-23 ｜ [原文链接](https://www.nowcoder.com/discuss/353155789563043840)
+
+之前在牛客分享了很多面经，秋招也快结束了，拿了一些offer，这里诚恳的请牛友们做一个比较客观的比较： 
+
+ 1.阿里云 数据智能产品部 ***税务/医疗 机器学习，数据挖掘方向 目测21*16+余杭10w，995，需要到北京出差 
+
+ 貌似是这个团队： https://job.alibaba.com/zhaopin/position_detail.htm?spm=a2obv.11410903.0.0.2fc844f6fz3oxG&positionId=66522 
+ 2.字节ailab 视频审核 推荐 理解 cv方向 26.6*15（不打算要8w元期权） 加班费＋房补大概4万多点 base上海 1095.5
+ 3.百度地图 数据引擎 部 cv方向 21*15 base上海
+ 4.作业帮总包比百度多14w， 3w多点签字费 北京，不太清楚工作时长，估计比较累，下午和hr沟通下再补充
+ 5. 商汤 研究院 人脸活体识别相关 base上海 估计总包40w上下吧，暂时还没有开 
+
+ 
+ 
+
+ 字节这边催的这周要签两方，违约金5k；阿里可能要到下周才能开，薪资啥的offershow上比较清楚了，就是对于这个方向比较担心，政务，医疗，金融方向会不会比较窄，以后不好跳；作业帮base真的挺高的，就是感觉厂比较小。 
+
+ 
+ 
+
+ 感觉选择有时候比努力还要重要，祝大家都能做出最优的选择！ 
+
+ [顺利签约][导师饶命][心想事成][万事顺利]
 
 ---

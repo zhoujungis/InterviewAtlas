@@ -60,9 +60,75 @@ lz双非本，某211大数据专业，现在研二了，啥也不会。
 
 ---
 
-## 从关键新闻和最新技术看AI行业2024.7.1-7.14期
+## 大模型转行记录（二）
 
-来源：牛客网 ｜ 类型：面经 ｜ 发布：2024-07-22 ｜ [原文链接](https://www.nowcoder.com/discuss/645043174624239616)
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2024-09-04 ｜ [原文链接](https://www.nowcoder.com/discuss/660959020454277120)
+
+前情提要：
+
+ 笔者两个月前（24年7月6号）在知乎、小红书等平台发布了《大模型转行记录（一）》（牛客网原文： https://www.nowcoder.com/discuss/639025152000331776?sourceSSR=users ），分析了软件开发行业过去与现状、大模型人工智能产业前景与现状，因此得出了“软件开发红利已尽，大模型产业方心未艾”的结论，结合从周围朋友打听到的信息，做出了向大模型产业转型的决定与尝试。现在两个月过去了，我来分享一下我的最新进展。
+
+ 大模型岗位简历通过情况
+
+ 简历挂掉的：
+
+ 美团秋招（简历挂）、月之暗面秋招（简历挂）、百度秋招（简历挂）、RoboSense秋招（简历挂）、Minimax秋招（简历挂）、Minimax暑期实习（简历挂）、360实习（一直没反应）、百度（打电话跟我说岗位要求博士，叫我换岗位投）、美团秋招（简历挂）、字节豆包秋招（简历挂）、蔚来秋招（简历挂）
+
+ 
+
+ 简历通过并进行下一步流程的：
+
+ 商汤实习、快手秋招提前批、某研究所实习、某汽车公司实习、智谱AI
+
+ （截止至8月中旬的情况）
+
+ 面试情况
+
+ 7月下半月和8月上半月这一个月中面了十场左右，秋招和实习都有，C++软件开发和大模型各一半。
+
+ 
+
+ 软件开发这边，米哈游秋招提前批（一面挂）、浪潮秋招提前批（没反应，估计挂了）、OPPO秋招提前批（笔试过，一面挂）。
+
+ 大模型这边，商汤实习（一面后无后续消息）、快手提前批（一面挂）、某研究所实习（过）、某汽车公司实习（过）、智谱AI（一面挂）
+
+ 
+
+ 大模型这边的面试感觉是，他们主要关注你做的项目，尤其是RAG和微调相关的，如果面试官是做这一块的话，他会问得比较深。然后在此基础上上会问一些大模型的基本知识。尤其是写在简历上的内容，对方会重点问。我第一场大模型面试就是没重视简历上写的技术，弄得第一场面试让双方都尴尬。目前来看，大模型这边比起我之前搞的C++客户端来说还是更缺人，C++客户端那边的一些岗位面试，给我一种在走过场的感觉。
+
+ 
+
+ 不知道是互联网总体行情的原因，还是秋招提前批的原因，亦或者是我个人的原因，软件开发这边情况不是很好，有的面试就跟我聊天，聊完天之后转手就把我挂了（比方说OPPO）。大模型这边秋招我投的秋招正式岗大概一半被挂了简历，因为已经8月份了，所以实习岗位比较少。
+
+ 
+
+ 本来之前还在犹豫要不要去实习的，但是时间已经到8月底了，已经是秋招高峰期了，在权衡之后还是决定把时间花在秋招上，因此大模型的实习就暂时不去了。
+
+ 
+
+ 求职思路
+
+ 今年上半年跟着实验室博士师兄学强化学习，在强化学习中有一个“行动-反馈-行动”的模型，我觉得对于个人发展很有启发意义。
+
+ “行动-反馈-行动”模型，就是你明确自己的目标之后先做一个尝试，然后根据这个尝试的反馈进行下一步的修正，不断地尝试获得不断的反馈，从而不断迭代自己的做法和策略。换句话说，就是一个事情先去做，再去改，如果等你准备好了再去，一是不能及时获取反馈，二是可能会失去窗口期的机遇。
+
+ 应用到大模型这边，我是这么做的。先找了大模型岗位需要的技术栈，把他们先写在我的简历上，然后对我简历上的技术栈有一个最基本的浅显了解，就开始投简历。在经历了很多次挂简历之后，我经历了我的大模型方面的第一场一面——快手AI岗。这场面试很惨，很尴尬，面试官问了我好多问题我都答不出来。暴露出了一个基本问题就是我对简历上的东西都不熟。
+
+ 后面我花了一些时间把简历上的知识搞定了，删除了一些我觉得又难价值又低的技术在简历上，增加了我背得比较熟的知识点上去。这样我就获得了我的第二份简历，几天后我开始投递我的第二份简历。后面迎来了第二场面试——商汤AIGC岗，做RAG的。面试还挺顺利的，对面没有为难我，简历上的东西我都答出来了，当然一旦他深入问，我就答不出来。虽然这场面试也挂了，但是面试官很好心地说了他对我的建议，还告诉了我需要补的重点：大模型这一块对矩阵的处理很多，这一块需要多多了解。另外，从他嘴里也看出RAG这一块确实在发展期的，尤其是对比我之前做的C++客户端相比的话。
+
+ 再到后面研究所和汽车公司的实习岗就比较顺利了，我发了简历之后，对面稍微问了一下我基本上都答出来了。
+
+ 没有拿到大厂大模型的Offer我觉得也在意料之中，毕竟我这边硬实力还是达不到，而且时间上也不是找实习的时候了。天时地利人和，我能拿到当下与自己实力相符的机会就已经很不错了。
+
+ 
+
+ 2024年9月4日星期三 GeekPower极客力量深圳
+
+---
+
+## 从关键新闻和最新技术看AI行业2024.6.17-6.30期
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2024-07-07 ｜ [原文链接](https://www.nowcoder.com/discuss/639611743269896192)
 
 写在前面
 
@@ -80,8 +146,6 @@ lz双非本，某211大数据专业，现在研二了，啥也不会。
  获取更多AI行业的前沿资讯与干货资源
 
  
- WeThinkIn最新福利放送 ：大家只需关注 WeThinkIn 公众号，后台回复“ 简历资源 ”，即可获取 包含Rocky独家简历模版在内的60套精选的简历模板资源 ，希望能给大家在AIGC时代带来帮助。
-
  大家好，我是Rocky。
 
  阅读Rocky创办的《WeThinkIn老实人报》，大家能够获得：
@@ -94,7 +158,7 @@ lz双非本，某211大数据专业，现在研二了，啥也不会。
  理顺 国内AI行业头条新闻 、 全球AI行业头条新闻 、 AI产业链融资新闻 以及 AI技术进展头条新闻 四大板块， 降低我们对未来下一个核心价值（OpenAI式公司和AIGC式技术）的错判率 。
 
  
- 本文是《WeThinkIn老实人报》的第二十七期， Rocky本次梳理的周期为2024年7月1号-2024年7月14号 。在本期中，Rocky会毫无保留地分享自己的核心观点，希望能给大家更多思考。
+ 本文是《WeThinkIn老实人报》的第二十六期， Rocky本次梳理的周期为2024年6月17号-2024年6月30号 。在本期中，Rocky会毫无保留地分享自己的核心观点，希望能给大家更多思考。
 
  关于作者
 
@@ -150,207 +214,219 @@ lz双非本，某211大数据专业，现在研二了，啥也不会。
 
  AIGC产业新闻：
 
- 1、科大讯飞正式发布讯飞星火大模型V4.0，整体超越GPT-4 Turbo。
+ 1、金山办公重磅发布WPS AI海外版，应用亚马逊云科技生成式AI技术。
 
- 2、微信输入法重磅更新：上线“一键AI问答”功能，基于腾讯混元大模型。
+ 2、四川长虹发布基于AI大模型的智慧家电AI平台“长虹云帆”，以及搭载云帆平台的国内首款8K高刷Mini-LED电视产品。
 
- 3、知乎发布全新AI产品“知乎直答”，为其AI搜索功能的正式产品化。
+ 3、百度文库宣布新产品“橙篇”行业首创10万字长文生成及多模态编辑能力，成为行业首个“查阅创编”一站式AI自由创作平台。
 
- 4、老板电器发布首个烹饪大模型“食神”，再次引领烹饪变革。
+ 4、阿里云推出首个AI程序员：具备架构师、开发工程师、测试工程师等岗位技能，最快可“分钟级”完成应用开发。
 
- 5、百度推出智能代码助手“文心快码”，支持100+主流编程语言及多种IDE。
+ 5、腾讯旗下AI大模型应用“腾讯元宝”升级AI搜索及解析能力：可支持单文档最长1000万字的超长文处理，能够一次性解析最多50个文件。
 
- 6、腾讯宣布旗下大模型应用“腾讯元宝”AI搜索能力升级，上线深度搜索模式。
+ 6、快手视频生成大模型“可灵”再度进化，正式推出图生视频功能及视频续写功能。
 
- 7、航天宏图重磅推出PIE-Engine天权大模型遥感云服务平台，引领AI遥感技术革新。
+ 7、科大讯飞：将于6月27日发布讯飞星火大模型V4.0，全面对标GPT-4 Turbo。
 
- 8、腾讯搜狗输入法迎来AI功能上新，升级搭载AI帮写、AI对话、快捷问答、AI宠物、AI自拍表情等多种玩法。
+ 8、零一万物Yi-Large等系列大模型正式登陆阿里云百炼平台，首次通过云厂商提供API服务。
 
- 9、商汤发布首个可控人物视频生成大模型Vimi，支持多样化娱乐互动场景。
+ 9、百度智能云千帆推出大模型普惠计划，文心旗舰模型首次免费。
 
- 10、阶跃星辰发布“万亿”和“多模”大模型，全面升级通用大模型底座能力。
+ 10、商汤科技宣布推出大模型0元购计划，将赠送5000万Token包。
 
- 11、蚂蚁集团联合清华大学发布“蚁天鉴2.0”，打造业首个大模型安全测评智能体和AI鉴真功能。
+ Rocky观点：“AIGC时代的大规模补贴来了，这让Rocky想起了移动互联网时代。” 
 
- 12、快手文生图大模型“可图”宣布正式开源，旨在共建更加繁荣的文生图大模型社区生态。
+ 11、微盟发布面向企业客户的AI应用产品“WAI Pro”，探索企业级AI市场机遇。
 
- 13、百度智能云（乌镇）AI数据产业基地正式启动，携手打造AI基础数据要素流通交易集聚地。
+ 12、钉钉宣布对所有大模型厂商开放，构建中国最开放AI生态。
 
- 14、昆仑万维与蓝色光标达成战略合作，共建AI营销新生态。
+ 13、科大讯飞宣布推出“讯飞星火API普惠政策”，星火Lite版本永久免费。
 
- 15、阿里云通义千问宣布开源两款语音基座模型SenseVoice和CosyVoice，覆盖语音识别、生成。
-
- 16、商汤科技宣布其大模型Sensechat手机App及网页版向香港用户免费开放。
-
- 17、软通动力携旗下企业智通国际发布AI PC战略，开启AI PC新时代。
-
- 18、夸克宣布升级“超级搜索框”：正式发布AI搜索功能，向用户提供检索、创作、总结和分享等信息服务。
+ 14、字节跳动发布基于豆包大模型打造的智能开发工具“豆包MarsCode”，面向国内开发者免费开放。
 
  Rocky观点：在进入2024年后，从大模型本身延伸到相应的细分领域，形成ToC、ToB和ToG三个非常大的机会点。和2023年不同的是，大模型的发布数量明显减少了，进入了大模型迭代优化与大模型之间厮杀的阶段。 
 
  新能源产业新闻：
 
- 1、小米汽车披露开店进展：6月份新增17家门店，7月计划新增17家门店，将覆盖济南、常州、长春、贵阳四座新城市。
+ 1、欧洲eVTOL制造商Lilium亚太地区总部落址深圳宝安，携手领跑低空经济。
 
- 2、顺丰持续拓展低空经济，助力全国首个“干-支-末”跨省低空物流航线启航。
+ 2、一加冰川电池沟通会官宣6月20日举行：一加携手宁德新能源共同打造，号称“高性能手机电池技术里程碑”。
 
- 3、一汽-大众第2800万辆整车在长春基地下线，成为国内首家产销突破2800万辆的乘用车企业。
+ 3、科大讯飞与智元机器人签订战略合作协议，共同探索人工智能技术在人形机器人领域的创新应用。
 
- 4、高德打车上线动态推荐换路功能，应用智能算法推荐更优路线。
+ 4、高德地图面向汽车行业发布AutoSDK 750，升级车道级导航5.0、多场景车道级安全预警等多项功能。
 
- 5、软通动力与智元机器人签署战略合作协议，共拓人形机器人“具身智能”能力新边界。
+ 5、中国电信成立低空经济产业联盟，并发布“低空领航者”行动计划。
 
- 6、网易伏羲发布首个机器人品牌“灵动”，产品已落地50个重点工程项目。
-
- 7、顺丰丰翼无人机安徽首条低空物流航线正式启航，开启安徽低空物流新篇章。
-
- 8、广汽集团旗下智慧出行平台如祺出行正式登陆港交所，成为“自动驾驶运营科技第一股”。
-
- 9、蜜雪冰城发布2023年ESG报告：去年使用全降解塑料袋约34亿个，减少PE（聚乙烯）塑料消耗超过12700吨。
+ 6、懂车帝：未来一年将投入8亿元现金和1000亿流量，扶持优质汽车内容产出。
 
  Rocky观点：新能源行业的发展所催生的电动车行业与新制造业，是跨周期的。加上互联网思维，相信可以和特斯拉一起形成合力，让最后存活下来的海外车企们更加识大体、顾大局。 
 
  传统深度学习&芯片产业新闻：
 
- 1、阿里云荣获2023年中国政务云公有云IaaS市场份额第一，达24.4%。
+ 1、华为云华东（芜湖）数据中心正式开服，华为云全国存算网枢纽节点布局全面完成。
 
- 2、智联招聘鸿蒙原生版APP上架，领衔人力资源服务行业加速融入鸿蒙生态。
+ 2、高德地图携手中安联成立“智慧交通应用联合实验室”，科技力量守护货运安全。
 
- 3、蔡司苏州研发制造基地在苏州工业园区正式开业，高端产品实现研发生产“本土化”。
+ 3、神州数码与映云科技签署合作协议，加速AI时代的数据解决方案落地应用。
+
+ 4、京东宣布已完成鸿蒙原生应用核心版本开发，即将在华为应用市场上架。
+
+ 5、华为：截至目前鸿蒙生态设备已超过9亿台，HarmonyOS开发者人数超过254万，持续为亿万消费者带来创新体验。
+
+ Rocky观点：“国产替代领域是一个非常实际的产业，有很大的机会，同时为了防止卡脖子，也是非常有必要的一个产业。” 
+
+ 6、华为宣布推出开发者布道师计划：未来3年内发展3000名布道师，推广鲲鹏、昇腾、鸿蒙、华为云等生态。
+
+ 7、高德地图登陆原生鸿蒙，地图导航领域首家支持跨终端服务。
+
+ 8、华为发布AI入网“开城计划”，第一阶段将赋能1000名站点工程师、管理超过10000个站点。
+
+ 9、华为全国首个数字服务创新中心落地成都高新区，助力发展新质生产力。
 
  互联网产业新闻：
 
- 1、谷歌宣布2024 Google开发者大会（I/O Connect China）将于8月7-8日在北京举行。
+ 1、蚂蚁集团发布可持续发展报告：重投科技普惠，2023年研发投入211.9亿元。
 
- 2、亚马逊Kindle中国服务正式停止：Kindle中国电子书店停止云端下载服务，Kindle客户服务停止支持。
+ 2、蚂蚁集团创新科技总部大楼在北京海淀挂牌，预计7月底启用。
 
- 3、顺丰同城以“SoFast”品牌正式登陆香港地区，首次在中国内地以外的市场提供即时配送服务。
+ 3、微博转发功能全新升级：字数上限扩展为500字，超级会员用户优先开放。
 
- 4、闲鱼上线全新副业功能“闲鱼简历”，展示2024闲鱼十大副业风口。
+ 4、拉勾招聘正式上线出海招聘板块，中国企业加速出海。
 
- 5、小米：新一代小米手机智能工厂正式全面量产，年产能1000万台旗舰手机。
+ Rocky观点：“出海是必须的，全球市场的蛋糕必须进行攫取。” 
 
- 6、华为广州研发中心（一期）项目预计今年9月份办公区整体竣工交付，为华为广州首个研发基地。
+ 5、360公司在天津成立中小企业扶持中心，助力企业数字化转型。
 
- 7、字节跳动启动“筋斗云人才计划”，面向全球高校招聘顶尖技术人才。
+ 6、钉钉回应出海：确有相关布局，已服务数百家中资企业出海场景。
 
  商业基本面新闻：
 
- 1、中国信通院完成对华为鸿蒙内核的自主成熟度等级认证：自主研发比率为100%，自主成熟度等级为A级。
+ 1、2023年度国家科学技术奖励名单公布：共评选出250个项目，华为、比亚迪、科大讯飞等公司获奖。
 
  全球AI行业头条新闻
 
  AIGC产业新闻：
 
- 1、OpenAI与美国制药巨头礼来达成合作，利用生成式AI开发新型抗菌药物。
+ 1、OpenAI组建国际游说团队，全球事务团队人数已增至35人。
 
- 2、软银与美国Tempus AI成立合资公司，旨在使用人工智能来分析个人医疗数据。
+ Rocky观点：“全世界有人的地方，就有人情世故，就有合作要疏通。” 
 
- 3、韩国人工智能初创公司Upstage与亚马逊AWS达成多年战略合作，拓展生成式人工智能功能。
+ 2、亚马逊云科技宣布推出安全服务新功能，为生成式AI加上“安全锁”。
 
- 4、马斯克：旗下人工智能初创公司xAI计划在8月推出Grok-2大语言模型。
+ 3、英伟达开源Nemotron-4 340B（3400亿参数）系列模型，可生成合成数据用于训练大型语言模型（LLM）。
 
- 5、谷歌AI视频编辑应用Google Vids上线测试，集成Gemini大模型。
+ 4、亚马逊AWS宣布向全球初创公司提供2.3亿美元，以加速生成式AI应用程序的创建。
 
- 6、甲骨文推出HeatWave GenAI，提供数据库内大语言模型等功能。
+ 5、Spotify推出其首个内部创意机构Creative Lab，将开始测试生成式AI广告。
 
- 7、亚马逊据悉从AI初创公司Adept聘请高管和员工，以支持亚马逊AGI发展。
+ 6、“炒掉”AI点餐员，麦当劳叫停与IBM合作的自动点餐测试项目。
 
- 8、微软官宣开源GraphRAG，将提升大模型问答、推理能力。
+ 7、软银据悉将与人工智能搜索引擎初创公司Perplexity AI开始战略合作。
 
- 9、Meta发布3D Gen AI模型，可在1分钟内生成高质量3D内容。
+ 8、三星电子与首尔大学共同成立人工智能联合研究中心，致力于推进先进AI技术的研究项目。
 
- 10、LG电子收购荷兰智能家居平台公司Athom 80%股份，将提供AI家居。
+ 9、谷歌在印度推出AI聊天机器人Gemini移动应用，提供英语和9种印度语言版本。
 
- 11、三星表示Galaxy AI服务并非完全免费，2026年后可能会向用户收取费用。
+ 10、环球音乐集团宣布与人工智能技术公司SoundLabs合作。
 
- 12、软银集团将以4亿英镑收购英国人工智能初创公司Graphcore，曾被称“英国英伟达”。
+ 11、Adobe更新服务条款，重申不会使用用户作品训练AI。
 
- 13、YouTube测试“AI音频橡皮擦”，创作者可轻松移除受版权保护背景音乐。
+ 12、OpenAI拓展医疗保健领域，与Color Health合作探索使用GPT-4o模型创建AI工具Cancer Copilot。
 
- 14、OpenAI CEO阿尔特曼成立AI健康公司，要做私人个性化AI健康教练。
+ 13、OpenAI竞争对手Anthropic宣布推出Claude 3.5 Sonnet，为其迄今为止性能最强大的AI模型。
 
- 15、微软放弃在OpenAI董事会的观察员席位：对OpenAI的发展方向充满信心。
+ 14、甲骨文：将在西班牙人工智能和云计算领域投资超过10亿美元。
+
+ 15、谷歌DeepMind创新AI技术，可为视频自动生成配乐和对白。
+
+ 16、软银集团创始人孙正义：新一轮投资将致力于打造“超级人工智能”。
+
+ 17、OpenAI收购企业搜索和分析初创公司Rockset，帮助客户筛选数据。
+
+ 18、因担心数字市场法影响，苹果今年不会在欧盟市场推出人工智能技术。
+
+ Rocky观点：“为了能够培育欧盟自己的科技公司，欧盟一定会给美国科技行业使最大的绊子的。虽然欧盟中充斥着美国的走狗，但是一些残存的真正的欧洲人是不会放弃任何一个反抗机会的，因为这是真正的欧洲人必须做的。” 
+
+ 19、英伟达将在中东五国数据中心部署AI技术，首次在当地大规模推出产品。
+
+ 20、OpenAI将采取额外措施，停止其不支持的国家和地区的API使用。
+
+ 21、OpenAI宣布其首款适用于Mac的ChatGPT聊天机器人应用正式面向所有用户开放下载。
 
  Rocky观点：全球的AIGC行业发展都非常迅速，我们需要紧跟AIGC行业的最新进展，将先进的技术工具化，同时思考关键产品的逻辑。 
 
  新能源产业新闻：
 
- 4、现代汽车印度子公司据悉计划募资35亿美元，或成印度最大规模IPO
+ 1、安森美推出最新第7代IGBT模块，助力可再生能源应用简化设计并降低成本。
 
- 5、西门子能源未来六年将在电网业务投资12亿欧元，计划招聘超过10000名新员工
+ 2、美国电动汽车初创公司Fisker在特拉华州申请破产保护，预计负债1亿至5亿美元。
 
- 5、人形机器人公司FigureAI与宝马达成合作，将为宝马汽车生产线提供通用型人形机器人
+ 3、安森美拟投资20亿美元扩建捷克芯片厂，以扩大碳化硅产能。
 
- 1、特斯拉二代人形机器人Optimus亮相2024世界人工智能大会，行走速度提升30%
+ 4、京瓷将投100亿日元扩大电池产量，将家用蓄电池产量翻倍。
 
- 2、亚马逊将停止生产商用安保机器人Astro，专注于家用机器人
+ 5、西门子能源获得沙特阿拉伯15亿美元电站订单，总装机容量近4吉瓦。
 
- 5、LG新能源计划2028年电池技术取得突破，可降低30%生产成本
-
- 4、韩国现代汽车集团将与英国牛津大学合作，设立专门研究中心
+ 6、谷歌旗下自动驾驶汽车公司Waymo宣布向所有旧金山用户开放无人驾驶出租车服务。
 
  传统深度学习&芯片产业新闻：
 
- 1、英特尔展示首款与其CPU共同封装的全集成光学计算互连芯粒。
+ 1、三星整合存储芯片、代工和封装提供一站式服务，加快交付AI芯片。
 
- 2、亚马逊据悉计划未来10年投资超1000亿美元建设数据中心。
+ 2、三星发布半导体技术路线图：引入尖端晶圆代工技术，加强AI芯片生产“一站式”服务。
 
- 3、东京电子未来五年豪掷1.5万亿日元，目标成为全球第一半导体设备制造商。
+ 3、微软拟在西班牙投资71.6亿美元建新数据中心，预计将在10年内完成。
 
- 4、欧盟委员会初步裁定Meta违反《数字市场法案》。
+ 4、SK海力士大幅扩产第5代1b DRAM，以应对HBM及DDR5需求增加。
 
- Rocky观点：“欧盟针对美国互联网公司的所有法案本质上就是为了能够培育自己的互联网公司，而不是其他任何原因。” 
+ 5、亚马逊计划在德国投资100亿欧元，以扩展物流网络和云基础设施。
 
- 5、三星电子发布首款3纳米可穿戴设备芯片“Exynos W1000”，预计将用于三星智能手表新产品Galaxy Watch 7。
+ 6、三星电子计划大力投资GPU领域，以推动其半导体工艺创新及AI研发。
 
- 6、澳大利亚携手亚马逊打造高安全数据中心，未来十年投资20亿澳元。
+ Rocky观点：“三星有想法是好的，但是美国不会允许的，虽然三星已经是美国公司，但只要对英伟达等美国公司有一点点的威胁，会进行及时的收割，这是必然的。” 
 
- 7、英特尔发布新一代数据中心浸没式液冷解决方案，开启能效新篇章。
-
- 8、泰国海湾能源联手谷歌云建大数据中心，总投资额200亿泰铢。
-
- 9、三星电子赢得日本初创公司Preferred Networks订单，将为后者生产尖端人工智能芯片。
-
- 10、亚马逊推出第四代Graviton4芯片，加速云计算与AI领域布局。
-
- 11、欧洲云计算服务供应商联盟与微软达成协议，解决云计算相关的投诉。
+ 7、亚马逊北美最大规模淘汰塑料填充气袋，快递盒改用纸质回收材料填充。
 
  互联网产业新闻：
 
- 1、苹果Vision Pro进入欧洲市场，并支持欧盟第三方支付选项。
+ 1、YouTube与北美在线杂货平台Instacart达成合作，将推出全新购物广告功能。
 
- 2、微软和IBM宣布加强网络安全领域的合作：助力安全运营现代化，降低云身份安全风险。
+ 2、微软宣布启动“安全未来计划”，网页版Outlook用户将于6月30日开始无法再访问其Gmail收件箱。
 
- 3、三星推出新款折叠屏手机Galaxy Z Fold 6和Galaxy Z Flip 6，售价1099美元起。
+ 3、欧盟将对苹果公司采取进一步措施，确保App Store和iOS遵守《数字市场法案》。
+
+ 4、聊天软件鼻祖ICQ正式停止服务，即时通讯先驱结束28年使命。
+
+ 5、三星官宣将于7月10日在法国巴黎举办Galaxy Unpacked发布会，Galaxy Z Fold6/Flip6折叠屏手机将登场。
 
  商业基本面新闻：
 
- 1、谷歌母公司Alphabet关闭旗下农业AI技术企业Mineral，因行业竞争激烈利润微薄。
-
- 2、韩国电动汽车电池制造巨头SK On将冻结所有高管年薪，称公司已陷入绝境。
-
- 3、花旗集团新加坡员工人数据悉减少约500人，全球重整计划持续进行。
+ 1、英伟达总市值3.34万亿美元再创历史新高，超越微软、苹果成为全球市值最高公司。
 
  AI产业链融资新闻
 
  Rocky观点：《WeThinkIn老实人报》将从投资视角与长期主义出发，挖掘初创公司的势能与机会点。 
 
- 1、吉利控股集团旗下低空飞行业务品牌“沃飞长空“完成数亿元B轮融资。
+ 1、消费级NAS存储产品及软件服务提供商“冰鲸科技”完成数千万元Pre-A+轮融资。
 
- 2、金属3D打印设备厂商“易加三维“完成数亿元新一轮融资。
+ 2、中高阶智能驾驶解决方案提供商“轻舟智航”完成数亿元C轮融资。
 
- 3、机器人高端硬件与机器人整体解决方案提供商“钛虎机器人“完成数千万元Pre-A轮融资。
+ 3、AI儿童教育产品研发商“柯南AI”完成数百万元天使轮融资。
 
- 4、人工智能优化和部署解决方案提供商“硅基流动“完成近亿元天使+轮融资。
+ 4、3D ToF芯片和解决方案提供商“光微科技”完成数千万元新一轮融资。
 
- 5、通用型外骨骼机器人研发商“傲鲨智能“完成数千万元A+轮融资。
+ 5、氢能重卡运输运营服务商“荣程新能集团”完成超5000万元Pre-A轮融资。
 
- 6、客运电动垂直起降飞机研发商“沃兰特航空“完成1亿元A+++轮融资。
+ 6、多模态大模型研究和开发商“智子引擎”完成超千万元Pre-A轮融资。
 
- 7、飞行控制系统和自动驾驶系统供应商“边界智控“获得近亿元A轮融资。
+ 7、多模态大型机器人研发商“银河通用”完成7亿元天使轮融资。
 
- 8、新能源物流车数智化运营服务商“地上铁“完成E+轮融资。
+ 8、AI驱动药物递送和药物发现企业“剂泰医药”完成1亿美元C轮融资。
+
+ 9、实时互动边缘云服务商“庭宇科技”完成数亿元B轮融资。
+
+ 10、原生3D生成AI服务商“DreamTech”完成数千万元天使轮及天使+轮融资。
 
  Rocky观点：等过了2年、3年、5年甚至10年，再回过头来打开本期文章，看看里面的初创公司是飞速成长，还是已经消亡，就能体会到时间的意义。 
 
@@ -358,97 +434,103 @@ lz双非本，某211大数据专业，现在研二了，啥也不会。
 
  Rocky观点：《WeThinkIn老实人报》将从工业界出发，以投资、CEO以及CTO视角挖掘技术发展的落地可能性与明星技术的潜力。 
 
- 1、AniPortrait开源：用音频、图片生成会说话的视频！
+ 1、文生视频大模型Gen-3 Alpha重磅发布！
 
- AniPortrait的核心框架主要分为两大块，首先从图片和语音中提取语音特征、3D面部网格和头部姿态，然后将这些中间表示作为生成条件，用于生成逼真的人像视频序列。
+ 6月17日晚，Runway在官网发布了全新文生视频模型——Gen-3 Alpha。
 
- 
+ 与Gen-2相比，Gen-3在生成视频的质量、色彩、饱和度、光影、文本语义还原、运镜、动作一致性、场景切换等实现大幅度提升。
 
- 开源地址： https://github.com/Zejun-Yang/AniPortrait 
+ Gen-3 Alpha官方地址： https://runwayml.com/blog/introducing-gen-3-alpha/ 
 
- 论文地址： https://arxiv.org/abs/2403.17694 
+ 2、潞晨Open-Sora开源大升级：可以生成单镜头16秒720p高清视频！
 
- 2、微软开源GraphRAG：极大增强大模型问答、摘要、推理！
-
- 微软在RAG基础之上通过“Graph”图的方式，例如，文本中的实体，人物、地点、概念等，构建了超大的知识图谱，帮助大模型更好地捕捉文本中的复杂联系和交互，来增强其生成、检索等能力。
+ 文生视频界的开源战士——潞晨Open-Sora在720p高清文生视频质量和生成时长上实现了突破性进展，支持无缝产出任意风格的高质量短片。
 
  
 
- 开源地址： https://github.com/microsoft/graphrag?tab=readme-ov-file 
+ 开源地址： https://github.com/hpcaitech/Open-Sora 
 
- 3、文本生成高质量3D模型：Meta 3D-Gen发布！
+ 技术报告地址： https://github.com/hpcaitech/Open-Sora/blob/main/docs/zh_CN/report_v3.md 
 
- 用户通过Meta 3D-Gen仅需1分钟就能生成人物、动物、道具、服饰、工业设计等不同类型的高质量3D模型。
+ 3、谷歌推出V2A，可为视频大模型自动匹配语音！
 
- Meta 3D-Gen不仅生成的内容是高分辨率的纹理和材质贴图，还支持物理渲染光影效果非常好，适用于游戏开发、电影制作、虚拟现实、建筑设计等领域，帮助开发人员节省大量时间。
-
- 
- 
-
- 论文地址： https://scontent-eze1-1.xx.fbcdn.net/v/t39.2365-6/449707112_509645168082163_2193712134508658234_n.pdf?_nc_cat=111&ccb=1-7&_nc_sid=3c67a6&_nc_ohc=5bSbn3KaluAQ7kNvgGRfSwR&_nc_ht=scontent-eze1-1.xx&oh=00_AYC1nbp-YTq0P7189qTiXg4WAhfjVogkCEwMnJR5XJrw4Q&oe=668A5091 
-
- 4、苹果开源多模态模型4M-21：能执行数十种任务！
-
- 4M-21只有30亿参数，但可以提供图像分类、目标检测、语义分割、实例分割、深度估计、表面法线估计等数十种功能，功能很全面。
+ 谷歌Deepmind在官网推出了视频转音频模型V2A。用户可以用视频+文本提示的方式，通过V2A为视频模型自动匹配语音，进一步节省制作时间和提高效率。
 
  
+
+ 官方地址： https://deepmind.google/discover/blog/generating-audio-for-video/ 
+
+ 4、Claude 3.5 Sonnet正式发布，号称代码能力超GPT-4o！
+
+ 6月20日晚，Anthropic在官网正式发布了Claude 3.5 Sonnet。
+
  
 
- 开源地址： https://github.com/apple/ml-4m/ 
+ 据悉，Sonnet是Claude 3.5系列中第一个，也是Anthropic目前最强的视觉模型，其代码生成能力以及新引入的可视化“Artifacts”功能，是目前代码生成领域最强的大模型之一。随后Anthropic还会发布Haiku和Opus版本。
 
- 论文地址： https://arxiv.org/abs/2406.09406 
+ 
 
- 在线demo地址： https://huggingface.co/spaces/EPFL-VILAB/4M 
+ 官方试用地址： https://www.anthropic.com/news/claude-3-5-sonnet 
 
- 5、Stable Diffusion XL核心基础知识，从0到1搭建使用Stable Diffusion XL进行AI绘画，从0到1上手使用Stable Diffusion XL训练自己的AI绘画模型，AI绘画领域的未来发展等全维度解析文章正式发布！
+ 5、阿里Qwen-2成全球开源大模型排行榜第一，中国处于领导地位！
+
+ 6月27日凌晨，开源平台huggingface的联合创始人兼首席执行官Clem在社交平台宣布，阿里最新开源的Qwen2-72B指令微调版本，成为开源模型排行榜第一名，中国在全球开源大模型领域处于领导地位。
+
+ Qwen-2开源地址： https://huggingface.co/Qwen/Qwen2-72B-Instruct 
+
+ 6、谷歌开源Gemma-2：同类小参数大模型中性能最佳之一！
+
+ 6月28日，谷歌宣布开源最新大模型Gemma 2。Gemma 2一共有9B和27B两种参数，与上一代相比性能大幅度提升，但部署要求却大幅度下降，只需要一块NVIDIA H100 Tensor Core GPU或TPU主机就能使用。
+
+ 在同类小参数大模型中，Gemma 2超过了Llama-3 8B等大模型，性能逼近Qwen1.5成为同类最佳模型之一。
+
+ 开源地址： https://www.kaggle.com/models/google/gemma-2 
+
+ 在线使用地址： https://aistudio.google.com/app/prompts/new_chat?model=gemma-2-27b-it 
+
+ 7、Stable Diffusion XL核心基础知识，从0到1搭建使用Stable Diffusion XL进行AI绘画，从0到1上手使用Stable Diffusion XL训练自己的AI绘画模型，AI绘画领域的未来发展等全维度解析文章正式发布！
 
  码字不易，欢迎大家多多点赞：
 
  Stable Diffusion XL文章地址： https://zhuanlan.zhihu.com/p/643420260 
 
- 6、Stable DiffusionV1-V2核心原理，核心基础知识，网络结构，经典应用场景，从0到1搭建使用Stable Diffusion进行AI绘画，从0到1上手使用Stable Diffusion训练自己的AI绘画模型，Stable Diffusion性能优化等全维度解析文章正式发布！
+ 8、Stable DiffusionV1-V2核心原理，核心基础知识，网络结构，经典应用场景，从0到1搭建使用Stable Diffusion进行AI绘画，从0到1上手使用Stable Diffusion训练自己的AI绘画模型，Stable Diffusion性能优化等全维度解析文章正式发布！
 
  码字不易，欢迎大家多多点赞：
 
  Stable Diffusion文章地址： https://zhuanlan.zhihu.com/p/632809634 
 
- 7、ControlNet核心基础知识，核心网络结构，从0到1使用ControlNet进行AI绘画，从0到1上手构建ControlNet高级应用等全维度解析文章正式发布！
+ 9、ControlNet核心基础知识，核心网络结构，从0到1使用ControlNet进行AI绘画，从0到1上手构建ControlNet高级应用等全维度解析文章正式发布！
 
  码字不易，欢迎大家多多点赞：
 
  ControlNet文章地址： https://zhuanlan.zhihu.com/p/660924126 
 
- 8、LoRA系列模型核心基础知识，从0到1使用LoRA模型进行AI绘画，从0到1上手训练自己的LoRA模型，LoRA变体模型介绍，优质LoRA推荐等全维度解析文章正式发布！
+ 10、LoRA系列模型核心基础知识，从0到1使用LoRA模型进行AI绘画，从0到1上手训练自己的LoRA模型，LoRA变体模型介绍，优质LoRA推荐等全维度解析文章正式发布！
 
  码字不易，欢迎大家多多点赞：
 
  LoRA文章地址： https://zhuanlan.zhihu.com/p/639229126 
 
- 9、最全面的AIGC面经《手把手教你成为AIGC算法工程师，斩获AIGC算法offer！（2024年版）》文章正式发布！
+ 11、最全面的AIGC面经《手把手教你成为AIGC算法工程师，斩获AIGC算法offer！（2024年版）》文章正式发布！
 
  码字不易，欢迎大家多多点赞：
 
  AIGC面经文章地址： https://zhuanlan.zhihu.com/p/651076114 
 
- 10、10万字大汇总《“三年面试五年模拟”之算法工程师的求职面试“独孤九剑”秘籍》文章正式发布！
+ 12、10万字大汇总《“三年面试五年模拟”之算法工程师的求职面试“独孤九剑”秘籍》文章正式发布！
 
  码字不易，欢迎大家多多点赞：
 
- 算法工程师三年面试五年模拟文章地址： https://zhuanlan.zhihu.com/p/545374303 
+ 算法工程师三年面试五年模拟文章地址： **************************************** 
 
  《三年面试五年模拟》github项目地址（ 希望大家能给个star ）： https://github.com/****************************************** 
 
- 11、Stable Diffusion WebUI、ComfyUI、Fooocus三大主流AI绘画框架核心知识，从0到1搭建AI绘画框架，从0到1使用AI绘画框架的保姆级教程，深入浅出介绍AI绘画框架的各模块功能，深入浅出介绍AI绘画框架的高阶用法等全维度解析文章正式发布！
+ 13、Stable Diffusion WebUI、ComfyUI、Fooocus三大主流AI绘画框架核心知识，从0到1搭建AI绘画框架，从0到1使用AI绘画框架的保姆级教程，深入浅出介绍AI绘画框架的各模块功能，深入浅出介绍AI绘画框架的高阶用法等全维度解析文章正式发布！
 
  码字不易，欢迎大家多多点赞：
 
  AI绘画框架文章地址： https://zhuanlan.zhihu.com/p/673439761 
-
- 12、GAN网络核心基础知识、深入浅出解析GAN在AIGC时代的应用等全维度解析文章正式发布！
-
- 码字不易，欢迎大家多多点赞：
-
- GAN网络文章地址： https://zhuanlan.zhihu.com/p/663157306 
 
  推荐阅读
 
@@ -456,16 +538,15 @@ lz双非本，某211大数据专业，现在研二了，啥也不会。
 
  《三年面试五年模拟》面试秘籍旨在整理&挖掘AI算法工程师在实习/校招/社招时所需的干货知识点与面试方法，力求让读者在获得心仪offer的同时，增强技术基本面。
 
- Rocky已经将《三年面试五年模拟》面试秘籍的完整版构建在Github上： https://github.com/******************************************/tree/main 
-，欢迎大家star！
+ Rocky已经将《三年面试五年模拟》面试秘籍的完整版构建在Github上：** https://github.com/******************************************/tree/main**，欢迎大家star！ 
 
  
 
- 想要一起进行项目共建的朋友，欢迎点击链接加入项目团队： ************************** 
+ 想要一起进行项目共建的朋友，欢迎点击链接加入项目团队： ******************迎接AIGC时代 
 
  3、其他
 
- 《WeThinkIn老实人报》的第二十七期就完整展现在大家面前了，未来引领AI科技浪潮和变革的要素可能就在其中，每个给本文一键三连的朋友，一定会挖掘到属于自己的机会点！ 
+ 《WeThinkIn老实人报》的第二十六期就完整展现在大家面前了，未来引领AI科技浪潮和变革的要素可能就在其中，每个给本文一键三连的朋友，一定会挖掘到属于自己的机会点！ 
 
  最后，希望在AIGC时代中，大家能和Rocky一起，飞速成长！
 
@@ -811,253 +892,6 @@ bert的attention
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2023-02-28 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/d2a2f61479a849a3bb8f4ab08e9c6f9a)
 
 有去知乎这个算法工程师（LLM）岗位实习的吗，为什么就面了一面就过了。
-
----
-
-## 视觉算法一年经历社招面经总结
-
-来源：牛客网 ｜ 类型：面经 ｜ 发布：2021-12-09 ｜ [原文链接](https://www.nowcoder.com/discuss/353159028178100224)
-
-视觉算法 硕士毕业 工作一年半 从被裁历时两个月终于拿到offer 
-
- 目前拿到字节，阿里，新浪，微博，陌陌的offer 
-
- 对这段时间的经历做一个总结，希望对大家有帮助。 
-
- 
- 总体时间线：
- 9.30被裁，大概9.21知道消息，拿到n+1
- 10.1开始准备简历，刷题，复习
- 10.10开始投简历
- 10.18陆续开始第一波面试 持续到11月份 状态0 offer
- 11.10开始新一轮集中投递简历 面试状态开始顺利起来，12月初陆续接到offer，12.08最后选择字节。
- 
- 干货开始：
- 简历篇：
- 个人简历排版：
- 1.个人信息，包括邮箱、照片等
- 2.教育背景
- 3.工作项目经历（可以把实习经历也放进来）
- 项目描述包括：项目名、项目目标（是什么），负责内容以及结果（做什么）
- 4.研究经历（学校经历）
- 5.专业技能
- 6.获奖情况
- 
- P.S.
- 简历因为排版限制，有些内容无法展示。
- 这段时间很多面试都是线上形式，可以把简历内容做成ppt，面试的时候投屏进行自我介绍，ppt内容上可以适当加一些图文配合。
- 这里还有一个需要注意的点，线上会议屏幕共享功能可能需要开启某些权限，所以最好是在面试之前调试好，免得给面试官留下准备不充分的映像。
- 推荐一个线上制作简历的工具：
- https://www.mujicv.com/editor/# 
- 
- 面经篇：
- 项目相关的一些通用问题：
- 1.数据怎么来，类别，规模，上线后数据如何回流
- 2.具体方案用什么模型，做了哪些改进，评价标准，模型参数量、flops（如果是移动端项目可能会问到）
- 3.项目过程中遇到什么问题，如何解决；目前的方案还存在哪些问题没有解决，有没有什么思路
- 
- 
- P.S.一些计算机视觉相关的问题会从项目采用的方案扩展提问
- 
- 通常在二面三面可能的问题：
- 1.未来的规划，对那些方向感兴趣
- 2.设置一些开放性的场景，设计方案去解决
- 
- 
- 
- 百度：
- c++部分：
- 虚函数
- 结构体与类的区别
- 死锁
- 传统视觉部分：
- 高斯滤波
- 深度学习：
- 反向传播，陷入局部最优如何解决，梯度消息如何解决
- 深度可分离卷积
- bn
- code：
- 把数组的奇数放在偶数前
- 寻找二维数组的连通域
- 判断链表有环，并找到环的入口
- 计算机视觉：
- yolo系列的优势
- map怎么计算
- 介绍yolox和一些最新看到的论文
- tf实现focal loss
- transformer相关的论文是否了解，attention如何计算，和普通attention区别，self attention除以根号k的原因，用ln（layer norm）的原因
- swing transformer
- transformer如何编码顺序信息
- 
- 
- 
- 快手：
- code：
- 1. 判断两个字符串，是够可以通过交叉合并成第三个字符串 https://leetcode-cn.com/problems/IY6buf/ 
- 2. 二维矩阵，只有'O' 'X'两种元素，所有被‘X’包围的‘O’替换为‘X’
- 
- 小红书：
- 计算机视觉：
- two-stage方法效果比one-stage方法好的原因
- yolov3如何解决样本不均衡的问题
- 
- 地平线：
- 计算机视觉：
- 介绍shufflenet
- code：
- 判断合法搜索二叉树
- 
- 滴滴：
- code：
- n对括号的合法全排列，（用递归）证明递归方法不会出现重复情况
- 均值滤波简化版，输入二维图像，进行滤波。然后对算法进行改进
- 深度学习：
- leaky relu和relu的区别
- label smooth作用和原理
- python相关：
- 字典实现
- 多线程和多进程
- 闭包
- 装饰器
- gc（垃圾回收）
- 
- 便利蜂：
- 深度学习：
- 优化器：sgd、动量、adam等
- python相关：
- 内存管理
- 线程和进程的区别
- code：
- 加和最大子数组
- 
- 
- 字节：
- code:
- 字符串转整形
- 求平方根
- 计算机视觉：
- 检测方法中的selective search方法原理
- ssd网络的创新点
- 优化器
- 迁移学习
- 过拟合，原因，解决
- 双摄像头如何实现3d检测
- 最近看到的让你眼前一亮的技术
- 深度学习：
- bn怎么做的，infrence过程如何改造conv参数
- 迁移学习中bn参数怎么处理
- c++：
- const define的区分
- malloc和new的区别
- 
- 新浪：
- 计算机视觉：
- yolov3网络
- FPN
- 深度学习网络高低层网络有什么区别
- shufflenet和mobilenet，包括不同版本之间的区别
- 剪枝，量化，模型加速
- yolov4，yolov5的改进点
- bn在训练和测试的区别
- code：
- 判断两个链表是否相交
- nms
- iou giou diou ciou
- 
- 
- 新氧：
- 计算机视觉：
- yolov3网络结构
- shufflenetv2
- focal loss公式，思想
- 优化器
- 
- 
- 
- 高德：
- 深度学习：
- 过拟合
- 正则方法，l1，l2
- batch size过大过小会有什么问题
- 移动端部署方面，网络压缩和加速的方式
- loss出现nan如何定位和解决
- 
- 
- 美图：
- 计算机视觉：
- mobilenetv2网络设计
- yolo系列发展
- focal loss
- two-stage比one-stage网络效果好的原因
- 目前针对小目标检测的改进
- 常用的数据增强方法
- transformer，一般用什么优化器
- 网络感受野过小会有什么问题，如何增大感受野
- unet介绍
- 深度学习：
- 激活函数，relu存在什么问题，有什么优势
- code:
- nms
- 判断有效平衡二叉树
- 
- 
- soul:
- 计算机视觉：
- shufflenet，mobilenet
- yolo系列网络
- 常用loss函数
- 深度学习：
- 蒸馏，量化
- code：
- 矩阵螺旋打印
- 数组中任意三个数组合，求这些组合加和的最小值
- 
- 
- 
- 陌陌：
- 计算机视觉：
- focal loss
- two-stage和one-stage检测网络的区别
- shufflenet mobilenet
- 7*7卷积和3个3*3卷积的使用场景有什么不同
- bn
- 线性插值和最近邻插值的区别
- code：
- 求平方根
- 岛屿数量
- 实现图像crop，优化
- mobilenet
- 
- 
- 知乎：
- code：
- n*n的矩阵，每个位置有一个值，-1表示无法通过，正负表示通过该位置的得分。从左上角出发，走到右下角，计算获得最多分数的一条路径。
- 
- 微软：
- code：
- 非递归实现二叉树后序遍历
- 给定一个数组，一个target，一个k，求出所有k个数组加和等于target的情况，k个数字中不能出现重复。
- 定义一种特殊的数字，他的分解质因数只有2，3，5，7，输入n，输出第n个这样的数
- 合并n个排序链表
- 两个排序数组，计算合并之后的中位数
- 链表排序
- 系统设计：
- 有一个流式系统，会接到源源不断的数据，有三种操作：1.给一个string，去系统里查找是否存在这个string 2.删除一个string 3.新增一个string。数量级是超大规模，百亿级别。（硬盘足够，内存不足的情况如何设计以及优化，压缩算法）
- 岛屿数量
- 把一张图片切成4*4=16个等大的块，有一个函数可以计算两个块，所有边在原图中相邻的概率，设计算法重新恢复原图
- 给定一组地名的列表（包含小写字母和空格），和一段文本，需要把文本中包含的所有地名提取出来。 要求抽取结果尽量长，例如有new york city和new york两个地名，文本为。。。new york city。。。，需要抽取的结果是new york city
- 
- 
- 
- 
- 总结：
- 1. code：推荐一个链接，有各个公司最近的代码题非常好用 https://codetop.cc/home 
- 2. c++，python：两个编程语言需要看一些相关的基础知识，可能会问到一些多线程的问题
- 3. 机器学习：过拟合，正则，激活函数
- 4. 深度学习：bn，优化器，激活函数，梯度下降
- p.s.上面ml和dl这些经常被问到的问题，需要重点理解原理，有可能会变着花样问。
- 5. 计算机视觉：轻量化网络，检测网络。这些内容和简历项目有关，因为我的项目主要是轻量化检测任务所以会偏向这两个方面。
- 6. 工程：剪枝，量化，模型加速。
 
 ---
 
@@ -1497,50 +1331,6 @@ bert的attention
 
 ---
 
-## 秋招算法岗面经汇总
-
-来源：牛客网 ｜ 类型：面经 ｜ 发布：2018-10-19 ｜ [原文链接](https://www.nowcoder.com/discuss/353154696628084736)
-
-秋招算法岗基本面完了，本人所有的面经附上，希望大家点个喜欢或关注，希望大家都能找到好的offer！ 
-
- 
- 
-
- 阿里： https://www.jianshu.com/p/304e1023c4cb 
-
- 美团： https://www.jianshu.com/p/bbe21ff40724 
-
- 滴滴： https://www.jianshu.com/p/bc9d5f8206a0 
-
- 头条： https://www.jianshu.com/p/5bc533d1bf62 
-
- 百度大搜： https://www.jianshu.com/p/02d931d5c1c8 
-
- 百度feed： https://www.jianshu.com/p/65032f77f903 
-
- 知乎： https://www.jianshu.com/p/40259bb05357 
-
- 贝壳： https://www.jianshu.com/p/cd0a809cf198 
-
- 思特沃克： https://www.jianshu.com/p/0b5514908683 
-
- 小米： https://www.jianshu.com/p/e34ebebae15f 
-
- 搜狗： https://www.jianshu.com/p/8a116eb7fd32 
-
- 猫眼： https://www.jianshu.com/p/c32787be3dc8 
-
- 一点资讯： https://www.jianshu.com/p/fffc15c9d31d 
-
- 便利蜂： https://www.jianshu.com/p/51e2d16f16a5 
-
- 
- 
-
- 另外，本人建立了一个技术交流群，还有30个坑位，想要入群的可以私信我！
-
----
-
 ## 知乎算法一面凉经
 
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2018-10-14 ｜ [原文链接](https://www.nowcoder.com/discuss/353154671500009472)
@@ -1772,5 +1562,2470 @@ https://www.zhihu.com/question/59683332/answer/281642849 知乎回答的补充�
  （ 7 ）针对简历里项目 / 论文 / 实习的一些问题。 
 
  这部分因人而异，我个人的对大家也没参考价值，也不列了。
+
+---
+
+## 【2017秋季校园招聘笔经面经专题汇总】
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2016-09-26 ｜ [原文链接](https://www.nowcoder.com/discuss/353153934367858688)
+
+本文的知乎链接： https://www.zhihu.com/question/29693016/answer/130237090 
+
+ 
+ 下面活动也已经结束了，奖品都已经发放出去~
+
+ 
+ 
+
+ 
+ 2017秋招进行时，牛妹特意为大家开放2017秋招面经专栏，同时面经活动也正在进行中，欢迎大家参与~~活动详情戳： http://www.nowcoder.com/discuss/11873?type=0&order=0&pos=4&page=1 
+
+ 
+ 因为内容较多，牛妹不能一下子编辑完，部分链接可能点击不了，牛妹会持续更新~~~如果有符合要求的想被收录进来的留言帖子就好哦
+
+ 
+ 牛妹分别以公司和岗位来分类，方便大家查看~
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 所有拿到offer的牛牛可以进群牛客牛人群 575651946
+
+ 
+ 
+
+ 
+ 以公司分类
+
+ 
+ 百度
+
+ 
+ 不忘技术初心，静候百度佳音 http://www.nowcoder.com/discuss/12455?type=0&order=0&pos=18&page=1 
+
+ 
+ 技术菜鸟进百度三面-测试开发 http://www.nowcoder.com/discuss/12634 
+
+ 
+ 百度二面 http://www.nowcoder.com/discuss/12614?type=0&order=3&pos=28&page=1 
+
+ 
+ 百度面经：谨以此纪念五挂百度 http://www.nowcoder.com/discuss/12527?type=0&order=3&pos=117&page=2 
+
+ 
+ 百度开发测试面经 http://www.nowcoder.com/discuss/12497?type=0&order=3&pos=156&page=1 
+
+ 
+ 新鲜的百度一二三面面经 http://www.nowcoder.com/discuss/12475?type=0&order=3&pos=176&page=1 
+
+ 
+ 西安百度软件研发面经 http://www.nowcoder.com/discuss/12420?type=0&order=3&pos=229&page=1 
+
+ 
+ 百度前端三面面经+百度外卖一二面面经（武汉） http://www.nowcoder.com/discuss/12392?type=0&order=3&pos=255&page=1 
+
+ 
+ 百度一面 机器学习/数据挖掘 http://www.nowcoder.com/discuss/12379?type=0&order=3&pos=268&page=1 
+
+ 
+ 百度三面，Android研发，求面经，求求求！！附一二面面经 http://www.nowcoder.com/discuss/12369?type=0&order=3&pos=280&page=1 
+
+ 
+ 百度面经 http://www.nowcoder.com/discuss/12239?type=0&order=3&pos=401&page=1 
+
+ 
+ 百度三面热乎的面经，之前京东和完美的面经有空再补吧 http://www.nowcoder.com/discuss/12194?type=0&order=3&pos=442&page=1 
+
+ 
+ 北京百度C++一面二面经验 http://www.nowcoder.com/discuss/12094?type=0&order=3&pos=531&page=1 
+
+ 
+ 百度机器学习岗位123面面经 http://www.nowcoder.com/discuss/12091?type=0&order=3&pos=534&page=1 
+
+ 
+ 霸面百度，热乎的测试工程师面经(一二技术面) http://www.nowcoder.com/discuss/11760?type=0&order=3&pos=833&page=1 
+
+ 
+ 百度一面 http://www.nowcoder.com/discuss/11682?type=0&order=3&pos=910&page=1 
+
+ 
+ 百度基础平台研发面试题，一面 二面。 http://www.nowcoder.com/discuss/11596?type=0&order=3&pos=1001&page=1 
+
+ 
+ 百度客户端一面 http://www.nowcoder.com/discuss/11576?type=0&order=3&pos=1020&page=1 
+
+ 
+ 百度一面 http://www.nowcoder.com/discuss/11507?type=0&order=3&pos=1084&page=1 
+
+ 
+ 百度123面面经 http://www.nowcoder.com/discuss/11492?type=0&order=3&pos=1099&page=1 
+
+ 
+ 百度面试题 http://www.nowcoder.com/discuss/11284?type=0&order=3&pos=1286&page=1 
+
+ 
+ 某度三面，给面试官里里外外摸了一个半小时！😂😂 http://www.nowcoder.com/discuss/11074?type=0&order=3&pos=1486&page=1 
+
+ 
+ Andriod百度一面面经 http://www.nowcoder.com/discuss/11058?type=0&order=3&pos=1501&page=1 
+
+ 
+ 百度一面 http://www.nowcoder.com/discuss/10952?type=0&order=3&pos=1592&page=1 
+
+ 
+ 百度一面面经 http://www.nowcoder.com/discuss/10939?type=0&order=3&pos=1605&page=1 
+
+ 
+ 新鲜出炉的百度校招数据库岗位面经 http://www.nowcoder.com/discuss/10893?type=0&order=3&pos=1651&page=1 
+
+ 
+ 百度一面已面完 面完的过来聊聊 http://www.nowcoder.com/discuss/10764?type=0&order=3&pos=1773&page=1 
+
+ 
+ 百度 北京 机器学习/数据挖掘 提前批 http://www.nowcoder.com/discuss/9970?type=0&order=3&pos=2482&page=1 
+
+ 
+ 百度一二面面筋以及视频面是什么状况？ http://www.nowcoder.com/discuss/8038?type=0&order=3&pos=4216&page=1 
+
+ 
+ 百度运维部门数据库岗位 http://www.nowcoder.com/discuss/7942?type=0&order=3&pos=4300&page=1 
+
+ 
+ 百度运维面经 http://www.nowcoder.com/discuss/7707?type=0&order=3&pos=4502&page=1 
+
+ 
+ 百度网页搜索部三次面试面经 http://www.nowcoder.com/discuss/7654?type=0&order=3&pos=4548&page=1 
+
+ 
+ 一波测试面经（来自一个技术不牛，但是比较努力的girl） http://www.nowcoder.com/discuss/12191?type=0&order=3&pos=445&page=1 
+
+ 
+ 腾讯二面三面、百度二面三面面经 http://www.nowcoder.com/discuss/12083?type=0&order=3&pos=542&page=1 
+
+ 
+ 分享面试历程 -- 海康 百度 华为 http://www.nowcoder.com/discuss/11894?type=0&order=3&pos=712&page=1 
+
+ 
+ 前端面试经验分享 http://www.nowcoder.com/discuss/11930?type=0&order=3&pos=680&page=1 
+
+ 
+ 阿里、百度、腾讯、华为面经（阿里、百度已拿、华为待发） http://www.nowcoder.com/discuss/11495?type=0&order=3&pos=1096&page=3 
+
+ 
+ 2016秋招网易、百度、腾讯面经（更新中） http://www.nowcoder.com/discuss/11485?type=0&order=3&pos=1106&page=1 
+
+ 
+ 看了这么多面经，发一下我的腾讯百度一面面经 http://www.nowcoder.com/discuss/11271?type=0&order=3&pos=1300&page=1 
+
+ 
+ 
+ 2016年面试总结（c++，机器学习），希望给同学们一点帮助 https://www.nowcoder.com/discuss/20184?type=2&order=3&pos=9&page=1 
+ 
+
+ 
+ 百度开发测试（补招）面试经历 https://www.nowcoder.com/discuss/19675?type=2&order=3&pos=19&page=1 
+ 
+
+ 
+ 分享一波前端面经,有需要的自取 https://www.nowcoder.com/discuss/19662?type=2&order=3&pos=21&page=1 
+ 
+
+ 
+ 回馈牛客，校招总结（从一心想进银行到最后选择了互联网） https://www.nowcoder.com/discuss/19589?type=2&order=3&pos=24&page=1 
+ 
+
+ 
+ 我的2017校招总结+经验分享（巨长慎入） https://www.nowcoder.com/discuss/19487?type=2&order=3&pos=26&page=1 
+ 
+
+ 
+ Android面试经验 https://www.nowcoder.com/discuss/19241?type=2&order=3&pos=36&page=1 
+ 
+
+ 
+ 我的秋招总结 https://www.nowcoder.com/discuss/18660?type=2&order=3&pos=49&page=1 
+ 
+
+ 
+ 前端妹子的秋招总结 https://www.nowcoder.com/discuss/18530?type=2&order=3&pos=55&page=1 
+ 
+
+ 
+ 我的2017年校招历程 https://www.nowcoder.com/discuss/17647?type=2&order=3&pos=74&page=1 
+ 
+
+ 
+ 【牛客访谈02期】a.out：面过15家，我搞懂了面试套路 https://www.nowcoder.com/discuss/17020?type=2&order=3&pos=85&page=2 
+ 
+
+ 
+ 百度机器学习数据挖掘 https://www.nowcoder.com/discuss/16025?type=2&order=3&pos=106&page=1 
+ 
+
+ 
+ 【一只渣硕算法菜鸟的面经】百度 +京东 offer https://www.nowcoder.com/discuss/15615?type=2&order=3&pos=112&page=1 
+ 
+
+ 
+ 百度软件开发面经 https://www.nowcoder.com/discuss/15462?type=2&order=3&pos=115&page=1 
+ 
+
+ 
+ 【数据挖掘面经】腾讯 +百度+华为（均拿到sp offer） https://www.nowcoder.com/discuss/15168?type=2&order=3&pos=117&page=3 
+ 
+
+ 
+ 回馈牛客，中兴 +华为+涂鸦+去哪儿网+百度外卖 https://www.nowcoder.com/discuss/15059?type=2&order=3&pos=119&page=1 
+ 
+
+ 
+ Android面经-百度、腾讯、网易、360、去哪网面经 https://www.nowcoder.com/discuss/14852?type=2&order=3&pos=134&page=1 
+ 
+
+ 
+ 新鲜出炉的百度外卖面经 https://www.nowcoder.com/discuss/14679?type=2&order=3&pos=137&page=1 
+ 
+
+ 
+ 百度 +腾讯+华为+美团，已定TX https://www.nowcoder.com/discuss/14667?type=2&order=3&pos=138&page=1 
+ 
+
+ 
+ 拿到阿里、百度、美团、华为 offter后的一些想法 https://www.nowcoder.com/discuss/14443?type=2&order=3&pos=144&page=2 
+ 
+
+ 
+ 2017校招运维岗总结 腾讯+百度+京东+华为+小米... https://www.nowcoder.com/discuss/14118?type=2&order=3&pos=151&page=1 
+ 
+
+ 
+ 百度面经（已 get offer） https://www.nowcoder.com/discuss/13857?type=2&order=3&pos=160&page=1 
+ 
+
+ 
+ 找工作的一个半月（ B+T+猪厂+菊厂的面经） https://www.nowcoder.com/discuss/13881?type=2&order=3&pos=158&page=1 
+ 
+
+ 
+ 腾讯
+
+ 
+ 腾讯哈尔滨面经（MIG部门Android开发） http://www.nowcoder.com/discuss/12114?type=0&order=3&pos=513&page=1 
+
+ 
+ 腾讯一面面经 http://www.nowcoder.com/discuss/11427?type=0&order=3&pos=1157&page=1 
+
+ 
+ 腾讯TST内推2+4面 http://www.nowcoder.com/discuss/11242?type=0&order=3&pos=1326&page=1 
+
+ 
+ 腾讯一面，攒人品！ http://www.nowcoder.com/discuss/11197?type=0&order=3&pos=1369&page=1 
+
+ 
+ 又面了一次sng http://www.nowcoder.com/discuss/7862?type=0&order=3&pos=4360&page=1 
+
+ 
+ 腾讯二面三面、百度二面三面面经 http://www.nowcoder.com/discuss/12083?type=0&order=3&pos=542&page=1 
+
+ 
+ Android开发 校招面试经验 2016 网易、阿里、腾讯 http://www.nowcoder.com/discuss/11817?type=0&order=3&pos=784&page=1 
+
+ 
+ 渣渣养成记（中兴+腾讯+CVTE+乐视+京东） http://www.nowcoder.com/discuss/12173?type=0&order=3&pos=463&page=1 
+
+ 
+ 滴滴腾讯算法岗面经分享 http://www.nowcoder.com/discuss/11604?type=0&order=3&pos=993&page=1 
+
+ 
+ 滴滴，美团点评，腾讯一面面经 http://www.nowcoder.com/discuss/11584?type=0&order=3&pos=1013&page=1 
+
+ 
+ 阿里、百度、腾讯、华为面经（阿里、百度已拿、华为待发） http://www.nowcoder.com/discuss/11495?type=0&order=3&pos=1096&page=3 
+
+ 
+ 2016秋招网易、百度、腾讯面经（更新中） http://www.nowcoder.com/discuss/11485?type=0&order=3&pos=1106&page=1 
+
+ 
+ 看了这么多面经，发一下我的腾讯百度一面面经 http://www.nowcoder.com/discuss/11271?type=0&order=3&pos=1300&page=1 
+
+ 
+ 互联网前端面试面经（网易/腾讯等） http://www.nowcoder.com/discuss/11270?type=0&order=3&pos=1301&page=1 
+
+ 
+ 一周来的面试面经 http://www.nowcoder.com/discuss/9330 
+
+ 
+ 数据挖掘/数据研发面经分享 http://www.nowcoder.com/discuss/8328?type=0&order=3&pos=3963&page=1 
+
+ 
+ 
+ 2016年面试总结（c++，机器学习），希望给同学们一点帮助 https://www.nowcoder.com/discuss/20184?type=2&order=3&pos=9&page=1 
+ 
+
+ 
+ 非 211本CS应届求职路 https://www.nowcoder.com/discuss/19902?type=2&order=3&pos=13&page=1 
+ 
+
+ 
+ 回馈牛客- 2017 校招不完全记录 https://www.nowcoder.com/discuss/19724?type=2&order=3&pos=15&page=1 
+ 
+
+ 
+ 分享一波前端面经,有需要的自取 https://www.nowcoder.com/discuss/19662?type=2&order=3&pos=21&page=1 
+ 
+
+ 
+ 我的2017校招总结+经验分享（巨长慎入） https://www.nowcoder.com/discuss/19487?type=2&order=3&pos=26&page=1 
+ 
+
+ 
+ Android面试经验 https://www.nowcoder.com/discuss/19241?type=2&order=3&pos=36&page=1 
+ 
+
+ 
+ 腾讯 --阅文集团2017校招 android开发岗 https://www.nowcoder.com/discuss/18837?type=2&order=3&pos=45&page=1 
+ 
+
+ 
+ 我的秋招总结 https://www.nowcoder.com/discuss/18660?type=2&order=3&pos=49&page=1 
+ 
+
+ 
+ 前端妹子的秋招总结 https://www.nowcoder.com/discuss/18530?type=2&order=3&pos=55&page=1 
+ 
+
+ 
+ 渣渣养成记（中兴+腾讯+CVTE+乐视+京东+七牛云） https://www.nowcoder.com/discuss/12173?type=2&order=0&pos=15&page=1 
+ 
+
+ 
+ 网易腾讯华为深信服WAP面试经历 https://www.nowcoder.com/discuss/16309?type=2&order=3&pos=100&page=1 
+ 
+
+ 
+ 【数据挖掘面经】腾讯 +百度+华为（均拿到sp offer） https://www.nowcoder.com/discuss/15168?type=2&order=3&pos=117&page=3 
+ 
+
+ 
+ 【面经】阿里+腾讯+网易游戏面经（均已拿offer） https://www.nowcoder.com/discuss/14953?type=2&order=3&pos=127&page=1 
+ 
+
+ 
+ Android面经-百度、腾讯、网易、360、去哪网面经 https://www.nowcoder.com/discuss/14852?type=2&order=3&pos=134&page=1 
+ 
+
+ 
+ 2017校招运维岗总结 腾讯+百度+京东+华为+小米... https://www.nowcoder.com/discuss/14118?type=2&order=3&pos=151&page=1 
+ 
+
+ 
+ 面经续： 360华为阿里腾讯京东小米搜狐滴滴一点资讯微店…… https://www.nowcoder.com/discuss/13902?type=2&order=3&pos=157&page=1 
+ 
+
+ 
+ 找工作的一个半月（ B+T+猪厂+菊厂的面经） https://www.nowcoder.com/discuss/13881?type=2&order=3&pos=158&page=1 
+ 
+
+ 
+ 阿里
+
+ 
+ 阿里JAVA开发校招笔试 很好很强大 http://www.nowcoder.com/discuss/9149?type=0&order=3&pos=3230&page=1 
+
+ 
+ 阿里校招笔试前端题目，你还记得吗？ http://www.nowcoder.com/discuss/8803?type=0&order=3&pos=3541&page=1 
+
+ 
+ 阿里四面面经 http://www.nowcoder.com/discuss/8343?type=0&order=3&pos=3950&page=1 
+
+ 
+ 记录一个学渣参加的面试 http://www.nowcoder.com/discuss/7770?type=0&order=3&pos=4446&page=1 
+
+ 
+ 蚂蚁金服C++一面 http://www.nowcoder.com/discuss/7708?type=0&order=3&pos=4501&page=1 
+
+ 
+ 校招季一路走来面经分享 http://www.nowcoder.com/discuss/12393?type=0&order=3&pos=254&page=1 
+
+ 
+ Android开发 校招面试经验 2016 网易、阿里、腾讯 http://www.nowcoder.com/discuss/11817?type=0&order=3&pos=784&page=1 
+
+ 
+ 网易+阿里内推面经 http://www.nowcoder.com/discuss/11971?type=0&order=3&pos=643&page=1 
+
+ 
+ 2017秋招互联网内推面经（华为，搜狐，阿里，网易） http://www.nowcoder.com/discuss/12476 
+
+ 
+ 阿里、百度、腾讯、华为面经（阿里、百度已拿、华为待发） http://www.nowcoder.com/discuss/11495?type=0&order=3&pos=1096&page=3 
+
+ 
+ 互联网前端面试面经（网易/腾讯等） http://www.nowcoder.com/discuss/11270?type=0&order=3&pos=1301&page=1 
+
+ 
+ 好未来(已拿offer)+ CVTE(3面通过) http://www.nowcoder.com/discuss/9855?type=0&order=3&pos=2589&page=2 
+
+ 
+ 数据挖掘/数据研发面经分享 http://www.nowcoder.com/discuss/8328?type=0&order=3&pos=3963&page=1 
+
+ 
+ 
+ 2016年面试总结（c++，机器学习），希望给同学们一点帮助 https://www.nowcoder.com/discuss/20184?type=2&order=3&pos=9&page=1 
+ 
+
+ 
+ 非 211本CS应届求职路 https://www.nowcoder.com/discuss/19902?type=2&order=3&pos=13&page=1 
+ 
+
+ 
+ 我的2016笔试面试经验(送给下一届的学弟学妹们) https://www.nowcoder.com/discuss/18460?type=2&order=3&pos=57&page=2 
+ 
+
+ 
+ 校招的一些面试经历希望对有需要的小伙伴一点帮助 https://www.nowcoder.com/discuss/20539?type=2&order=0&pos=8&page=1 
+ 
+
+ 
+ 校招季一路走来面经分享 https://www.nowcoder.com/discuss/12393?type=2&order=0&pos=13&page=1 【面经】阿里 +腾讯+网易游戏面经（均已拿offer） https://www.nowcoder.com/discuss/14953?type=2&order=3&pos=127&page=1 
+ 
+
+ 
+ 拿到阿里、百度、美团、华为 offter后的一些想法 https://www.nowcoder.com/discuss/14443?type=2&order=3&pos=144&page=2 
+ 
+
+ 
+ 
+ 
+
+ 
+ 京东
+
+ 
+ iOS移动客户端开发 京东一二面面经 坐标上海 http://www.nowcoder.com/discuss/11392?type=0&order=3&pos=1189&page=1 
+
+ 
+ 京东 android 一二面面经 http://www.nowcoder.com/discuss/11340?type=0&order=3&pos=1235&page=1 
+
+ 
+ 京东Java研发（1面+2面） http://www.nowcoder.com/discuss/11185?type=0&order=3&pos=1380&page=1 
+
+ 
+ 武汉京东一面面经 http://www.nowcoder.com/discuss/11040?type=0&order=3&pos=1517&page=1 
+
+ 
+ JD(北京)复试 http://www.nowcoder.com/discuss/9700?type=0&order=3&pos=2730&page=1 
+
+ 
+ 谈谈我那的京东面试，伤心 http://www.nowcoder.com/discuss/9673?type=0&order=3&pos=2755&page=1 
+
+ 
+ 京东一面经验分享 http://www.nowcoder.com/discuss/9497?type=0&order=3&pos=2909&page=1 
+
+ 
+ 京东校招一面 http://www.nowcoder.com/discuss/9311?type=0&order=3&pos=3081&page=1 
+
+ 
+ 京东一面面经 http://www.nowcoder.com/discuss/9270?type=0&order=3&pos=3115&page=1 
+
+ 
+ 内推京东金融算法工程师 http://www.nowcoder.com/discuss/7906?type=0&order=3&pos=4325&page=1 
+
+ 
+ 校招季一路走来面经分享 http://www.nowcoder.com/discuss/12393?type=0&order=3&pos=254&page=1 
+
+ 
+ 前端面试经验分享 http://www.nowcoder.com/discuss/11930?type=0&order=3&pos=680&page=1 
+
+ 
+ 渣渣养成记（中兴+腾讯+CVTE+乐视+京东） http://www.nowcoder.com/discuss/12173?type=0&order=3&pos=463&page=1 
+
+ 
+ 写写面经，攒攒人品--测试岗 http://www.nowcoder.com/discuss/11638?type=0&order=3&pos=951&page=1 
+
+ 
+ 
+ 回馈牛客- 2017 校招不完全记录 https://www.nowcoder.com/discuss/19724?type=2&order=3&pos=15&page=1 
+ 
+
+ 
+ 渣渣养成记（中兴+腾讯+CVTE+乐视+京东+七牛云） https://www.nowcoder.com/discuss/12173?type=2&order=0&pos=15&page=1 
+ 
+
+ 
+ 我 的 求职总结 https://www.nowcoder.com/discuss/17746?type=2&order=3&pos=72&page=1 
+ 
+
+ 
+ 测试开发工程师面经 https://www.nowcoder.com/discuss/16476?type=2&order=3&pos=96&page=1 
+ 
+
+ 
+ 【一只渣硕算法菜鸟的面经】百度+京东 offer https://www.nowcoder.com/discuss/15615?type=2&order=3&pos=112&page=1 
+ 
+
+ 
+ 2017校招运维岗总结 腾讯+百度+京东+华为+小米... https://www.nowcoder.com/discuss/14118?type=2&order=3&pos=151&page=1 
+ 
+
+ 
+ 求职（实习 +校招），成也多疑，败也多疑 https://www.nowcoder.com/discuss/13993?type=2&order=3&pos=155&page=1 
+ 
+
+ 
+ 面经续：360华为阿里腾讯京东小米搜狐滴滴一点资讯微店…… https://www.nowcoder.com/discuss/13902?type=2&order=3&pos=157&page=1 
+ 
+
+ 
+ 58同城
+
+ 
+ 58测试面经 http://www.nowcoder.com/discuss/11256?type=0&order=3&pos=1313&page=1 
+
+ 
+ 一波测试面经（来自一个技术不牛，但是比较努力的girl） http://www.nowcoder.com/discuss/12191?type=0&order=3&pos=445&page=1 
+
+ 
+ 前端面试经验分享 http://www.nowcoder.com/discuss/11930?type=0&order=3&pos=680&page=1 
+
+ 
+ 写写面经，攒攒人品--测试岗 http://www.nowcoder.com/discuss/11638?type=0&order=3&pos=951&page=1 
+
+ 
+ 
+ 分享一波前端面经,有需要的自取 https://www.nowcoder.com/discuss/19662?type=2&order=3&pos=21&page=1 
+ 
+
+ 
+ 58测试一二面视频面试 https://www.nowcoder.com/discuss/17579?type=2&order=3&pos=75&page=1 
+ 
+
+ 
+ 2017校招总结 https://www.nowcoder.com/discuss/13823?type=2&order=3&pos=163&page=1 
+ 
+
+ 
+ 深信服
+
+ 
+ 深信服一面面经 http://www.nowcoder.com/discuss/12217?type=0&order=3&pos=422&page=1 
+
+ 
+ 
+ 失败的深信服一面 https://www.nowcoder.com/discuss/19057?type=2&order=3&pos=40&page=1 
+ 
+
+ 
+ 真·学渣的秋招总结 https://www.nowcoder.com/discuss/18518?type=2&order=3&pos=56&page=2 
+ 
+
+ 
+ 我的 2017年校招历程 https://www.nowcoder.com/discuss/17647?type=2&order=3&pos=74&page=1 
+ 
+
+ 
+ 网易 腾讯 华为 深信服 WAP面试经历 https://www.nowcoder.com/discuss/16309?type=2&order=3&pos=100&page=1 
+ 
+
+ 
+ 网易互联网
+
+ 
+ 9.23 网易互联网--Android开发--成都 攒人品 http://www.nowcoder.com/discuss/11994?type=0&order=3&pos=620&page=1 
+
+ 
+ 网易秋招前端，面试问题分享！ http://www.nowcoder.com/discuss/11056?type=0&order=3&pos=1503&page=1 
+
+ 
+ 分享网易面试的几个题目 - iOS开发 http://www.nowcoder.com/discuss/10814?type=0&order=3&pos=1725&page=1 
+
+ 
+ 网易测试二面 http://www.nowcoder.com/discuss/8435?type=0&order=3&pos=3868&page=1 
+
+ 
+ 网易杭研，Java工程师，面经，已拿offer http://www.nowcoder.com/discuss/8340?type=0&order=3&pos=3953&page=1 
+
+ 
+ 网易前端 http://www.nowcoder.com/discuss/8309?type=0&order=3&pos=3981&page=1 
+
+ 
+ 网易杭研Android http://www.nowcoder.com/discuss/8080?type=0&order=3&pos=4178&page=1 
+
+ 
+ 新鲜出炉的网易乐得数据库岗位HR面 http://www.nowcoder.com/discuss/7797?type=0&order=3&pos=4422&page=1 
+
+ 
+ 网易Java研发面经 http://www.nowcoder.com/discuss/7765?type=0&order=3&pos=4450&page=1 
+
+ 
+ 面经】一面+二面+HR面【网易内推】【java开发工程师】 http://www.nowcoder.com/discuss/7601?type=0&order=3&pos=4599&page=1 
+
+ 
+ 【面经】8月19日网易内推 - 前端面经【已拿offer】 http://www.nowcoder.com/discuss/7600?type=0&order=3&pos=4600&page=2 
+
+ 
+ 网易互联网Java内推面试经验-19号 http://www.nowcoder.com/discuss/7565?type=0&order=3&pos=4629&page=1 
+
+ 
+ 网易杭研院Android开发二面已跪 http://www.nowcoder.com/discuss/7557?type=0&order=3&pos=4636&page=1 
+
+ 
+ 网易杭研院-互联网 iOS一面跪了 http://www.nowcoder.com/discuss/7547?type=0&order=3&pos=4643&page=1 
+
+ 
+ 网易测开面试经历 http://www.nowcoder.com/discuss/7544?type=0&order=3&pos=4645&page=1 
+
+ 
+ 网易内推测试岗面经 http://www.nowcoder.com/discuss/7534?type=0&order=3&pos=4652&page=1 
+
+ 
+ 网易内推测试开发岗面试经历 http://www.nowcoder.com/discuss/7531?type=0&order=3&pos=4655&page=1 
+
+ 
+ 一波测试面经（来自一个技术不牛，但是比较努力的girl） http://www.nowcoder.com/discuss/12191?type=0&order=3&pos=445&page=1 
+
+ 
+ Android开发 校招面试经验 2016 网易、阿里、腾讯 http://www.nowcoder.com/discuss/11817?type=0&order=3&pos=784&page=1 
+
+ 
+ 网易+阿里内推面经 http://www.nowcoder.com/discuss/11971?type=0&order=3&pos=643&page=1 
+
+ 
+ 2017秋招互联网内推面经（华为，搜狐，阿里，网易） http://www.nowcoder.com/discuss/12476 
+
+ 
+ 写写面经，攒攒人品--测试岗 http://www.nowcoder.com/discuss/11638?type=0&order=3&pos=951&page=1 
+
+ 
+ iOS，美团三面（跪），百度三面（希望有offer），成都 http://www.nowcoder.com/discuss/11597?type=0&order=3&pos=1000&page=1 
+
+ 
+ 2016秋招网易、百度、腾讯面经（更新中） http://www.nowcoder.com/discuss/11485?type=0&order=3&pos=1106&page=1 
+
+ 
+ 互联网前端面试面经（网易/腾讯等） http://www.nowcoder.com/discuss/11270?type=0&order=3&pos=1301&page=1 
+
+ 
+ 美团，网易iOS随便说点 http://www.nowcoder.com/discuss/11072?type=0&order=3&pos=1488&page=1 
+
+ 
+ 数据分析师 网易/微店 已拿offer http://www.nowcoder.com/discuss/8482?type=0&order=3&pos=3827&page=1 
+
+ 
+ 数据挖掘/数据研发面经分享 http://www.nowcoder.com/discuss/8328?type=0&order=3&pos=3963&page=1 
+
+ 
+ 
+ 2016年面试总结（c++，机器学习），希望给同学们一点帮助 https://www.nowcoder.com/discuss/20184?type=2&order=3&pos=9&page=1 
+ 
+
+ 
+ 非 211本CS应届求职路 https://www.nowcoder.com/discuss/19902?type=2&order=3&pos=13&page=1 
+ 
+
+ 
+ 回馈牛客 - 2017 校招不完全记录 https://www.nowcoder.com/discuss/19724?type=2&order=3&pos=15&page=1 
+ 
+
+ 
+ 非计算机专业的秋招之路 https://www.nowcoder.com/discuss/18612?type=2&order=3&pos=51&page=2 
+ 
+
+ 
+ 校招的一些面试经历希望对有需要的小伙伴一点帮助 https://www.nowcoder.com/discuss/20539?type=2&order=0&pos=8&page=1 
+ 
+
+ 
+ 我的求职总结 https://www.nowcoder.com/discuss/17746?type=2&order=3&pos=72&page=1 
+ 
+
+ 
+ 测试开发工程师面经 https://www.nowcoder.com/discuss/16476?type=2&order=3&pos=96&page=1 
+ 
+
+ 
+ 网易腾讯华为深信服WAP面试经历 https://www.nowcoder.com/discuss/16309?type=2&order=3&pos=100&page=1 
+ 
+
+ 
+ 【面经】阿里+腾讯+网易游戏面经（均已拿offer） https://www.nowcoder.com/discuss/14953?type=2&order=3&pos=127&page=1 
+ 
+
+ 
+ Android面经-百度、腾讯、网易、360、去哪网面经 https://www.nowcoder.com/discuss/14852?type=2&order=3&pos=134&page=1 
+ 
+
+ 
+ 
+
+ 
+ 华为
+
+ 
+ 迟到的华为面经 http://www.nowcoder.com/discuss/9853?type=0&order=4&pos=15&page=2 
+
+ 
+ 2017年校招【京东面经】 哈尔滨站 http://www.nowcoder.com/discuss/12514?type=0&order=3&pos=137&page=1 
+
+ 
+ 武汉华为一面、二面心路历程 http://www.nowcoder.com/discuss/12011?type=0&order=3&pos=606&page=1 
+
+ 
+ 迟来的武汉华为面经 http://www.nowcoder.com/discuss/11836?type=0&order=3&pos=766&page=1 
+
+ 
+ 华为霸面的心路历程 http://www.nowcoder.com/discuss/11774 
+
+ 
+ 华为Android岗，第一次面试。攒人品。。 http://www.nowcoder.com/discuss/10695?type=0&order=3&pos=1835&page=1 
+
+ 
+ 华为28号粤港澳招聘面经 http://www.nowcoder.com/discuss/8051?type=0&order=3&pos=4204&page=1 
+
+ 
+ 【面经】技术面+综合面【华为内推】【IT应用软件开发】 http://www.nowcoder.com/discuss/7789?type=0&order=3&pos=4428&page=1 
+
+ 
+ 23号华为面经 http://www.nowcoder.com/discuss/7778?type=0&order=3&pos=4438&page=1 
+
+ 
+ 华为面试感觉有点坑啊 http://www.nowcoder.com/discuss/7768?type=0&order=3&pos=4448&page=2 
+
+ 
+ 迟到的华为技术岗面经 http://www.nowcoder.com/discuss/7681?type=0&order=3&pos=4524&page=2 
+
+ 
+ 华为优招面经—干货 http://www.nowcoder.com/discuss/7624?type=0&order=3&pos=4576&page=1 
+
+ 
+ 分享面试历程 -- 海康 百度 华为 http://www.nowcoder.com/discuss/11894?type=0&order=3&pos=712&page=1 
+
+ 
+ 前端面试经验分享 http://www.nowcoder.com/discuss/11930?type=0&order=3&pos=680&page=1 
+
+ 
+ 2017秋招互联网内推面经（华为，搜狐，阿里，网易） http://www.nowcoder.com/discuss/12476 
+
+ 
+ 写写面经，攒攒人品--测试岗 http://www.nowcoder.com/discuss/11638?type=0&order=3&pos=951&page=1 
+
+ 
+ 阿里、百度、腾讯、华为面经（阿里、百度已拿、华为待发） http://www.nowcoder.com/discuss/11495?type=0&order=3&pos=1096&page=3 
+
+ 
+ 
+ 非211本CS应届求职路 https://www.nowcoder.com/discuss/19902?type=2&order=3&pos=13&page=1 
+ 
+
+ 
+ 回馈牛客- 2017 校招不完全记录 https://www.nowcoder.com/discuss/19724?type=2&order=3&pos=15&page=1 
+ 
+
+ 
+ 回馈牛客，校招总结（从一心想进银行到最后选择了互联网） https://www.nowcoder.com/discuss/19589?type=2&order=3&pos=24&page=1 
+ 
+
+ 
+ Android面试经验 https://www.nowcoder.com/discuss/19241?type=2&order=3&pos=36&page=1 
+ 
+
+ 
+ 来自一个渣渣的求职之路，大神绕道 https://www.nowcoder.com/discuss/18794?type=2&order=3&pos=46&page=1 
+ 
+
+ 
+ 校招的一些面试经历希望对有需要的小伙伴一点帮助 https://www.nowcoder.com/discuss/20539?type=2&order=0&pos=8&page=1 
+ 
+
+ 
+ 华为 28号粤港澳招聘面经 https://www.nowcoder.com/discuss/8051?type=2&order=0&pos=12&page=1 
+ 
+
+ 
+ 校招总结~ https://www.nowcoder.com/discuss/17501?type=2&order=3&pos=77&page=1 
+ 
+
+ 
+ 【牛客访谈02期】a.out：面过15家，我搞懂了面试套路 https://www.nowcoder.com/discuss/17020?type=2&order=3&pos=85&page=2 
+ 
+
+ 
+ 测试开发工程师面经 https://www.nowcoder.com/discuss/16476?type=2&order=3&pos=96&page=1 
+ 
+
+ 
+ 网易 腾讯华为深信服WAP面试经历 https://www.nowcoder.com/discuss/16309?type=2&order=3&pos=100&page=1 
+ 
+
+ 
+ 华为 2017优招北京时间线 https://www.nowcoder.com/discuss/16230?type=2&order=3&pos=102&page=1 
+ 
+
+ 
+ 华为 offer https://www.nowcoder.com/discuss/16119?type=2&order=3&pos=104&page=1 
+ 
+
+ 
+ 【数据挖掘面经】腾讯 +百度+华为（均拿到sp offer） https://www.nowcoder.com/discuss/15168?type=2&order=3&pos=117&page=3 
+ 
+
+ 
+ 回馈牛客，中兴 +华为+涂鸦+去哪儿网+百度外卖 https://www.nowcoder.com/discuss/15059?type=2&order=3&pos=119&page=1 
+ 
+
+ 
+ 华为面经（拿到 offer）献给共同坚持的朋友 https://www.nowcoder.com/discuss/14981?type=2&order=3&pos=121&page=1 
+ 
+
+ 
+ 百度+腾讯+华为+美团，已定TX https://www.nowcoder.com/discuss/14667?type=2&order=3&pos=138&page=1 
+ 
+
+ 
+ 热腾腾的面经来了： 360、欢聚时代的测试开发 华为C++开发 https://www.nowcoder.com/discuss/14619?type=2&order=3&pos=139&page=1 
+ 
+
+ 
+ 拿到阿里、百度、美团、华为 offter后的一些想法 https://www.nowcoder.com/discuss/14443?type=2&order=3&pos=144&page=2 
+ 
+
+ 
+ 2017校招运维岗总结 腾讯+百度+京东+华为+小米... https://www.nowcoder.com/discuss/14118?type=2&order=3&pos=151&page=1 
+ 
+
+ 
+ 面经续：360华为阿里腾讯京东小米搜狐滴滴一点资讯微店…… https://www.nowcoder.com/discuss/13902?type=2&order=3&pos=157&page=1 
+ 
+
+ 
+ 搜狐
+
+ 
+ 2017秋招互联网内推面经（华为，搜狐，阿里，网易） http://www.nowcoder.com/discuss/12476 
+
+ 
+ 
+ 
+ 前端妹子的秋招总结 https://www.nowcoder.com/discuss/18530?type=2&order=3&pos=55&page=1 
+ 
+
+ 
+ 面经续：360华为阿里腾讯京东小米搜狐滴滴一点资讯微店 https://www.nowcoder.com/discuss/13902 
+ 
+
+ 
+ 
+
+ 
+ 
+ 人人
+ 
+
+ 
+ 
+ Android面试经验 https://www.nowcoder.com/discuss/19241?type=2&order=3&pos=36&page=1 
+ 
+
+ 
+ 乐视
+
+ 
+ 新鲜出炉的乐视面经 http://www.nowcoder.com/discuss/12003?type=0&order=3&pos=613&page=1 
+
+ 
+ 乐视java（1面+2面） http://www.nowcoder.com/discuss/11960?type=0&order=3&pos=653&page=1 
+
+ 
+ 渣渣养成记（中兴+腾讯+CVTE+乐视+京东） http://www.nowcoder.com/discuss/12173?type=0&order=3&pos=463&page=1 
+
+ 
+ 远景能源
+
+ 
+ 热乎的面经之“远景能源”2017校园招聘 http://www.nowcoder.com/discuss/9800?type=0&order=3&pos=2639&page=1 
+
+ 
+ 招行
+
+ 
+ 招行网络（应用软件开发） http://www.nowcoder.com/discuss/12262?type=0&order=3&pos=379&page=1 
+
+ 
+ 招银网络科技电话面 http://www.nowcoder.com/discuss/12063?type=0&order=3&pos=559&page=1 
+
+ 
+ 弱弱的发一下招银电面攒人品 http://www.nowcoder.com/discuss/11286?type=0&order=3&pos=1284&page=1 
+
+ 
+ 终于等到招行一面 http://www.nowcoder.com/discuss/11221?type=0&order=3&pos=1345&page=1 
+
+ 
+ 招银一面 http://www.nowcoder.com/discuss/11213?type=0&order=3&pos=1354&page=1 
+
+ 
+ 招银一面 http://www.nowcoder.com/discuss/11198?type=0&order=3&pos=1368&page=1 
+
+ 
+ 招银电面 http://www.nowcoder.com/discuss/11183?type=0&order=3&pos=1382&page=1 
+
+ 
+ 招银一面（Android开发） http://www.nowcoder.com/discuss/11168?type=0&order=3&pos=1396&page=1 
+
+ 
+ 招银网络科技一面，攒人品 http://www.nowcoder.com/discuss/11069?type=0&order=3&pos=1491&page=1 
+
+ 
+ 招银网络一面...（好像是按照成绩进行面试的..） http://www.nowcoder.com/discuss/11020?type=0&order=3&pos=1537&page=1 
+
+ 
+ 招银网络一面 http://www.nowcoder.com/discuss/11013?type=0&order=3&pos=1543&page=1 
+
+ 
+ 招银终于打电话来了，面经分享 http://www.nowcoder.com/discuss/10977?type=0&order=3&pos=1573&page=1 
+
+ 
+ 招行软银电话面经 http://www.nowcoder.com/discuss/10963?type=0&order=3&pos=1584&page=1 
+
+ 
+ 招银一面，海量数据排序根据第一列排序问题 http://www.nowcoder.com/discuss/10940 
+
+ 
+ 招银科技一面 c++ http://www.nowcoder.com/discuss/10901?type=0&order=3&pos=1643&page=1 
+
+ 
+ 招银科技一面 http://www.nowcoder.com/discuss/10884?type=0&order=3&pos=1658&page=1 
+
+ 
+ 招银网络一面 http://www.nowcoder.com/discuss/10879?type=0&order=3&pos=1663&page=1 
+
+ 
+ 招银科技电话一面面经 http://www.nowcoder.com/discuss/10425?type=0&order=3&pos=2081&page=2 
+
+ 
+ 网易游戏
+
+ 
+ 网易雷火线下笔试 http://www.nowcoder.com/discuss/10560?type=0&order=3&pos=1957&page=1 
+
+ 
+ 完美世界、网易游戏面经 http://www.nowcoder.com/discuss/12161?type=0&order=3&pos=473&page=1 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 今日头条
+ 
+
+ 
+ 
+ 我的实习 offer之路 https://www.nowcoder.com/discuss/20294?type=2&order=3&pos=7&page=1 
+ 
+
+ 
+ 今日头条测试工程师二面 https://www.nowcoder.com/discuss/19787?type=2&order=3&pos=14&page=1 
+ 
+
+ 
+ 回馈牛客 - 2017 校招不完全记录 https://www.nowcoder.com/discuss/19724?type=2&order=3&pos=15&page=1 
+ 
+
+ 
+ 猎豹 &今日头条测试开发一面 https://www.nowcoder.com/discuss/19526?type=2&order=3&pos=25&page=1 
+ 
+
+ 
+ 我的 2017校招总结+经验分享（巨长慎入） https://www.nowcoder.com/discuss/19487?type=2&order=3&pos=26&page=1 
+ 
+
+ 
+ 头条美团 nlp方面面经 https://www.nowcoder.com/discuss/17306?type=2&order=3&pos=80&page=1 
+ 
+
+ 
+ 今日头条面试心里 0把握心想肯定会受挫 https://www.nowcoder.com/discuss/15815?type=2&order=3&pos=109&page=1 
+ 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 完美
+
+ 
+ 完美Java一面 http://www.nowcoder.com/discuss/12249?type=0&order=3&pos=389&page=1 
+
+ 
+ 完美世界、网易游戏面经 http://www.nowcoder.com/discuss/12161?type=0&order=3&pos=473&page=1 
+
+ 
+ 
+ 2016年面试总结（c++，机器学习），希望给同学们一点帮助 https://www.nowcoder.com/discuss/20184?type=2&order=3&pos=9&page=1 
+ 
+
+ 
+ 完美公司笔试编程题 https://www.nowcoder.com/discuss/15496?type=2&order=3&pos=113&page=1 
+ 
+
+ 
+ 有道
+
+ 
+ 一周来的面试面经 http://www.nowcoder.com/discuss/9330 
+
+ 
+ 美图
+
+ 
+ 美图一面，二面 http://www.nowcoder.com/discuss/11983?type=0&order=3&pos=632&page=1 
+
+ 
+ 去哪儿网
+
+ 
+ 09.21 去哪网面经，已拿书面offer http://www.nowcoder.com/discuss/11291?type=0&order=3&pos=1280&page=1 
+
+ 
+ 去哪儿校招现场面面经 http://www.nowcoder.com/discuss/9296?type=0&order=3&pos=3092&page=1 
+
+ 
+ 
+ Android面经-百度、腾讯、网易、360、去哪网面经 https://www.nowcoder.com/discuss/14852?type=2&order=3&pos=134&page=1 
+ 
+
+ 
+ 去哪儿 2016.10.10在线笔试writeup https://www.nowcoder.com/discuss/14611?type=2&order=3&pos=141&page=1 
+ 
+
+ 
+ 秋招面经 ---个人一点经验积累 https://www.nowcoder.com/discuss/14099?type=2&order=3&pos=152&page=1 
+ 
+
+ 
+ 去哪网 https://www.nowcoder.com/discuss/13843?type=2&order=3&pos=162&page=1 
+ 
+
+ 
+ 2017校招总结 https://www.nowcoder.com/discuss/13823?type=2&order=3&pos=163&page=1 
+ 
+
+ 
+ 携程
+
+ 
+ 分享携程笔试两道编程，AC(java版) http://www.nowcoder.com/discuss/10301?type=0&order=3&pos=2189&page=1 
+
+ 
+ 蘑菇街
+
+ 
+ 蘑菇街一面面经（后台开发） http://www.nowcoder.com/discuss/8036?type=0&order=3&pos=4217&page=1 
+
+ 
+ 数据挖掘/数据研发面经分享 http://www.nowcoder.com/discuss/8328?type=0&order=3&pos=3963&page=1 
+
+ 
+ 
+ 我的2017校招总结+经验分享（巨长慎入） https://www.nowcoder.com/discuss/19487?type=2&order=3&pos=26&page=1 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 美团点评
+
+ 
+ 西安，美团面经 java http://www.nowcoder.com/discuss/11319?type=0&order=3&pos=1254&page=1 
+
+ 
+ 一直在牛客作伸手党这么久，发点这两天美团面试攒攒人品 http://www.nowcoder.com/discuss/11237?type=0&order=3&pos=1330&page=1 
+
+ 
+ 南京美团面试--机器学习岗 http://www.nowcoder.com/discuss/11231?type=0&order=3&pos=1336&page=1 
+
+ 
+ 美团遇到的奇葩三面面试官 http://www.nowcoder.com/discuss/11219?type=0&order=3&pos=1346&page=1 
+
+ 
+ 美团面经（3面技术+一面HR） http://www.nowcoder.com/discuss/11099?type=0&order=3&pos=1461&page=1 
+
+ 
+ 【攒人品】美团面经-机器学习 http://www.nowcoder.com/discuss/10723?type=0&order=3&pos=1811&page=1 
+
+ 
+ 新鲜的美团面经，机器学习岗 http://www.nowcoder.com/discuss/10634?type=0&order=3&pos=1891&page=1 
+
+ 
+ 兄弟我分享一面面经 http://www.nowcoder.com/discuss/10628?type=0&order=3&pos=1897&page=1 
+
+ 
+ 一波测试面经（来自一个技术不牛，但是比较努力的girl） http://www.nowcoder.com/discuss/12191?type=0&order=3&pos=445&page=1 
+
+ 
+ 校招季一路走来面经分享 http://www.nowcoder.com/discuss/12393?type=0&order=3&pos=254&page=1 
+
+ 
+ 写写面经，攒攒人品--测试岗 http://www.nowcoder.com/discuss/11638?type=0&order=3&pos=951&page=1 
+
+ 
+ iOS，美团三面（跪），百度三面（希望有offer），成都 http://www.nowcoder.com/discuss/11597?type=0&order=3&pos=1000&page=1 
+
+ 
+ 滴滴，美团点评，腾讯一面面经 http://www.nowcoder.com/discuss/11584?type=0&order=3&pos=1013&page=1 
+
+ 
+ 美团，网易iOS随便说点 http://www.nowcoder.com/discuss/11072?type=0&order=3&pos=1488&page=1 
+
+ 
+ 
+ 美团补招 https://www.nowcoder.com/discuss/19994?type=2&order=3&pos=11&page=1 
+ 
+
+ 
+ 回馈牛客- 2017 校招不完全记录 https://www.nowcoder.com/discuss/19724?type=2&order=3&pos=15&page=1 
+ 
+
+ 
+ 分享一波前端面经,有需要的自取 https://www.nowcoder.com/discuss/19662?type=2&order=3&pos=21&page=1 
+ 
+
+ 
+ 回馈牛客，校招总结（从一心想进银行到最后选择了互联网） https://www.nowcoder.com/discuss/19589?type=2&order=3&pos=24&page=1 
+ 
+
+ 
+ 年级倒数 TOP20%的求职经验 https://www.nowcoder.com/discuss/18855?type=2&order=3&pos=44&page=1 
+ 
+
+ 
+ 秋招总结 https://www.nowcoder.com/discuss/18162?type=2&order=3&pos=60&page=1 
+ 
+
+ 
+ 校招季一路走来面经分享 https://www.nowcoder.com/discuss/12393?type=2&order=0&pos=13&page=1 
+ 
+
+ 
+ 我的求职总结 https://www.nowcoder.com/discuss/17746?type=2&order=3&pos=72&page=1 
+ 
+
+ 
+ 校招总结：美团点评 /滴滴/360/微店/小红书/有赞 https://www.nowcoder.com/discuss/17552?type=2&order=3&pos=76&page=1 
+ 
+
+ 
+ 2017滴滴、美团面经 https://www.nowcoder.com/discuss/17471?type=2&order=3&pos=78&page=1 
+ 
+
+ 
+ 头条美团nlp方面面经 https://www.nowcoder.com/discuss/17306?type=2&order=3&pos=80&page=1 
+ 
+
+ 
+ 美团大众点评面试经验——后台开发 https://www.nowcoder.com/discuss/16893?type=2&order=3&pos=88&page=1 
+ 
+
+ 
+ 美团面经（面的晚 ...发的晚） https://www.nowcoder.com/discuss/16853?type=2&order=3&pos=89&page=1 
+ 
+
+ 
+ 美团机器学习一轮失败经验 https://www.nowcoder.com/discuss/16668?type=2&order=3&pos=91&page=1 
+ 
+
+ 
+ 美团点评前端 3面总结 https://www.nowcoder.com/discuss/16576?type=2&order=3&pos=94&page=1 
+ 
+
+ 
+ 测试开发工程师面经 https://www.nowcoder.com/discuss/16476?type=2&order=3&pos=96&page=1 
+ 
+
+ 
+ 百度 +腾讯+华为+美团，已定TX https://www.nowcoder.com/discuss/14667?type=2&order=3&pos=138&page=1 
+ 
+
+ 
+ 拿到阿里、百度、美团、华为 offter后的一些想法 https://www.nowcoder.com/discuss/14443?type=2&order=3&pos=144&page=2 
+ 
+
+ 
+ 大数据开发美团点评 4面拿到OFFER https://www.nowcoder.com/discuss/14251?type=2&order=3&pos=148&page=1 
+ 
+
+ 
+ 奇虎360
+
+ 
+ 2017技术一面 http://www.nowcoder.com/discuss/7955?type=0&order=3&pos=4289&page=1 
+
+ 
+ 
+ 回馈牛客- 2017 校招不完全记录 https://www.nowcoder.com/discuss/19724?type=2&order=3&pos=15&page=1 
+ 
+
+ 
+ 校招总结：美团点评/滴滴/360/微店/小红书/有赞 https://www.nowcoder.com/discuss/17552?type=2&order=3&pos=76&page=1 
+ 
+
+ 
+ 热腾腾的面经来了：360、欢聚时代的测试开发 华为C++开发 https://www.nowcoder.com/discuss/14619?type=2&order=3&pos=139&page=1 
+ 
+
+ 
+ 面经续： 360华为阿里腾讯京东小米搜狐滴滴一点资讯微店…… https://www.nowcoder.com/discuss/13902?type=2&order=3&pos=157&page=1 
+ 
+
+ 
+ 滴滴
+
+ 
+ 滴滴二面部分题目，分享下攒人品吧 http://www.nowcoder.com/discuss/9240?type=0&order=3&pos=3145&page=1 
+
+ 
+ 滴滴面试小感(基础菜只能怪自己。。。) http://www.nowcoder.com/discuss/8845?type=0&order=3&pos=3503&page=1 
+
+ 
+ 一波测试面经（来自一个技术不牛，但是比较努力的girl） http://www.nowcoder.com/discuss/12191?type=0&order=3&pos=445&page=1 
+
+ 
+ 校招季一路走来面经分享 http://www.nowcoder.com/discuss/12393?type=0&order=3&pos=254&page=1 
+
+ 
+ 滴滴腾讯算法岗面经分享 http://www.nowcoder.com/discuss/11604?type=0&order=3&pos=993&page=1 
+
+ 
+ 滴滴，美团点评，腾讯一面面经 http://www.nowcoder.com/discuss/11584?type=0&order=3&pos=1013&page=1 
+
+ 
+ 
+ 回馈牛客- 2017 校招不完全记录 https://www.nowcoder.com/discuss/19724?type=2&order=3&pos=15&page=1 
+ 
+
+ 
+ 回馈牛客，校招总结（从一心想进银行到最后选择了互联网） https://www.nowcoder.com/discuss/19589?type=2&order=3&pos=24&page=1 
+ 
+
+ 
+ 一直想着好好来写篇面经来着，面试官不给机会 (摊手) https://www.nowcoder.com/discuss/18900?type=2&order=3&pos=43&page=1 
+ 
+
+ 
+ 运气流选手的秋招面经总结 https://www.nowcoder.com/discuss/18328?type=2&order=3&pos=58&page=1 
+ 
+
+ 
+ 校招季一路走来面经分享 https://www.nowcoder.com/discuss/12393?type=2&order=0&pos=13&page=1 
+ 
+
+ 
+ 校招总结：美团点评/滴滴/360/微店/小红书/有赞 https://www.nowcoder.com/discuss/17552?type=2&order=3&pos=76&page=1 
+ 
+
+ 
+ 2017滴滴、美团面经 https://www.nowcoder.com/discuss/17471?type=2&order=3&pos=78&page=1 
+ 
+
+ 
+ 滴滴测试开发一二面面经 https://www.nowcoder.com/discuss/15926?type=2&order=3&pos=107&page=1 
+ 
+
+ 
+ 滴滴面试面经（一面到 HR面） https://www.nowcoder.com/discuss/14040?type=2&order=3&pos=153&page=1 
+ 
+
+ 
+ 面经续： 360华为阿里腾讯京东小米搜狐滴滴一点资讯微店…… https://www.nowcoder.com/discuss/13902?type=2&order=3&pos=157&page=1 
+ 
+
+ 
+ 涂鸦移动
+
+ 
+ 涂鸦移动一面面经 http://www.nowcoder.com/discuss/10427?type=0&order=3&pos=2079&page=1 
+
+ 
+ 创新工厂涂鸦移动内推面经 http://www.nowcoder.com/discuss/9545?type=0&order=3&pos=2870&page=1 
+
+ 
+ 创新工场_涂鸦移动面经 http://www.nowcoder.com/discuss/8199?type=0&order=3&pos=4079&page=1 
+
+ 
+ 
+ 蚂蚁金服
+ 
+
+ 
+ 
+ 分享一波前端面经,有需要的自取 https://www.nowcoder.com/discuss/19662?type=2&order=3&pos=21&page=1 
+ 
+
+ 
+ 
+ W AP
+ 
+
+ 
+ 
+ 回馈牛客- 2017 校招不完全记录 https://www.nowcoder.com/discuss/19724?type=2&order=3&pos=15&page=1 
+ 
+
+ 
+ 网易 腾讯 华为 深信服 WAP面试经历 https://www.nowcoder.com/discuss/16309?type=2&order=3&pos=100&page=1 
+ 
+
+ 
+ 2016年10月15日WAP面试经过 https://www.nowcoder.com/discuss/15491?type=2&order=3&pos=114&page=1 
+ 
+
+ 
+ 
+ 
+
+ 
+ 
+ 网宿
+ 
+
+ 
+ 
+ 运气流选手的秋招面经总结 https://www.nowcoder.com/discuss/18328?type=2&order=3&pos=58&page=1 
+ 
+
+ 
+ 
+ 小米
+ 
+
+ 
+ 
+ 回馈牛客- 2017 校招不完全记录 https://www.nowcoder.com/discuss/19724 
+ 
+
+ 
+ 小米金融面试 https://www.nowcoder.com/discuss/16340?type=2&order=3&pos=99&page=1 
+ 
+
+ 
+ 2017校招运维岗总结 腾讯+百度+京东+华为+小米... https://www.nowcoder.com/discuss/14118?type=2&order=3&pos=151&page=1 
+ 
+
+ 
+ 面经续： 360华为阿里腾讯京东小米搜狐滴滴一点资讯微店…… https://www.nowcoder.com/discuss/13902?type=2&order=3&pos=157&page=1 
+ 
+
+ 
+ 
+ 谷歌
+ 
+
+ 
+ 
+ 我的2017校招总结+经验分享（巨长慎入） https://www.nowcoder.com/discuss/19487?type=2&order=3&pos=26&page=1 
+ 
+
+ 
+ 酷家乐
+
+ 
+ 酷家乐面经（已收到offer) http://www.nowcoder.com/discuss/9862?type=0&order=3&pos=2582&page=1 
+
+ 
+ CVTE
+
+ 
+ cvte 电话一面c++ http://www.nowcoder.com/discuss/11107?type=0&order=3&pos=1453&page=1 
+
+ 
+ cvte面试经验 http://www.nowcoder.com/discuss/10015?type=0&order=3&pos=2445&page=1 
+
+ 
+ CVTE 西安 java面经 http://www.nowcoder.com/discuss/9955?type=0&order=3&pos=2497&page=1 
+
+ 
+ cvte笔试面试 http://www.nowcoder.com/discuss/9924?type=0&order=3&pos=2527&page=1 
+
+ 
+ CVTE 西安站 安卓 一面 二面 发个面经赞赞人品 http://www.nowcoder.com/discuss/9733?type=0&order=3&pos=2698&page=1 
+
+ 
+ 9.12cvte一面 http://www.nowcoder.com/discuss/9656?type=0&order=3&pos=2771&page=1 
+
+ 
+ CVTE面试全过程 http://www.nowcoder.com/discuss/9425?type=0&order=3&pos=2978&page=1 
+
+ 
+ cvte安卓一面 http://www.nowcoder.com/discuss/9159?type=0&order=3&pos=3221&page=1 
+
+ 
+ CVTE内推校招第一个Offer好突然 http://www.nowcoder.com/discuss/7932?type=0&order=3&pos=4308&page=3 
+
+ 
+ 渣渣养成记（中兴+腾讯+CVTE+乐视+京东） http://www.nowcoder.com/discuss/12173?type=0&order=3&pos=463&page=1 
+
+ 
+ 好未来(已拿offer)+ CVTE(3面通过) http://www.nowcoder.com/discuss/9855?type=0&order=3&pos=2589&page=2 
+
+ 
+ 一周来的面试面经 http://www.nowcoder.com/discuss/9330 
+
+ 
+ 我的 2016笔试面试经验(送给下一届的学弟学妹们) https://www.nowcoder.com/discuss/18460?type=2&order=3&pos=57&page=2 
+
+ 
+ 渣渣养成记（中兴 +腾讯+CVTE+乐视+京东+七牛云） https://www.nowcoder.com/discuss/12173?type=2&order=0&pos=15&page=1 
+
+ 
+ 
+
+ 
+ 
+ 猎豹
+ 
+
+ 
+ 
+ 猎豹&今日头条测试开发一面 
+ 
+
+ 
+ https://www.nowcoder.com/discuss/19526?type=2&order=3&pos=25&page=1 
+ 
+
+ 
+ 中兴
+
+ 
+ 中兴面试（技面+综面） http://www.nowcoder.com/discuss/11003?type=0&order=3&pos=1550&page=1 
+
+ 
+ 一波测试面经（来自一个技术不牛，但是比较努力的girl） http://www.nowcoder.com/discuss/12191?type=0&order=3&pos=445&page=1 
+
+ 
+ 渣渣养成记（中兴+腾讯+CVTE+乐视+京东） http://www.nowcoder.com/discuss/12173?type=0&order=3&pos=463&page=1 
+
+ 
+ 好未来
+
+ 
+ 武汉：说好的好未来面经，吐槽坑爹的HR面 http://www.nowcoder.com/discuss/8023?type=0&order=3&pos=4227&page=1 
+
+ 
+ 好未来三面面试经验-数据挖掘岗-武汉现场面 http://www.nowcoder.com/discuss/8010?type=0&order=3&pos=4238&page=1 
+
+ 
+ 好未来(已拿offer)+ CVTE(3面通过) http://www.nowcoder.com/discuss/9855?type=0&order=3&pos=2589&page=2 
+
+ 
+ 
+ 非科班水硕的秋招之旅 https://www.nowcoder.com/discuss/19635?type=2&order=3&pos=23&page=1 
+ 
+
+ 
+ 真·学渣的秋招总结 https://www.nowcoder.com/discuss/18518?type=2&order=3&pos=56&page=2 
+ 
+
+ 
+ 
+
+ 
+
+ 
+ 
+ KEEP
+ 
+
+ 
+ 
+ 非科班水硕的秋招之旅 https://www.nowcoder.com/discuss/19635?type=2&order=3&pos=23&page=1 
+ 
+
+ 
+ 
+ vivo
+ 
+
+ 
+ 
+ 回馈牛客，校招总结（从一心想进银行到最后选择了互联网） https://www.nowcoder.com/discuss/19589?type=2&order=3&pos=24&page=1 
+ 
+
+ 
+ 
+ 融360
+ 
+
+ 
+ 
+ 非科班水硕的秋招之旅 https://www.nowcoder.com/discuss/19635?type=2&order=3&pos=23&page=1 
+ 
+
+ 
+ 微店
+
+ 
+ 微店电面 http://www.nowcoder.com/discuss/7954?type=0&order=3&pos=4290&page=1 
+
+ 
+ 微店面经 http://www.nowcoder.com/discuss/7853?type=0&order=3&pos=4369&page=1 
+
+ 
+ 微店面经 http://www.nowcoder.com/discuss/7621?type=0&order=3&pos=4578&page=1 
+
+ 
+ 互联网前端面试面经（网易/腾讯等） http://www.nowcoder.com/discuss/11270?type=0&order=3&pos=1301&page=1 
+
+ 
+ 数据分析师 网易/微店 已拿offer http://www.nowcoder.com/discuss/8482?type=0&order=3&pos=3827&page=1 
+
+ 
+ 刚刚的微店一面 http://www.nowcoder.com/discuss/8243?type=0&order=3&pos=4040&page=1 
+
+ 
+ 
+ 
+ 微店面经 (12月12更新，已经面完三面和HR面) https://www.nowcoder.com/discuss/19476?type=2&order=3&pos=28&page=1 
+ 
+
+ 
+ 校招总结：美团点评/滴滴/360/微店/小红书/有赞 https://www.nowcoder.com/discuss/17552?type=2&order=3&pos=76&page=1 
+ 
+
+ 
+ 面经续：360华为阿里腾讯京东小米搜狐滴滴一点资讯微店…… https://www.nowcoder.com/discuss/13902?type=2&order=3&pos=157&page=1 
+ 
+
+ 
+ 
+ 新浪
+ 
+
+ 
+ 
+ 非科班水硕的秋招之旅 https://www.nowcoder.com/discuss/19635?type=2&order=3&pos=23&page=1 
+ 
+
+ 
+ 
+ 有赞
+ 
+
+ 
+ 
+ 非211本CS应届求职路 https://www.nowcoder.com/discuss/19902?type=2&order=3&pos=13&page=1 
+ 
+
+ 
+ 爱奇艺
+
+ 
+ 爱奇艺笔试题——草原坝上滑梯 http://www.nowcoder.com/discuss/7975?type=0&order=3&pos=4271&page=1 
+
+ 
+ 
+ 校招的一些面试经历希望对有需要的小伙伴一点帮助 https://www.nowcoder.com/discuss/20539?type=2&order=0&pos=8&page=1 
+ 
+
+ 
+ 海康威视
+
+ 
+ 分享面试历程 -- 海康 百度 华为 http://www.nowcoder.com/discuss/11894?type=0&order=3&pos=712&page=1 
+
+ 
+ 挖财
+
+ 
+ 互联网前端面试面经（网易/腾讯等） http://www.nowcoder.com/discuss/11270?type=0&order=3&pos=1301&page=1 
+
+ 
+ 多益
+
+ 
+ 写个多益的面经，攒点人品 http://www.nowcoder.com/discuss/8512?type=0&order=3&pos=3798&page=1 
+
+ 
+ 一周来的面试面经 http://www.nowcoder.com/discuss/9330 
+
+ 
+ 珍爱网
+
+ 
+ 今天珍爱网面经 http://www.nowcoder.com/discuss/12181?type=0&order=3&pos=455&page=1 
+
+ 
+ 趋势科技
+
+ 
+ 趋势科技面试问题 http://www.nowcoder.com/discuss/11137?type=0&order=3&pos=1427&page=1 
+
+ 
+ 金山
+
+ 
+ 金山内推电话面试 http://www.nowcoder.com/discuss/8012?type=0&order=3&pos=4237&page=1 
+
+ 
+ 
+
+ 
+ 
+
+ 
+ 
+ 其他
+ 
+
+ 
+ 
+ 非科班水硕的秋招之旅 https://www.nowcoder.com/discuss/19635?type=2&order=3&pos=23&page=1 
+ 
+
+ 
+ 真·学渣的秋招总结 https://www.nowcoder.com / discuss/18518?type=2&order=3&pos=56&page=2 
+ 
+
+ 
+ 渣渣养成记（中兴+腾讯+CVTE+乐视+京东+七牛云） https://www.nowcoder.com/discuss/12173?type=2&order=0&pos=15&page=1 
+ 
+
+ 
+ 【牛客访谈】饼神：靠这些项目经验我拿到了十多个 offer https://www.nowcoder.com/discuss/17669?type=2&order=3&pos=73&page=0 
+ 
+
+ 
+ 校招总结：美团点评/滴滴/360/微店/小红书/有赞 https://www.nowcoder.com/discuss/17552?type=2&order=3&pos=76&page=1 
+ 
+
+ 
+ 校招总结~ https://www.nowcoder.com/discuss/17501?type=2&order=3&pos=77&page=1 
+ 
+
+ 
+ 挖财网面试 https://www.nowcoder.com/discuss/17239?type=2&order=3&pos=81&page=1 
+ 
+
+ 
+ 小红书二面、 https://www.nowcoder.com/discuss/17030?type=2&order=3&pos=84&page=1 
+ 
+
+ 
+ 【牛客访谈 02期】a.out：面过15家，我搞懂了面试套路 https://www.nowcoder.com/discuss/17020?type=2&order=3&pos=85&page=2 
+ 
+
+ 
+ 招行信用卡 -开发工程师-面试总结 https://www.nowcoder.com/discuss/16647?type=2&order=3&pos=92&page=1 
+ 
+
+ 
+ 唯品会 -上海-前端面试总结 https://www.nowcoder.com/discuss/16585?type=2&order=3&pos=93&page=1 
+ 
+
+ 
+ 2017校招面试总结 https://www.nowcoder.com/discuss/16573?type=2&order=3&pos=95&page=1 
+ 
+
+ 
+ 小硕菜鸟，半路出家， Java（中兴、中移物联网、海信、中航） https://www.nowcoder.com/discuss/16423?type=2&order=3&pos=97&page=1 
+ 
+
+ 
+ 招银现场面试 https://www.nowcoder.com/discuss/16254?type=2&order=3&pos=101&page=1 
+ 
+
+ 
+ 今日收到携程特写面经一篇 https://www.nowcoder.com/discuss/15340?type=2&order=3&pos=116&page=1 
+ 
+
+ 
+ 武汉斗鱼大数据开发面经拿到 OFFER https://www.nowcoder.com/discuss/14538?type=2&order=3&pos=143&page=1 
+ 
+
+ 
+ 以岗位分类
+
+ 
+ Java开发
+
+ 
+ 2017年校招【京东面经】 哈尔滨站 http://www.nowcoder.com/discuss/12514?type=0&order=3&pos=137&page=1 
+
+ 
+ 秋招面经分享，赠人玫瑰，手留余香~ http://www.nowcoder.com/discuss/12451?type=0&order=3&pos=200&page=1 
+
+ 
+ 完美Java一面 http://www.nowcoder.com/discuss/12249?type=0&order=3&pos=389&page=1 
+
+ 
+ 乐视java（1面+2面） http://www.nowcoder.com/discuss/11960?type=0&order=3&pos=653&page=1 
+
+ 
+ 西安，美团面经 java http://www.nowcoder.com/discuss/11319?type=0&order=3&pos=1254&page=1 
+
+ 
+ 一直在牛客作伸手党这么久，发点这两天美团面试攒攒人品 http://www.nowcoder.com/discuss/11237?type=0&order=3&pos=1330&page=1 
+
+ 
+ 招银一面 http://www.nowcoder.com/discuss/11198?type=0&order=3&pos=1368&page=1 
+
+ 
+ 京东Java研发（1面+2面） http://www.nowcoder.com/discuss/11185?type=0&order=3&pos=1380&page=1 
+
+ 
+ 招银电面 http://www.nowcoder.com/discuss/11183?type=0&order=3&pos=1382&page=1 
+
+ 
+ 招银网络科技一面，攒人品 http://www.nowcoder.com/discuss/11069?type=0&order=3&pos=1491&page=1 
+
+ 
+ 武汉京东一面面经 http://www.nowcoder.com/discuss/11040?type=0&order=3&pos=1517&page=1 
+
+ 
+ 招银网络一面...（好像是按照成绩进行面试的..） http://www.nowcoder.com/discuss/11020?type=0&order=3&pos=1537&page=1 
+
+ 
+ 招银科技一面 http://www.nowcoder.com/discuss/10884?type=0&order=3&pos=1658&page=1 
+
+ 
+ 招银网络一面 http://www.nowcoder.com/discuss/10879?type=0&order=3&pos=1663&page=1 
+
+ 
+ 兄弟我分享一面面经 http://www.nowcoder.com/discuss/10628?type=0&order=3&pos=1897&page=1 
+
+ 
+ 分享携程笔试两道编程，AC(java版) http://www.nowcoder.com/discuss/10301?type=0&order=3&pos=2189&page=1 
+
+ 
+ CVTE 西安 java面经 http://www.nowcoder.com/discuss/9955?type=0&order=3&pos=2497&page=1 
+
+ 
+ 热乎的面经之“远景能源”2017校园招聘 http://www.nowcoder.com/discuss/9800?type=0&order=3&pos=2639&page=1 
+
+ 
+ JD(北京)复试 http://www.nowcoder.com/discuss/9700?type=0&order=3&pos=2730&page=1 
+
+ 
+ 谈谈我那的京东面试，伤心 http://www.nowcoder.com/discuss/9673?type=0&order=3&pos=2755&page=1 
+
+ 
+ 创新工厂涂鸦移动内推面经 http://www.nowcoder.com/discuss/9545?type=0&order=3&pos=2870&page=1 
+
+ 
+ 京东校招一面 http://www.nowcoder.com/discuss/9311?type=0&order=3&pos=3081&page=1 
+
+ 
+ 京东一面面经 http://www.nowcoder.com/discuss/9270?type=0&order=3&pos=3115&page=1 
+
+ 
+ 阿里JAVA开发校招笔试 很好很强大 http://www.nowcoder.com/discuss/9149?type=0&order=3&pos=3230&page=1 
+
+ 
+ 网易杭研，Java工程师，面经，已拿offer http://www.nowcoder.com/discuss/8340?type=0&order=3&pos=3953&page=1 
+
+ 
+ 华为28号粤港澳招聘面经 http://www.nowcoder.com/discuss/8051?type=0&order=3&pos=4204&page=1 
+
+ 
+ 百度一二面面筋以及视频面是什么状况？ http://www.nowcoder.com/discuss/8038?type=0&order=3&pos=4216&page=1 
+
+ 
+ 微店电面 http://www.nowcoder.com/discuss/7954?type=0&order=3&pos=4290&page=1 
+
+ 
+ CVTE内推校招第一个Offer好突然 http://www.nowcoder.com/discuss/7932?type=0&order=3&pos=4308&page=3 
+
+ 
+ 微店面经 http://www.nowcoder.com/discuss/7853?type=0&order=3&pos=4369&page=1 
+
+ 
+ 华为面试感觉有点坑啊 http://www.nowcoder.com/discuss/7768?type=0&order=3&pos=4448&page=2 
+
+ 
+ 网易Java研发面经 http://www.nowcoder.com/discuss/7765?type=0&order=3&pos=4450&page=1 
+
+ 
+ 华为优招面经—干货 http://www.nowcoder.com/discuss/7624?type=0&order=3&pos=4576&page=1 
+
+ 
+ 面经】一面+二面+HR面【网易内推】【java开发工程师】 http://www.nowcoder.com/discuss/7601?type=0&order=3&pos=4599&page=1 
+
+ 
+ 网易互联网Java内推面试经验-19号 http://www.nowcoder.com/discuss/7565?type=0&order=3&pos=4629&page=1 
+
+ 
+ 校招季一路走来面经分享 http://www.nowcoder.com/discuss/12393?type=0&order=3&pos=254&page=1 
+
+ 
+ 网易+阿里内推面经 http://www.nowcoder.com/discuss/11971?type=0&order=3&pos=643&page=1 
+
+ 
+ 渣渣养成记（中兴+腾讯+CVTE+乐视+京东） http://www.nowcoder.com/discuss/12173?type=0&order=3&pos=463&page=1 
+
+ 
+ 怕是要来回报一下牛客网了 https://www.nowcoder.com/discuss/20218?type=2&order=3&pos=8&page=1 
+
+ 
+ 回馈牛客，校招总结（从一心想进银行到最后选择了互联网） https://www.nowcoder.com/discuss/19589?type=2&order=3&pos=24&page=1 
+
+ 
+ 
+ 120道java面试常考题目（附答案） https://www.nowcoder.com/discuss/19479?type=2&order=3&pos=27&page=1 
+ 
+
+ 
+ [java后端]线下笔试及面试复习资料[一]——数据库 https://www.nowcoder.com/discuss/18563?type=2&order=3&pos=53&page=1 
+ 
+
+ 
+ [java后端]线下笔试及面试复习资料[一] https://www.nowcoder.com/discuss/18544?type=2&order=3&pos=54&page=1 
+ 
+
+ 
+ 华为28号粤港澳招聘面经 https://www.nowcoder.com/discuss/8051?type=2&order=0&pos=12&page=1 
+ 
+
+ 
+ 我的 2017年校招历程 https://www.nowcoder.com/discuss/17647?type=2&order=3&pos=74&page=1 
+ 
+
+ 
+ 校招总结：美团点评/滴滴/360/微店/小红书/有赞 https://www.nowcoder.com/discuss/17552?type=2&order=3&pos=76&page=1 
+ 
+
+ 
+ 校招总结 ~ https://www.nowcoder.com/discuss/17501?type=2&order=3&pos=77&page=1 
+ 
+
+ 
+ 挖财网面试 https://www.nowcoder.com/discuss/17239?type=2&order=3&pos=81&page=1 
+ 
+
+ 
+ 2017年秋招Java后台的学习与面试经验 https://www.nowcoder.com/discuss/16124?type=2&order=3&pos=103&page=1 
+ 
+
+ 
+ 技术渣渣的面经 https://www.nowcoder.com/discuss/15821?type=2&order=3&pos=108&page=1 
+ 
+
+ 
+ 去哪网 offer面试总结（java开发） https://www.nowcoder.com/discuss/15014?type=2&order=3&pos=120&page= 1 
+ 
+
+ 
+ 欢聚时代 Java开发工程师 https://www.nowcoder.com/discuss/14962?type=2&order=3&pos=124&page=1 
+ 
+
+ 
+ 2016秋招面经 https://www.nowcoder.com/discuss/13982?type=2&order=3&pos=156&page=1 
+ 
+
+ 
+ C++
+
+ 
+ 百度三面热乎的面经，之前京东和完美的面经有空再补吧 http://www.nowcoder.com/discuss/12194?type=0&order=3&pos=442&page=1 
+
+ 
+ 北京百度C++一面二面经验 http://www.nowcoder.com/discuss/12094?type=0&order=3&pos=531&page=1 
+
+ 
+ 弱弱的发一下招银电面攒人品 http://www.nowcoder.com/discuss/11286?type=0&order=3&pos=1284&page=1 
+
+ 
+ 腾讯一面，攒人品！ http://www.nowcoder.com/discuss/11197?type=0&order=3&pos=1369&page=1 
+
+ 
+ 趋势科技面试问题 http://www.nowcoder.com/discuss/11137?type=0&order=3&pos=1427&page=1 
+
+ 
+ cvte 电话一面c++ http://www.nowcoder.com/discuss/11107?type=0&order=3&pos=1453&page=1 
+
+ 
+ 招银科技一面 c++ http://www.nowcoder.com/discuss/10901?type=0&order=3&pos=1643&page=1 
+
+ 
+ 网易雷火线下笔试 http://www.nowcoder.com/discuss/10560?type=0&order=3&pos=1957&page=1 
+
+ 
+ 涂鸦移动一面面经 http://www.nowcoder.com/discuss/10427?type=0&order=3&pos=2079&page=1 
+
+ 
+ CVTE面试全过程 http://www.nowcoder.com/discuss/9425?type=0&order=3&pos=2978&page=1 
+
+ 
+ 普通学校找工作总结，不进来看看？ http://www.nowcoder.com/discuss/9166 
+
+ 
+ 关于面试的一点感触 http://www.nowcoder.com/discuss/8429?type=0&order=3&pos=3874&page=5 
+
+ 
+ 阿里四面面经 http://www.nowcoder.com/discuss/8343?type=0&order=3&pos=3950&page=1 
+
+ 
+ 金山内推电话面试 http://www.nowcoder.com/discuss/8012?type=0&order=3&pos=4237&page=1 
+
+ 
+ 记录一个学渣参加的面试 http://www.nowcoder.com/discuss/7770?type=0&order=3&pos=4446&page=1 
+
+ 
+ 蚂蚁金服C++一面 http://www.nowcoder.com/discuss/7708?type=0&order=3&pos=4501&page=1 
+
+ 
+ 微店面经 http://www.nowcoder.com/discuss/7621?type=0&order=3&pos=4578&page=1 
+
+ 
+ 腾讯二面三面、百度二面三面面经 http://www.nowcoder.com/discuss/12083?type=0&order=3&pos=542&page=1 
+
+ 
+ 分享面试历程 -- 海康 百度 华为 http://www.nowcoder.com/discuss/11894?type=0&order=3&pos=712&page=1 
+
+ 
+ 
+ 
+ 是要来回报一下牛客网了 https://www.nowcoder.com/discuss/20218?type=2&order=3&pos=8&page=1 
+ 
+
+ 
+ 2016年面试总结（c++，机器学习），希望给同学们一点帮助 https://www.nowcoder.com/discuss/20184?type=2&order=3&pos=9&page=1 
+ 
+
+ 
+ 失败的深信服一面 https://www.nowcoder.com/discuss/19057?type=2&order=3&pos=40&page=1 
+ 
+
+ 
+ 真·学渣的秋招总结 
+ 
+
+ 
+ https://www.nowcoder.com/discuss/18518?type=2&order=3&pos=56&page=2 
+ 
+
+ 
+ 我的 2016笔试面试经验(送给下一届的学弟学妹们) https://www.nowcoder.com/discuss/18460?type=2&order=3&pos=57&page=2 
+ 
+
+ 
+ 热腾腾的面经来了：360、欢聚时代的测试开发 华为C++开发 https://www.nowcoder.com/discuss/14619?type=2&order=3&pos=139&page=1 
+ 
+
+ 
+ 去哪儿2016.10.10在线笔试writeup https://www.nowcoder.com/discuss/14611?type=2&order=3&pos=141&page=1 
+ 
+
+ 
+ 十一回馈大礼包——一大波面经在靠近 https://www.nowcoder.com/discuss/14022?type=2&order=3&pos=154&page=1 
+ 
+
+ 
+ 
+
+ 
+ 
+ python
+ 
+
+ 
+ 
+ 我的实习offer之路 https://www.nowcoder.com/discuss/20294?type=2&order=3&pos=7&page=1 
+ 
+
+ 
+ 机器学习，数据挖掘，算法
+
+ 
+ 百度面经：谨以此纪念五挂百度 http://www.nowcoder.com/discuss/12527?type=0&order=3&pos=117&page=2 
+
+ 
+ 百度机器学习岗位123面面经 http://www.nowcoder.com/discuss/12091?type=0&order=3&pos=534&page=1 
+
+ 
+ 华为霸面的心路历程 http://www.nowcoder.com/discuss/11774 
+
+ 
+ 南京美团面试--机器学习岗 http://www.nowcoder.com/discuss/11231?type=0&order=3&pos=1336&page=1 
+
+ 
+ 百度一面面经 http://www.nowcoder.com/discuss/10939?type=0&order=3&pos=1605&page=1 
+
+ 
+ 【攒人品】美团面经-机器学习 http://www.nowcoder.com/discuss/10723?type=0&order=3&pos=1811&page=1 
+
+ 
+ 新鲜的美团面经，机器学习岗 http://www.nowcoder.com/discuss/10634?type=0&order=3&pos=1891&page=1 
+
+ 
+ 招银科技电话一面面经 http://www.nowcoder.com/discuss/10425?type=0&order=3&pos=2081&page=2 
+
+ 
+ 百度 北京 机器学习/数据挖掘 提前批 http://www.nowcoder.com/discuss/9970?type=0&order=3&pos=2482&page=1 
+
+ 
+ 关于面试的一点感触 http://www.nowcoder.com/discuss/8429?type=0&order=3&pos=3874&page=5 
+
+ 
+ 好未来三面面试经验-数据挖掘岗-武汉现场面 http://www.nowcoder.com/discuss/8010?type=0&order=3&pos=4238&page=1 
+
+ 
+ 内推京东金融算法工程师 http://www.nowcoder.com/discuss/7906?type=0&order=3&pos=4325&page=1 
+
+ 
+ 2017秋招互联网内推面经（华为，搜狐，阿里，网易） http://www.nowcoder.com/discuss/12476 
+
+ 
+ 滴滴腾讯算法岗面经分享 http://www.nowcoder.com/discuss/11604?type=0&order=3&pos=993&page=1 
+
+ 
+ 阿里、百度、腾讯、华为面经（阿里、百度已拿、华为待发） http://www.nowcoder.com/discuss/11495?type=0&order=3&pos=1096&page=3 
+
+ 
+ 数据挖掘/数据研发面经分享 http://www.nowcoder.com/discuss/8328?type=0&order=3&pos=3963&page=1 
+
+ 
+ 
+ 2016年面试总结（c++，机器学习），希望给同学们一点帮助 https://www.nowcoder.com/discuss/20184?type=2&order=3&pos=9&page=1 
+ 
+
+ 
+ 非 CS专业小硕的机器学习/数据挖掘岗位秋招经验 https://www.nowcoder.com/discuss/19379?type=2&order=3&pos=30&page=1 
+ 
+
+ 
+ 美团机器学习一轮失败经验 https://www.nowcoder.com/discuss/16668?type=2&order=3&pos=91&page=1 
+ 
+
+ 
+ 百度机器学习数据挖掘 https://www.nowcoder.com/discuss/16025?type=2&order=3&pos=106&page=1 
+ 
+
+ 
+ 非CS专业小硕的机器学习/数据挖掘岗位秋招经验 https://www.nowcoder.com/discuss/19379?type=2&order=3&pos=30&page=1 
+ 
+
+ 
+ 美团面经（面的晚...发的晚） https://www.nowcoder.com/discuss/16853?type=2&order=3&pos=89&page=1 
+ 
+
+ 
+ 百度机器学习数据挖掘 https://www.nowcoder.com/discuss/16025?type=2&order=3&pos=106&page=1 
+ 
+
+ 
+ 【数据挖掘面经】腾讯 +百度+华为（均拿到sp offer） https://www.nowcoder.com/discuss/15168?type=2&order=3&pos=117&page=3 
+ 
+
+ 
+ 大数据
+
+ 
+ 终于等到招行一面 http://www.nowcoder.com/discuss/11221?type=0&order=3&pos=1345&page=1 
+
+ 
+ 招银一面 http://www.nowcoder.com/discuss/11213?type=0&order=3&pos=1354&page=1 
+
+ 
+ 百度一面 http://www.nowcoder.com/discuss/10952?type=0&order=3&pos=1592&page=1 
+
+ 
+ 2017技术一面 http://www.nowcoder.com/discuss/7955?type=0&order=3&pos=4289&page=1 
+
+ 
+ 刚刚的微店一面 http://www.nowcoder.com/discuss/8243?type=0&order=3&pos=4040&page=1 
+
+ 
+ 软件开发
+
+ 
+ 百度二面 http://www.nowcoder.com/discuss/12614?type=0&order=3&pos=28&page=1 
+
+ 
+ 美团遇到的奇葩三面面试官 http://www.nowcoder.com/discuss/11219?type=0&order=3&pos=1346&page=1 
+
+ 
+ 招银网络一面 http://www.nowcoder.com/discuss/11013?type=0&order=3&pos=1543&page=1 
+
+ 
+ 中兴面试（技面+综面） http://www.nowcoder.com/discuss/11003?type=0&order=3&pos=1550&page=1 
+
+ 
+ 招银一面，海量数据排序根据第一列排序问题 http://www.nowcoder.com/discuss/10940 
+
+ 
+ 酷家乐面经（已收到offer) http://www.nowcoder.com/discuss/9862?type=0&order=3&pos=2582&page=1 
+
+ 
+ 去哪儿校招现场面面经 http://www.nowcoder.com/discuss/9296?type=0&order=3&pos=3092&page=1 
+
+ 
+ 滴滴二面部分题目，分享下攒人品吧 http://www.nowcoder.com/discuss/9240?type=0&order=3&pos=3145&page=1 
+
+ 
+ 蘑菇街一面面经（后台开发） http://www.nowcoder.com/discuss/8036?type=0&order=3&pos=4217&page=1 
+
+ 
+ 爱奇艺笔试题——草原坝上滑梯 http://www.nowcoder.com/discuss/7975?type=0&order=3&pos=4271&page=1 
+
+ 
+ 又面了一次sng http://www.nowcoder.com/discuss/7862?type=0&order=3&pos=4360&page=1 
+
+ 
+ 【面经】技术面+综合面【华为内推】【IT应用软件开发】 http://www.nowcoder.com/discuss/7789?type=0&order=3&pos=4428&page=1 
+
+ 
+ 23号华为面经 http://www.nowcoder.com/discuss/7778?type=0&order=3&pos=4438&page=1 
+
+ 
+ 迟到的华为技术岗面经 http://www.nowcoder.com/discuss/7681?type=0&order=3&pos=4524&page=2 
+
+ 
+ 百度网页搜索部三次面试面经 http://www.nowcoder.com/discuss/7654?type=0&order=3&pos=4548&page=1 
+
+ 
+ 滴滴，美团点评，腾讯一面面经 http://www.nowcoder.com/discuss/11584?type=0&order=3&pos=1013&page=1 
+
+ 
+ 看了这么多面经，发一下我的腾讯百度一面面经 http://www.nowcoder.com/discuss/11271?type=0&order=3&pos=1300&page=1 
+
+ 
+ 好未来(已拿offer)+ CVTE(3面通过) http://www.nowcoder.com/discuss/9855?type=0&order=3&pos=2589&page=2 
+
+ 
+ 软件研发
+
+ 
+ 西安百度软件研发面经 http://www.nowcoder.com/discuss/12420?type=0&order=3&pos=229&page=1 
+
+ 
+ 百度面经 http://www.nowcoder.com/discuss/12239?type=0&order=3&pos=401&page=1 
+
+ 
+ 百度基础平台研发面试题，一面 二面。 http://www.nowcoder.com/discuss/11596?type=0&order=3&pos=1001&page=1 
+
+ 
+ 百度一面 http://www.nowcoder.com/discuss/11507?type=0&order=3&pos=1084&page=1 
+
+ 
+ 某度三面，给面试官里里外外摸了一个半小时！😂😂 http://www.nowcoder.com/discuss/11074?type=0&order=3&pos=1486&page=1 
+
+ 
+ 滴滴面试小感(基础菜只能怪自己。。。) http://www.nowcoder.com/discuss/8845?type=0&order=3&pos=3503&page=1 
+
+ 
+ 运维研发
+
+ 
+ 百度123面面经 http://www.nowcoder.com/discuss/11492?type=0&order=3&pos=1099&page=1 
+
+ 
+ 2017技术一面 http://www.nowcoder.com/discuss/7955?type=0&order=3&pos=4289&page=1 
+
+ 
+ 百度运维面经 http://www.nowcoder.com/discuss/7707?type=0&order=3&pos=4502&page=1 
+
+ 
+ 
+ 2017校招运维岗总结 腾讯+百度+京东+华为+小米... https://www.nowcoder.com/discuss/14118?type=2&order=3&pos=151&page=1 
+ 
+
+ 
+ 开发测试
+
+ 
+ 不忘技术初心，静候百度佳音 http://www.nowcoder.com/discuss/12455?type=0&order=0&pos=18&page=1 
+
+ 
+ 技术菜鸟进百度三面-测试开发 http://www.nowcoder.com/discuss/12634 
+
+ 
+ 百度开发测试面经 http://www.nowcoder.com/discuss/12497?type=0&order=3&pos=156&page=1 
+
+ 
+ 霸面百度，热乎的测试工程师面经(一二技术面) http://www.nowcoder.com/discuss/11760?type=0&order=3&pos=833&page=1 
+
+ 
+ 58测试面经 http://www.nowcoder.com/discuss/11256?type=0&order=3&pos=1313&page=1 
+
+ 
+ 网易测试二面 http://www.nowcoder.com/discuss/8435?type=0&order=3&pos=3868&page=1 
+
+ 
+ 网易测开面试经历 http://www.nowcoder.com/discuss/7544?type=0&order=3&pos=4645&page=1 
+
+ 
+ 网易内推测试岗面经 http://www.nowcoder.com/discuss/7534?type=0&order=3&pos=4652&page=1 
+
+ 
+ 网易内推测试开发岗面试经历 http://www.nowcoder.com/discuss/7531?type=0&order=3&pos=4655&page=1 
+
+ 
+ 一波测试面经（来自一个技术不牛，但是比较努力的girl） http://www.nowcoder.com/discuss/12191?type=0&order=3&pos=445&page=1 
+
+ 
+ 完美世界、网易游戏面经 http://www.nowcoder.com/discuss/12161?type=0&order=3&pos=473&page=1 
+
+ 
+ 写写面经，攒攒人品--测试岗 http://www.nowcoder.com/discuss/11638?type=0&order=3&pos=951&page=1 
+
+ 
+ 
+ 百度开发测试（补招）面试经历 https://www.nowcoder.com/discuss/19675?type=2&order=3&pos=19&page=1 
+ 
+
+ 
+ 前端
+
+ 
+ 百度前端三面面经+百度外卖一二面面经（武汉） http://www.nowcoder.com/discuss/12392?type=0&order=3&pos=255&page=1 
+
+ 
+ 网易秋招前端，面试问题分享！ http://www.nowcoder.com/discuss/11056?type=0&order=3&pos=1503&page=1 
+
+ 
+ 阿里校招笔试前端题目，你还记得吗？ http://www.nowcoder.com/discuss/8803?type=0&order=3&pos=3541&page=1 
+
+ 
+ 网易前端 http://www.nowcoder.com/discuss/8309?type=0&order=3&pos=3981&page=1 
+
+ 
+ 前端面筋 http://www.nowcoder.com/discuss/8035?type=0&order=3&pos=4218&page=1 
+
+ 
+ 【面经】8月19日网易内推 - 前端面经【已拿offer】 http://www.nowcoder.com/discuss/7600?type=0&order=3&pos=4600&page=2 
+
+ 
+ 前端面试经验分享 http://www.nowcoder.com/discuss/11930?type=0&order=3&pos=680&page=1 
+
+ 
+ 互联网前端面试面经（网易/腾讯等） http://www.nowcoder.com/discuss/11270?type=0&order=3&pos=1301&page=1 
+
+ 
+ 
+ 分享一波前端面经 ,有需要的自取 https://www.nowcoder.com/discuss/19662?type=2&order=3&pos=21&page=1 
+ 
+
+ 
+ 前端妹子的秋招总结 https://www.nowcoder.com/discuss/18530?type=2&order=3&pos=55&page=1 
+ 
+
+ 
+ 安卓
+
+ 
+ 百度三面，Android研发，求面经，求求求！！附一二面面经 http://www.nowcoder.com/discuss/12369?type=0&order=3&pos=280&page=1 
+
+ 
+ 招行网络（应用软件开发） http://www.nowcoder.com/discuss/12262?type=0&order=3&pos=379&page=1 
+
+ 
+ 今天珍爱网面经 http://www.nowcoder.com/discuss/12181?type=0&order=3&pos=455&page=1 
+
+ 
+ 腾讯哈尔滨面经（MIG部门Android开发） http://www.nowcoder.com/discuss/12114?type=0&order=3&pos=513&page=1 
+
+ 
+ 招银网络科技电话面 http://www.nowcoder.com/discuss/12063?type=0&order=3&pos=559&page=1 
+
+ 
+ 9.23 网易互联网--Android开发--成都 攒人品 http://www.nowcoder.com/discuss/11994?type=0&order=3&pos=620&page=1 
+
+ 
+ 美图一面，二面 http://www.nowcoder.com/discuss/11983?type=0&order=3&pos=632&page=1 
+
+ 
+ 百度一面 http://www.nowcoder.com/discuss/11682?type=0&order=3&pos=910&page=1 
+
+ 
+ 百度客户端一面 http://www.nowcoder.com/discuss/11576?type=0&order=3&pos=1020&page=1 
+
+ 
+ 京东 android 一二面面经 http://www.nowcoder.com/discuss/11340?type=0&order=3&pos=1235&page=1 
+
+ 
+ 09.21 去哪网面经，已拿书面offer http://www.nowcoder.com/discuss/11291?type=0&order=3&pos=1280&page=1 
+
+ 
+ 百度面试题 http://www.nowcoder.com/discuss/11284?type=0&order=3&pos=1286&page=1 
+
+ 
+ 腾讯TST内推2+4面 http://www.nowcoder.com/discuss/11242?type=0&order=3&pos=1326&page=1 
+
+ 
+ 招银一面（Android开发） http://www.nowcoder.com/discuss/11168?type=0&order=3&pos=1396&page=1 
+
+ 
+ 美团面经（3面技术+一面HR） http://www.nowcoder.com/discuss/11099?type=0&order=3&pos=1461&page=1 
+
+ 
+ Andriod百度一面面经 http://www.nowcoder.com/discuss/11058?type=0&order=3&pos=1501&page=1 
+
+ 
+ 百度一面已面完 面完的过来聊聊 http://www.nowcoder.com/discuss/10764?type=0&order=3&pos=1773&page=1 
+
+ 
+ 华为Android岗，第一次面试。攒人品。。 http://www.nowcoder.com/discuss/10695?type=0&order=3&pos=1835&page=1 
+
+ 
+ cvte笔试面试 http://www.nowcoder.com/discuss/9924?type=0&order=3&pos=2527&page=1 
+
+ 
+ Android知识点总结分享 http://www.nowcoder.com/discuss/9867?type=0&order=3&pos=2578&page=1 
+
+ 
+ CVTE 西安站 安卓 一面 二面 发个面经赞赞人品 http://www.nowcoder.com/discuss/9733?type=0&order=3&pos=2698&page=1 
+
+ 
+ 9.12cvte一面 http://www.nowcoder.com/discuss/9656?type=0&order=3&pos=2771&page=1 
+
+ 
+ 京东一面经验分享 http://www.nowcoder.com/discuss/9497?type=0&order=3&pos=2909&page=1 
+
+ 
+ cvte安卓一面 http://www.nowcoder.com/discuss/9159?type=0&order=3&pos=3221&page=1 
+
+ 
+ 网易杭研Android http://www.nowcoder.com/discuss/8080?type=0&order=3&pos=4178&page=1 
+
+ 
+ 武汉：说好的好未来面经，吐槽坑爹的HR面 http://www.nowcoder.com/discuss/8023?type=0&order=3&pos=4227&page=1 
+
+ 
+ 网易杭研院Android开发二面已跪 http://www.nowcoder.com/discuss/7557?type=0&order=3&pos=4636&page=1 
+
+ 
+ Android开发 校招面试经验 2016 网易、阿里、腾讯 http://www.nowcoder.com/discuss/11817?type=0&order=3&pos=784&page=1 
+
+ 
+ 
+ Android校招复习资料整理 https://www.nowcoder.com/discuss/19340?type=2&order=3&pos=31&page=1 
+ 
+
+ 
+ Android面试经验 https://www.nowcoder.com/discuss/19241?type=2&order=3&pos=36&page=1 
+ 
+
+ 
+ 腾讯--阅文集团2017校招 android开发岗 https://www.nowcoder.com/discuss/18837?type=2&order=3&pos=45&page=1 
+ 
+
+ 
+ 秋招总结 https://www.nowcoder.com/discuss/18162?type=2&order=3&pos=60&page=1 
+ 
+
+ 
+ 秋招历程 https://www.nowcoder.com/discuss/17866?type=2&order=3&pos=70&page=1 
+ 
+
+ 
+ Android面经-百度、腾讯、网易、360、去哪网面经 https://www.nowcoder.com/discuss/14852?type=2&order=3&pos=134&page=1 
+ 
+
+ 
+ 面试 yy的Android岗 https://www.nowcoder.com/discuss/14549?type=2&order=3&pos=142&page=1 
+ 
+
+ 
+ 找工作的一个半月（ B+T+猪厂+菊厂的面经） https://www.nowcoder.com/discuss/13881?type=2&order=3&pos=158&page=1 
+ 
+
+ 
+ ios
+
+ 
+ iOS移动客户端开发 京东一二面面经 坐标上海 http://www.nowcoder.com/discuss/11392?type=0&order=3&pos=1189&page=1 
+
+ 
+ 分享网易面试的几个题目 - iOS开发 http://www.nowcoder.com/discuss/10814?type=0&order=3&pos=1725&page=1 
+
+ 
+ 网易杭研院-互联网 iOS一面跪了 http://www.nowcoder.com/discuss/7547?type=0&order=3&pos=4643&page=1 
+
+ 
+ iOS，美团三面（跪），百度三面（希望有offer），成都 http://www.nowcoder.com/discuss/11597?type=0&order=3&pos=1000&page=1 
+
+ 
+ 美团，网易iOS随便说点 http://www.nowcoder.com/discuss/11072?type=0&order=3&pos=1488&page=1 
+
+ 
+ 
+ 非科班水硕的秋招之旅 https://www.nowcoder.com/discuss/19635?type=2&order=3&pos=23&page=1 
+ 
+
+ 
+ 客户端开发面经（ iOS方向） https://www.nowcoder.com/discuss/14164?type=2&order=3&pos=150&page=1 
+ 
+
+ 
+ 数据库
+
+ 
+ 新鲜出炉的百度校招数据库岗位面经 http://www.nowcoder.com/discuss/10893?type=0&order=3&pos=1651&page=1 
+
+ 
+ 百度运维部门数据库岗位 http://www.nowcoder.com/discuss/7942?type=0&order=3&pos=4300&page=1 
+
+ 
+ 新鲜出炉的网易乐得数据库岗位HR面 http://www.nowcoder.com/discuss/7797?type=0&order=3&pos=4422&page=1 
+
+ 
+ 2016秋招网易、百度、腾讯面经（更新中） http://www.nowcoder.com/discuss/11485?type=0&order=3&pos=1106&page=1 
+
+ 
+ 数据分析师
+
+ 
+ 数据分析师 网易/微店 已拿offer http://www.nowcoder.com/discuss/8482?type=0&order=3&pos=3827&page=1 
+
+ 
+ 
+ 写点东西留给下一届的师弟师妹 https://www.nowcoder.com/discuss/17371?type=2&order=3&pos=79&page=1 
+ 
+
+ 
+ 
+ 
+
+ 
+ 游戏开发工程师
+
+ 
+ 写个多益的面经，攒点人品 http://www.nowcoder.com/discuss/8512?type=0&order=3&pos=3798&page=1 
+
+ 
+ 创新工场_涂鸦移动面经 http://www.nowcoder.com/discuss/8199?type=0&order=3&pos=4079&page=1 
+
+ 
+ 完美世界、网易游戏面经 http://www.nowcoder.com/discuss/12161?type=0&order=3&pos=473&page=1 
+
+ 
+ 云计算，网络安全
+
+ 
+ 深信服一面面经 http://www.nowcoder.com/discuss/12217?type=0&order=3&pos=422&page=1 
+
+ 
+ 视频图像方向
+
+ 
+ 迟到的华为面经 http://www.nowcoder.com/discuss/9853?type=0&order=4&pos=15&page=2 
+
+ 
+ 文本类 情感分析
+
+ 
+ 新鲜的百度一二三面面经 http://www.nowcoder.com/discuss/12475?type=0&order=3&pos=176&page=1
 
 ---
