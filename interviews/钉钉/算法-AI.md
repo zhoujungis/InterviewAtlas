@@ -1,6 +1,6 @@
 # 钉钉 · 算法/AI
 
-> 共 **24** 条 ｜ [返回总目录](../../README.md)
+> 共 **26** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -1190,6 +1190,28 @@ hr面 5.30
 反问环节才知道一共4面，后续面会问java
 
  #软件开发2024笔面经#
+
+---
+
+## 钉钉群搜索：31243706 进群答疑，面经交流，简历优化 简历投递：ximin
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2021-02-25 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/3ac2bc7b32b541a18d1e772e783a70e3)
+
+#春招# 欢迎加入世界一流数据库团队，阿里云数据库：https://mp.weixin.qq.com/s/QAcuuqA1GThwCpEqHI1-vA
+钉钉群搜索：31243706
+进群答疑，面经交流，简历优化
+简历投递：ximing.yd@alibaba-inc.com
+
+---
+
+## 钉钉群搜索：31243706 进群答疑，面经交流，简历优化 简历投递：ximin
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2021-02-24 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/9268cbebd2094348807b055c72f0ab46)
+
+#春招# 世界一流的学生就该进一流的团队，欢迎加入世界一流数据库团队，阿里云数据库：https://mp.weixin.qq.com/s/QAcuuqA1GThwCpEqHI1-vA
+钉钉群搜索：31243706
+进群答疑，面经交流，简历优化
+简历投递：ximing.yd@alibaba-inc.com
 
 ---
 
