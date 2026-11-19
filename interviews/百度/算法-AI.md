@@ -8771,9 +8771,12 @@ offer情况
 
 ## 2020秋招面经大汇总（百度）
 
-来源：牛客网 ｜ 类型：面经 ｜ 发布：2019-08-23 ｜ [原文链接](https://www.nowcoder.com/discuss/353155280018022400)
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2019-08-27 ｜ [原文链接](https://www.nowcoder.com/discuss/353155299462815744)
 
-C++：
+C++
+
+ 
+ 百度度秘一面凉经 50min（我太难了） https://www.nowcoder.com/discuss/230490 
 
  
  百度一面面经 https://www.nowcoder.com/discuss/228872 
@@ -8818,13 +8821,13 @@ C++：
  百度凤巢二三面 https://www.nowcoder.com/discuss/210846 
 
  
- 百度智能云电话一面 https://www.nowcoder.com/discuss/209156 
-
- 
  研发老学长的一点小小秋招经验 https://www.nowcoder.com/discuss/209911 
 
  
  百度分布式储存部门一面面经 https://www.nowcoder.com/discuss/209584 
+
+ 
+ 百度智能云电话一面 https://www.nowcoder.com/discuss/209156 
 
  
  百度云一面 https://www.nowcoder.com/discuss/205531 
@@ -8836,16 +8839,25 @@ C++：
  Java
 
  
+ 百度两个部门的面经（攒人品！） https://www.nowcoder.com/discuss/230987 
+
+ 
+ 百度一二三面面经，结果未知还在等待，过程中的收获很大 https://www.nowcoder.com/discuss/230947 
+
+ 
+ 百度提前批一面挂 https://www.nowcoder.com/discuss/230794 
+
+ 
  百度Java电面一面 https://www.nowcoder.com/discuss/228751 
 
  
  百度智能云计算两面面经，攒个人品 https://www.nowcoder.com/discuss/228397 
 
  
- 【面经】百度+字节+滴滴+虾皮 https://www.nowcoder.com/discuss/227754 
+ 百度+字节+滴滴+虾皮 https://www.nowcoder.com/discuss/227754 
 
  
- 【百度,作业帮,华为】菜鸡面经（百度&作业帮&华为） https://www.nowcoder.com/discuss/225270 
+ 菜鸡面经（百度 & 作业帮 & 华为） https://www.nowcoder.com/discuss/225270 
 
  
  百度java研发 一面 凉经 https://www.nowcoder.com/discuss/224340 
@@ -8854,7 +8866,7 @@ C++：
  百度java一面二面面经 https://www.nowcoder.com/discuss/222642 
 
  
- 百度提前批二面（部门未知）凉经~ https://www.nowcoder.com/discuss/218645 
+ 百度提前批二面（部门未知）凉经 ~ https://www.nowcoder.com/discuss/218645 
 
  
  百度电话一面面经（Java后端，部门未知） https://www.nowcoder.com/discuss/217905 
@@ -8863,19 +8875,19 @@ C++：
  百度提前批java一面二面面经 https://www.nowcoder.com/discuss/217644 
 
  
- 【字节跳动、百度】提前批头条、百度，均已offer https://www.nowcoder.com/discuss/215173 
+ 提前批头条、百度，均已offer https://www.nowcoder.com/discuss/215173 
 
  
  百度三面通过 https://www.nowcoder.com/discuss/210924 
-
- 
- 【百度提前批】Java研发一面 https://www.nowcoder.com/discuss/208266 
 
  
  百度云计算提前批2面面试记录 https://www.nowcoder.com/discuss/209786 
 
  
  百度核搜提前批3面面试记录 https://www.nowcoder.com/discuss/209784 
+
+ 
+ 【百度提前批】Java研发一面 https://www.nowcoder.com/discuss/208266 
 
  
  百度提前批面经(一面) https://www.nowcoder.com/discuss/203747 
@@ -8887,34 +8899,39 @@ C++：
  PHP
 
  
- 百度PHP实习生面经 https://www.nowcoder.com/discuss/206057 
+ 【百度】百度PHP实习生面经 https://www.nowcoder.com/discuss/206057 
 
  
+ 
+
+ 
+ 
  测开&测试
+ 
+
+ 
+ 百度测开二面凉经~我止步到这里啦，希望各位小伙伴顺利 https://www.nowcoder.com/discuss/231982 
 
  
  百度一面面经：测试开发 https://www.nowcoder.com/discuss/230313 
 
  
- 【百度、诺瓦、平安壹钱包】橙汁的面试经验分享（百度，诺瓦，平安壹钱包） https://www.nowcoder.com/discuss/228018 
-
- 
- 百度测开二面 https://www.nowcoder.com/discuss/219422 
-
- 
- 百度测开三面面试 https://www.nowcoder.com/discuss/220063 
+ 橙汁的面试经验分享（百度，诺瓦，平安壹钱包） https://www.nowcoder.com/discuss/228018 
 
  
  百度测开二面凉经 https://www.nowcoder.com/discuss/223155 
 
+百度测开一面凉经 https://www.nowcoder.com/discuss/222543 
+
  
- 百度测开一面凉经 https://www.nowcoder.com/discuss/222543 
+ 百度测开二面 https://www.nowcoder.com/discuss/219422 
+
+ 百度测开三面面试 https://www.nowcoder.com/discuss/220063 
 
  
  百度测开三面面经 https://www.nowcoder.com/discuss/218920 
 
- 
- 百度某部门面试凉经 https://www.nowcoder.com/discuss/218834 
+百度某部门面试凉经 https://www.nowcoder.com/discuss/218834 
 
  
  百度测试一面面经 https://www.nowcoder.com/discuss/217950 
@@ -8922,14 +8939,16 @@ C++：
  
  百度测开一二面面经 https://www.nowcoder.com/discuss/216513 
 
+百度测开一二面面经 https://www.nowcoder.com/discuss/216513 
+
  
- 【头条阿里百度作业帮】测开面经头条阿里百度作业帮 https://www.nowcoder.com/discuss/214829 
+ 测开面经 头条 阿里 百度 作业帮 https://www.nowcoder.com/discuss/214829 
 
  
  【百度一二面凉经】 https://www.nowcoder.com/discuss/212086 
 
  
- 百度测开一面 https://www.nowcoder.com/discuss/210606 
+ 百度测开 一面 https://www.nowcoder.com/discuss/210606 
 
  
  百度移动生态质量部测开123面试经验 https://www.nowcoder.com/discuss/203227 
@@ -8938,19 +8957,18 @@ C++：
  
 
  
+ 
  后端&后台开发
+ 
 
  
  智能云-后端研发-电话一面 https://www.nowcoder.com/discuss/209091 
 
  
- 架构
+ 【百度】百度 度秘事业部 架构一面 https://www.nowcoder.com/discuss/228747 
 
  
- 百度度秘事业部架构一面 https://www.nowcoder.com/discuss/228747 
-
- 
- 百度推荐架构部秋招提前批3面面经 https://www.nowcoder.com/discuss/209462 
+ 【百度】百度推荐架构部 秋招提前批 3面面经 https://www.nowcoder.com/discuss/209462 
 
  
  
@@ -8968,13 +8986,13 @@ C++：
  百度前端三面面经，求过！！刷人品 https://www.nowcoder.com/discuss/218405 
 
  
- 【百度、网易、搜狗与阿里】2018届前端校招面经：百度、网易、搜狗与阿里 https://www.nowcoder.com/discuss/214323 
+ 2018届前端校招面经：百度、网易、搜狗与阿里 https://www.nowcoder.com/discuss/214323 
 
  
  百度某部门电话一面 https://www.nowcoder.com/discuss/213240 
 
  
- 【百度、小米】百度三面和小米一面 https://www.nowcoder.com/discuss/213460 
+ 百度三面和小米一面 https://www.nowcoder.com/discuss/213460 
 
  
  百度提前批前端面筋 https://www.nowcoder.com/discuss/210314 
@@ -8995,15 +9013,14 @@ C++：
  寒武纪全栈工程师一面 https://www.nowcoder.com/discuss/210235 
 
  
- 软件开发
+ 
 
  
- 
+ 软件开发
 
  
  百度，基础平台研发一面面经 https://www.nowcoder.com/discuss/211794 
 
- 
  
  
 
@@ -9011,19 +9028,22 @@ C++：
  算法
 
  
+ 【百度】三面+【网易】二面 算法面经 https://www.nowcoder.com/discuss/231327 
+
  
+ 算法工程师面经+少量后端内容 2019年8月 BAT面经都有 https://www.nowcoder.com/discuss/231656 
 
  
  百度搜索岗视频内容搜索算法一面二面面试记录 https://www.nowcoder.com/discuss/228452 
 
  
- 百度深度学习平台部凉经 https://www.nowcoder.com/discuss/227906 
+ 百度 深度学习平台部 凉经 https://www.nowcoder.com/discuss/227906 
 
  
  百度提前批机器学习算法二面面经 https://www.nowcoder.com/discuss/226065 
 
  
- 【百度,字节跳动,美团】秋招上岸，回馈牛友一波面经 https://www.nowcoder.com/discuss/226526 
+ 秋招上岸，回馈牛友一波面经 https://www.nowcoder.com/discuss/226526 
 
  
  百度推荐技术平台一面凉经 https://www.nowcoder.com/discuss/218722 
@@ -9032,10 +9052,10 @@ C++：
  百度提前批NLP算法三面面经 https://www.nowcoder.com/discuss/217396 
 
  
- 【阿里、百度、京东】20校招AI算法岗（目前阿里+百度+京东offer）持续更新 https://www.nowcoder.com/discuss/216117 
+ 20校招AI算法岗（目前阿里+百度+京东offer）持续更新 https://www.nowcoder.com/discuss/216117 
 
  
- 百度推荐技术平台算法凉经 https://www.nowcoder.com/discuss/212861 
+ 百度 推荐技术平台 算法 凉经 https://www.nowcoder.com/discuss/212861 
 
  
  百度凤巢广告算法提前批三面面经 https://www.nowcoder.com/discuss/211954 
@@ -9047,7 +9067,7 @@ C++：
  百度nlp一面 https://www.nowcoder.com/discuss/210299 
 
  
- 【字节跳动、百度、京东、滴滴、】菜鸡总结暑期实习求职经历（附部分面经 https://www.nowcoder.com/discuss/205718 
+ 菜鸡总结暑期实习求职经历（附部分面经 https://www.nowcoder.com/discuss/205718 
 
  
  2019.7.5百度生态搜索质量部 提前批 面试题回忆 https://www.nowcoder.com/discuss/203473 
