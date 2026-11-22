@@ -74,32 +74,6 @@ Java+Agent八股
 
 ---
 
-## 去哪儿AI面试最后一题几乎人人撞上：最近半年你拿AI落地过什么
-
-来源：牛客网 ｜ 类型：面经 ｜ 发布：2026-09-15 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/8eba647e1b0745038c68e324e69efbeb)
-
-#聊一聊AI面试# #秋招面试记录# #秋招吐槽大会# 
-
-8月30号牛客上有人发了一份去哪儿AI面试，岗位写的AI应用开发。题单8道，最后一道我对着看了两遍，原话是：请分享一段你最近半年内主动学习AI工具或大模型相关技术，并尝试落地到实际开发场景的真实经历。包括你做了什么，最终落地效果如何。
-
-9月2号又有一份。前面换成HashMap的put流程和扩容条件，还追了一句两个key哈希值相同会怎样；再往后是三个子线程拉接口用什么并发工具、InnoDB按主键/唯一键/普通字段update怎么加锁、TCP三次握手、订票场景怎么拦重复单。翻到末尾，落地经历那句几乎没改。
-
-测开也是这道。8月30号两份测试开发面经，收尾都是最近半年学了哪些AI工具、落地效果怎么样。Agent开发那份题更多，第16题还是这句。
-
-Java岗前面会换。HashMap put加扩容条件反复出现，GC分代、Redis过期删除、分布式锁也常见。收尾那道开放题不像临场生成的，题库就写死了。
-
-追问听起来准。有人写整体45分钟，双机位，主要8个问题，每个答完再追1到3个。追问从哪来，好几个人自己总结过：你答里冒出来的词，下一问就咬住它。有人说下次没准备好的内容绝对不说它的关键词，不然被问到了直接两眼一黑。也有人反过来，在回答里塞自己熟的词，把后面的追问往熟的地方引。
-
-进面还有个语言选项。公开帖里写的是只能选Java或者TypeScript/JavaScript。有人JD上写着会什么语言都行，进去只能选这两个，第一题HashMap put直接炸。
-
-前端我看到的那份不是这套。8月30号有人面了一个多小时，记下来的是ES6循环、interface和type、Agent组件、LangChain和LangGraph、RAG幻觉、工具调用失败。没并进这次。
-
-单看任何一份都只觉得自己被追问得很准。并到一起才看得出，最后那道开放题大家撞的是同一句。重复出现的题我记下来丢进面灵题库里过了一遍，至少最后这道不用临场编。
-
-你们面完最后一题是不是也是那段落地经历？Java岗的HashMap put还在不在？
-
----
-
 ## 去哪儿（AI应用开发工程师（Java开发））
 
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2026-09-10 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/7f62bde08de3465083801e219fcd938a)
@@ -219,6 +193,271 @@ AI 会给出多个技术方案，你是一股脑采纳吗？你以什么判断�
 
 面试时间10min
  #我的失利项目复盘# #去哪儿求职进展汇总# #AI求职记录# #如何成为1个AI工程师？# #牛客解忧铺#
+
+---
+
+## 【27届校招】8月11日新开的秋招
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2026-08-11 ｜ [原文链接](https://www.nowcoder.com/discuss/916837079693201408)
+
+攻略推荐： 校招汇总表格 
+
+ 超万人使用的校招汇总专栏：（助力你更快，更方便投递） 校招汇总表格 
+
+ 介绍请看“订阅前必看说明”
+
+ 
+
+ 攻略推荐：嵌入式面经
+
+ 本人根据自己在学习和面试中遇到的较多的问题准备成面经，
+
+ 分为C/C++模块，嵌入式操作系统模块，STM32模块，计算机网络模块。覆盖了大部分知识，有助于小白逐个学习，也有助于大佬在面试前复习准备，更方便快捷。
+
+ 超万人学习和复习的面经专栏： （适用于小白学习和大佬复习）： 嵌入式面经 
+
+ 
+
+ 只展示部分
+
+ 
+
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 2026-08-10
+
+ 
+ 英飞凌
+
+ 
+ 秋招
+
+ 
+ Staff FAE Application Center,Director Partnership and Ecosystem Management,International Graduate Pr......
+
+ 
+ 上海,无锡,宁波,深圳,西安
+
+ 
+ https://mp.weixin.qq.com/s/w8U7een8bG7A4lSmJqGi8w?scene=1 
+
+ 
+ https://wx8c056c0a57e4e18e.wx.moseeker.com/m/position?candidate_source=1&wechat_signature=MDE4MDY0OTlmYWE0NDEzOTlhZDExYzNiYWQyZGFlMThhZDAwNjIyMg#1786073321575 
+
+ 
+ 
+ 
+ 2026-08-10
+
+ 
+ 航天控制
+
+ 
+ 秋招
+
+ 
+ 
+
+ 软件类
+
+ 
+
+ 
+ 贵阳
+
+ 
+ https://mp.weixin.qq.com/s/ytQWlkGqDDLticML6UQ2ew 
+
+ 
+ https://mp.weixin.qq.com/s/ytQWlkGqDDLticML6UQ2ew 
+
+ 
+ 
+ 
+ 2026-08-10
+
+ 
+ 阿里云瓴羊
+
+ 
+ 秋招
+
+ 
+ AI Agent研发工程师
+
+ 
+
+ AI产品经理
+
+ 
+
+ 数据科学家
+
+ 
+
+ 大模型应用算法工程师
+
+ 
+
+ FDE(前沿部署工程师)
+
+ 
+ 北京,成都,杭州,上海,深圳
+
+ 
+ https://mp.weixin.qq.com/s/miihtZhgacIcninQQD4vMg?clicktag=bar_share&scene=1&clickpos=0&from_safari=0&click_id=693020704 
+
+ 
+ https://campus-talent.alibaba.com/campus/position?batchId=100000760001&circleCode=60002&filterParams=customDeptJM3EV05YTU0NM0ALLTVFRMM3PIOLW3S9O4SA7EYTIHWPLY3RN1AHM4 
+
+ 
+ 
+ 
+ 2026-08-10
+
+ 
+ 搜狐集团-AI人才专项
+
+ 
+ 秋招
+
+ 
+ AI全栈研发工程师
+
+ 
+
+ 大模型算法工程师
+
+ 
+
+ AI算法研发工程师
+
+ 
+
+ AI助理研究员
+
+ 
+ 北京
+
+ 
+ https://mp.weixin.qq.com/s/cgFeNMdo6JvSqlyZKS5ZAw 
+
+ 
+ https://app.mokahr.com/campus-recruitment/sohu/5682?sourceToken=b74e8a9dc0050254f9ae3f3c501d21bb&sessionid=#/jobs?page=1&anchorName=jobsList&project0=100120113 
+
+ 
+ 
+ 
+ 2026-08-10
+
+ 
+ 汇顶科技
+
+ 
+ 秋招
+
+ 
+ 
+
+ 系统软件工程师
+
+ 
+
+ 软件开发工程师（IT系统）
+
+ 
+
+ 图像算法工程师
+
+ 
+
+ 安全算法工程师
+
+ 
+
+ 
+ 深圳,上海,成都,武汉
+
+ 
+ https://mp.weixin.qq.com/s/FvMtfoceKms_AybARXQ2qA 
+
+ 
+ https://goodix.zhiye.com/Campus 
+
+ 
+ 
+ 
+ 2026-08-10
+
+ 
+ 去哪儿旅行
+
+ 
+ 秋招
+
+ 
+ AI应用开发工程师(Java/客户端/测开）
+
+ 
+
+ AI全栈工程师
+
+ 
+
+ AI算法工程师
+
+ 
+
+ 
+ 北京,上海
+
+ 
+ https://mp.weixin.qq.com/s/Hr-l-CUKp9Vw6rX_K591bQ 
+
+ 
+ https://hf7l9aiqzx.jobs.feishu.cn/704852/position/list 
+
+ 
+ 
+ 
+ 2026-08-10
+
+ 
+ 轻舟智航
+
+ 
+ 实习
+
+ 
+ 感知算法实习生
+
+ 
+
+ 世界模型算法实习生
+
+ 
+
+ 一段式端到端模型算法实习生
+
+ 
+
+ 
+ 北京,苏州,上海
+
+ 
+ https://mp.weixin.qq.com/s/BdIiuzp8
 
 ---
 
