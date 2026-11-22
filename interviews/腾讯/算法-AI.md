@@ -1,6 +1,6 @@
 # 腾讯 · 算法/AI
 
-> 共 **61** 条 ｜ [返回总目录](../../README.md)
+> 共 **63** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -709,6 +709,28 @@
 
 个人感受：这是秋招第一场面，很多东西准备得不够好。比如面试官问实习项目测试集怎么构造的时候，我只答了实际上是怎么做的（实际上使用的方法比较简单），应该补充一下我觉得怎么做会更好等等。问个人项目的时候和他的问题也没有第一时间对齐，应该第一时间搞清楚他到底想问/想考什么。
 后续补充了一些大模型训推相关的知识。
+
+---
+
+## 英国留子具身智能方向求职记录 2
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2026-09-12 ｜ [原文链接](https://www.nowcoder.com/feed/main/detail/4e869e5eb8eb4c8f9c21ba0f45fc8072)
+
+更新一下9月份第二周我的求职记录，前面的笔记有我的背景，简单回顾：剑桥研究型硕士，AI方向，大厂实习若干，论文顶会一作中稿1，在投2
+
+这周笔试：
+1. 腾讯行测：比我想的友好，题目不错，开放性的，不用紧张，人人都会收到
+2. 大疆测试：大疆我只投了一个具身智能世界模型的岗位，体验不错，类似网上给的题库，但是题目更加友好，比我想的和练习的要简单
+3.小鹏汽车：我投了三个，挂了两个（估计是只要博士的研究员岗，我投错了）。拿到了一个AI面试，具身智能算法岗，第一次AI面试，问题都是通用问题，完全可以提前准备，比如介绍自己、你人生中最大的困难怎么克服的等等。也不用紧张，挺流水线的
+4. 美团笔试，刚刚结束，比我练习的华为笔试简单太多了！一共100分，选择题30分，预计20+，AI coding题，这个题我没有练过，第一次做，此前甚至都没看过经验和题型，但是挺简单的，AI告诉我分数很高，预计47分，几乎满分，排名能进10%。重点是20分的编程题，太坑了！！自测我全通过，提交之后全部0通过，估计是边界问题，我知道有坑，但琢磨半天没招了。这估计是大厂喜欢整的坑，不知道我是不是真的就0分了，也不知道到底要考察我什么。预计最终100分我能得65-70分。这是美团的北斗计划，美团只有一志愿在流程中。
+
+其他岗位投递：
+我投的不多，属于精投，总共15家公司，上周投了5个
+1. 智元：投了三个岗位，包括vla 世界模型 具身智能
+2. 亚马逊：AI算法
+3. 阿里：阿里云和控股集团各投了2个，都是AI大模型算法之类的
+4. 蔚来：2个都是跟具身智能相关的
+5. 美团：北斗计划具身智能 #牛客AI配图神器#
 
 ---
 
@@ -3091,6 +3113,123 @@ lbp算子，hog算子，canny算子，sift特征，harris*，均值滤波快速�
  
 
  三天过去我的流程还没有变灰，感觉是过了，但是我对金融科技真的没有研究过，也不知道对方做的toBtoC，内心非常纠结……一边想做自己喜欢的产品，一边又觉得wxg的机会很好！想努力争取一下！希望大家都能早日上岸自己心仪的厂吧～也希望我二面顺利💪
+
+---
+
+## 2020秋招面经大汇总（腾讯）
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2019-08-31 ｜ [原文链接](https://www.nowcoder.com/discuss/353155331599572992)
+
+C++ 
+
+ 【腾讯】tx(是的，吐槽腾讯的我又来了) 二面凉 https://www.nowcoder.com/discuss/238628 
+ 【腾讯】WXG c++ 后台开发简历面 面经 https://www.nowcoder.com/discuss/238581 
+ 【腾讯】腾讯电话面试一面凉经 https://www.nowcoder.com/discuss/238333 
+ 【腾讯】走前端方向的菜鸡的一次tx后台开发面经 https://www.nowcoder.com/discuss/238260 
+ 【tengx】腾讯WXG后台面经(估计凉了) https://www.nowcoder.com/discuss/237131 
+ 【贝壳】贝壳三面面经，京东二面凉经，腾讯二面备胎经 https://www.nowcoder.com/discuss/234425 
+ 【腾讯】腾讯一面过二面凉凉 https://www.nowcoder.com/discuss/230731 
+ 【腾讯】腾讯二面凉经 B站三面凉经 https://www.nowcoder.com/discuss/231661 
+ 【腾讯】腾讯游戏秋招客户端面经(电面) https://www.nowcoder.com/discuss/229924 
+ 【阿里、滴滴、腾讯、贝壳、字节跳动、网易、】发一波C++面经攒人品，希望8月能收获offer https://www.nowcoder.com/discuss/228118 
+ 【腾讯】腾讯后台开发一面 https://www.nowcoder.com/discuss/225810 
+ 【腾讯】腾讯武汉研发中心现场面(c++后台） https://www.nowcoder.com/discuss/226133 
+ 【腾讯】腾讯3面面经 offer审核当中 https://www.nowcoder.com/discuss/226116 
+ 【腾讯, 滴滴, 哔哩哔哩, 】【面经面经面经】 https://www.nowcoder.com/discuss/226390 
+ 【腾讯】腾讯一面 https://www.nowcoder.com/discuss/224546 
+ 【腾讯】腾讯一面，55分钟 https://www.nowcoder.com/discuss/223656 
+ 【腾讯】腾讯后端开发一面 https://www.nowcoder.com/discuss/222679 
+ 【腾讯】腾讯一面 0.9 凉面经 https://www.nowcoder.com/discuss/221875 
+ 【腾讯、旷视科技】腾讯 旷世 面经 https://www.nowcoder.com/discuss/219281 
+ 【腾讯】腾讯移动端开发一面，面后转岗测开，面经 https://www.nowcoder.com/discuss/218804 
+ 
+ Java 
+
+ 【腾讯】腾讯面经 https://www.nowcoder.com/discuss/237871 
+ 【腾讯】小米软开java一面，有点意思。。。 https://www.nowcoder.com/discuss/236594 
+ 【腾讯】TX移动客户端开发 二面凉经 https://www.nowcoder.com/discuss/236464 
+ 【腾讯】腾讯java一面面经：秋招处女面 https://www.nowcoder.com/discuss/234523 
+ 【网易、腾讯】上周面经（网易有道，腾讯） https://www.nowcoder.com/discuss/233745 
+ 【腾讯】腾讯一面 后端 https://www.nowcoder.com/discuss/232902 
+ 【腾讯】腾讯PCG后台开发一面面经 https://www.nowcoder.com/discuss/229726 
+ 【腾讯】腾讯一面凉经 https://www.nowcoder.com/discuss/227403 
+ 【腾讯】腾讯二面 43分钟 https://www.nowcoder.com/discuss/225485 
+ 【腾讯】腾讯客户端一面面经 https://www.nowcoder.com/discuss/225437 
+ 【腾讯】腾讯一面凉经 https://www.nowcoder.com/discuss/225392 
+ 【腾讯、滴滴】java日常实习一、二面面经，滴滴AI Lab https://www.nowcoder.com/discuss/224774 
+ 【腾讯】腾讯运营开发技术三面面经 被血虐 https://www.nowcoder.com/discuss/224096 
+ 【腾讯】腾讯后台开发，一面凉经，滚去学习 https://www.nowcoder.com/discuss/222766 
+ 【腾讯】腾讯一面凉经 https://www.nowcoder.com/discuss/222035 
+ 【腾讯】腾讯后台一面面经 https://www.nowcoder.com/discuss/219646 
+ 【腾讯】腾讯后台开发一面面经 https://www.nowcoder.com/discuss/219573 
+ 【腾讯】腾讯一面(java开发) https://www.nowcoder.com/discuss/220349 
+ 【腾讯】腾讯视频“三面”面经，一次不愉快的经历 https://www.nowcoder.com/discuss/218350 
+ 【腾讯】记一次腾讯凉经 https://www.nowcoder.com/discuss/216962 
+ 
+ 产品 
+
+ 【腾讯、阿里】阿里腾讯产品一面分享 https://www.nowcoder.com/discuss/236500 
+ 前端 
+
+ 【腾讯】腾讯前端三面，我怀疑人生了。 https://www.nowcoder.com/discuss/238882 
+ 【腾讯】腾讯CSIG前端一面：心态爆炸 https://www.nowcoder.com/discuss/235055 
+ 【腾讯】腾讯前端一面凉经 https://www.nowcoder.com/discuss/229709 
+ 【腾讯】前端：拿到快手意向书了，分享一波腾讯的面经 https://www.nowcoder.com/discuss/228100 
+ 【腾讯】8.19腾讯前端一面 https://www.nowcoder.com/discuss/227812 
+ 【腾讯】吐槽一下腾讯的二面面试官，含面经 https://www.nowcoder.com/discuss/225909 
+ 【腾讯】前端腾讯一面(电话面试) https://www.nowcoder.com/discuss/222755 
+ 【腾讯】寒冬中1年经验的社招前端面经 https://www.nowcoder.com/discuss/214799 
+ 后端&后台开发.txt
+ 【腾讯】腾讯1、2面面经 https://www.nowcoder.com/discuss/228309 
+ 【腾讯】腾讯PCG二面凉经 https://www.nowcoder.com/discuss/225537 
+ 【腾讯】腾讯后台开发岗面经 https://www.nowcoder.com/discuss/224593 
+ 【腾讯】腾讯后台开发一面，电话面试，一个小时 https://www.nowcoder.com/discuss/224484 
+ 【腾讯】腾讯AI平台后台开发一二面经 https://www.nowcoder.com/discuss/221963 
+ 
+ 大数据 
+
+ 【腾讯】腾讯云一面面经，非典型，已过 https://www.nowcoder.com/discuss/226202 
+
+ 
+ 
+
+ 安全工程师 
+
+ 【腾讯】腾讯一、二面凉面面经-安全研究（二进制） https://www.nowcoder.com/discuss/228493 
+ 【腾讯】08.29腾讯电话面（一面），全程提问。。 https://www.nowcoder.com/discuss/238326 
+ 【腾讯】2019 腾讯 Android 面经(凉) https://www.nowcoder.com/discuss/231130 
+ 【字节跳动、滴滴、哔哩哔哩、腾讯】安卓方向秋招面经记录 https://www.nowcoder.com/discuss/229649 
+ 【腾讯】2020腾讯客户端开发岗面经之二 https://www.nowcoder.com/discuss/225695 
+ 【腾讯】腾讯安卓开发面经 https://www.nowcoder.com/discuss/224576 
+ 【腾讯】腾讯音乐事业群 Android 移动客户端一二面凉经 https://www.nowcoder.com/discuss/222198 
+ 客户端（安卓&IOS） 
+
+ 【腾讯】08.29腾讯电话面（一面），全程提问。。 https://www.nowcoder.com/discuss/238326 
+ 【腾讯】2019 腾讯 Android 面经(凉) https://www.nowcoder.com/discuss/231130 
+ 【字节跳动、滴滴、哔哩哔哩、腾讯】安卓方向秋招面经记录 https://www.nowcoder.com/discuss/229649 
+ 【腾讯】2020腾讯客户端开发岗面经之二 https://www.nowcoder.com/discuss/225695 
+ 【腾讯】腾讯安卓开发面经 https://www.nowcoder.com/discuss/224576 
+ 【腾讯】腾讯音乐事业群 Android 移动客户端一二面凉经 https://www.nowcoder.com/discuss/222198 
+ 测开&测试 
+
+ 【腾讯】腾讯测试一面凉筋 https://www.nowcoder.com/discuss/236386 
+ 【腾讯】腾讯测开一面面经 https://www.nowcoder.com/discuss/231007 
+ 【腾讯】腾讯系统测试一面 https://www.nowcoder.com/discuss/224440 
+ 【腾讯】腾讯系统测试一面凉经 https://www.nowcoder.com/discuss/222568 
+ 【腾讯】腾讯测开岗一面 https://www.nowcoder.com/discuss/222049 
+ 【腾讯】腾讯测试开发一面 https://www.nowcoder.com/discuss/220399 
+ 【腾讯】腾讯测开一面凉经 https://www.nowcoder.com/discuss/208851 
+ 【腾讯】腾讯测开一面凉经 https://www.nowcoder.com/discuss/208851 
+ 
+ 算法 
+
+ 【寒武纪、作业帮、百度、腾讯、拼多多、蘑菇街】算法工程师面经+少量后端内容 2019年8月 BAT面经都有 https://www.nowcoder.com/discuss/231656 
+ 【作业帮、腾讯】作业帮NLP面试+腾讯NLP面试 https://www.nowcoder.com/discuss/230234 
+ 【腾讯】腾讯后台一面面(liang)经 https://www.nowcoder.com/discuss/227601 
+ 【腾讯】腾讯 一面 面经 https://www.nowcoder.com/discuss/222541 
+ 【腾讯】腾讯一面来了。 https://www.nowcoder.com/discuss/220529 
+ 【腾讯】腾讯CDG社交广告一面头条Data四面 面经 https://www.nowcoder.com/discuss/213960 
+ 【腾讯】腾讯光子技术中心 日常实习CV方向面筋 https://www.nowcoder.com/discuss/206089
 
 ---
 

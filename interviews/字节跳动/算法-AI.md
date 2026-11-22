@@ -1,6 +1,6 @@
 # 字节跳动 · 算法/AI
 
-> 共 **106** 条 ｜ [返回总目录](../../README.md)
+> 共 **107** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -5843,6 +5843,174 @@ hrbp的业务问题真的问的有点偏，前面业务面的时候其实都聊�
  最后引用一句话自勉：“ 年轻人，你的职责是平整土地，而非焦虑时光。做三四月的事，八九月自会有答案 ”。
 
  最后欢迎大家关注我的 微信公众号： 对白的算法屋 （ duibainotes ），跟踪NLP、推荐系统和对比学习等机器学习领域前沿，日常还会分享我的创业心得和人生感悟。想进一步交流的同学也可以通过公众号加我的微信，和我一同探讨技术问题，谢谢！
+
+---
+
+## 菜鸡的算法岗日常实习面经总结
+
+来源：掘金 ｜ 类型：面经 ｜ 发布：2022-01-08 ｜ [原文链接](https://juejin.cn/post/7050660953846710302)
+
+前言
+
+ 
+ 第一次在掘金写面经，其实今年过得不尽人意，好在能找找实习调整一下心态吧，终于有钱换手机了！ 要说有什么新年愿望，那就希望2022一切好运吧。 虽然是实习面经但是其实也没怎么准备，随缘，放弃了bat的部门，估计对学历和论文有门槛(尝试性投了深圳字节直接挂简历， 我永远喜欢bytedance 😭)，10月投b站简历挂，旷视面试没过以后就没投了，后面去学车了，结果科目二没过，有点闲看到有朋友也在投，就不抱希望还是投了3家，比较幸运最后拿到了美团和商汤的实习offer，感谢面试官们手下留情🤣。
+
+ 
+ 个人情况： 
+
+ 
+ 学校：211 大四
+
+ 成绩：前5%
+
+ 项目：3段CV相关项目经历，无论文，两个算法实践工程落地项目，一段kaggle竞赛铜牌，总体上来说都比较水
+
+ 算法能力：无ACM，比较菜只是比较喜欢刷，leetcode400题(以easy+medium为主，剑指offer+程序员面试经典+每日一题/周赛)
+
+ 
+ 因为感觉自己很菜找不到实习，所以都没找内推，也没有海投，不过好像大多都会给面试机会的，感觉如果能找内推可能会更好一点。没想到最后能去美团当外卖骑手了😁！
+
+ 旷视
+
+ 旷视的实习面试是最早的，不过也面试通知也等了好久，hr说有两个面试官mark了我的简历，所以面了两个组，当时是第一次面试，比较紧张，虽然面试问的不难，但是有些地方答的不好，面试问题记不太清了。另一个面试官，我等了半小时结果被他放鸽子了，改天再面的。。。
+
+ 
+ 手写IoU
+
+ 求三个部分的IoU，根据定义就是求： A ∩ B ∩ C A ∪ B ∪ C \frac{A \cap B \cap C}{A \cup B \cup C} A ∪ B ∪ C A ∩ B ∩ C ,只用讲思路，其实就是容斥原理，当时有点紧张，公式最后一项系数写错了一直没看出来，场面一度尴尬。
+
+ 讲解Focal loss的原理作用
+
+ 为什么会用到 StratifiedKFold ，和 KFold 有什么区别
+
+ 介绍一下比赛用到的 TTA ， Cutmix 方法（ Cutout 和 mixup 的结合，最好三个都讲解一下）
+
+ 讲讲 Resnet （建议读一下论文，从目的，作用，残差结构的形式，反向传播梯度计算，机器学习GBDT思想等角度进行阐述）
+
+ 目标检测的 mAP 达到了多少，有没有测过双目测距的精准度，为啥使用wifi和flask推流通信，这样会比较慢（树莓派算力不够，跑着跑着宕机了），小车目标检测的帧数能达到多少fps（emm我们只是做了一个无人清洁车落地的demo，只测了模型目标检测在数据集上的 mAP ，其他的更多的是我们自己提供一种idea，具体指标没有测试过😥）。
+
+ 旋转矩阵 ， 不能开空间 ，其实做过但是面试很容易紧张卡住，有想到思路但是没写对有点bug，不过面试官说我思路是对的，面完就发现原来是下标对错了。。。
+
+ 团队合作交流是如何分工和解决问题的？
+
+ 其他人或者老师给你任务安排时，如果与你的想法不合时，你会如何做？
+
+ 
+ 手写IoU
+
+ import numpy as np
+
+ def IoU ( bounding_box,ground_truth ):
+ """
+
+ :param bounding_box: [[x1,y1,x2,y2,score]]
+ :param ground_truth: [x1,y1,x2,y2]
+ :return:
+ """ 
+ x1 = bounding_box[:, 0 ]
+ y1 = bounding_box[:, 1 ]
+ x2 = bounding_box[:, 2 ]
+ y2 = bounding_box[:, 3 ]
+ score = bounding_box[:, 4 ]
+
+ areas = (x2-x1) * (y2-y1)
+ gt_area = (ground_truth[ 2 ] - ground_truth[ 0 ]) * (ground_truth[ 3 ] - ground_truth[ 1 ])
+
+ xx1 = np.maximum(x1,ground_truth[ 0 ])
+ yy1 = np.maximum(y1,ground_truth[ 1 ])
+ xx2 = np.minimum(x2,ground_truth[ 2 ])
+ yy2 = np.minimum(y2,ground_truth[ 3 ])
+
+ h = np.maximum( 0 ,yy2-yy1)
+ w = np.maximum( 0 ,xx2-xx1)
+
+ inter = w * h
+
+ ovr = inter / (gt_area + areas - inter) # np.true_divide(inter, (gt_area + areas - inter)) 
+
+ return ovr
+ 
+ 旋转矩阵
+
+ class Solution {
+ public :
+ void rotate (vector >& matrix) {
+ int n = matrix. size ();
+ for ( int i= 0 ;i & pushed, vector & popped) {
+ stack stk;
+ int n = popped. size ();
+ int m = pushed. size ();
+ int j = 0 ;
+ for ( int i= 0 ;i thresh
+ :param dets: [[x1, y1, x2, y2 score]]
+ :param threshod: retain overlap 0 :
+ i = order[ 0 ]
+ keep.append(i)
+ # A & B left top position 
+ xx1 = np.maximun(x1[i], x1[order[ 1 , :]])
+ yy1 = np.maximun(y1[i], y1[order[ 1 , :]])
+ # A & B right down position 
+ xx2 = np.minimum(x2[i], x2[order[ 1 , :]])
+ yy2 = np.minimum(y2[i], y2[order[ 1 :]])
+
+ w = np.maximum( 0.0 , xx2 - xx1 + 1 )
+ h = np.maximum( 0.0 , yy2 - yy1 + 1 )
+
+ inter = w * h
+
+ # cacaulate the IOU between box which have largest score with other boxes 
+ if mode == "Union" :
+ # area[i]: the area of largest score 
+ ovr = inter / (areas[i] + areas[order[ 1 :]] - inter)
+ elif mode == "Minimum" :
+ ovr = inter / np.minimum(areas[i], areas[order[ 1 :]])
+ # delete the IoU that higher than threshod 
+ inds = np.where(ovr dis:
+ min_dis = dis
+ min_id = idx
+ results[min_id].append(point)
+
+ # 更新聚类中心 
+ for idx, old_center in enumerate (centers):
+ new_center = np.array(results[idx]).mean(axis= 0 )
+ if distance(center, new_center) > delta:
+ centers[idx] = new_center
+ flag = False 
+
+ # flag=True说明聚类中心已经不变了则可以退出了 
+ if flag:
+ break 
+ else :
+ flag = True 
+ step += 1 
+
+ return results,centers
+
+plt.plot(x,y, 'ro' )
+results,centers=k_means(points,k= 5 )
+color=[ 'ko' , 'go' , 'bo' , 'yo' , 'co' ]
+ for i in range ( len (results)):
+ result=results[i]
+ plt.plot([res[ 0 ] for res in result],[res[ 1 ] for res in result],color[i])
+plt.plot([res[ 0 ] for res in centers],[res[ 1 ] for res in centers], 'ro' )
+plt.show()
+ 
+ 总结
+
+ 
+ 本人能力有限，如果上述回答有任何错误，还请各位大佬及时指出
+
+ 
+ 
+ 不同面试官的面试风格不一样，项目相关的知识积累问的会比较多（项目水没关系但相关技术还是要搞懂），项有的会考察广度和思维潜力，有的会考察基础（八股），算法题感觉并没有那种重要，把剑指offer刷了应该差不多。
+
+ 关于八股文的看法，其实更多的还是要多理解，一些相关原理和数学还是多看看相关论文和经典课程，到时候也不用刻意记也能按自己的想法说出一点（瞎吹）， 感觉面试官想要的答案并不一定是你能完整的说出来，而是有自己理解的正确描述 （这个可能需要在代码实践和理论知识之间多反复几次体会会比较好）。
+
+ 代码实践还是要多一些，其实很多东西我了解的并不深入，只是大致理解过原理和思路，这样还是不太好，开始害怕顶不住实习压力了。
+
+ 不用害怕，尽量多交流，避免场面陷入尴尬。
+
+ 反问环节我一般问的是来这边的工作内容，学习的建议和评价，培养和安排之类的。
 
 ---
 
