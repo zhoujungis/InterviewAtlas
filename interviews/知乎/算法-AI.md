@@ -1,6 +1,6 @@
 # 知乎 · 算法/AI
 
-> 共 **21** 条 ｜ [返回总目录](../../README.md)
+> 共 **23** 条 ｜ [返回总目录](../../README.md)
 
 ---
 
@@ -1331,6 +1331,50 @@ bert的attention
 
 ---
 
+## 秋招算法岗面经汇总
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2018-10-19 ｜ [原文链接](https://www.nowcoder.com/discuss/353154696628084736)
+
+秋招算法岗基本面完了，本人所有的面经附上，希望大家点个喜欢或关注，希望大家都能找到好的offer！ 
+
+ 
+ 
+
+ 阿里： https://www.jianshu.com/p/304e1023c4cb 
+
+ 美团： https://www.jianshu.com/p/bbe21ff40724 
+
+ 滴滴： https://www.jianshu.com/p/bc9d5f8206a0 
+
+ 头条： https://www.jianshu.com/p/5bc533d1bf62 
+
+ 百度大搜： https://www.jianshu.com/p/02d931d5c1c8 
+
+ 百度feed： https://www.jianshu.com/p/65032f77f903 
+
+ 知乎： https://www.jianshu.com/p/40259bb05357 
+
+ 贝壳： https://www.jianshu.com/p/cd0a809cf198 
+
+ 思特沃克： https://www.jianshu.com/p/0b5514908683 
+
+ 小米： https://www.jianshu.com/p/e34ebebae15f 
+
+ 搜狗： https://www.jianshu.com/p/8a116eb7fd32 
+
+ 猫眼： https://www.jianshu.com/p/c32787be3dc8 
+
+ 一点资讯： https://www.jianshu.com/p/fffc15c9d31d 
+
+ 便利蜂： https://www.jianshu.com/p/51e2d16f16a5 
+
+ 
+ 
+
+ 另外，本人建立了一个技术交流群，还有30个坑位，想要入群的可以私信我！
+
+---
+
 ## 知乎算法一面凉经
 
 来源：牛客网 ｜ 类型：面经 ｜ 发布：2018-10-14 ｜ [原文链接](https://www.nowcoder.com/discuss/353154671500009472)
@@ -1562,5 +1606,31 @@ https://www.zhihu.com/question/59683332/answer/281642849 知乎回答的补充�
  （ 7 ）针对简历里项目 / 论文 / 实习的一些问题。 
 
  这部分因人而异，我个人的对大家也没参考价值，也不列了。
+
+---
+
+## 人人都是算法工程师~致力于做最好的算法工程师面经！！
+
+来源：牛客网 ｜ 类型：面经 ｜ 发布：2017-07-16 ｜ [原文链接](https://www.nowcoder.com/discuss/353154048192880640)
+
+去年参加校招~拿到几个算法工程师offer，想把经验总结分享一下~
+
+ 
+ 
+
+ 
+ 致力于做最好的算法工程师面经！
+
+ 
+ 
+
+ 
+ 做了这个知乎专栏（ https://zhuanlan.zhihu.com/p/27552190 ）~不断更新，欢迎关注访问~
+
+ 
+ 
+
+ 
+ 也欢迎大神拍砖~
 
 ---
